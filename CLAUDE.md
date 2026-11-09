@@ -19,7 +19,8 @@ Bahasa ke user: Indonesia santai. User tidak mau menekan Allow dan tidak bisa st
   - IG 6aed8639e29c69a1717e2e5f
   - YouTube 6aed86ade29c69a1717e311b
 - Selalu jadwalkan ke **ketiga platform**.
-- Slot: **3 post/hari jam 08:00, 14:00, 20:00 WIB**. Isi slot kosong paling awal; kalau slot terisi, pakai slot berikutnya.
+- Slot: **4 post/hari jam 08:00, 12:00, 16:00, 20:00 WIB** (berlaku mulai 9 Nov 2026). Isi slot kosong paling awal; kalau slot terisi, pakai slot berikutnya.
+- Paket Buffer gratis: maksimal 10 post terjadwal per channel (sekitar 2,5 hari antrean), jadi isi ulang jadwal tiap 2 hari selama stok video ada.
 - Sebelum menjadwalkan, cek list_posts (scheduled + sent) supaya tidak ada judul atau video yang dobel.
 - TikTok: `metadata.tiktok.title` = judul. IG: `{type:"reel", shouldShareToFeed:true}`. YouTube: title + `categoryId "27"`, public, `madeForKids false`. Untuk teks YouTube, ganti `#fyp` dengan `#shorts`.
 - Caption: hook + fakta + plot twist + ajakan komentar + forward ke teman + hashtag `#masasih …`.
