@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__Buffer",
+      "mcp__claude-code-remote__send_later",
+      "mcp__claude-code-remote__create_trigger",
+      "mcp__claude-code-remote__update_trigger",
+      "Artifact",
+      "Bash(git *)",
+      "Bash(ffmpeg *)",
+      "Bash(ffprobe *)",
+      "Bash(node *)",
+      "Bash(python3 *)",
+      "Bash(curl *)"
+    ]
+  }
+}
