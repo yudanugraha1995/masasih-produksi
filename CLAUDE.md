@@ -6,6 +6,7 @@ Bahasa ke user: Indonesia santai. User tidak mau menekan Allow dan tidak bisa st
 - Gaya default = **Style A** (`kit/STYLE_A.md`): gambar vektor dibuat sendiri, kamera bergerak, kartu bab emas, infografik + sumber, split screen CTA. YUMA mengikuti skill yuma-mascot.
 - Jangan ganti naskah dan jangan ganti narasi. Audio dipakai apa adanya.
 - Default hanya **Short 9:16** (1080x1920). Versi YouTube 16:9 hanya kalau diminta.
+- Setiap video Style A wajib punya **thumbnail judul di 0,1 detik pertama** (isi `THUMB` di `scenes_<id>.js`, lihat `kit/STYLE_A.md` poin 11), supaya cover IG Reels berisi judul.
 - Render: lihat `kit/STYLE_A.md` bagian 7 (`scenes_<id>.js`, `subs_<id>.json`, `runone.sh`). Selalu cek lembar frame sebelum dijadwalkan.
 
 ## Hosting video (tanpa refresh)

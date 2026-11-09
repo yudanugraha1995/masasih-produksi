@@ -262,3 +262,4 @@ S.push({t0:52.3,t1:56.2,
  hud:t=>''
 });
 
+const THUMB={t:2.6,lines:['MINUM AIR','DINGIN','TIAP HARI?']};

@@ -209,3 +209,4 @@ S.push({t0:52.9,t1:58.5,
  cam:t=>camV(t,52.9,58.5,[960,1000,1.0],[960,980,1.06]),
  hud:t=>''
 });
+const THUMB={t:4.8,lines:['TIDUR LAMPU','NYALA','TIAP MALAM?']};

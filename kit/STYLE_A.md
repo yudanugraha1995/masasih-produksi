@@ -33,6 +33,8 @@ Gaya ini terinspirasi teknik video edukasi animasi seperti Kok Bisa? (lihat `ref
 9. **Kesimpulan:** kartu checklist putih dengan ✓ hijau yang muncul tepat saat kata disebut.
 10. **CTA:** split screen diagonal dua warna (TIM A vs TIM B), lingkaran "VS" kuning, YUMA melambai masuk dari bawah, balon "Tulis di komentar!".
 
+11. **Thumbnail di awal (wajib):** 0,1 detik pertama (3 frame) berisi kartu cover: visual hook + judul besar putih (Baloo 2 ExtraBold, outline gelap) 2–3 baris kapital + garis kuning di bawah baris terakhir, tanpa subtitle. Supaya cover IG Reels/TikTok langsung menampilkan judul. Atur di `scenes_<id>.js`: `const THUMB={t:<detik visual hook>, lines:['BARIS 1','BARIS 2','BARIS 3']};`. Mesin (`scene.html`) otomatis menggambarnya di t < 0,1.
+
 ## 4. Visual
 - **Karakter chibi:** kepala bulat besar, mata titik dengan kilau, mulut garis kecil, outline navy `#22335A` 4 px, drop shadow lembut (dx 6, dy 11, blur 7, opacity 0,28). YUMA mengikuti spesifikasi skill yuma-mascot (topi navy, kaos biru muda `#8ED1F3`, celana `#2F62AE`, sneakers `#2B2F45`).
 - **Ekspresi yang tersedia:** smile, happy (^), surprised, worried (alis + keringat), think (mata ke atas), sad, sip. Kedip setiap 3,1–4,0 detik selama 0,16 detik.

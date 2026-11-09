@@ -217,7 +217,26 @@ function sceneLayer(sc,t,op){
   const cam=sc.cam(t);const vb=viewBox(cam);
   return `<svg x="0" y="0" width="${W}" height="${H}" viewBox="${vb}" opacity="${op}">${sc.world(t)}</svg>`;
 }
+// ---------- thumbnail (0.1 detik pertama = cover IG/TikTok) ----------
+// Tiap scenes_<id>.js mengisi: THUMB={t:<detik dunia yang dipakai>, lines:['BARIS 1','BARIS 2','BARIS 3']}
+const THUMB_DUR=0.1;
+function thumbTitle(lines){
+  const v=ASP==='v'; const base=v?150:118; const gap=v?1.07:1.05;
+  const maxc=Math.max(...lines.map(l=>l.length)); const fs=Math.min(base,(v?1000:1500)/(maxc*0.6));
+  const cy=v?1260:560; const n=lines.length;
+  let out='';
+  lines.forEach((l,k)=>{const y=cy+(k-(n-1)/2)*fs*gap+fs*0.35;
+    out+=`<text x="${W/2}" y="${y}" text-anchor="middle" font-family="B2" font-weight="800" font-size="${fs}" fill="#fff" stroke="#1C1730" stroke-width="${fs*0.17}" paint-order="stroke" stroke-linejoin="round" filter="url(#tsh)">${l.replace(/&/g,'&amp;')}</text>`;});
+  const last=lines[n-1], ly=cy+((n-1)/2)*fs*gap+fs*0.35+fs*0.32, hw=Math.min(W*0.42,last.length*fs*0.29);
+  out+=`<path d="M${W/2-hw},${ly+6}Q${W/2},${ly-8} ${W/2+hw},${ly}" stroke="#1C1730" stroke-width="${fs*0.27}" fill="none" stroke-linecap="round"/><path d="M${W/2-hw},${ly+6}Q${W/2},${ly-8} ${W/2+hw},${ly}" stroke="#F7D21E" stroke-width="${fs*0.16}" fill="none" stroke-linecap="round"/>`;
+  return out;}
+function drawThumb(){
+  const tt=THUMB.t; let i=S.findIndex(s=>tt>=s.t0&&tt<s.t1); if(i<0)i=0;
+  document.getElementById('world').innerHTML=DEFS.replace('SEED',7)+sceneLayer(S[i],tt,1)+`<rect width="${W}" height="${H}" fill="url(#vig)"/><rect width="${W}" height="${H}" filter="url(#grain)"/>`;
+  document.getElementById('hud').innerHTML=DEFS.replace('SEED',7)+thumbTitle(THUMB.lines);
+}
 window.draw=function(t){
+  if(typeof THUMB!=='undefined' && t<THUMB_DUR){drawThumb();return;}
   let i=S.findIndex(s=>t>=s.t0&&t<s.t1);if(i<0)i=S.length-1;
   const sc=S[i];let body='';
   const XF=0.25;

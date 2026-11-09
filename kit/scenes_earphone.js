@@ -170,3 +170,4 @@ S.push({t0:52.4,t1:56.5,
  cam:t=>camV(t,52.4,56.5,[960,1000,1.0],[960,980,1.06]),
  hud:t=>''
 });
+const THUMB={t:4.8,lines:['PAKAI','EARPHONE','TIAP HARI?']};

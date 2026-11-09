@@ -194,3 +194,4 @@ S.push({t0:58.6,t1:67.2,
  cam:t=>camV(t,58.6,67.2,[960,1000,1.0],[960,960,1.05]),
  hud:t=>{const k=popS(t,58.9,.45);if(k<=0)return '';return g(tr(W/2,isV?420:110,k,-3),label('SHARE KE TEMENMU!',{size:isV?66:56,bg:'#3BB273'}));}
 });
+const THUMB={t:4.0,lines:['SERING','PENCET','JERAWAT?']};
