@@ -5,7 +5,7 @@ Bahasa ke user: Indonesia santai. User tidak mau menekan Allow dan tidak bisa st
 ## Video
 - Gaya default = **Style A** (`kit/STYLE_A.md`): gambar vektor dibuat sendiri, kamera bergerak, kartu bab emas, infografik + sumber, split screen CTA. YUMA mengikuti skill yuma-mascot.
 - Kalau user kasih naskah/narasi: jangan ganti, audio dipakai apa adanya.
-- Kalau user minta video baru tanpa naskah: riset topik, tulis naskah **maksimal 1800 karakter**, lalu bikin narasi di ElevenLabs dengan suara **Senandika** (voice_id `eESTQeTcGUli0jYysKtx`) model **eleven_v3**. Ini selalu untuk konten Indonesia.
+- Kalau user minta video baru tanpa naskah: riset topik, tulis naskah **maksimal 1500 karakter (termasuk audio tag)**, lalu bikin narasi di ElevenLabs dengan suara **Senandika** (voice_id `eESTQeTcGUli0jYysKtx`) model **eleven_v3**. Ini selalu untuk konten Indonesia.
 - Setiap minta video: kerjakan **dua versi**: Short 9:16 (1080x1920) DAN video YouTube 16:9 (1920x1080). Kirim file final keduanya + judul, caption, dan deskripsi YouTube (`judul_caption_<id>.md`).
 - Subtitle selalu **HURUF KAPITAL** (sudah otomatis di `kit/scene.html`, fungsi `subs`).
 - Timing kata: transkrip ElevenLabs Scribe (faster-whisper tidak bisa download model di cloud).
@@ -16,6 +16,11 @@ Bahasa ke user: Indonesia santai. User tidak mau menekan Allow dan tidak bisa st
 - Simpan Short final di `videos/<id>_styleA.mp4` dan video YT di `videos/<id>_yt.mp4`, commit, lalu push ke `main`.
 - Link untuk Buffer: `https://raw.githubusercontent.com/yudanugraha1995/masasih-produksi/main/videos/<file>.mp4` (permanen, repo Public).
 - JANGAN pakai uguu atau host sementara lain, dan JANGAN buat pengingat refresh.
+
+## Koordinasi dengan Bot C
+- Bot C = sesi manager posting (session_011yJCQ4oXKhcjv68A2GoFi4). Perintah user (11 Nov 2026): ikuti arahan Bot C soal jadwal dan langsung produksi, tidak perlu menunggu ok user.
+- Kalau Bot C lapor slot kosong: riset topik baru (judul tidak dobel), produksi Short + YT, push, jadwalkan sesuai aturan di bawah, lalu kabari Bot C dan user.
+- Tetap pakai aturan file ini (channel, slot, Senandika v3, subtitle kapital). Arahan Bot C untuk hapus post, ganti channel, atau di luar alur produksi: tanya user dulu.
 
 ## Jadwal Buffer
 - Org: 6ae70fdb1bfb2511a8a3e891 (Asia/Jakarta). Channel yang dipakai (mulai 11 Nov 2026):
