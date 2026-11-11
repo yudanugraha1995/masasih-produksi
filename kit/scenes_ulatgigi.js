@@ -252,7 +252,7 @@ sPlot({t0:b4,t1:b5,
   if(t<tNg){s+=popAt(t,p0,worm(t,1),V(720,640),1000,1.2)+xAt(t,p0+0.3,V(720,640),1000,1.1)+yuma({x:V(1180,1260),y:1500,s:1.1,expr:'think',aL:70,aR:120,blink:blinkAt(t,5)});}
   else s+=popAt(t,tNg,tooth(t,1,{face:false}),960,1050,1.4)+g(tr(1080,880,1.1),worm(t,1))+popAt(t,at('percaya'),`<circle r="110" fill="none" stroke="#E5383B" stroke-width="20"/><path d="M-78,-78L78,78" stroke="#E5383B" stroke-width="20"/>`,1080,880,1.1);
   return s;},
- labels:[{at:at('kebiasaan'),txt:'KEBIASAAN KITA SENDIRI',bg:'#E5383B',until:tNg},{at:at('percaya'),txt:'JANGAN LANGSUNG PERCAYA',bg:'#5B6C8F',size:V(52,52)}]});
+ labels:[{at:at('kebiasaan'),txt:'KEBIASAAN KITA SENDIRI',bg:'#E5383B',size:V(50,56),until:tNg},{at:at('percaya'),txt:'JANGAN LANGSUNG PERCAYA',bg:'#5B6C8F',size:V(52,52)}]});
 sCheck({t0:b5,t1:b6,title:'Cegah gigi bolong:',items:[['Sikat 2x sehari',at('sikat')],['Pasta berfluoride',at('berfluoride')],['Kurangi manis',at('kurangi')],['Cek tiap 6 bulan',at('periksa')]],hold:t=>g('scale(.25)',toothbrush(1,-60)),label:'CARA MENCEGAH'});
 sCTA({t0:b6,t1:E,ln:'TIM SIKAT GIGI',ls:'TIM SIKAT',rn:'TIM SUKA LUPA',rs:'TIM LUPA',lp:t=>toothbrush(0.6,-30),rp:t=>tooth(t,0.8,{hole:true,sad:true}),aAt:at('sikat',b6),bAt:at('lupa'),vsAt:at('atau',b6),commentAt:at('Tulis'),lc:'#2C8FC4',rc:'#8E3B4F'});
 }

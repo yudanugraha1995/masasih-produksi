@@ -228,14 +228,14 @@ const tKm=at('kalori'),tKd=at('kalori',tKm+0.5),tPw=at('porsi');
 sFact({t0:b1,t1:b2,bg:'#16343F',glow:'#2E7E8F',
  world:t=>{let s='';const tilt=t<tPw?Math.sin(t*2)*4:0;
   s+=g(tr(960,1000,1,tilt),`<rect x="-420" y="-10" width="840" height="20" rx="10" fill="#E9EFF3" stroke="${OL}" stroke-width="5"/><path d="M-380,0L-380,90M380,0L380,90" stroke="${OL}" stroke-width="6"/>`)+`<path d="M960,1010L900,1300L1020,1300Z" fill="#9AA9B8" stroke="${OL}" stroke-width="6"/>`;
-  s+=popAt(t,tKm,plateDinner(0.6),580,1120,1)+popAt(t,tKd,flame(t,1),1340,1180,0.6);
+  s+=popAt(t,tKm,plateDinner(0.6),V(680,580),1120,1)+popAt(t,tKd,flame(t,1),V(1240,1340),1180,0.6);
   if(t>tPw)s+=checkAt(t,tPw+0.3,960,720,1.0);
   return s;},
  labels:[{at:tKm,txt:'KALORI MASUK',bg:'#F2A541',until:tKd},{at:tKd,txt:'vs KALORI DIPAKAI',bg:'#E5383B',until:tPw},{at:tPw,txt:'PORSI WAJAR = AMAN',bg:'#3BB273'}],c0:[960,1050,1.05],c1:[960,1020,1.0]});
 const tLa=at('larut'),tKb=at('dibakar');
 sFact({t0:b2,t1:b3,bg:'#141A3A',glow:'#5B6C8F',
  world:t=>{let s=moonNight()+popAt(t,b2+0.1,clockFace(t,1,2),V(720,640),900,1.2);
-  if(t>tLa)s+=yuma({x:V(1180,1260),y:1500,s:1.1,expr:'worried',aL:70,aR:70,blink:blinkAt(t,4)})+popAt(t,at('lapar'),stomach(t,1,0),V(1180,1260),900,0.5);
+  if(t>tLa)s+=yuma({x:V(1180,1260),y:1500,s:1.1,expr:'worried',aL:70,aR:70,blink:blinkAt(t,4)})+popAt(t,at('lapar'),stomach(t,1,0),V(1180,1260),640,0.4);
   if(t>tKb)s+=popAt(t,tKb,flame(t,1),V(720,640),1300,0.5)+`<path d="M${V(820,740)},1220L${V(820,740)},1320M${V(800,720)},1300L${V(820,740)},1330L${V(840,760)},1300" stroke="#E5383B" stroke-width="12" fill="none" stroke-linecap="round"/>`;
   return s;},
  labels:[{at:b2+0.1,txt:'JAM MAKAN BERPENGARUH',bg:'#5B6C8F',size:V(54,52),until:at('menemukan')},{at:at('menemukan'),txt:'CELL METABOLISM 2022',bg:'#2C8FC4',until:at('lapar')},{at:at('lapar'),txt:'LEBIH LAPAR',bg:'#E5383B',until:tKb},{at:tKb,txt:'kalori dibakar sedikit lebih rendah',bg:'#E5383B',size:V(40,46)}],

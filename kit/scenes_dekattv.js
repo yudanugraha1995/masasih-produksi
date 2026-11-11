@@ -222,7 +222,7 @@ function fanTimer(t,s=1,txt='20'){return g(`scale(${s})`,`<circle r="120" fill="
 {const E=DUR+0.2;
 const m1=at('langsung')-0.1, bc=at('Masa sih')-0.1, b1=at('Menurut')-0.15, b2=at('Tapi mata')-0.15, b3=at('Ada penelitian')-0.15, b4=at('Plot')-0.2, b5=at('Jadi pakai')-0.15, b6=at('Kamu tim')-0.15;
 sHook({t0:0,t1:m1,key:'MEPET TV?',keyAt:at('TV'),prop:t=>tvSet(t,1),ps:1.8,py:1100,bg:'#10223A',glow:'#5DB7EA',particle:(t,i)=>`<circle r="10" fill="#BFE6F7"/>`});
-sMyth({t0:m1,t1:bc,bubbleAt:at('mundur'),bubble:'<tspan fill="#E5383B">MUNDUR!</tspan> Nanti minus!',bw:640,worryAt:at('mundur'),extra:t=>g(tr(V(1150,1500),980,0.45),tvSet(t,1))});
+sMyth({t0:m1,t1:bc,bubbleAt:at('mundur'),bubble:'<tspan fill="#E5383B">MUNDUR!</tspan> Nanti minus!',bw:640,worryAt:at('mundur'),extra:t=>g(tr(V(960,1500),V(1080,980),V(0.3,0.45)),tvSet(t,1))});
 sCard({t0:bc,t1:b1,lines:['MASA SIH','DEKAT TV BIKIN','MATA MINUS?'],yukAt:at('Yuk')});
 const tAn=at('Anak-anak'),tC=at('capek');
 sFact({t0:b1,t1:b2,bg:'#10223A',glow:'#5DB7EA',
