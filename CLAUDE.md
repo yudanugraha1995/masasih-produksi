@@ -27,7 +27,7 @@ Bahasa ke user: Indonesia santai. User tidak mau menekan Allow dan tidak bisa st
   - YouTube **Masa Sih Official Studio** 6aed86ade29c69a1717e311b
   - Instagram **masasihentertainment** 6aed8639e29c69a1717e2e5f
   - (Jangan posting ke How Come Entertainment / TikTok.)
-- **Short 9:16** -> IG masasihentertainment (reel) + YT Masa Sih Official Studio.
+- **Short 9:16** -> IG masasihentertainment (reel) + YT Masa Sih Official Studio. File Short yang sama (`<id>_styleA.mp4`) untuk keduanya, tidak ada versi khusus IG. IG 2 slot/hari, YT Short 1 slot/hari (selang-seling dengan video 16:9), jadi IG tayang lebih dulu; kalau stok Short untuk IG habis, produksi Short baru dan jadwalkan juga di YT.
 - **Video 16:9** -> YT Masa Sih Official Studio lewat **Metricool** (brand `masasihofficial`, blogId 7793943; `youtubeData.type:"video"`, category EDUCATION, madeForKids false). Buffer menolak video horizontal ke YouTube. Timezone brand Metricool = Asia/Shanghai, jadi selalu kirim `publicationDate.timezone: "Asia/Jakarta"`. Cek slot di Buffer (Shorts) + Metricool (getScheduledPosts) supaya YT tidak dobel di jam yang sama.
 - Slot: **2 post/hari per channel jam 08:00 dan 16:00 WIB**. Isi slot kosong paling awal; kalau slot sudah terisi, lanjut ke slot/hari berikutnya.
 - Paket Buffer gratis: maksimal 10 post terjadwal per channel. Kalau penuh: YT Shorts pindah ke Metricool (`youtubeData.type:"short"`); IG ditunda dan dicatat di `kit/pending_ig.md`, lalu dijadwalkan begitu ada post yang sudah tayang (brand Metricool tidak punya IG).
