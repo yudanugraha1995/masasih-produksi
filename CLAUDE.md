@@ -7,6 +7,7 @@ Bahasa ke user: Indonesia santai. User tidak mau menekan Allow dan tidak bisa st
 - Kalau user kasih naskah/narasi: jangan ganti, audio dipakai apa adanya.
 - Kalau user minta video baru tanpa naskah: riset topik, tulis naskah **maksimal 1200 karakter (termasuk audio tag)**, lalu bikin narasi di ElevenLabs dengan suara **Senandika** (voice_id `eESTQeTcGUli0jYysKtx`) model **eleven_v3**. Ini selalu untuk konten Indonesia.
 - Setiap minta video: kerjakan **dua versi**: Short 9:16 (1080x1920) DAN video YouTube 16:9 (1920x1080). Kirim file final keduanya + judul, caption, dan deskripsi YouTube (`judul_caption_<id>.md`).
+- Subtitle dibuat **sekali per judul** (`kit/subs_<id>.json` dari satu transkrip Scribe), dipakai sama untuk Short, video 16:9, dan IG. Jangan transkrip ulang per versi.
 - Subtitle selalu **HURUF KAPITAL** (sudah otomatis di `kit/scene.html`, fungsi `subs`).
 - Timing kata: transkrip ElevenLabs Scribe (faster-whisper tidak bisa download model di cloud).
 - Setiap video Style A wajib punya **thumbnail judul di 0,1 detik pertama** (isi `THUMB` di `scenes_<id>.js`, lihat `kit/STYLE_A.md` poin 11), supaya cover IG Reels berisi judul.
