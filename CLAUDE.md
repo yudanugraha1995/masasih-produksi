@@ -22,7 +22,7 @@ Bahasa ke user: Indonesia santai. User tidak mau menekan Allow dan tidak bisa st
   - Instagram **masasihentertainment** 6aed8639e29c69a1717e2e5f
   - (Jangan posting ke How Come Entertainment / TikTok.)
 - **Short 9:16** -> IG masasihentertainment (reel) + YT Masa Sih Official Studio.
-- **Video 16:9** -> YT Masa Sih Official Studio saja.
+- **Video 16:9** -> YT Masa Sih Official Studio saja. CATATAN: Buffer menolak video horizontal ke YouTube (hanya Shorts vertikal). Video 16:9 harus di-upload user lewat YouTube Studio (jadwalkan di slot 08:00/16:00 berikutnya); siapkan judul + deskripsi di `naskah/judul_caption_<id>.md`.
 - Slot: **2 post/hari per channel jam 08:00 dan 16:00 WIB**. Isi slot kosong paling awal; kalau slot sudah terisi, lanjut ke slot/hari berikutnya.
 - Paket Buffer gratis: maksimal 10 post terjadwal per channel.
 - Sebelum menjadwalkan, cek list_posts (scheduled + sent) supaya tidak ada judul atau video yang dobel.
