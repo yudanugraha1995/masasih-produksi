@@ -1,0 +1,7 @@
+kit/out_*.mp4
+kit/fr_*/
+kit/log_*.txt
+kit/st/
+kit/chk/
+kit/queue.log
+kit/render_*.log
