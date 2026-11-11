@@ -30,7 +30,7 @@ Bahasa ke user: Indonesia santai. User tidak mau menekan Allow dan tidak bisa st
 - **Short 9:16** -> IG masasihentertainment (reel) + YT Masa Sih Official Studio.
 - **Video 16:9** -> YT Masa Sih Official Studio lewat **Metricool** (brand `masasihofficial`, blogId 7793943; `youtubeData.type:"video"`, category EDUCATION, madeForKids false). Buffer menolak video horizontal ke YouTube. Timezone brand Metricool = Asia/Shanghai, jadi selalu kirim `publicationDate.timezone: "Asia/Jakarta"`. Cek slot di Buffer (Shorts) + Metricool (getScheduledPosts) supaya YT tidak dobel di jam yang sama.
 - Slot: **2 post/hari per channel jam 08:00 dan 16:00 WIB**. Isi slot kosong paling awal; kalau slot sudah terisi, lanjut ke slot/hari berikutnya.
-- Paket Buffer gratis: maksimal 10 post terjadwal per channel.
+- Paket Buffer gratis: maksimal 10 post terjadwal per channel. Kalau penuh: YT Shorts pindah ke Metricool (`youtubeData.type:"short"`); IG ditunda dan dicatat di `kit/pending_ig.md`, lalu dijadwalkan begitu ada post yang sudah tayang (brand Metricool tidak punya IG).
 - Sebelum menjadwalkan, cek list_posts (scheduled + sent) supaya tidak ada judul atau video yang dobel.
 - TikTok: `metadata.tiktok.title` = judul. IG: `{type:"reel", shouldShareToFeed:true}`. YouTube: title + `categoryId "27"`, public, `madeForKids false`. Untuk teks YouTube, ganti `#fyp` dengan `#shorts`.
 - Caption: hook + fakta + plot twist + ajakan komentar + forward ke teman + hashtag `#masasih …`.
