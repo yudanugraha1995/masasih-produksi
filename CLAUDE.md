@@ -5,7 +5,7 @@ Bahasa ke user: Indonesia santai. User tidak mau menekan Allow dan tidak bisa st
 ## Video
 - Gaya default = **Style A** (`kit/STYLE_A.md`): gambar vektor dibuat sendiri, kamera bergerak, kartu bab emas, infografik + sumber, split screen CTA. YUMA mengikuti skill yuma-mascot.
 - Kalau user kasih naskah/narasi: jangan ganti, audio dipakai apa adanya.
-- Kalau user minta video baru tanpa naskah: riset topik, tulis naskah **maksimal 1500 karakter (termasuk audio tag)**, lalu bikin narasi di ElevenLabs dengan suara **Senandika** (voice_id `eESTQeTcGUli0jYysKtx`) model **eleven_v3**. Ini selalu untuk konten Indonesia.
+- Kalau user minta video baru tanpa naskah: riset topik, tulis naskah **maksimal 1200 karakter (termasuk audio tag)**, lalu bikin narasi di ElevenLabs dengan suara **Senandika** (voice_id `eESTQeTcGUli0jYysKtx`) model **eleven_v3**. Ini selalu untuk konten Indonesia.
 - Setiap minta video: kerjakan **dua versi**: Short 9:16 (1080x1920) DAN video YouTube 16:9 (1920x1080). Kirim file final keduanya + judul, caption, dan deskripsi YouTube (`judul_caption_<id>.md`).
 - Subtitle selalu **HURUF KAPITAL** (sudah otomatis di `kit/scene.html`, fungsi `subs`).
 - Timing kata: transkrip ElevenLabs Scribe (faster-whisper tidak bisa download model di cloud).
