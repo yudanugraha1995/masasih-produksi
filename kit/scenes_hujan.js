@@ -268,7 +268,7 @@ sPlot({t0:b4,t1:b5,bg:'#1B2A3F',glow:'#5DB7EA',
   return s;},
  labels:[{at:at('hujan',b4),txt:'HUJAN BUKAN PENYEBAB',bg:'#2C8FC4',until:tPm},{at:tPm,txt:'DINGIN = PINTU MASUK VIRUS',bg:'#E5383B',size:V(46,50)}]});
 sCheck({t0:b5,t1:b6,title:'Habis kehujanan:',items:[['Keringkan badan',at('keringkan')],['Ganti baju basah',at('ganti')],['Minum yang hangat',at('minum')],['Cuci tangan',at('cuci')]],hold:t=>g('scale(.3)',towel(1)),label:'JADI GINI'});
-sCTA({t0:b6,t1:E,ln:'TIM HUJAN',ls:'TIM HUJAN',rn:'TIM PAYUNG',rs:'TIM PAYUNG',lp:t=>rainCloud(t,1.0),rp:t=>umbrella(0.9),aAt:at('main',b6),bAt:at('bawa'),vsAt:at('atau',b6),commentAt:at('Tulis'),lc:'#2C8FC4',rc:'#E8505B'});
+sCTA({t0:b6,t1:E,ln:'TIM HUJAN',ls:'TIM HUJAN',rn:'TIM PAYUNG',rs:'TIM PAYUNG',lp:t=>rainCloud(t,1.0),rp:t=>umbrella(0.9,'#F4C542'),aAt:at('main',b6),bAt:at('bawa'),vsAt:at('atau',b6),commentAt:at('Tulis'),lc:'#2C8FC4',rc:'#E8505B'});
 }
 const THUMB={t:2.0,lines:['MASA SIH','KEHUJANAN','BIKIN PILEK?']};
 
