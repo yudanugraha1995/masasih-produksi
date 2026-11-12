@@ -15,3 +15,4 @@ Kalau masih ada sisa, pasang pengingat (send_later) setelah slot IG tayang berik
 | ikanmas | 2026-11-21T08:00:00+07:00 | https://raw.githubusercontent.com/yudanugraha1995/masasih-produksi/main/videos/ikanmas_styleA.mp4 |
 | airputih | 2026-11-21T16:00:00+07:00 | https://raw.githubusercontent.com/yudanugraha1995/masasih-produksi/main/videos/airputih_styleA.mp4 |
 | nyamuk | 2026-11-22T08:00:00+07:00 | https://raw.githubusercontent.com/yudanugraha1995/masasih-produksi/main/videos/nyamuk_styleA.mp4 |
+| uban | 2026-11-22T16:00:00+07:00 | https://raw.githubusercontent.com/yudanugraha1995/masasih-produksi/main/videos/uban_styleA.mp4 |

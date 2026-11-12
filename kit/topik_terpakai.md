@@ -22,10 +22,10 @@ Aturan owner (12 Nov): judul sama di platform BEDA (YT vs IG) boleh. Yang dilara
 - (-0cAsH_bICY = micin 16:9, 12 Nov. DWk8SGkUFHU, 7N3gu6ZxN6s: judul belum terverifikasi)
 
 ## Produksi Bot B (tayang/terjadwal)
-nasi dingin, micin, telur bisulan, mi instan lilin, dekat TV, kopi dehidrasi, utang tidur, ulat gigi, makan malam, biji cabai, hujan pilek, kipas angin, permen karet (YT 17 Nov; IG sudah tayang 6 Nov), nyamuk (YT 22 Nov 08:00, IG via antrean), kerokan, keretek jari, otak 10%, gula hiperaktif, cukur bulu, wortel mata, ikan mas 3 detik, 8 gelas air, biji semangka
+nasi dingin, micin, telur bisulan, mi instan lilin, dekat TV, kopi dehidrasi, utang tidur, ulat gigi, makan malam, biji cabai, hujan pilek, kipas angin, permen karet (YT 17 Nov; IG sudah tayang 6 Nov), nyamuk (YT 22 Nov 08:00, IG via antrean), cabut uban tumbuh 7 (22 Nov 16:00), kerokan, keretek jari, otak 10%, gula hiperaktif, cukur bulu, wortel mata, ikan mas 3 detik, 8 gelas air, biji semangka
 
 ## Short malam 20:00 WIB
-petir dua kali, bintik putih kuku, banteng merah, kucing jatuh, punuk unta, burung unta pasir, Tembok China dari angkasa, tidur sambil jalan, bunglon ganti warna, kelelawar buta
+petir dua kali, bintik putih kuku, banteng merah, kucing jatuh, punuk unta, burung unta pasir, Tembok China dari angkasa, tidur sambil jalan, bunglon ganti warna, kelelawar buta, hiu kanker (22 Nov)
 
 ## Catatan IG
 - burung unta: IG 17 Nov 16:00 (pengganti permen karet) + YT Short malam 17 Nov 20:00
