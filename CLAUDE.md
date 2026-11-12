@@ -40,5 +40,5 @@ Bahasa ke user: Indonesia santai. User tidak mau menekan Allow dan tidak bisa st
 
 ## Catatan topik
 - Nasi dingin: video 16:9 sudah tayang di YT (rke2vVriwGs). Short-nya (h0LnC3DT5i4) dihapus user karena dobel; jangan dibuat ulang.
-- Semangka (biji semangka tumbuh di perut): Short tayang 12 Nov 2026 (publish langsung, tanpa video 16:9/IG).
+- Semangka (biji semangka tumbuh di perut): Short tayang 12 Nov 2026 08:49 WIB, https://www.youtube.com/shorts/V3w0Uz302xQ (publish langsung, tanpa video 16:9/IG).
 - Topik yang sudah dipakai (jangan dobel): air dingin, lampu, jerawat, earphone, ngucek mata, sarapan, mandi malam, scroll HP, nahan pipis, nasi dingin, micin, telur, mi instan, dekat TV, kopi, utang tidur, ulat gigi, makan malam, biji cabai, hujan, kipas, permen karet, kerokan, keretek jari, otak 10%, gula hiperaktif, cukur bulu, wortel, ikan mas, 8 gelas air, biji semangka.
