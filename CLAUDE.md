@@ -10,6 +10,7 @@ Bahasa ke user: Indonesia santai. User tidak mau menekan Allow dan tidak bisa st
 - Subtitle dibuat **sekali per judul** (`kit/subs_<id>.json` dari satu transkrip Scribe), dipakai sama untuk Short, video 16:9, dan IG. Jangan transkrip ulang per versi.
 - Subtitle selalu **HURUF KAPITAL** (sudah otomatis di `kit/scene.html`, fungsi `subs`).
 - Timing kata: transkrip ElevenLabs Scribe (faster-whisper tidak bisa download model di cloud).
+- Setiap video YT 16:9 wajib **thumbnail custom**: render frame THUMB versi h (t=0.05) jadi `videos/thumbs/<id>_yt.jpg` 1280x720, push, lalu isi `videoThumbnailUrl` (raw GitHub URL) di post Metricool video. Short cukup cover dari frame THUMB.
 - Setiap video Style A wajib punya **thumbnail judul di 0,1 detik pertama** (isi `THUMB` di `scenes_<id>.js`, lihat `kit/STYLE_A.md` poin 11), supaya cover IG Reels berisi judul.
 - Render: lihat `kit/STYLE_A.md` bagian 7 (`scenes_<id>.js`, `subs_<id>.json`, `runone.sh`). Selalu cek lembar frame sebelum dijadwalkan.
 
