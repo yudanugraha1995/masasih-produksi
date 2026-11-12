@@ -42,6 +42,14 @@ Bahasa ke user: Indonesia santai. User tidak mau menekan Allow dan tidak bisa st
 - TikTok: `metadata.tiktok.title` = judul. IG: `{type:"reel", shouldShareToFeed:true}`. YouTube: title + `categoryId "27"`, public, `madeForKids false`. Untuk teks YouTube, ganti `#fyp` dengan `#shorts`.
 - Caption: hook + fakta + plot twist + ajakan komentar + forward ke teman + hashtag `#masasih …`.
 
+## Acuan pilih judul (data Top content YT 15 Okt–11 Nov 2026, dari owner lewat Bot C)
+Berlaku untuk produksi BARU (Short 08/16, video 16:9, Short malam). Yang sudah jadi/terjadwal biarkan.
+- Top: Tidur Lampu Nyala Tiap Malam? 3.6K · Air Dingin Seburuk Itu? 3.6K · Nasi Kulkas Lebih Sehat? 2.4K · Tidur Bareng HP 2.2K · Tiap Hari Makan Mie Instan 1.5K · Pencet Jerawat 1.5K · Biji Semangka 1.4K · 5 Kebiasaan Sepele Obesitas 1.2K · Earphone Tiap Hari 1.2K · Kretek Leher 1.2K.
+- Prioritas topik: kebiasaan sehari-hari yang hampir semua orang lakuin + "bahaya nggak sih?"; tidur & malam hari (paling kuat); makanan/minuman rumahan; kesehatan.
+- Kurangi topik sains/hewan murni (petir, unta, bunglon belum terbukti).
+- Format judul yang jalan: "[Kebiasaan] Tiap Hari/Malam? + emoji + Masa Sih …", "Gimana Kalau Kamu …", "Apa Jadinya Kalau Tiap Hari …", "Masa Sih [mitos]?", pertanyaan langsung ke penonton ("Suka …?", "Pakai … Tiap Hari?").
+- Tetap cek `kit/topik_terpakai.md` (nggak boleh dobel di platform yang sama).
+
 ## Catatan topik
 - Nasi dingin: video 16:9 sudah tayang di YT (rke2vVriwGs). Short-nya (h0LnC3DT5i4) dihapus user karena dobel; jangan dibuat ulang.
 - Semangka (biji semangka tumbuh di perut): Short tayang 12 Nov 2026 08:49 WIB, https://www.youtube.com/shorts/V3w0Uz302xQ (publish langsung, tanpa video 16:9/IG).
