@@ -6,7 +6,6 @@ Kalau masih ada sisa, pasang pengingat (send_later) setelah slot IG tayang berik
 
 | id | dueAt (WIB) | video |
 |---|---|---|
-| permenkaret | 2026-11-17T16:00:00+07:00 | https://raw.githubusercontent.com/yudanugraha1995/masasih-produksi/main/videos/permenkaret_styleA.mp4 |
 | kerokan | 2026-11-18T08:00:00+07:00 | https://raw.githubusercontent.com/yudanugraha1995/masasih-produksi/main/videos/kerokan_styleA.mp4 |
 | keretek | 2026-11-18T16:00:00+07:00 | https://raw.githubusercontent.com/yudanugraha1995/masasih-produksi/main/videos/keretek_styleA.mp4 |
 | otak | 2026-11-19T08:00:00+07:00 | https://raw.githubusercontent.com/yudanugraha1995/masasih-produksi/main/videos/otak_styleA.mp4 |
