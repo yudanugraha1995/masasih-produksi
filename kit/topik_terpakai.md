@@ -31,4 +31,4 @@ petir dua kali, bintik putih kuku, banteng merah, kucing jatuh, punuk unta, buru
 - burung unta: IG 17 Nov 16:00 (pengganti permen karet) + YT Short malam 17 Nov 20:00
 
 ## Short siang 11:00 WIB (YT saja)
-tidur siang (14 Nov), minum berdiri ginjal (15), makan sambil HP (16), keramas tiap hari (17), tidur rambut basah (18), main HP sambil dicas (19), kantong mata begadang (20), pedas maag (21), susu sebelum tidur (22), duduk seharian vs merokok (23)
+tidur siang (13 Nov), minum berdiri ginjal (14), makan sambil HP (15), keramas tiap hari (16), tidur rambut basah (17), main HP sambil dicas (18), kantong mata begadang (19), pedas maag (20), susu sebelum tidur (21), duduk seharian vs merokok (22)
