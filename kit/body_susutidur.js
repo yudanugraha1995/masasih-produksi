@@ -1,0 +1,10 @@
+// ===== Minum Susu Hangat Sebelum Tidur? 🥛 Masa Sih Bikin Nyenyak? (Short 11:00 WIB, ±55 detik) =====
+{const E=DUR+0.2;
+const bc=at('Masa sih')-0.1, b1=at('Faktanya')-0.15, b4=at('Plot')-0.2, b6=at('Kamu tim')-0.15;
+sHook({t0:0,t1:bc,key:'BIKIN NYENYAK?',keyAt:at('nyenyak'),keySize:86,prop:t=>milk(t,1),ps:1.3,py:1050,bg:'#1B1F3A',glow:'#6E6CC4',particle:(t,i)=>`<text font-size='50' fill='#fff' font-family='Inter' font-weight='800'>Z</text>`,surpriseAt:at('nyenyak'),extra:t=>popAt(t,at('tidur'),moonIcon(0.6),V(1250,1350),720,1)});
+sCard({t0:bc,t1:b1,lines:["SUSU HANGAT", "SEBELUM TIDUR", "BIKIN NYENYAK?"],yukAt:bc+0.6,hold:t=>''});
+sFact({t0:b1,t1:b4,bg:'#3B3A7A',glow:'#6E6CC4',grid:true,world:t=>seq(t,[{a:b1+0.2,f:t=>milk(t,1),x:V(700,600),y:1050},{a:at('triptofan'),f:t=>label('TRIPTOFAN',{size:48,bg:'#5B6C8F'}),x:V(1250,1350),y:850},{a:at('kecil'),f:t=>`<text text-anchor='middle' font-family='Inter' font-weight='800' font-size='70' fill='#F2A541'>sedikit</text>`,x:V(1250,1350),y:1000},{a:at('hangat',b1),f:t=>flame(t,0.5),x:V(1250,1350),y:1250},{a:at('kebiasaan'),f:t=>bed(0,0,0.5,''),x:960,y:1500}]),labels:[{at:at('triptofan'),txt:'TRIPTOFAN CUMA SEDIKIT',bg:'#5B6C8F',until:at('hangat',b1)},{at:at('hangat',b1),txt:'YANG BIKIN NGANTUK: HANGAT + KEBIASAAN',bg:'#3BB273',size:V(36,46)}],src:'Ilustrasi disederhanakan'});
+sPlot({t0:b4,t1:b6,bg:'#3A1616',glow:'#E5383B',world:t=>seq(t,[{a:b4+1.6,f:t=>milk(t,0.8),x:V(700,600),y:1000},{a:at('sikat'),f:t=>toothbrush(0.6,0),x:V(1250,1350),y:800},{a:at('sikat')+0.3,f:t=>xmark(0.9),x:V(1250,1350),y:800},{a:at('berlubang'),f:t=>tooth(t,1,{}),x:V(1250,1350),y:1250}]),labels:[{at:at('sikat'),txt:'LANGSUNG TIDUR TANPA SIKAT GIGI',bg:'#E5383B',size:V(38,48),until:at('berlubang')},{at:at('berlubang'),txt:'GIGI GAMPANG BERLUBANG!',bg:'#E5383B'}]});
+sCTA({t0:b6,t1:E,ln:'TIM SUSU',ls:'SUSU',rn:'TIM TEH HANGAT',rs:'TEH',lp:t=>milk(t,0.45),rp:t=>teaLeaf(0.5),aAt:at('susu',b6),bAt:at('teh'),vsAt:at('atau',b6),commentAt:at('Tulis'),lc:'#5B6C8F',rc:'#3BB273'});
+}
+const THUMB={t:2.0,lines:["SUSU HANGAT", "SEBELUM TIDUR", "BIKIN NYENYAK?"]};

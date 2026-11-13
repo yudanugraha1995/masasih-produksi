@@ -1,0 +1,10 @@
+// ===== Makan Pedas Tiap Hari? 🌶️ Masa Sih Pasti Kena Maag? (Short 11:00 WIB, ±55 detik) =====
+{const E=DUR+0.2;
+const bc=at('Masa sih')-0.1, b1=at('Faktanya')-0.15, b4=at('Plot')-0.2, b6=at('Kamu tim')-0.15;
+sHook({t0:0,t1:bc,key:'PASTI MAAG?',keyAt:at('maag'),keySize:92,prop:t=>chili(t,1,{}),ps:1.5,py:1050,bg:'#3A1616',glow:'#E5383B',particle:(t,i)=>chili(t,0.3,{face:false}),surpriseAt:at('maag'),extra:t=>popAt(t,at('maag'),stomach(t,0.7,0),V(1250,1350),800,1)});
+sCard({t0:bc,t1:b1,lines:["MAKAN PEDAS", "TIAP HARI", "PASTI MAAG?"],yukAt:bc+0.6,hold:t=>''});
+sFact({t0:b1,t1:b4,bg:'#3B3A7A',glow:'#6E6CC4',grid:true,world:t=>seq(t,[{a:b1+0.2,f:t=>stomach(t,1,0),x:960,y:1100,s:1.2},{a:at('bakteri'),f:t=>bacterium(0.9,'#C77DDB',0,'evil',t),x:V(700,600),y:800},{a:at('obat'),f:t=>pillBottle(0.8,'NYERI'),x:V(1250,1350),y:800},{a:at('bukan cabai'),f:t=>chili(t,0.6,{}),x:960,y:1500},{a:at('bukan cabai')+0.3,f:t=>xmark(0.9),x:960,y:1500}]),labels:[{at:at('bakteri'),txt:'1. BAKTERI H. PYLORI',bg:'#E5383B',until:at('obat')},{at:at('obat'),txt:'2. OBAT ANTI NYERI',bg:'#E5383B',until:at('bukan cabai')},{at:at('bukan cabai'),txt:'BUKAN CABAI!',bg:'#3BB273'}],src:'Sumber: NIDDK (Peptic Ulcers)'});
+sPlot({t0:b4,t1:b6,bg:'#3A1616',glow:'#E5383B',world:t=>seq(t,[{a:b4+1.6,f:t=>stomach(t,1.2,t>at('pedas',b4)?1:0),x:960,y:1100},{a:at('perih'),f:t=>`<text text-anchor='middle' font-family='Inter' font-weight='800' font-size='160' fill='#F2A541'>!</text>`,x:V(1250,1350),y:800},{a:at('pedas',b4),f:t=>chili(t,0.7,{}),x:V(700,600),y:800}]),labels:[{at:at('udah luka'),txt:'KALAU LAMBUNG UDAH LUKA',bg:'#E5383B',until:at('parah')},{at:at('parah'),txt:'PEDAS BIKIN MAKIN PERIH',bg:'#E5383B'}]});
+sCTA({t0:b6,t1:E,ln:'TIM PEDAS MAMPUS',ls:'PEDAS',rn:'TIM NGGAK PEDAS',rs:'NGGAK PEDAS',lp:t=>chili(t,0.6,{}),rp:t=>chili(t,0.6,{col:'#7BC96F',sad:true}),aAt:at('mampus'),bAt:at('nggak',b6),vsAt:at('atau',b6),commentAt:at('Tulis'),lc:'#E5383B',rc:'#3BB273'});
+}
+const THUMB={t:2.0,lines:["MAKAN PEDAS", "TIAP HARI", "PASTI MAAG?"]};

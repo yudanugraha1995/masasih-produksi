@@ -1,0 +1,10 @@
+// ===== Minum Sambil Berdiri? Masa Sih Bikin Ginjal Rusak? (Short 11:00 WIB, ±55 detik) =====
+{const E=DUR+0.2;
+const bc=at('Masa sih')-0.1, b1=at('Faktanya')-0.15, b4=at('Plot')-0.2, b6=at('Kamu tim')-0.15;
+sHook({t0:0,t1:bc,key:'GINJAL RUSAK?',keyAt:at('ginjal'),keySize:90,prop:t=>glassW(t,1,0.7),ps:1.3,py:1050,bg:'#16343F',glow:'#2E7E8F',particle:(t,i)=>`<circle r='9' fill='#7FD1FF'/>`,surpriseAt:at('ginjal'),extra:t=>popAt(t,at('ginjal'),kidney(0.8),V(1250,1350),800,1)});
+sCard({t0:bc,t1:b1,lines:["MINUM BERDIRI", "BIKIN GINJAL", "RUSAK?"],yukAt:bc+0.6,hold:t=>''});
+sFact({t0:b1,t1:b4,bg:'#3B3A7A',glow:'#6E6CC4',grid:true,world:t=>seq(t,[{a:at('lambung'),u:at('darah'),f:t=>stomach(t,1,0),x:960,y:1100,s:1.2},{a:at('usus'),u:at('darah'),f:t=>gut(t,0.5,{}),x:960,y:1450},{a:at('darah'),f:t=>heart(0.8,Math.sin(t*6)),x:V(700,600),y:1000},{a:at('nyaring'),f:t=>kidney(1),x:V(1250,1350),y:1050},{a:at('posisi'),f:t=>checkAt(t,at('posisi'),0,0,1),x:960,y:1450}]),labels:[{at:at('lambung'),txt:'LAMBUNG → USUS → DARAH',bg:'#5B6C8F',until:at('nyaring')},{at:at('nyaring'),txt:'GINJAL NYARING DARAH',bg:'#3BB273',until:at('posisi')},{at:at('posisi'),txt:'POSISI MINUM NGGAK NGARUH',bg:'#3BB273',size:V(44,52)}],src:'Ilustrasi disederhanakan'});
+sPlot({t0:b4,t1:b6,bg:'#3A1616',glow:'#E5383B',world:t=>seq(t,[{a:b4+1.6,f:t=>glassW(t,1,0.6),x:V(760,640),y:1050,r:Math.sin(t*6)*12},{a:at('buru-buru'),f:t=>clockFace(t,0.8,14),x:V(1250,1350),y:850},{a:at('tersedak'),f:t=>`<text text-anchor='middle' font-family='Inter' font-weight='800' font-size='160' fill='#E5383B'>!</text>`,x:V(1250,1350),y:1350}]),labels:[{at:at('buru-buru'),txt:'MINUM BURU-BURU SAMBIL JALAN',bg:'#E5383B',size:V(40,50),until:at('tersedak')},{at:at('tersedak'),txt:'BISA TERSEDAK!',bg:'#E5383B'}]});
+sCTA({t0:b6,t1:E,ln:'TIM DUDUK',ls:'DUDUK',rn:'TIM BERDIRI',rs:'BERDIRI',lp:t=>chair(0.4),rp:t=>glassW(t,0.45,0.7),aAt:at('duduk'),bAt:at('berdiri',b6),vsAt:at('atau',b6),commentAt:at('Tulis'),lc:'#2C8FC4',rc:'#3BB273'});
+}
+const THUMB={t:2.0,lines:["MINUM BERDIRI", "BIKIN GINJAL", "RUSAK?"]};

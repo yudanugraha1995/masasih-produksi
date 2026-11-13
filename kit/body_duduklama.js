@@ -1,0 +1,10 @@
+// ===== Duduk Seharian Tiap Hari? 🪑 Masa Sih Sebahaya Merokok? (Short 11:00 WIB, ±55 detik) =====
+{const E=DUR+0.2;
+const bc=at('Masa sih')-0.1, b1=at('Faktanya')-0.15, b4=at('Plot')-0.2, b6=at('Kamu tim')-0.15;
+sHook({t0:0,t1:bc,key:'SEBAHAYA MEROKOK?',keyAt:at('merokok'),keySize:76,prop:t=>chair(1),ps:1.2,py:1150,bg:'#2A1F2B',glow:'#8E3B4F',particle:(t,i)=>`<circle r='9' fill='#9AA9B8'/>`,surpriseAt:at('bahayanya'),extra:t=>popAt(t,at('merokok'),`<rect x='-120' y='-14' width='240' height='28' rx='10' fill='#fff' stroke='#2E2430' stroke-width='5'/><rect x='80' y='-14' width='40' height='28' fill='#F2A541'/>`,V(1250,1350),800,1)});
+sCard({t0:bc,t1:b1,lines:["DUDUK SEHARIAN", "SEBAHAYA", "MEROKOK?"],yukAt:bc+0.6,hold:t=>''});
+sFact({t0:b1,t1:b4,bg:'#3B3A7A',glow:'#6E6CC4',grid:true,world:t=>seq(t,[{a:b1+0.2,f:t=>chair(1),x:V(700,600),y:1150},{a:at('delapan'),f:t=>bigNum(t,at('delapan'),'8+ jam','duduk per hari',0,0,{size:140}),x:V(1250,1350),y:850},{a:at('jantung'),f:t=>heart(0.8,Math.sin(t*8)),x:V(1250,1350),y:1250}]),labels:[{at:at('delapan'),txt:'DUDUK > 8 JAM SEHARI',bg:'#E5383B',until:at('jantung')},{at:at('jantung'),txt:'RISIKO JANTUNG NAIK',bg:'#E5383B'}],src:'Ilustrasi disederhanakan'});
+sPlot({t0:b4,t1:b6,bg:'#14301F',glow:'#3BB273',world:t=>seq(t,[{a:at('Lancet'),f:t=>label('JURNAL LANCET 2016',{size:46,bg:'#5B6C8F'}),x:960,y:V(760,720)},{a:at('satu jam'),f:t=>bigNum(t,at('satu jam'),'±1 jam','gerak per hari',0,0,{size:130}),x:960,y:1000},{a:at('menghapus'),f:t=>checkAt(t,at('menghapus'),0,0,1.1),x:960,y:1350},{a:at('jalan'),f:t=>walker(t,0.6,{walk:true,awake:true}),x:V(1250,1350),y:1300}]),labels:[{at:at('menghapus'),txt:'RISIKONYA BISA KEHAPUS',bg:'#3BB273',until:at('jalan')},{at:at('jalan'),txt:'JALAN / BERDIRI TIAP JAM',bg:'#3BB273'}],src:'Sumber: Ekelund dkk., The Lancet (2016)'});
+sCTA({t0:b6,t1:E,ln:'TIM REBAHAN',ls:'REBAHAN',rn:'TIM JALAN KAKI',rs:'JALAN',lp:t=>bed(0,0,0.3,''),rp:t=>walker(t,0.3,{walk:true,awake:true}),aAt:at('rebahan'),bAt:at('jalan',b6),vsAt:at('atau',b6),commentAt:at('Tulis'),lc:'#8E3B4F',rc:'#3BB273'});
+}
+const THUMB={t:2.0,lines:["DUDUK SEHARIAN", "SEBAHAYA", "MEROKOK?"]};

@@ -1,0 +1,10 @@
+// ===== Keramas Tiap Hari? 🧴 Masa Sih Bikin Rambut Rontok? (Short 11:00 WIB, ±55 detik) =====
+{const E=DUR+0.2;
+const bc=at('Masa sih')-0.1, b1=at('Faktanya')-0.15, b4=at('Plot')-0.2, b6=at('Kamu tim')-0.15;
+sHook({t0:0,t1:bc,key:'BIKIN RONTOK?',keyAt:at('rontok'),keySize:88,prop:t=>shower(t,1),ps:1.3,py:950,bg:'#16343F',glow:'#2E7E8F',particle:(t,i)=>`<circle r='9' fill='#7FD1FF'/>`,surpriseAt:at('rontok'),extra:t=>{let s='';if(t>at('rontok'))for(let i=0;i<5;i++)s+=popAt(t,at('rontok')+i*0.08,hairStrand(t+i,0.6,'#2E2430',200),V(800,720)+i*V(70,110),1450,1,(i-2)*15);return s;}});
+sCard({t0:bc,t1:b1,lines:["KERAMAS", "TIAP HARI", "BIKIN RONTOK?"],yukAt:bc+0.6,hold:t=>''});
+sFact({t0:b1,t1:b4,bg:'#3B3A7A',glow:'#6E6CC4',grid:true,world:t=>{let s=seq(t,[{a:at('lima puluh'),u:at('Waktu'),f:t=>bigNum(t,at('lima puluh'),'50-100','helai rontok/hari',0,0,{size:140}),x:960,y:V(800,760)},{a:at('normal'),u:at('Waktu'),f:t=>checkAt(t,at('normal'),0,0,1),x:960,y:1250},{a:at('Waktu'),f:t=>shower(t,0.9),x:960,y:850}]);if(t>at('lepas'))for(let i=0;i<5;i++){const ph=((t-at('lepas'))*0.5+i/5)%1;s+=g(tr(820+i*70,1150+ph*300,0.5),hairStrand(t+i,1,'#2E2430',200));}return s;},labels:[{at:at('lima puluh'),txt:'50-100 HELAI/HARI NORMAL',bg:'#3BB273',size:V(44,52),until:at('Waktu')},{at:at('Waktu'),txt:'CUMA IKUT KEBAWA AIR',bg:'#5B6C8F'}],src:'Sumber: American Academy of Dermatology'});
+sPlot({t0:b4,t1:b6,bg:'#3A1616',glow:'#E5383B',world:t=>seq(t,[{a:b4+1.6,f:t=>shower(t,0.6),x:V(700,600),y:800},{a:at('nyisir'),f:t=>comb(1,Math.sin(t*6)*15),x:V(1200,1300),y:1000},{a:at('patah'),f:t=>hairStrand(t,1,'#2E2430',260),x:V(1200,1300),y:1450},{a:at('patah')+0.3,f:t=>xmark(1),x:V(1200,1300),y:1300}]),labels:[{at:at('nyisir'),txt:'NYISIR KASAR PAS BASAH',bg:'#E5383B',until:at('patah')+2},{at:at('patah')+2,txt:'RAMBUT JADI PATAH!',bg:'#E5383B'}]});
+sCTA({t0:b6,t1:E,ln:'TIM TIAP HARI',ls:'TIAP HARI',rn:'TIM 2 HARI',rs:'2 HARI',lp:t=>shower(t,0.4),rp:t=>comb(0.4),aAt:at('tiap',b6),bAt:at('dua',b6),vsAt:at('atau',b6),commentAt:at('Tulis'),lc:'#2C8FC4',rc:'#E8505B'});
+}
+const THUMB={t:2.0,lines:["KERAMAS", "TIAP HARI", "BIKIN RONTOK?"]};

@@ -1,0 +1,10 @@
+// ===== Makan Sambil Main HP Tiap Hari? 📱 Masa Sih Bikin Gemuk? (Short 11:00 WIB, ±55 detik) =====
+{const E=DUR+0.2;
+const bc=at('Masa sih')-0.1, b1=at('Faktanya')-0.15, b4=at('Plot')-0.2, b6=at('Kamu tim')-0.15;
+sHook({t0:0,t1:bc,key:'BIKIN GEMUK?',keyAt:at('gemuk'),keySize:90,prop:t=>plateRice(1),ps:1.2,py:1150,bg:'#3A2A16',glow:'#F2A541',particle:(t,i)=>`<circle r='9' fill='#fff'/>`,surpriseAt:at('gemuk'),extra:t=>popAt(t,at('HP'),phone(t,0.8),V(1250,1350),780,1,10)});
+sCard({t0:bc,t1:b1,lines:["MAKAN SAMBIL", "MAIN HP", "BIKIN GEMUK?"],yukAt:bc+0.6,hold:t=>''});
+sFact({t0:b1,t1:b4,bg:'#3B3A7A',glow:'#6E6CC4',grid:true,world:t=>seq(t,[{a:b1+0.2,f:t=>phone(t,1),x:V(700,600),y:1000},{a:at('terdistraksi'),f:t=>brain(t,0.8,'happy'),x:V(1250,1350),y:850},{a:at('lebih banyak'),f:t=>plateRice(1.2),x:960,y:1400},{a:at('lebih banyak')+0.3,f:t=>`<text text-anchor='middle' font-family='Inter' font-weight='800' font-size='110' fill='#F2A541'>+</text>`,x:V(1250,1350),y:1250}]),labels:[{at:at('penelitian'),txt:'MAKAN SAMBIL TERDISTRAKSI',bg:'#5B6C8F',size:V(44,52),until:at('lebih banyak')},{at:at('lebih banyak'),txt:'MAKANNYA LEBIH BANYAK',bg:'#E5383B'}],src:'Sumber: Robinson dkk., Am J Clin Nutr (2013)'});
+sPlot({t0:b4,t1:b6,bg:'#3A1616',glow:'#E5383B',world:t=>seq(t,[{a:b4+1.6,f:t=>brain(t,1,'happy'),x:V(760,640),y:1000},{a:at('nggak ingat'),f:t=>`<text text-anchor='middle' font-family='Inter' font-weight='800' font-size='150' fill='#F2A541'>?</text>`,x:V(760,640),y:760},{a:at('beberapa jam'),f:t=>clockFace(t,0.7,10),x:V(1250,1350),y:850},{a:at('ngemil'),f:t=>chocoBar?chocoBar(1):plateRice(0.8),x:V(1250,1350),y:1300}]),labels:[{at:at('nggak ingat'),txt:'OTAK LUPA UDAH MAKAN',bg:'#E5383B',until:at('ngemil')},{at:at('ngemil'),txt:'NANTI NGEMIL LAGI!',bg:'#E5383B'}]});
+sCTA({t0:b6,t1:E,ln:'TIM NONTON',ls:'NONTON',rn:'TIM FOKUS',rs:'FOKUS',lp:t=>phone(t,0.4),rp:t=>plateRice(0.5),aAt:at('nonton'),bAt:at('fokus'),vsAt:at('atau',b6),commentAt:at('Tulis'),lc:'#5B6C8F',rc:'#3BB273'});
+}
+const THUMB={t:2.0,lines:["MAKAN SAMBIL", "MAIN HP", "BIKIN GEMUK?"]};
