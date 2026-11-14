@@ -11,7 +11,9 @@ const BGG=(t,a,b,k)=>`<defs><linearGradient id="bg${k}" x1="0" y1="0" x2="0.3" y
 const FACE=(t,t0,c,rx,x=840,y=1210)=>{const k=popS(t,t0,.5);if(k<=0)return '';const sh=Math.sin((t-t0)*18)*Math.max(0,1-(t-t0)*2)*6;
  const f=(typeof FACES!=='undefined'&&FACES[c])?`<clipPath id="fc${c}"><circle r="112"/></clipPath><circle r="122" fill="#fff" stroke="${OL}" stroke-width="8"/><image href="${FACES[c]}" x="-112" y="-112" width="224" height="224" clip-path="url(#fc${c})" preserveAspectRatio="xMidYMid slice"/>`:'';
  return g(tr(x+sh,y,k*1.35,-6),f+(rx?`<text x="${f?78:0}" y="${f?-70:30}" text-anchor="middle" font-family="Noto Color Emoji" font-size="${f?110:170}">${rx}</text>`:''));};
-const PH=c=>(typeof PHOTO!=='undefined'&&PHOTO[c])?' · Photo: '+PHOTO[c]:'';
+const PH=c=>((typeof PHOTO!=='undefined'&&PHOTO[c])?' · Photo: '+PHOTO[c]:'')+((typeof LMCR!=='undefined'&&LMCR[c])?' · Bg: '+LMCR[c]:'');
+const SRC=(txt,k=1)=>{if(k<=0)return '';const P=txt.split(' · ');const L=[''];P.forEach(p=>{const c=L[L.length-1];if(c&&(c+' · '+p).length>66)L.push(p);else L[L.length-1]=c?c+' · '+p:p;});
+ return L.map((l,j)=>`<text x="40" y="${H-60-(L.length-1-j)*30}" font-family="Inter" font-weight="500" font-size="23" fill="#fff" stroke="#000" stroke-opacity=".35" stroke-width="3" paint-order="stroke" opacity="${fmt(.9*k)}">${l}</text>`).join('');};
 const NUMC={ok:'#0B5D1E',no:'#B00020'};
 const COVER=t=>{const L=CFG.cover||CFG.thumb;let s=`<rect width="1080" height="1920" fill="#0B1530" opacity="${fmt(0.75*(1-ss((t-0.35)/0.15)))}"/>`;
  L.forEach((l,k)=>{s+=`<text x="540" y="${fmt(860+k*150-(L.length-1)*75)}" text-anchor="middle" font-family="B2" font-weight="800" font-size="${l.length>13?104:124}" fill="${k===L.length-1?'#FFE27A':'#fff'}" stroke="${OL}" stroke-width="18" paint-order="stroke" opacity="${fmt(1-ss((t-0.38)/0.12))}">${l}</text>`;});return s;};
@@ -33,8 +35,7 @@ C.forEach(([c,n,w,num,unit,nw,src,mk,rx],i)=>{const t0=starts[i],t1=i<C.length-1
   world:t=>{let s=BGG(t,P[0],P[1],'f'+i)+landmark(t,c)+popAt(t,t0+0.05,flag(t,c,.85),960,660,1,(L?3:-3));
    if(mk==='ok')s+=g(tr(960,1300,popS(t,tn+0.1,.4)*1.3),check(1));if(mk==='no')s+=xAt(t,tn+0.1,960,1300,1.3);return s;},
   labels:[{at:t0+0.05,txt:n,bg:'#5B6C8F'}],
-  hud:t=>bigNum(t,tn,num,unit,540,990,{size:num.length>8?96:num.length>6?120:150,ucol:NUMC[mk]||'#14213D'})+`<text x="1040" y="330" text-anchor="end" font-family="B2" font-weight="800" font-size="44" fill="#fff" stroke="${OL}" stroke-width="8" paint-order="stroke" opacity="${fmt(fadeIn(t,t0,.2))}">${i+1}/6</text>`+FACE(t,tn+0.35,c,rx),
-  src:src+PH(c)});});
+  hud:t=>bigNum(t,tn,num,unit,540,990,{size:num.length>8?96:num.length>6?120:150,ucol:NUMC[mk]||'#14213D'})+`<text x="1040" y="330" text-anchor="end" font-family="B2" font-weight="800" font-size="44" fill="#fff" stroke="${OL}" stroke-width="8" paint-order="stroke" opacity="${fmt(fadeIn(t,t0,.2))}">${i+1}/6</text>`+FACE(t,tn+0.35,c,rx)+SRC(src+PH(c),fadeIn(t,t0+0.2,.4))});});
 // 3) PLOT TWIST
 const tc=Math.max(bP+1.0,tTW-0.1);let tn2=at(TW.numW||TW.trigger,tTW);if(!(tn2>=tTW&&tn2<bC))tn2=tTW+0.4;
 S.push({t0:bP,t1:bC,
@@ -44,7 +45,7 @@ S.push({t0:bP,t1:bC,
   if(TW.mk==='no')s+=xAt(t,tn2+0.2,960,700,1.4);if(TW.mk==='ok')s+=g(tr(960,700,popS(t,tn2+0.2,.4)*1.4),check(1));return s;},
  cam:t=>t<tc?camV(t,bP,tc,[960,980,1.0],[960,960,1.1]):camV(t,tc,bC,[960,1000,1.06],[960,960,1.0]),
  hud:t=>{let s='';if(t<tc+0.2){s+=letterbox(t,bP);const k=popS(t,bP+0.05,.4)*(1-ss((t-tc+0.1)/.3));if(k>0)s+=g(tr(540,430,k,-3),`<text x="0" y="0" text-anchor="middle" font-family="B2" font-weight="800" font-size="150" fill="url(#gold)" filter="url(#tsh)">PLOT TWIST!</text>`);return s;}
-  return hudLabel(t,tTW,TW.name,{bg:'#012169'})+bigNum(t,tn2,TW.num,TW.unit,540,1060,{size:TW.num.length>8?96:TW.num.length>6?120:150,ucol:NUMC[TW.mk]||'#FFE27A'})+`<text x="1040" y="330" text-anchor="end" font-family="B2" font-weight="800" font-size="44" fill="#FFE27A" stroke="${OL}" stroke-width="8" paint-order="stroke">6/6</text>`+FACE(t,tn2+0.4,TW.code,TW.rx)+srcText(TW.src+PH(TW.code),fadeIn(t,tTW,.4));}});
+  return hudLabel(t,tTW,TW.name,{bg:'#012169'})+bigNum(t,tn2,TW.num,TW.unit,540,1060,{size:TW.num.length>8?96:TW.num.length>6?120:150,ucol:NUMC[TW.mk]||'#FFE27A'})+`<text x="1040" y="330" text-anchor="end" font-family="B2" font-weight="800" font-size="44" fill="#FFE27A" stroke="${OL}" stroke-width="8" paint-order="stroke">6/6</text>`+FACE(t,tn2+0.4,TW.code,TW.rx)+SRC(TW.src+PH(TW.code),fadeIn(t,tTW,.4));}});
 // 4) CTA
 S.push({t0:bC,t1:E,
  world:t=>{let s=BGG(t,'#FFB74D','#FF5C8A','c')+rays(960,150,7,1400,9,.25,t*4);

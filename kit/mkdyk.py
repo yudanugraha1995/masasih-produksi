@@ -15,5 +15,16 @@ for c in sorted(codes):
     im=Image.open(p).convert('RGB');w,h=im.size;s=min(w,h);top=int(max(0,(h-s)*0.15))
     im=im.crop(((w-s)//2,top,(w-s)//2+s,top+s)).resize((240,240))
     b=io.BytesIO();im.save(b,'JPEG',quality=82);F[c]='data:image/jpeg;base64,'+base64.b64encode(b.getvalue()).decode();P[c]=cred[c]
-js='const FACES='+repr(F).replace("'",'"')+';const PHOTO='+repr(P).replace("'",'"')+';\n'
-open(f'body_{i}.js','w').write(cfg+'\n'+js+open('tpl_dyk.js').read());print('ok body',i,'faces:',','.join(F))
+LP={};LC={}
+if os.path.exists('landmarks/CREDITS.md'):
+    for l in open('landmarks/CREDITS.md'):
+        q=re.match(r'- (\w+): (.*?) \| (.*?) \| (.*?) \|',l)
+        if q: LC[q.group(1)]=f'{q.group(4).strip()[:22]} ({q.group(3).strip()})'
+for c in sorted(codes):
+    p=f'landmarks/{c}.jpg'
+    if not os.path.exists(p) or c not in LC: continue
+    im=Image.open(p).convert('RGB');w,h=im.size;tw=min(w,int(h*0.66));im=im.crop(((w-tw)//2,0,(w-tw)//2+tw,h));im.thumbnail((660,1000))
+    b=io.BytesIO();im.save(b,'JPEG',quality=72);LP[c]='data:image/jpeg;base64,'+base64.b64encode(b.getvalue()).decode()
+js='const LMPH='+repr(LP).replace("'",'"')+';const LMCR='+repr(LC).replace("'",'"')+';\n'
+js+='const FACES='+repr(F).replace("'",'"')+';const PHOTO='+repr(P).replace("'",'"')+';\n'
+open(f'body_{i}.js','w').write(cfg+'\n'+js+open('tpl_dyk.js').read());print('ok body',i,'faces:',','.join(F),'landmarks:',','.join(LP))

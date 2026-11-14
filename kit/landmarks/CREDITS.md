@@ -1,0 +1,4 @@
+- us: File:Statue of Liberty frontal 2.jpg | Public domain | Daniel Schwen | https://commons.wikimedia.org/wiki/File%3AStatue_of_Liberty_frontal_2.jpg
+- cn: File:Great Wall of China July 2006.JPG | CC0 | Velatrix | https://commons.wikimedia.org/wiki/File%3AGreat_Wall_of_China_July_2006.JPG
+- au: File:Sydney Opera House - Dec 2008.jpg | CC BY-SA 3.0 | Diliff | https://commons.wikimedia.org/wiki/File%3ASydney_Opera_House_-_Dec_2008.jpg
+- id: File:Monumen Nasional, Jakarta, Indonesia.jpg | CC BY-SA 4.0 | Ramayoni | https://commons.wikimedia.org/wiki/File%3AMonumen_Nasional%2C_Jakarta%2C_Indonesia.jpg

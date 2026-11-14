@@ -93,4 +93,7 @@ const LM={
  in:()=>`<rect x="-520" y="300" width="1040" height="400"/><path d="M-260,300L-260,-40L260,-40L260,300Z"/><path d="M-210,-40Q-210,-380 0,-440Q210,-380 210,-40Z"/><rect x="-8" y="-540" width="16" height="110"/>`+[-470,470].map(x=>`<rect x="${x-26}" y="-300" width="52" height="600"/><circle cx="${x}" cy="-310" r="40"/>`).join(''),
  id:()=>`<rect x="-360" y="560" width="720" height="140"/><path d="M-260,560L-120,420L120,420L260,560Z"/><path d="M-60,420L-34,-480L34,-480L60,420Z"/><rect x="-80" y="-500" width="160" height="40"/><path d="M-50,-500Q-80,-600 -10,-680Q0,-620 30,-640Q70,-580 50,-500Z"/>`
 };
-function landmark(t,c,x=960,y=1300,s=1.05){if(!LM[c])return '';const dx=Math.sin(t*0.25)*30;return g(`translate(${fmt(x+dx)} ${y}) scale(${s})`,`<g fill="#fff" opacity=".24">${LM[c]()}</g>`);}
+function landmark(t,c,x=960,y=1300,s=1.05){
+ if(typeof LMPH!=='undefined'&&LMPH[c]){const z=1+0.04*Math.min(1,(t%12)/12),dx=Math.sin(t*0.2)*25;
+  return `<g opacity=".42"><image href="${LMPH[c]}" x="${fmt(960-660*z+dx)}" y="${fmt(1000-1000*z)}" width="${fmt(1320*z)}" height="${fmt(2000*z)}" preserveAspectRatio="xMidYMid slice"/></g>`;}
+ if(!LM[c])return '';const dx=Math.sin(t*0.25)*30;return g(`translate(${fmt(x+dx)} ${y}) scale(${s})`,`<g fill="#fff" opacity=".24">${LM[c]()}</g>`);}
