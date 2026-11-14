@@ -1,4 +1,4 @@
-// ===== How Come: bendera vektor + props negara (dipakai semua video _hc) =====
+// ===== Did You Know: bendera vektor + props negara (dipakai semua video _dyk) =====
 function star7(r){let p='';for(let i=0;i<14;i++){const a=-Math.PI/2+i*Math.PI/7,rr=i%2?r*0.45:r;p+=(i?'L':'M')+fmt(rr*Math.cos(a))+','+fmt(rr*Math.sin(a));}return `<path d="${p}Z" fill="#fff"/>`;}
 function star5(r){let p='';for(let i=0;i<10;i++){const a=-Math.PI/2+i*Math.PI/5,rr=i%2?r*0.42:r;p+=(i?'L':'M')+fmt(rr*Math.cos(a))+','+fmt(rr*Math.sin(a));}return `<path d="${p}Z" fill="#fff"/>`;}
 function ujack(w,h){return `<rect x="${-w/2}" y="${-h/2}" width="${w}" height="${h}" fill="#012169"/><path d="M${-w/2},${-h/2}L${w/2},${h/2}M${w/2},${-h/2}L${-w/2},${h/2}" stroke="#fff" stroke-width="${h*0.2}"/><path d="M${-w/2},${-h/2}L${w/2},${h/2}M${w/2},${-h/2}L${-w/2},${h/2}" stroke="#C8102E" stroke-width="${h*0.07}"/><path d="M0,${-h/2}L0,${h/2}M${-w/2},0L${w/2},0" stroke="#fff" stroke-width="${h*0.33}"/><path d="M0,${-h/2}L0,${h/2}M${-w/2},0L${w/2},0" stroke="#C8102E" stroke-width="${h*0.2}"/>`;}

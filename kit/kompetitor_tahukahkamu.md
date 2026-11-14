@@ -31,6 +31,6 @@ Format mereka: judul bahasa Inggris, teks di gambar bahasa Indonesia. Latar peta
 4. Hipotetis aneh (bertahan hidup, ganti nama negara, bendera 2 warna) 250K-400K.
 5. Statistik murni, politik sensitif, dan "Part 2" sepi.
 
-## Catatan untuk How Come
+## Catatan untuk channel Did You Know
 - Jangan pakai foto/wajah tokoh nyata dan logo merek: pakai bendera + ikon vektor (burger, HP, robot).
 - Topik politik sensitif (Palestina, Israel, LGBT) dihindari: sepi dan berisiko.

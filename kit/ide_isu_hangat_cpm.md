@@ -1,6 +1,6 @@
 # Ide konten dari isu hangat negara CPM tinggi (riset 14 Nov 2026)
 
-## 2026-11-14: 4 judul pilihan hari ini (How Come)
+## 2026-11-14: 4 judul pilihan hari ini (Did You Know)
 1. **"Which Country Pays the HIGHEST Minimum Wage? 💰"**. Isu: upah minimum Zurich CHF 23,90/jam disahkan (13 Nov). Data: Australia A$26,44/jam (1 Jul 2026), Inggris £12,71 (Apr 2026), Selandia Baru NZ$23,95 (Apr 2026), AS federal $7,25, Luxembourg tertinggi bulanan, Swiss tanpa upah minimum nasional (cuma kanton/kota). Cek ulang ke situs pemerintah.
 2. **"You Get FINED for Not Voting Here 🗳️"**. Isu: pemilu Selandia Baru (7 Nov), voting bebas. Data: 27 negara wajib memilih, cuma 14 yang menegakkan (Pew/IDEA); Australia wajib sejak 1924, didenda; Belgia sejak 1892; Brasil didenda; AS, Inggris, Selandia Baru bebas. Nominal denda Australia perlu dicek (AEC).
 3. **"This Country Pollutes More Than the USA per Person 🏭"**. Isu: Greta Thunberg sindir Australia di COP31 (13 Nov). Data: Qatar juara 42,6 t/orang (2023, Statista); Australia, AS, Kanada di atas 14 t/orang (angka pasti perlu cek Global Carbon Project / OWID).

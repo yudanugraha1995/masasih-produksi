@@ -17,7 +17,7 @@ const stage=document.getElementById('stage');stage.style.width=W+'px';stage.styl
 for(const id of ['world','hud']){const s=document.getElementById(id);s.setAttribute('width',W);s.setAttribute('height',H);}
 const wm=document.getElementById('wm');
 if((Q.get('s')||'').endsWith('_en'))wm.src='wm_en.png'; // versi Inggris: watermark 'Please Follow'
-const HC=(Q.get('s')||'').endsWith('_hc'); if(HC)wm.src='wm_hc.png'; // channel How Come: watermark kecil 'Please subscribe', tanpa YUMA
+const HC=/_(dyk|hc)$/.test(Q.get('s')||''); if(HC)wm.src='wm_hc.png'; // channel Did You Know (_dyk): watermark kecil 'Please subscribe', tanpa YUMA
 if(ASP==='v'){wm.style.width='760px';wm.style.left='36px';wm.style.top='165px';}else{wm.style.width='600px';wm.style.left='28px';wm.style.top='24px';}
 if(HC){if(ASP==='v'){wm.style.width='460px';wm.style.left='32px';wm.style.top='150px';}else{wm.style.width='330px';wm.style.left='24px';wm.style.top='20px';}}
 let SUBS=[];

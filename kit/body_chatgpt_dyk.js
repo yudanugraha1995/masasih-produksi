@@ -1,4 +1,4 @@
-// ===== Is ChatGPT BANNED in Your Country? (How Come, gaya kompetitor Allow/Ban, 9 negara) =====
+// ===== Is ChatGPT BANNED in Your Country? (Did You Know, gaya kompetitor Allow/Ban, 9 negara) =====
 /*SFX_EXTRA [[0.33,"pop",0.4],[0.51,"pop",0.4],[0.69,"pop",0.4],[0.87,"pop",0.4],[1.05,"pop",0.4],[1.23,"pop",0.4],[1.41,"pop",0.4],[1.59,"pop",0.45]]*/
 /* urutan tipe scene untuk sfx.py: sHook({ sFact({ sFact({ sFact({ sFact({ sFact({ sFact({ sFact({ sFact({ sPlot({ sCTA({ */
 {const E=DUR+0.2;

@@ -1,4 +1,4 @@
-// ===== Australia Has NO Free School Lunch?! (How Come, English, ranking negara) =====
+// ===== Australia Has NO Free School Lunch?! (Did You Know, English, ranking negara) =====
 /*SFX_EXTRA [[0.45,"pop",0.5],[0.75,"pop",0.5],[1.05,"pop",0.55]]*/
 /* urutan tipe scene untuk sfx.py: sHook({ sFact({ sFact({ sFact({ sFact({ sPlot({ sCTA({ */
 {const E=DUR+0.2;
