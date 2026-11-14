@@ -20,6 +20,8 @@ Bahasa ke user: Indonesia santai. User tidak mau menekan Allow dan tidak bisa st
 
 - **Metadata YT Short (owner via Bot C 14 Nov malam, semua Short YT yang dijadwalkan mulai sekarang):** deskripsi YT diisi selengkap mungkin sesuai topik (≤5.000 karakter): ringkasan, fakta, penjelasan, plot twist, pertanyaan komentar, sumber, disclaimer, ajakan subscribe. Jangan ada teks berulang/spam. `youtubeData.tags` diisi tag relevan sampai total ≤500 karakter. Hashtag cuma 3–5, termasuk `#shorts`. IG tetap caption biasa (≤2.200 karakter). Post yang sudah terjadwal tidak diubah.
 
+- **Jam posting ACAK (owner via Bot C 14 Nov malam, untuk video yang BELUM dijadwalkan; yang sudah terjadwal biarin):** posting di menit acak dalam 1 jam SEBELUM slot. Slot 07:00 WIB (08 WITA) → acak 06:00–06:59 WIB; 11:00 WIB (12 WITA) → 10:00–10:59; 15:00 WIB (16 WITA) → 14:00–14:59; 19:00 WIB (20 WITA) → 18:00–18:59. Menit diacak tiap post (pakai `python3 -c "import random;print(random.randint(1,58))"`), jangan pola tetap. YT Short + IG untuk konten yang sama = jam acak yang SAMA. Saat cek stok, post di rentang acak itu dihitung mengisi slot tersebut.
+
 - **Bersih space (user pilih A, 14 Nov):** tiap Senin 18:47 WIB ada tugas terjadwal yang otomatis `git rm` video/thumbnail yang sudah tayang di semua platform; file yang masih dipakai post terjadwal atau stok jangan dihapus. Tanpa rewrite history.
 
 ## Video
