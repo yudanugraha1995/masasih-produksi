@@ -16,16 +16,26 @@ const PH=c=>((typeof PHOTO!=='undefined'&&PHOTO[c])?' · Photo: '+PHOTO[c]:'')+(
 const SRC=(txt,k=1)=>{if(k<=0)return '';const P=txt.split(' · ');const L=[''];P.forEach(p=>{const c=L[L.length-1];if(c&&(c+' · '+p).length>66)L.push(p);else L[L.length-1]=c?c+' · '+p:p;});
  return L.map((l,j)=>`<text x="40" y="${H-60-(L.length-1-j)*30}" font-family="Inter" font-weight="500" font-size="23" fill="#fff" stroke="#000" stroke-opacity=".35" stroke-width="3" paint-order="stroke" opacity="${fmt(.9*k)}">${l}</text>`).join('');};
 const NUMC={ok:'#0B5D1E',no:'#B00020'};
-const COVER=t=>{const L=CFG.cover||CFG.thumb;let s=`<rect width="1080" height="1920" fill="#0B1530" opacity="${fmt(0.75*(1-ss((t-0.35)/0.15)))}"/>`;
- L.forEach((l,k)=>{s+=`<text x="540" y="${fmt(860+k*150-(L.length-1)*75)}" text-anchor="middle" font-family="B2" font-weight="800" font-size="${l.length>13?104:124}" fill="${k===L.length-1?'#FFE27A':'#fff'}" stroke="${OL}" stroke-width="18" paint-order="stroke" opacity="${fmt(1-ss((t-0.38)/0.12))}">${l}</text>`;});return s;};
+// cover klik-bait (owner 15 Nov): ikon topik besar + tanda tanya + judul. CFG.coverIcon = 'ai' (ikon AI gambar sendiri) atau emoji; CFG.coverTag = label besar di ikon (mis. 'CHATGPT')
+const CICON=(k)=>k==='ai'?`<rect x="-170" y="-150" width="340" height="270" rx="70" fill="#19C37D" stroke="${OL}" stroke-width="14"/><path d="M-70,110 L-110,190 L10,115Z" fill="#19C37D" stroke="${OL}" stroke-width="14" stroke-linejoin="round"/><rect x="-60" y="105" width="90" height="22" fill="#19C37D"/>`
+ +`<circle cx="-75" cy="-20" r="30" fill="#fff"/><circle cx="0" cy="-20" r="30" fill="#fff"/><circle cx="75" cy="-20" r="30" fill="#fff"/><path d="M135,-185 l18,40 40,18 -40,18 -18,40 -18,-40 -40,-18 40,-18Z" fill="#FFE27A" stroke="${OL}" stroke-width="6"/>`
+ :`<text y="120" text-anchor="middle" font-family="Noto Color Emoji" font-size="320">${k}</text>`;
+const CFLAGS=(x0,y,dx)=>GRID.map(([c],i)=>g(tr(x0+i*dx,y,.3,(i%2?4:-4)),flag(0,c,1),'filter="url(#dsh)"')).join('');
+const CQ=(x,y,s,r,big)=>g(tr(x,y,s,r),big?`<text text-anchor="middle" font-family="B2" font-weight="800" font-size="330" fill="#FF3B3B" stroke="#fff" stroke-width="16" paint-order="stroke">?</text>`:`<text text-anchor="middle" font-family="B2" font-weight="800" font-size="230" fill="#FFE27A" stroke="${OL}" stroke-width="14" paint-order="stroke">?</text>`);
+// layar cover (layar 1080x1920): ikon 510, tag 730, bendera 880, judul cy 1170 (sama dgn frame THUMB t<0)
+const COVER=t=>{const fo=1-ss((t-0.35)/0.15),p=1+0.04*Math.sin(t*20);if(fo<=0)return '';
+ return `<g opacity="${fmt(fo)}"><defs><linearGradient id="cvg" x1="0" y1="0" x2="0.3" y2="1"><stop offset="0" stop-color="#5AC8FA"/><stop offset="1" stop-color="#7B61FF"/></linearGradient></defs><rect width="1080" height="1920" fill="url(#cvg)"/>`
+  +rays(540,510,7,1400,14,.22,t*20)+g(tr(540,510,1.1*p,-5),CICON(CFG.coverIcon||'ai'))+(CFG.coverTag?g(tr(540,730,1.15,-3),label(CFG.coverTag,{size:64,bg:'#E5383B'})):'')
+  +CQ(870,430,1.1*p,14,1)+CQ(220,520,.85,-16,0)+CFLAGS(140,880,160)+thumbTitle(CFG.cover||CFG.thumb)+'</g>';};
 // 1) HOOK: grid 9 bendera
 S.push({t0:0,t1:starts[0],
- world:t=>{let s=BGG(t,'#5AC8FA','#7B61FF','h')+rays(960,150,7,1400,9,.25,Math.sin(t*.5)*3);
+ world:t=>{if(t<0)return BGG(0,'#5AC8FA','#7B61FF','h')+rays(960,560,7,1400,14,.22,0)+g(tr(960,560,1.1,-5),CICON(CFG.coverIcon||'ai'))+(CFG.coverTag?g(tr(960,780,1.15,-3),label(CFG.coverTag,{size:64,bg:'#E5383B'})):'')+CQ(1290,480,1.1,14,1)+CQ(640,570,.85,-16,0)+CFLAGS(560,930,160);
+  let s=BGG(t,'#5AC8FA','#7B61FF','h')+rays(960,150,7,1400,9,.25,Math.sin(t*.5)*3);
   GRID.forEach(([c,n],i)=>{const x=660+(i%3)*300,y=840+Math.floor(i/3)*250,t0=0.15+i*0.22;
    s+=popAt(t,t0,flag(t,c,.5),x,y,1,(i%2?3:-3))+popAt(t,t0+0.08,`<text text-anchor="middle" font-family="B2" font-weight="800" font-size="${n.length>9?26:34}" fill="#fff" stroke="${OL}" stroke-width="8" paint-order="stroke">${n}</text>`,x,y+100,1);});
   return s;},
  cam:t=>camV(t,0,starts[0],[960,1010,1.0],[960,990,1.06]),
- hud:t=>(t<0.5?COVER(t):'')+g(tr(540,440,popS(t,0.1,.5),-4),`<text text-anchor="middle" font-family="B2" font-weight="800" font-size="${CFG.hook[0].length>12?84:104}" fill="#FFE27A" stroke="${OL}" stroke-width="13" paint-order="stroke">${CFG.hook[0]}</text>`)
+ hud:t=>(t<0.5?COVER(t):'')+g(tr(540,440,popS(t,0.5,.5),-4),`<text text-anchor="middle" font-family="B2" font-weight="800" font-size="${CFG.hook[0].length>12?84:104}" fill="#FFE27A" stroke="${OL}" stroke-width="13" paint-order="stroke">${CFG.hook[0]}</text>`)
   +hudLabel(t,0.6,CFG.hook[1],{y:560,size:CFG.hook[1].length>24?42:50,bg:'#3BB273'})+(CFG.hook[2]?hudLabel(t,at(CFG.hook[3]||'but',0.5),CFG.hook[2],{y:1330,size:44,bg:'#E5383B'}):'')});
 // 2) 8 negara
 C.forEach(([c,n,w,num,unit,nw,src,mk,rx],i)=>{const t0=starts[i],t1=i<C.length-1?starts[i+1]:bP;let tn=nw?at(nw,t0):t0+0.6;if(!(tn>=t0&&tn<t1))tn=t0+0.5;if(tn<t0+GD-0.05)tn=Math.min(t0+GD-0.05,t1-0.6);const GF=i?C[i-1][0]:null;
@@ -54,4 +64,4 @@ S.push({t0:bC,t1:E,
   const kc=popS(t,bC+0.25,.45);if(kc>0)s+=g(tr(960,1300,kc*.9,3),bubble(560,170,'bl')+`<text x="0" y="20" text-anchor="middle" font-family="B2" font-weight="800" font-size="58" fill="${OL}">${CFG.bubble||'Comment below!'}</text>`,'filter="url(#dsh)"');return s;},
  cam:t=>camV(t,bC,E,[960,1000,1.0],[960,980,1.08]),hud:t=>hudLabel(t,bC+0.05,CFG.ctaTitle||'WHAT ABOUT YOUR COUNTRY?',{size:50,bg:'#5B6C8F'})});
 }
-const THUMB={t:2.4,cy:1500,lines:CFG.thumb};
+const THUMB={t:-1,cy:1170,lines:CFG.thumb}; // t<0 = frame thumbnail khusus (ikon + ? + bendera) di scene hook
