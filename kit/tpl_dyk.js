@@ -21,16 +21,19 @@ const CICON=(k)=>(k&&k!=='ai')?`<text y="120" text-anchor="middle" font-family="
 // teks topik besar (pengganti logo merek; owner 15 Nov: tanpa logo, tulisan dibesarkan)
 const CTAG=()=>{const s=CFG.coverTag||'';if(!s)return '';const fs=Math.min(210,1700/(s.length*0.62+0.5));return `<text y="${fmt(fs*0.35)}" text-anchor="middle" font-family="B2" font-weight="800" font-size="${fmt(fs)}" fill="#FFE27A" stroke="${OL}" stroke-width="${fmt(fs*0.16)}" paint-order="stroke" stroke-linejoin="round">${s}</text>`;};
 const HASI=()=>CFG.coverIcon&&CFG.coverIcon!=='ai';
-const CFLAGS=(x0,y,dx)=>GRID.map(([c],i)=>g(tr(x0+i*dx,y,.3,(i%2?4:-4)),flag(0,c,1),'filter="url(#dsh)"')).join('');
+const CFLAGS=(x0,y,dx)=>GRID.map(([c],i)=>g(tr(x0+i*dx,y,.25,(i%2?4:-4)),flag(0,c,1),'filter="url(#dsh)"')).join('');
 const CQ=(x,y,s,r,big)=>g(tr(x,y,s,r),big?`<text text-anchor="middle" font-family="B2" font-weight="800" font-size="330" fill="#FF3B3B" stroke="#fff" stroke-width="16" paint-order="stroke">?</text>`:`<text text-anchor="middle" font-family="B2" font-weight="800" font-size="230" fill="#FFE27A" stroke="${OL}" stroke-width="14" paint-order="stroke">?</text>`);
 // layar cover (layar 1080x1920): ikon 510, tag 730, bendera 880, judul cy 1170 (sama dgn frame THUMB t<0)
+// judul cover 0,1-0,5 dtk: seperti thumbTitle tapi font maks 118 supaya tidak bentrok subtitle
+const CTITLE=L=>{const fs=Math.min(118,1000/(Math.max(...L.map(l=>l.length))*0.6)),n=L.length,cy=1170;let o='';
+ L.forEach((l,k)=>{o+=`<text x="540" y="${fmt(cy+(k-(n-1)/2)*fs*1.07+fs*0.35)}" text-anchor="middle" font-family="B2" font-weight="800" font-size="${fmt(fs)}" fill="#fff" stroke="#1C1730" stroke-width="${fmt(fs*0.17)}" paint-order="stroke" stroke-linejoin="round">${l}</text>`;});return o;};
 const COVER=t=>{const fo=1-ss((t-0.35)/0.15),p=1+0.04*Math.sin(t*20);if(fo<=0)return '';
  return `<g opacity="${fmt(fo)}"><defs><linearGradient id="cvg" x1="0" y1="0" x2="0.3" y2="1"><stop offset="0" stop-color="#5AC8FA"/><stop offset="1" stop-color="#7B61FF"/></linearGradient></defs><rect width="1080" height="1920" fill="url(#cvg)"/>`
-  +globeArea(TW.code,540,1000,820,.5,t*4)+rays(540,510,7,1400,14,.22,t*20)+(HASI()?g(tr(540,470,1.0*p,-5),CICON(CFG.coverIcon))+g(tr(540,700,.75,-3),CTAG()):g(tr(540,520,p,-4),CTAG()))
-  +CQ(900,400,1.0*p,14,1)+CQ(170,430,.75,-16,0)+CFLAGS(140,880,160)+thumbTitle(CFG.cover||CFG.thumb)+'</g>';};
+  +globeArea(TW.code,540,1000,820,.5,t*4,true,95)+rays(540,510,7,1400,14,.22,t*20)+(HASI()?g(tr(540,420,.9*p,-5),CICON(CFG.coverIcon))+g(tr(540,620,.75,-3),CTAG()):g(tr(540,520,p,-4),CTAG()))
+  +CQ(900,400,1.0*p,14,1)+CQ(170,430,.75,-16,0)+CFLAGS(165,HASI()?745:680,150)+CTITLE(CFG.cover||CFG.thumb)+'</g>';};
 // 1) HOOK: grid 9 bendera
 S.push({t0:0,t1:starts[0],
- world:t=>{if(t<0)return BGG(0,'#5AC8FA','#7B61FF','h')+globeArea(TW.code,960,1050,820,.5)+rays(960,560,7,1400,14,.22,0)+(HASI()?g(tr(960,520,1.0,-5),CICON(CFG.coverIcon))+g(tr(960,750,.75,-3),CTAG()):g(tr(960,570,1,-4),CTAG()))+CQ(1320,450,1.0,14,1)+CQ(590,480,.75,-16,0)+CFLAGS(560,930,160);
+ world:t=>{if(t<0)return BGG(0,'#5AC8FA','#7B61FF','h')+globeArea(TW.code,960,1050,820,.5,0,true,95)+rays(960,560,7,1400,14,.22,0)+(HASI()?g(tr(960,470,.9,-5),CICON(CFG.coverIcon))+g(tr(960,670,.75,-3),CTAG()):g(tr(960,570,1,-4),CTAG()))+CQ(1320,450,1.0,14,1)+CQ(590,480,.75,-16,0)+CFLAGS(585,HASI()?795:730,150);
   let s=BGG(t,'#5AC8FA','#7B61FF','h')+rays(960,150,7,1400,9,.25,Math.sin(t*.5)*3);
   GRID.forEach(([c,n],i)=>{const x=660+(i%3)*300,y=840+Math.floor(i/3)*250,t0=0.15+i*0.22;
    s+=popAt(t,t0,flag(t,c,.5),x,y,1,(i%2?3:-3))+popAt(t,t0+0.08,`<text text-anchor="middle" font-family="B2" font-weight="800" font-size="${n.length>9?26:34}" fill="#fff" stroke="${OL}" stroke-width="8" paint-order="stroke">${n}</text>`,x,y+100,1);});
@@ -57,7 +60,7 @@ S.push({t0:bP,t1:bC,
   if(TW.mk==='no')s+=xAt(t,tn2+0.2,960,700,1.4);if(TW.mk==='ok')s+=g(tr(960,700,popS(t,tn2+0.2,.4)*1.4),check(1));return s+(MAPBG?'':spinGlobe(t,C[C.length-1][0],TW.code,tc,GD));},
  cam:t=>t<tc?camV(t,bP,tc,[960,980,1.0],[960,960,1.1]):camV(t,tc,bC,[960,1000,1.06],[960,960,1.0]),
  hud:t=>{let s='';if(t<tc+0.2){s+=letterbox(t,bP);const k=popS(t,bP+0.05,.4)*(1-ss((t-tc+0.1)/.3));if(k>0)s+=g(tr(540,430,k,-3),`<text x="0" y="0" text-anchor="middle" font-family="B2" font-weight="800" font-size="150" fill="url(#gold)" filter="url(#tsh)">PLOT TWIST!</text>`);return s;}
-  return hudLabel(t,tTW,TW.name,{bg:'#012169'})+bigNum(t,tn2,TW.num,TW.unit,540,1060,{size:TW.num.length>8?96:TW.num.length>6?120:150,ucol:NUMC[TW.mk]||'#FFE27A'})+`<text x="1040" y="330" text-anchor="end" font-family="B2" font-weight="800" font-size="44" fill="#FFE27A" stroke="${OL}" stroke-width="8" paint-order="stroke">6/6</text>`+FACE(t,tn2+0.4,TW.code,TW.rx)+SRC(TW.src+PH(TW.code),fadeIn(t,tTW,.4));}});
+  return hudLabel(t,tTW,TW.name,{bg:'#012169'})+bigNum(t,tn2,TW.num,TW.unit,540,1060,{size:TW.num.length>8?96:TW.num.length>6?120:150,ucol:'#FFE27A'})+`<text x="1040" y="330" text-anchor="end" font-family="B2" font-weight="800" font-size="44" fill="#FFE27A" stroke="${OL}" stroke-width="8" paint-order="stroke">6/6</text>`+FACE(t,tn2+0.4,TW.code,TW.rx)+SRC(TW.src+PH(TW.code),fadeIn(t,tTW,.4));}});
 // 4) CTA
 S.push({t0:bC,t1:E,
  world:t=>{let s=BGG(t,'#FFB74D','#FF5C8A','c')+rays(960,150,7,1400,9,.25,t*4);

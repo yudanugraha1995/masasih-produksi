@@ -1,4 +1,12 @@
-# Ide konten dari isu hangat negara CPM tinggi (riset 14 Nov 2026)
+# Ide konten dari isu hangat negara CPM tinggi
+
+## 2026-11-15: 4 judul untuk 17 Nov (Did You Know)
+1. **Busiest airport** (isu: FAA hentikan semua penerbangan AS). Data ACI World 2025: Atlanta 106,3 jt, Dubai 95,2 jt, Haneda 91,7 jt, Shanghai Pudong 85,0 jt, Heathrow 84,5 jt, Istanbul 84,4 jt.
+2. **Larangan medsos anak** (isu: makin banyak negara ikut). Australia pertama (<16, Des 2025), Indonesia (<16, 28 Mar 2026), Malaysia (<16, 1 Jun 2026), Yunani (<15, 1 Jan 2027), Inggris rencana, AS belum ada larangan nasional.
+3. **Umur legal minum** (evergreen). AS 21, Jepang 20, Kanada 18–19, Inggris 18, Australia 18, Jerman 16 (bir/wine).
+4. **Batas kecepatan** (evergreen). Inggris 70 mph, Jepang 120 km/j, Kanada 120 (BC), Australia NT 130, Texas 85 mph, autobahn Jerman banyak tanpa batas.
+Cadangan: CO2 per orang (Qatar), dana minyak Norwegia per warga, harga kopi dunia (angka perlu dicek dulu).
+
 
 ## 2026-11-14: 4 judul pilihan hari ini (Did You Know)
 1. **"Which Country Pays the HIGHEST Minimum Wage? 💰"**. Isu: upah minimum Zurich CHF 23,90/jam disahkan (13 Nov). Data: Australia A$26,44/jam (1 Jul 2026), Inggris £12,71 (Apr 2026), Selandia Baru NZ$23,95 (Apr 2026), AS federal $7,25, Luxembourg tertinggi bulanan, Swiss tanpa upah minimum nasional (cuma kanton/kota). Cek ulang ke situs pemerintah.

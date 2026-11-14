@@ -12,3 +12,7 @@ Wajib dicek sebelum produksi; judul tidak boleh dobel di channel ini.
 | 16 Nov 06:00 | tip_dyk | What If You Had to Tip 20% on Every Meal? 💸 |
 | 16 Nov 10:00 | lunch6_dyk | What If School Lunch Was FREE for Every Kid? 🍱 |
 | 16 Nov 22:00 | leftdrive_dyk | What If Your Country Drove on the LEFT? 🚗 |
+| 17 Nov 01:02 | airport_dyk | Which Country Has the BUSIEST Airport? ✈️ |
+| 17 Nov 05:57 | socialban_dyk | What If Kids Were BANNED From Social Media? 📵 |
+| 17 Nov 09:04 | drink_dyk | What If You Had to Wait Until 21 to Drink? 🍺 |
+| 17 Nov 21:33 | speed_dyk | What If Your Country Had NO Speed Limit? 🏎️ |
