@@ -8,7 +8,7 @@ Bahasa ke user: Indonesia santai. User tidak mau menekan Allow dan tidak bisa st
 - Produksi baru: narasi **MAKS 600 karakter**, durasi **FIX 35 detik**, suara Senandika model **eleven_v4**, SFX + transisi menarik + cover judul + gaya retensi.
 - Stok cukup **4 hari** (H s.d. H+3).
 - Did You Know dipegang **Bot D**; jangan ubah file `_dyk`. Kuota ElevenLabs dipakai bareng DYK → hemat.
-- IG: menunggu keputusan owner (channel IG hilang dari Buffer per 14 Nov).
+- **IG lewat METRICOOL (owner via Bot C 14 Nov):** IG masasihentertainment tersambung di brand 7793943. IG tayang konten persis sama dengan YT Short, di jam yang sama (07/11/15/19 WIB). Dibuat sebagai post Metricool terpisah khusus IG (`providers:[instagram]`, `instagramData:{type:"REEL",showReelOnFeed:true}`, `videoCoverMilliseconds:50`, file `<id>_styleA.mp4` raw GitHub, caption = Caption IG / deskripsi YT dengan `#shorts`→`#fyp`). Post baru: langsung jadwalkan YT + IG sekaligus. Buffer IG + `kit/pending_ig.md` + task rutin IG Buffer sudah TIDAK dipakai. Tetap cek dobel di IG (topik yang sudah tayang di IG: lihat `kit/topik_terpakai.md`).
 
 ## Video
 - Gaya default = **Style A** (`kit/STYLE_A.md`): gambar vektor dibuat sendiri, kamera bergerak, kartu bab emas, infografik + sumber, split screen CTA. YUMA mengikuti skill yuma-mascot.

@@ -36,3 +36,7 @@ tidur siang (13 Nov), minum berdiri ginjal (14), makan sambil HP (15), keramas t
 ## Geser slot 14 Nov 2026 (owner via Bot C)
 Semua post Masa Sih 14–23 Nov (Metricool + Buffer YT Short) digeser: 08→07, 16→15, 20→19 WIB, 11 tetap. Video 16:9 ikut Short pasangannya.
 Pengecualian: telur (18 Nov) tetap 12:00 WIB (Buffer YT Short + Metricool 16:9), karena slot 11:00 sudah diisi hpdicas; tidak ditumpuk.
+
+## IG via Metricool (mulai 14 Nov 2026)
+Sudah tayang di IG (lewat Buffer, sebelum channel hilang): nasidingin, micin, telur, miinstan, dekattv, kopi, permenkaret (6 Nov) + konten lama sebelum 11 Nov.
+Terjadwal IG Metricool 14–23 Nov: semua Short yang tayang di YT di jam yang sama, KECUALI telur 18 Nov 12:00 dan permenkaret 17 Nov 15:00 (sudah pernah tayang di IG, jadi IG slot itu kosong).
