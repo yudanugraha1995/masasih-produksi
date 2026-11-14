@@ -52,6 +52,9 @@ Berlaku untuk produksi BARU (Short 08/16, video 16:9, Short malam). Yang sudah j
 - Format judul yang jalan: "[Kebiasaan] Tiap Hari/Malam? + emoji + Masa Sih …", "Gimana Kalau Kamu …", "Apa Jadinya Kalau Tiap Hari …", "Masa Sih [mitos]?", pertanyaan langsung ke penonton ("Suka …?", "Pakai … Tiap Hari?").
 - Tetap cek `kit/topik_terpakai.md` (nggak boleh dobel di platform yang sama).
 
+## Format ranking negara
+- Konten "Tahukah kamu..." ranking negara: ikuti `kit/format_negara.md`. Wajib memuat **minimal 2-3 negara CPM tinggi** (Australia, AS, Kanada, Selandia Baru, Swiss, Inggris, Norwegia) yang memang ada di data ranking-nya.
+
 ## Catatan topik
 - Nasi dingin: video 16:9 sudah tayang di YT (rke2vVriwGs). Short-nya (h0LnC3DT5i4) dihapus user karena dobel; jangan dibuat ulang.
 - Semangka (biji semangka tumbuh di perut): Short tayang 12 Nov 2026 08:49 WIB, https://www.youtube.com/shorts/V3w0Uz302xQ (publish langsung, tanpa video 16:9/IG).
