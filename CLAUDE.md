@@ -18,6 +18,8 @@ Bahasa ke user: Indonesia santai. User tidak mau menekan Allow dan tidak bisa st
   5. BACKGROUND terang/cerah (owner via Bot C 14 Nov malam).
   Tetap ≤600 karakter, **40 detik**, eleven_v4.
 
+- **Metadata YT Short (owner via Bot C 14 Nov malam, semua Short YT yang dijadwalkan mulai sekarang):** deskripsi YT diisi selengkap mungkin sesuai topik (≤5.000 karakter): ringkasan, fakta, penjelasan, plot twist, pertanyaan komentar, sumber, disclaimer, ajakan subscribe. Jangan ada teks berulang/spam. `youtubeData.tags` diisi tag relevan sampai total ≤500 karakter. Hashtag cuma 3–5, termasuk `#shorts`. IG tetap caption biasa (≤2.200 karakter). Post yang sudah terjadwal tidak diubah.
+
 - **Bersih space (user pilih A, 14 Nov):** tiap Senin 18:47 WIB ada tugas terjadwal yang otomatis `git rm` video/thumbnail yang sudah tayang di semua platform; file yang masih dipakai post terjadwal atau stok jangan dihapus. Tanpa rewrite history.
 
 ## Video
