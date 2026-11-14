@@ -8,7 +8,48 @@ function flagBody(c){
  if(c==='au'){let s=`<rect x="-210" y="-130" width="420" height="260" fill="#012169"/>`+g('translate(-105 -65)',ujack(210,130))+g('translate(-105 70)',star7(36));
   for(const [x,y,r] of [[105,-80,17],[50,-10,17],[160,-25,17],[105,85,17]])s+=g(`translate(${x} ${y})`,star7(r));return s+g('translate(132 25)',star5(9));}
  if(c==='id')return `<rect x="-210" y="-130" width="420" height="130" fill="#E70011"/><rect x="-210" y="0" width="420" height="130" fill="#fff"/>`;
+ if(typeof FL2!=='undefined'&&FL2[c])return FL2[c]();
  return `<rect x="-210" y="-130" width="420" height="260" fill="#5B6C8F"/><text x="0" y="45" text-anchor="middle" font-family="B2" font-weight="800" font-size="150" fill="#fff">?</text>`;}
+
+// ---- bendera tambahan (generik) ----
+function _hs(cols,r){r=r||cols.map(()=>1);const T=r.reduce((a,b)=>a+b,0);let y=-130,s='';cols.forEach((c,i)=>{const h=260*r[i]/T;s+=`<rect x="-210" y="${fmt(y)}" width="420" height="${fmt(h+1)}" fill="${c}"/>`;y+=h;});return s;}
+function _vs(cols){const w=420/cols.length;return cols.map((c,i)=>`<rect x="${fmt(-210+i*w)}" y="-130" width="${fmt(w+1)}" height="260" fill="${c}"/>`).join('');}
+function _nord(bg,cr,in2){let s=`<rect x="-210" y="-130" width="420" height="260" fill="${bg}"/><rect x="-110" y="-130" width="70" height="260" fill="${cr}"/><rect x="-210" y="-35" width="420" height="70" fill="${cr}"/>`;if(in2)s+=`<rect x="-92" y="-130" width="34" height="260" fill="${in2}"/><rect x="-210" y="-17" width="420" height="34" fill="${in2}"/>`;return s;}
+function _leaf(){return `<path d="M0,-75L12,-50L28,-58L22,-15L45,-38L52,-25L75,-30L65,0L78,8L35,40L42,58L5,52L5,85L-5,85L-5,52L-42,58L-35,40L-78,8L-65,0L-75,-30L-52,-25L-45,-38L-22,-15L-28,-58L-12,-50Z" fill="#D52B1E"/>`;}
+const FL2={
+ ca:()=>_vs(['#D52B1E','#fff','#fff','#D52B1E'])+_leaf(),
+ nz:()=>{let s=`<rect x="-210" y="-130" width="420" height="260" fill="#012169"/>`+g('translate(-105 -65)',ujack(210,130));for(const [x,y,r] of [[110,-75,20],[60,0,18],[150,-15,16],[110,80,22]])s+=g(`translate(${x} ${y})`,`<g transform="scale(1.15)">${star5(r)}</g>`+`<g fill="#C8102E">${star5(r*0.7).replace('#fff','#C8102E')}</g>`);return s;},
+ ch:()=>`<rect x="-210" y="-130" width="420" height="260" fill="#DA291C"/><rect x="-25" y="-90" width="50" height="180" fill="#fff"/><rect x="-90" y="-25" width="180" height="50" fill="#fff"/>`,
+ no:()=>_nord('#BA0C2F','#fff','#00205B'), dk:()=>_nord('#C8102E','#fff'), is:()=>_nord('#02529C','#fff','#DC1E35'),
+ de:()=>_hs(['#000','#DD0000','#FFCE00']), fr:()=>_vs(['#002395','#fff','#ED2939']), ie:()=>_vs(['#169B62','#fff','#FF883E']),
+ be:()=>_vs(['#000','#FDDA24','#EF3340']), nl:()=>_hs(['#AE1C28','#fff','#21468B']), lu:()=>_hs(['#ED2939','#fff','#00A1DE']),
+ at:()=>_hs(['#C8102E','#fff','#C8102E']), es:()=>_hs(['#AA151B','#F1BF00','#AA151B'],[1,2,1]), pl:()=>_hs(['#fff','#DC143C']),
+ ua:()=>_hs(['#0057B7','#FFD700']), ru2:()=>_hs(['#fff','#0039A6','#D52B1E']), th:()=>_hs(['#A51931','#fff','#2D2A4A','#fff','#A51931'],[1,1,2,1,1]),
+ jp:()=>`<rect x="-210" y="-130" width="420" height="260" fill="#fff"/><circle r="78" fill="#BC002D"/>`,
+ kr:()=>`<rect x="-210" y="-130" width="420" height="260" fill="#fff"/><path d="M-65,0A65,65 0 0 1 65,0Z" fill="#CD2E3A"/><path d="M-65,0A65,65 0 0 0 65,0Z" fill="#0047A0"/>`+[[-150,-85,35],[150,-85,-35],[-150,85,-35],[150,85,35]].map(([x,y,r])=>`<g transform="translate(${x} ${y}) rotate(${r})"><rect x="-30" y="-24" width="60" height="10" fill="#000"/><rect x="-30" y="-5" width="60" height="10" fill="#000"/><rect x="-30" y="14" width="60" height="10" fill="#000"/></g>`).join(''),
+ mx:()=>_vs(['#006847','#fff','#CE1126'])+`<circle r="34" fill="#8C5A2B" opacity=".85"/>`,
+ ar:()=>_hs(['#74ACDF','#fff','#74ACDF'])+`<circle r="26" fill="#F6B40E"/>`,
+ pe:()=>_vs(['#D91023','#fff','#D91023']), ng:()=>_vs(['#008751','#fff','#008751']),
+ ec:()=>_hs(['#FFDD00','#034EA2','#ED1C24'],[2,1,1])+`<circle r="30" fill="#8C5A2B" opacity=".8"/>`,
+ sg:()=>_hs(['#EF3340','#fff'])+`<circle cx="-130" cy="-65" r="42" fill="#fff"/><circle cx="-112" cy="-65" r="42" fill="#EF3340"/>`,
+ qa:()=>{let s=`<rect x="-210" y="-130" width="420" height="260" fill="#8A1538"/><path d="M-210,-130L-80,-130`;for(let i=0;i<9;i++){const y=-130+i*260/9;s+=`L-80,${fmt(y)}L-40,${fmt(y+130/9)}`;}return s+`L-80,130L-210,130Z" fill="#fff"/>`;},
+ ae:()=>_hs(['#00732F','#fff','#000'])+`<rect x="-210" y="-130" width="110" height="260" fill="#FF0000"/>`,
+ kw:()=>_hs(['#007A3D','#fff','#CE1126'])+`<path d="M-210,-130L-110,-45L-110,45L-210,130Z" fill="#000"/>`,
+ sa:()=>`<rect x="-210" y="-130" width="420" height="260" fill="#006C35"/><rect x="-120" y="40" width="240" height="12" rx="6" fill="#fff"/>`,
+ za:()=>`<rect x="-210" y="-130" width="420" height="260" fill="#fff"/><rect x="-210" y="-130" width="420" height="105" fill="#E03C31"/><rect x="-210" y="25" width="420" height="105" fill="#001489"/><path d="M-210,-130L0,0L-210,130Z" fill="#FFB612"/><path d="M-210,-95L-60,0L-210,95Z" fill="#000"/><path d="M-210,-130L-150,-130L60,-30L210,-30L210,30L60,30L-150,130L-210,130L0,0Z" fill="#007749"/>`,
+ ph:()=>_hs(['#0038A8','#CE1126'])+`<path d="M-210,-130L15,0L-210,130Z" fill="#fff"/><circle cx="-130" cy="0" r="24" fill="#FCD116"/>`,
+ my:()=>{let s='';for(let i=0;i<14;i++)s+=`<rect x="-210" y="${fmt(-130+i*260/14)}" width="420" height="${fmt(260/14+1)}" fill="${i%2?'#fff':'#CC0001'}"/>`;return s+`<rect x="-210" y="-130" width="210" height="148" fill="#010066"/><circle cx="-130" cy="-56" r="45" fill="#FFCC00"/><circle cx="-112" cy="-56" r="40" fill="#010066"/>`;},
+ vn:()=>`<rect x="-210" y="-130" width="420" height="260" fill="#DA251D"/>`+g('scale(1)',star5(80).replace('#fff','#FFFF00')),
+ tr:()=>`<rect x="-210" y="-130" width="420" height="260" fill="#E30A17"/><circle cx="-40" r="70" fill="#fff"/><circle cx="-22" r="56" fill="#E30A17"/>`+g('translate(55 0) rotate(-18)',star5(30)),
+ eg:()=>_hs(['#CE1126','#fff','#000'])+`<circle r="26" fill="#C09300"/>`, gr:()=>{let s='';for(let i=0;i<9;i++)s+=`<rect x="-210" y="${fmt(-130+i*260/9)}" width="420" height="${fmt(260/9+1)}" fill="${i%2?'#fff':'#0D5EAF'}"/>`;return s+`<rect x="-210" y="-130" width="145" height="145" fill="#0D5EAF"/><rect x="-155" y="-130" width="32" height="145" fill="#fff"/><rect x="-210" y="-74" width="145" height="32" fill="#fff"/>`;},
+ pt:()=>_vs(['#006600','#FF0000','#FF0000'])+`<circle cx="-70" r="45" fill="#FFCC00"/>`,
+ np:()=>`<rect x="-210" y="-130" width="420" height="260" fill="#fff"/><path d="M-120,-125L60,-10L-60,-10L60,125L-120,125Z" fill="#DC143C" stroke="#003893" stroke-width="12"/>`,
+ pk:()=>`<rect x="-210" y="-130" width="420" height="260" fill="#01411C"/><rect x="-210" y="-130" width="105" height="260" fill="#fff"/><circle cx="50" r="70" fill="#fff"/><circle cx="72" cy="-14" r="62" fill="#01411C"/>`,
+ af:()=>`<rect x="-210" y="-130" width="420" height="260" fill="#fff"/><text y="25" text-anchor="middle" font-family="B2" font-weight="800" font-size="60" fill="#000">AFG</text>`,
+ cl:()=>_hs(['#fff','#D52B1E'])+`<rect x="-210" y="-130" width="140" height="130" fill="#0039A6"/>`+g('translate(-140 -65)',star5(30)),
+ co:()=>_hs(['#FCD116','#003893','#CE1126'],[2,1,1]), bd:()=>`<rect x="-210" y="-130" width="420" height="260" fill="#006A4E"/><circle cx="-20" r="80" fill="#F42A41"/>`,
+ il2:null
+};
 function flag(t,c,s=1){const id='fc_'+c+Math.round(s*100);const wv=2.5*Math.sin(t*3+(c.charCodeAt(0)));
  return g(`scale(${s}) skewY(${fmt(wv)})`,`<clipPath id="${id}"><rect x="-210" y="-130" width="420" height="260" rx="14"/></clipPath><g clip-path="url(#${id})">${flagBody(c)}<path d="M-210,-130L-60,-130L-210,40Z" fill="#fff" opacity=".12"/></g><rect x="-210" y="-130" width="420" height="260" rx="14" fill="none" stroke="${OL}" stroke-width="8"/>`);}
 // ---------- props ----------
