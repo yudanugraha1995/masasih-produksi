@@ -12,6 +12,10 @@ Aturan owner (14 Nov 2026).
 - **Meme reaksi**: tiap negara ada foto tokoh (pemimpin) + emoji reaksi. Foto HANYA dari Wikimedia Commons berlisensi bebas (PD/CC0/CC BY/CC BY-SA) via `kit/faces_fetch.py`, kredit otomatis di baris sumber (`kit/faces/CREDITS.md`). Tanpa kutipan/omongan palsu (cuma reaksi). Foto tidak ada -> emoji saja.
 - Alur: `cfg_<id>.js` (item: kode, nama, kata pemicu, angka, satuan, '', sumber, ok/no, emoji) -> `mkdyk.py` -> `dyk_audio.py` + `stretch.py <id> 35 1.2` -> `build.py` -> `NOSFX=1 runone.sh` -> `sfx.py` -> `mux.sh`.
 
+## Jendela stok (owner 14 Nov malam, MENGGANTI stok 4 hari)
+- Tiap hari H: siapkan PENUH H+1 dan H+2 (4 slot/hari = 8 video). Rentang pendek biar isu tetap hangat.
+- Bot C mengirim pesan "rutin harian DYK" ke sesi Bot D tiap 05:47 WIB; saat itu: riset isu 1-2 hari terakhir, produksi, isi Buffer, lapor Bot C.
+
 ## Aturan owner via Bot C (14 Nov malam, video BARU)
 - Hook 0-3 dtk = PERTANYAAN, dibuka "What if…" / "They say if…" / "Is it true that if…", sambil bendera tampil. (Jumlah negara tetap 6 sesuai perintah langsung owner, bukan 9.)
 - COVER JUDUL 0-0,5 dtk: judul "What if…" besar 2-3 baris (maks 6-8 kata), outline tebal, di tengah layar (bukan 20% atas/bawah), bendera kecil di belakang. Otomatis di `tpl_dyk.js` (fungsi COVER, isi `CFG.cover` atau pakai `CFG.thumb`). Narasi hook langsung jalan dari detik 0.
