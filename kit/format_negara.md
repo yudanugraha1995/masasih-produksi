@@ -3,6 +3,7 @@
 Aturan owner (14 Nov 2026).
 
 ## Struktur
+- **Wajib di detik awal (0-3 dtk, aturan owner 14 Nov 2026):** tampilkan dulu SEMUA bendera negara yang akan dibahas (berjajar/grid, pop-in cepat satu per satu + SFX pop, nama negara kecil di bawah bendera), bersamaan dengan hook. Tujuannya penonton langsung lihat negaranya ada di video dan tidak skip. Negara yang jadi plot twist/juara boleh tetap ditampilkan (atau sebagai bendera "?" kalau mau disimpan sebagai kejutan).
 - Hook pertanyaan (0-2 dtk) -> hitung mundur negara (bendera vektor + angka besar) -> juara paling heboh / plot twist -> "Negaramu nomor berapa? Tulis di komentar!"
 - Data wajib dari sumber resmi (PBB, Guinness, Smithsonian GVP, CIA Factbook, WINA, dll), sumber kecil di kiri bawah.
 
