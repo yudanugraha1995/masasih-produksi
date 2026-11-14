@@ -30,7 +30,7 @@ C.forEach(([c,n,w,num,unit,nw,src,mk,rx],i)=>{const t0=starts[i],t1=i<C.length-1
  const P=PAL[i%PAL.length];
  sFact({t0,t1,bg:P[1],glow:P[0],
   c0:z===0?[960,980,1.12]:z===1?[900,960,1.04]:[1020,1000,1.04],c1:z===0?[960,960,1.0]:z===1?[1020,960,1.08]:[900,960,1.1],
-  world:t=>{let s=BGG(t,P[0],P[1],'f'+i)+popAt(t,t0+0.05,flag(t,c,.85),960,660,1,(L?3:-3));
+  world:t=>{let s=BGG(t,P[0],P[1],'f'+i)+landmark(t,c)+popAt(t,t0+0.05,flag(t,c,.85),960,660,1,(L?3:-3));
    if(mk==='ok')s+=g(tr(960,1300,popS(t,tn+0.1,.4)*1.3),check(1));if(mk==='no')s+=xAt(t,tn+0.1,960,1300,1.3);return s;},
   labels:[{at:t0+0.05,txt:n,bg:'#5B6C8F'}],
   hud:t=>bigNum(t,tn,num,unit,540,990,{size:num.length>8?96:num.length>6?120:150,ucol:NUMC[mk]||'#14213D'})+`<text x="1040" y="330" text-anchor="end" font-family="B2" font-weight="800" font-size="44" fill="#fff" stroke="${OL}" stroke-width="8" paint-order="stroke" opacity="${fmt(fadeIn(t,t0,.2))}">${i+1}/6</text>`+FACE(t,tn+0.35,c,rx),
@@ -40,7 +40,7 @@ const tc=Math.max(bP+1.0,tTW-0.1);let tn2=at(TW.numW||TW.trigger,tTW);if(!(tn2>=
 S.push({t0:bP,t1:bC,
  world:t=>{let s=bgGlow('#2B1B14','#A3542A',.45)+rays(960,100,7,1500,8,.35);
   if(t<tc)return s+g(tr(960,1000,1.3),globe(t,1))+`<rect width="1920" height="1920" fill="#06121C" opacity=".5"/>`;
-  s+=popAt(t,tTW,flag(t,TW.code,1.0),960,700,1,-2);
+  s+=landmark(t,TW.code)+popAt(t,tTW,flag(t,TW.code,1.0),960,700,1,-2);
   if(TW.mk==='no')s+=xAt(t,tn2+0.2,960,700,1.4);if(TW.mk==='ok')s+=g(tr(960,700,popS(t,tn2+0.2,.4)*1.4),check(1));return s;},
  cam:t=>t<tc?camV(t,bP,tc,[960,980,1.0],[960,960,1.1]):camV(t,tc,bC,[960,1000,1.06],[960,960,1.0]),
  hud:t=>{let s='';if(t<tc+0.2){s+=letterbox(t,bP);const k=popS(t,bP+0.05,.4)*(1-ss((t-tc+0.1)/.3));if(k>0)s+=g(tr(540,430,k,-3),`<text x="0" y="0" text-anchor="middle" font-family="B2" font-weight="800" font-size="150" fill="url(#gold)" filter="url(#tsh)">PLOT TWIST!</text>`);return s;}
