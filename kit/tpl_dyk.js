@@ -6,7 +6,7 @@ const GRID=[...C.map(c=>[c[0],c[1]]),[CFG.hideTwist?'q':TW.code,CFG.hideTwist?'?
 const bP=at(CFG.plotW||'Plot')-0.15, bC=at(CFG.ctaW||'Comment')-0.15, tTW=at(TW.trigger,bP);
 const starts=[];C.forEach((c,i)=>starts.push(at(c[2],i?starts[i-1]+0.3:0.5)-0.15));
 const BG=['#1B2347','#14213D','#16343F','#14301F','#3A2416','#2A1838','#1B2347','#16343F'],GL=['#5DB7EA','#F2A541','#3BB273','#E8505B','#F2A541','#B07CE8','#5DB7EA','#3BB273'];
-const NUMC={ok:'#3BB273',no:'#E5383B'};
+const NUMC={ok:'#7CE0A0',no:'#FF9B9B'};
 // 1) HOOK: grid 9 bendera
 S.push({t0:0,t1:starts[0],
  world:t=>{let s=bgGlow('#14213D','#F2A541',.5)+rays(960,150,7,1400,9,.4,Math.sin(t*.5)*3);
