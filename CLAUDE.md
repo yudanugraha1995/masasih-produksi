@@ -5,7 +5,7 @@ Bahasa ke user: Indonesia santai. User tidak mau menekan Allow dan tidak bisa st
 ## PERUBAHAN BESAR 14 Nov 2026 (owner via Bot C) — MENGGANTIKAN aturan slot/format di bawah
 - **SHORT SAJA.** Tidak bikin video 16:9 lagi (yang sudah jadi/terjadwal dibiarkan).
 - Metricool khusus Masa Sih. **4 Short/hari jam 07:00, 11:00, 15:00, 19:00 WIB** (= 08:00, 12:00, 16:00, 20:00 WITA). Post lama digeser: 08→07, 11→11, 16→15, 20→19 WIB; video 16:9 yang sudah terpasang ikut Short pasangannya.
-- Produksi baru: narasi **MAKS 600 karakter**, durasi **FIX 35 detik**, suara Senandika model **eleven_v4**, SFX + transisi menarik + cover judul + gaya retensi.
+- Produksi baru: narasi **MAKS 600 karakter**, durasi **FIX 40 detik** (mulai 14 Nov malam; dulu 35), suara Senandika model **eleven_v4**, SFX + transisi menarik + cover judul + gaya retensi.
 - Stok cukup **4 hari** (H s.d. H+3).
 - Did You Know dipegang **Bot D**; jangan ubah file `_dyk`. Kuota ElevenLabs dipakai bareng DYK → hemat.
 - **IG lewat METRICOOL (owner via Bot C 14 Nov):** IG masasihentertainment tersambung di brand 7793943. IG tayang konten persis sama dengan YT Short, di jam yang sama (07/11/15/19 WIB). Dibuat sebagai post Metricool terpisah khusus IG (`providers:[instagram]`, `instagramData:{type:"REEL",showReelOnFeed:true}`, `videoCoverMilliseconds:50`, file `<id>_styleA.mp4` raw GitHub, caption = Caption IG / deskripsi YT dengan `#shorts`→`#fyp`). Post baru: langsung jadwalkan YT + IG sekaligus. Buffer IG + `kit/pending_ig.md` + task rutin IG Buffer sudah TIDAK dipakai. Tetap cek dobel di IG (topik yang sudah tayang di IG: lihat `kit/topik_terpakai.md`).
@@ -15,7 +15,8 @@ Bahasa ke user: Indonesia santai. User tidak mau menekan Allow dan tidak bisa st
   2. Audio wajib: background music (volume di bawah narasi) + SFX + pop sound tiap teks/elemen muncul + sound transisi tiap ganti scene.
   3. YUMA: tulisan "MASA SIH" di dada baju sebagai watermark, jelas kebaca tapi rapi.
   4. COVER JUDUL di 0–0,5 detik pertama: kalimat hook/judul besar (2–3 baris, maks 6–8 kata), teks putih/kuning + outline hitam tebal, di tengah layar (area aman 9:16, hindari 20% atas/bawah). YUMA boleh di belakang. Narasi hook tetap mulai dari detik 0. IG tetap `videoCoverMilliseconds:50`.
-  Tetap ≤600 karakter, 35 detik, eleven_v4.
+  5. BACKGROUND terang/cerah (owner via Bot C 14 Nov malam).
+  Tetap ≤600 karakter, **40 detik**, eleven_v4.
 
 - **Bersih space (user pilih A, 14 Nov):** tiap Senin 18:47 WIB ada tugas terjadwal yang otomatis `git rm` video/thumbnail yang sudah tayang di semua platform; file yang masih dipakai post terjadwal atau stok jangan dihapus. Tanpa rewrite history.
 
