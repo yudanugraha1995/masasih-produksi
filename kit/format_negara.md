@@ -3,6 +3,8 @@
 Aturan owner (14 Nov 2026).
 
 ## Struktur
+- **AS dan Australia WAJIB selalu tersentuh di setiap video (aturan owner 14 Nov 2026)**, apa pun topiknya. Topik utama boleh fokus ke negara/isu lain (contoh: "MBG itu program dari mana? Seberapa bermanfaat?" -> fokus Indonesia), tapi tetap masukkan minimal 1 fakta tentang Amerika Serikat DAN 1 fakta tentang Australia yang nyambung dengan topiknya (pembanding, kebalikan, atau plot twist).
+- Video fokus satu negara tetap pakai 9 bendera di detik awal: negara utama disorot (lebih besar/di tengah), AS dan Australia wajib ada di grid.
 - **Selalu 9 negara per video (aturan owner 14 Nov 2026).** Riset fakta/data untuk tepat 9 negara (termasuk negara CPM tinggi, usahakan AS + Australia, dan Indonesia untuk versi MASA SIH). Di detik awal tampilkan ke-9 bendera sekaligus dalam grid 3x3 (pop-in cepat + SFX). Isi video membahas ke-9 negara (hitung mundur 9 -> 1 atau per kelompok), juara/plot twist di akhir.
 - **Wajib di detik awal (0-3 dtk, aturan owner 14 Nov 2026):** tampilkan dulu SEMUA bendera negara yang akan dibahas (berjajar/grid, pop-in cepat satu per satu + SFX pop, nama negara kecil di bawah bendera), bersamaan dengan hook. Tujuannya penonton langsung lihat negaranya ada di video dan tidak skip. Negara yang jadi plot twist/juara boleh tetap ditampilkan (atau sebagai bendera "?" kalau mau disimpan sebagai kejutan).
 - Hook pertanyaan (0-2 dtk) -> hitung mundur negara (bendera vektor + angka besar) -> juara paling heboh / plot twist -> "Negaramu nomor berapa? Tulis di komentar!"
