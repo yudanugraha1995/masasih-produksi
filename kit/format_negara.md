@@ -6,6 +6,9 @@ Aturan owner (14 Nov 2026).
 - Hook pertanyaan (0-2 dtk) -> hitung mundur negara (bendera vektor + angka besar) -> juara paling heboh / plot twist -> "Negaramu nomor berapa? Tulis di komentar!"
 - Data wajib dari sumber resmi (PBB, Guinness, Smithsonian GVP, CIA Factbook, WINA, dll), sumber kecil di kiri bawah.
 
+## Jenis topik yang disukai
+- Utamakan **pengetahuan aneh / tak terduga** (bikin "hah, masa sih?!"): hukum aneh, rekor ekstrem, kebiasaan unik, fakta yang kebalik dari dugaan. Topik data biasa (penduduk, luas) hanya sebagai selingan.
+
 ## Wajib: negara CPM tinggi
 Tiap video memuat **minimal 2-3 negara CPM tinggi** (makin banyak makin bagus), sebut di judul/hook kalau bisa:
 Australia (~$39,83) · Amerika Serikat (~$36,03) · Kanada (~$32,07) · Selandia Baru (~$30,97) · Swiss (~$25,44) · Inggris (~$23,75) · Norwegia (~$22,19)
