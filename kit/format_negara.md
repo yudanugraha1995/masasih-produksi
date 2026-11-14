@@ -11,6 +11,7 @@ Tiap video memuat **minimal 2-3 negara CPM tinggi** (makin banyak makin bagus), 
 Australia (~$39,83) · Amerika Serikat (~$36,03) · Kanada (~$32,07) · Selandia Baru (~$30,97) · Swiss (~$25,44) · Inggris (~$23,75) · Norwegia (~$22,19)
 (angka CPM dari owner; sumber YTface/MilX, bervariasi per musim dan niche)
 
+- **Prioritas utama: Amerika Serikat dan Australia** (usahakan selalu ada). Negara lain di luar daftar CPM tinggi tetap boleh ikut di ranking; yang penting negara CPM tinggi diutamakan.
 - Pilih topik yang datanya memang menempatkan negara-negara itu di ranking. Jangan memaksa negara masuk ranking kalau datanya tidak begitu.
 - Versi Indonesia (MASA SIH): Indonesia tetap ikut di daftar kalau datanya ada.
 - Versi Inggris (How Come): prioritas, karena penonton negara CPM tinggi berbahasa Inggris.
