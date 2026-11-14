@@ -11,6 +11,8 @@ Aturan owner (14 Nov 2026).
 
 - **Tema nebeng isu viral**: ambil isu yang lagi ramai di Indonesia, lalu bandingkan antarnegara (contoh: program MBG Prabowo -> "negara mana saja yang punya makan gratis di sekolah?"). Masukkan Indonesia di daftar. Cocok untuk MASA SIH; versi Inggris pakai sudut global.
 
+- **Riset isu harian (aturan owner 14 Nov 2026):** tiap hari cari isu hangat 1-2 hari terakhir di negara CPM tinggi (AS, Australia, Kanada, Selandia Baru, Swiss, Inggris, Norwegia), supaya beritanya tidak basi. Hasilnya ditambahkan di bagian atas `kit/ide_isu_hangat_cpm.md` (per tanggal). Saat membuat judul/naskah, pakai isu terbaru dari file itu dan masukkan negara asal isu ke dalam video. Kalau tidak ada isu yang cocok, pakai pengetahuan aneh. Dikerjakan otomatis oleh scheduled task harian 05:47 WIB.
+
 ## Wajib: negara CPM tinggi
 Tiap video memuat **minimal 2-3 negara CPM tinggi** (makin banyak makin bagus), sebut di judul/hook kalau bisa:
 Australia (~$39,83) · Amerika Serikat (~$36,03) · Kanada (~$32,07) · Selandia Baru (~$30,97) · Swiss (~$25,44) · Inggris (~$23,75) · Norwegia (~$22,19)
