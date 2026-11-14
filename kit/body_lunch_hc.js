@@ -30,7 +30,7 @@ S.push({t0:0,t1:bW,
   for(let i=0;i<10;i++){const sp=160+rnd(i)*160;const y=((t*sp+rnd(i+9)*1900)%2200)-200;const x=200+rnd(i+20)*1520;s+=g(tr(x,y,.5+rnd(i+5)*.5,t*50*(rnd(i)-.5)),`<circle r="34" fill="#E5383B" stroke="${OL}" stroke-width="4"/><path d="M0,-34q5,-16 18,-18" stroke="#5E9C6B" stroke-width="6" fill="none"/>`,'opacity=".8"');}
   s+=popAt(t,0.1,globe(t,1),960,960,1.05);s+=popAt(t,0.6,flag(t,'q',0.55),1250,790,1,8);
   s+=popAt(t,tNO,tray(.55),1180,1290,1,-4)+xAt(t,tNO+0.25,1180,1290,1.0);
-  const yk=eout((t-0.2)/0.5);s+=yuma({x:lerp(420,560,yk),y:lerp(1950,1660,yk),s:1.0,expr:t<tNO?'think':'surprised',aR:-50+Math.sin(t*8)*8,aL:70,blink:blinkAt(t,1)});return s;},
+  s+=popAt(t,0.9,`<text text-anchor="middle" font-family="B2" font-weight="800" font-size="220" fill="#FFE27A" stroke="${OL}" stroke-width="14" paint-order="stroke">?</text>`,700,1320,1,-12);return s;},
  cam:t=>camV(t,0,bW,[960,1060,1.0],[960,1000,1.1]),
  hud:t=>g(tr(540,470,popS(t,0.1,.5),-4),`<text text-anchor="middle" font-family="B2" font-weight="800" font-size="120" fill="#FFE27A" stroke="${OL}" stroke-width="14" paint-order="stroke">DID YOU KNOW?</text>`)+hudLabel(t,tNO,'NO FREE SCHOOL LUNCH?!',{y:600,size:62,bg:'#E5383B'})});
 // 2) DUNIA
@@ -57,9 +57,9 @@ sFact({t0:bID,t1:bP,bg:'#3A1616',glow:'#E70011',
 const tc=at('That')-0.1;
 S.push({t0:bP,t1:bC,
  world:t=>{let s=bgGlow('#2B1B14','#A3542A',.45)+rays(960,100,7,1500,8,.35);
-  if(t<tc)return s+yuma({x:960,y:1500,s:1.4,expr:'surprised',aL:70,aR:70,blink:false})+`<rect width="1920" height="1920" fill="#06121C" opacity=".5"/>`;
+  if(t<tc)return s+g(tr(960,1000,1.3),globe(t,1))+`<rect width="1920" height="1920" fill="#06121C" opacity=".5"/>`;
   if(t<tTas-0.1){s+=t<tAU?popAt(t,tc,flag(t,'q',1.2),960,800,1):popAt(t,tAU,flag(t,'au',1.25),960,800,1,-2)+xAt(t,tAU+0.35,960,800,1.6);
-   s+=yuma({x:640,y:1560,s:0.95,expr:t<tAU?'think':'surprised',aR:-40,aL:70,blink:blinkAt(t,6)});return s;}
+   s+=popAt(t,tAU+0.5,tray(.55),960,1270,1,-4)+xAt(t,tAU+0.7,960,1270,1);return s;}
   return s+popAt(t,tTas,auMap(t,1.25),960,820,1)+popAt(t,tTas+0.4,`<text text-anchor="middle" font-family="B2" font-weight="800" font-size="60" fill="#fff" stroke="${OL}" stroke-width="10" paint-order="stroke">TASMANIA</text>`,1160,1210,1);},
  cam:t=>t<tc?camV(t,bP,tc,[960,980,1.0],[960,960,1.1]):(t<tTas-0.1?camV(t,tc,tTas,[960,1000,1.05],[960,960,1.0]):camV(t,tTas,bC,[960,960,1.0],[1020,1000,1.1])),
  hud:t=>{let s='';if(t<tc+0.2){s+=letterbox(t,bP);const k=popS(t,bP+0.1,.45)*(1-ss((t-tc+0.1)/.3));if(k>0)s+=g(tr(540,430,k,-3),`<text x="0" y="0" text-anchor="middle" font-family="B2" font-weight="800" font-size="150" fill="url(#gold)" filter="url(#tsh)">PLOT TWIST!</text>`);return s;}
@@ -71,8 +71,7 @@ S.push({t0:bC,t1:E,
   s+=popAt(t,bC+0.3,tray(.5),720,1050,1)+popAt(t,bC+0.5,tray(.5),1200,1050,1)+xAt(t,bC+0.7,1200,1050,1);
   s+=bigText('FREE LUNCH',720,760,62,{sw:10})+bigText('NO FREE LUNCH',1200,760,54,{sw:10});
   const kv=popS(t,bC+0.6,.4);if(kv>0)s+=g(tr(960,900,kv,-6),`<circle r="90" fill="#FFE27A" stroke="${OL}" stroke-width="10"/><text x="0" y="30" text-anchor="middle" font-family="B2" font-weight="800" font-size="84" fill="${OL}">VS</text>`,'filter="url(#dsh)"');
-  const yk=eout((t-bC-0.2)/.6);s+=yuma({x:960,y:lerp(1900,1500,yk),s:0.9,expr:'happy',aR:-60+Math.sin(t*9)*14,aL:70,blink:blinkAt(t,13)});
-  const kc=popS(t,at('Comment'),.45);if(kc>0)s+=g(tr(1150,1250,kc*.85,3),bubble(520,170,'bl')+`<text x="0" y="20" text-anchor="middle" font-family="B2" font-weight="800" font-size="58" fill="${OL}">Comment below!</text>`,'filter="url(#dsh)"');return s;},
+  const kc=popS(t,at('Comment'),.45);if(kc>0)s+=g(tr(960,1300,kc*.9,3),bubble(520,170,'bl')+`<text x="0" y="20" text-anchor="middle" font-family="B2" font-weight="800" font-size="58" fill="${OL}">Comment below!</text>`,'filter="url(#dsh)"');return s;},
  cam:t=>camV(t,bC,E,[960,1000,1.0],[960,980,1.06]),hud:t=>hudLabel(t,bC+0.1,'SHOULD YOUR COUNTRY DO IT?',{size:54,bg:'#5B6C8F'})});
 }
 const THUMB={t:2.6,lines:['WHICH COUNTRY','HAS NO FREE','SCHOOL LUNCH?']};

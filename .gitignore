@@ -5,3 +5,16 @@ kit/st/
 kit/chk/
 kit/queue.log
 kit/render_*.log
+# Speechify = uji coba sementara, JANGAN masuk GitHub (aturan owner 14 Nov 2026)
+kit/tts_speechify.py
+kit/speechify_usage.json
+kit/*.marks.json
+kit/marks_*.json
+kit/narasi_nahanbab.mp3
+kit/narasi_lunch_en.mp3
+kit/narasi_lunch_hc.mp3
+videos/lunch_en_styleA.mp4
+videos/lunch_hc_styleA.mp4
+kit/timing_lunch_hc.json
+kit/subs_lunch_hc.json
+kit/scenes_lunch_hc.js

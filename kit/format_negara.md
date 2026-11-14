@@ -22,3 +22,9 @@ Australia (~$39,83) · Amerika Serikat (~$36,03) · Kanada (~$32,07) · Selandia
 - Pilih topik yang datanya memang menempatkan negara-negara itu di ranking. Jangan memaksa negara masuk ranking kalau datanya tidak begitu.
 - Versi Indonesia (MASA SIH): Indonesia tetap ikut di daftar kalau datanya ada.
 - Versi Inggris (How Come): prioritas, karena penonton negara CPM tinggi berbahasa Inggris.
+
+## Channel How Come (aturan owner 14 Nov 2026)
+- **Tanpa karakter**: jangan pakai YUMA atau karakter lain. Jelaskan hanya dengan bendera, peta, globe, angka, ikon/objek, plus SFX.
+- ID video berakhiran `_hc` (contoh `lunch_hc`) -> watermark otomatis `kit/wm_hc.png` (kecil, kiri atas: tombol merah + "Please subscribe").
+- Contoh/template: `kit/body_lunch_hc.js` (bendera vektor AS/Inggris/Australia/Indonesia, globe, nampan, sekolah, peta Australia).
+- **Speechify = uji coba sementara**: audio, timing, file suara, dan video yang memakai suara Speechify JANGAN di-commit ke GitHub (sudah di `.gitignore`). Simpan lokal / kirim ke user saja.
