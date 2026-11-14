@@ -10,6 +10,12 @@ Bahasa ke user: Indonesia santai. User tidak mau menekan Allow dan tidak bisa st
 - Did You Know dipegang **Bot D**; jangan ubah file `_dyk`. Kuota ElevenLabs dipakai bareng DYK → hemat.
 - **IG lewat METRICOOL (owner via Bot C 14 Nov):** IG masasihentertainment tersambung di brand 7793943. IG tayang konten persis sama dengan YT Short, di jam yang sama (07/11/15/19 WIB). Dibuat sebagai post Metricool terpisah khusus IG (`providers:[instagram]`, `instagramData:{type:"REEL",showReelOnFeed:true}`, `videoCoverMilliseconds:50`, file `<id>_styleA.mp4` raw GitHub, caption = Caption IG / deskripsi YT dengan `#shorts`→`#fyp`). Post baru: langsung jadwalkan YT + IG sekaligus. Buffer IG + `kit/pending_ig.md` + task rutin IG Buffer sudah TIDAK dipakai. Tetap cek dobel di IG (topik yang sudah tayang di IG: lihat `kit/topik_terpakai.md`).
 
+- **Aturan video BARU (owner via Bot C 14 Nov malam; yang sudah jadi/diproses biarin):**
+  1. HOOK 3 detik pertama = pertanyaan, dibuka "Gimana kalau…", "Katanya kalau…", atau "Masa sih kalau…". Judul sebaiknya ikut pola ini.
+  2. Audio wajib: background music (volume di bawah narasi) + SFX + pop sound tiap teks/elemen muncul + sound transisi tiap ganti scene.
+  3. YUMA: tulisan "MASA SIH" di dada baju sebagai watermark, jelas kebaca tapi rapi.
+  Tetap ≤600 karakter, 35 detik, eleven_v4.
+
 - **Bersih space (user pilih A, 14 Nov):** tiap Senin 18:47 WIB ada tugas terjadwal yang otomatis `git rm` video/thumbnail yang sudah tayang di semua platform; file yang masih dipakai post terjadwal atau stok jangan dihapus. Tanpa rewrite history.
 
 ## Video
