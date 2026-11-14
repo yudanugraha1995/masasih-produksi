@@ -54,3 +54,5 @@ Australia (~$39,83) · Amerika Serikat (~$36,03) · Kanada (~$32,07) · Selandia
 - ID video berakhiran `_dyk` (contoh `lunch9_dyk`) -> watermark otomatis `kit/wm_hc.png` (kecil, kiri atas: tombol merah + "Please subscribe").
 - Contoh/template: `kit/body_lunch9_dyk.js` (9 negara) dan `kit/body_chatgpt_dyk.js` (gaya Allow/Ban); bendera di `kit/lib_flags.js`. Lama: `kit/body_lunch_dyk.js` (bendera vektor AS/Inggris/Australia/Indonesia, globe, nampan, sekolah, peta Australia).
 - **Speechify = uji coba sementara**: audio, timing, file suara, dan video yang memakai suara Speechify JANGAN di-commit ke GitHub (sudah di `.gitignore`). Simpan lokal / kirim ke user saja.
+
+- **Transisi bumi berputar (owner 14 Nov):** tiap negara (dan plot twist) dibuka dengan bumi 3D berputar ke negara itu, wilayahnya disorot kuning + zoom masuk (±0,9 dtk), lalu pudar ke foto landmark asli (`kit/landmarks/`, Wikimedia PD/CC, kredit di baris sumber) + bendera + isi. Otomatis lewat `lib_globe.js` + `world_dyk.js`.
