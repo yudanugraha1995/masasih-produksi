@@ -1,6 +1,6 @@
 {
  "2026-11": {
-  "chars": 2849,
+  "chars": 3145,
   "calls": [
    {
     "date": "2026-11-14T04:01:00",
@@ -48,6 +48,18 @@
     "date": "2026-11-14T04:10:11",
     "file": "jacob_bicara_indo.mp3",
     "voice": "jacob",
+    "chars": 148
+   },
+   {
+    "date": "2026-11-14T04:11:13",
+    "file": "langit_remaja.mp3",
+    "voice": "langit",
+    "chars": 148
+   },
+   {
+    "date": "2026-11-14T04:11:14",
+    "file": "bima_remaja.mp3",
+    "voice": "bima",
     "chars": 148
    }
   ]

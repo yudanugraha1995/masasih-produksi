@@ -13,7 +13,7 @@ for a, b in FIX.items():
     text = re.sub(a, b, text)
 inp = text
 if mode == 'teen':
-    inp = f'<speak><prosody rate="108%" pitch="+12%">{html.escape(text)}</prosody></speak>'
+    inp = f'<speak><prosody pitch="+12%">{html.escape(text)}</prosody></speak>'
 body = {'input': inp, 'voice_id': voice, 'audio_format': 'mp3', 'model': 'simba-3.5', 'language': lang}
 r = subprocess.run(['curl', '-sS', '-m', '180', '-X', 'POST', 'https://api.speechify.ai/v1/audio/speech',
                     '-H', 'Authorization: Bearer proxy-injected', '-H', 'Content-Type: application/json',
