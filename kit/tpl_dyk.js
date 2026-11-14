@@ -25,11 +25,11 @@ const CQ=(x,y,s,r,big)=>g(tr(x,y,s,r),big?`<text text-anchor="middle" font-famil
 // layar cover (layar 1080x1920): ikon 510, tag 730, bendera 880, judul cy 1170 (sama dgn frame THUMB t<0)
 const COVER=t=>{const fo=1-ss((t-0.35)/0.15),p=1+0.04*Math.sin(t*20);if(fo<=0)return '';
  return `<g opacity="${fmt(fo)}"><defs><linearGradient id="cvg" x1="0" y1="0" x2="0.3" y2="1"><stop offset="0" stop-color="#5AC8FA"/><stop offset="1" stop-color="#7B61FF"/></linearGradient></defs><rect width="1080" height="1920" fill="url(#cvg)"/>`
-  +rays(540,510,7,1400,14,.22,t*20)+g(tr(540,510,1.1*p,-5),CICON(CFG.coverIcon||'ai'))+(CFG.coverTag?g(tr(540,730,1.15,-3),label(CFG.coverTag,{size:64,bg:'#E5383B'})):'')
+  +globeArea(TW.code,540,1000,820,.5,t*4)+rays(540,510,7,1400,14,.22,t*20)+g(tr(540,510,1.1*p,-5),CICON(CFG.coverIcon||'ai'))+(CFG.coverTag?g(tr(540,730,1.15,-3),label(CFG.coverTag,{size:64,bg:'#E5383B'})):'')
   +CQ(870,430,1.1*p,14,1)+CQ(220,520,.85,-16,0)+CFLAGS(140,880,160)+thumbTitle(CFG.cover||CFG.thumb)+'</g>';};
 // 1) HOOK: grid 9 bendera
 S.push({t0:0,t1:starts[0],
- world:t=>{if(t<0)return BGG(0,'#5AC8FA','#7B61FF','h')+rays(960,560,7,1400,14,.22,0)+g(tr(960,560,1.1,-5),CICON(CFG.coverIcon||'ai'))+(CFG.coverTag?g(tr(960,780,1.15,-3),label(CFG.coverTag,{size:64,bg:'#E5383B'})):'')+CQ(1290,480,1.1,14,1)+CQ(640,570,.85,-16,0)+CFLAGS(560,930,160);
+ world:t=>{if(t<0)return BGG(0,'#5AC8FA','#7B61FF','h')+globeArea(TW.code,960,1050,820,.5)+rays(960,560,7,1400,14,.22,0)+g(tr(960,560,1.1,-5),CICON(CFG.coverIcon||'ai'))+(CFG.coverTag?g(tr(960,780,1.15,-3),label(CFG.coverTag,{size:64,bg:'#E5383B'})):'')+CQ(1290,480,1.1,14,1)+CQ(640,570,.85,-16,0)+CFLAGS(560,930,160);
   let s=BGG(t,'#5AC8FA','#7B61FF','h')+rays(960,150,7,1400,9,.25,Math.sin(t*.5)*3);
   GRID.forEach(([c,n],i)=>{const x=660+(i%3)*300,y=840+Math.floor(i/3)*250,t0=0.15+i*0.22;
    s+=popAt(t,t0,flag(t,c,.5),x,y,1,(i%2?3:-3))+popAt(t,t0+0.08,`<text text-anchor="middle" font-family="B2" font-weight="800" font-size="${n.length>9?26:34}" fill="#fff" stroke="${OL}" stroke-width="8" paint-order="stroke">${n}</text>`,x,y+100,1);});
