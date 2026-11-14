@@ -1,0 +1,9 @@
+- jp: File:Takaichi Sanae 2025.jpg | CC BY 4.0 | 首相官邸 (Cabinet Public Affairs Office) | https://commons.wikimedia.org/wiki/File%3ATakaichi_Sanae_2025.jpg
+- us: File:January 2025 Official Presidential Portrait of Donald J. Trump.jpg | Public domain | Daniel Torok | https://commons.wikimedia.org/wiki/File%3AJanuary_2025_Official_Presidential_Portrait_of_Donald_J._Trump.jpg
+- au: File:Anthony Albanese 2022 portrait cropped.jpg | CC BY 4.0 | © Commonwealth of Australia (National Archives of Australia) | https://commons.wikimedia.org/wiki/File%3AAnthony_Albanese_2022_portrait_cropped.jpg
+- uk: File:Official portrait of Keir Starmer crop 2.jpg | CC BY 3.0 | Chris McAndrew | https://commons.wikimedia.org/wiki/File%3AOfficial_portrait_of_Keir_Starmer_crop_2.jpg
+- ca: File:Mark Carney in 2025.png | Public domain | The White House | https://commons.wikimedia.org/wiki/File%3AMark_Carney_in_2025.png
+- in: File:Narendra Damodardas Modi.jpg | CC BY 2.0 | Narendra Modi | https://commons.wikimedia.org/wiki/File%3ANarendra_Damodardas_Modi.jpg
+- id: File:Prabowo Subianto 2024 official portrait (3x4 cropped).jpg | Public domain | Ministry of State Secretariat | https://commons.wikimedia.org/wiki/File%3APrabowo_Subianto_2024_official_portrait_%283x4_cropped%29.jpg
+- be: File:2025 Bart De Wever (cropped).jpg | Public domain | DHSgov | https://commons.wikimedia.org/wiki/File%3A2025_Bart_De_Wever_%28cropped%29.jpg
+- sg: File:Lawrence Wong 20230526.jpg | CC BY 4.0 | 内閣官房内閣広報室 | https://commons.wikimedia.org/wiki/File%3ALawrence_Wong_20230526.jpg

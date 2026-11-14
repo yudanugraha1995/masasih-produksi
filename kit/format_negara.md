@@ -6,6 +6,12 @@ Aturan owner (14 Nov 2026).
 - 4 judul/hari = **2 judul isu hangat** (1-2 hari terakhir di negara CPM tinggi) + **2 judul gaya kompetitor** (lihat `kit/kompetitor_tahukahkamu.md`: "Allow or Ban [hal populer]", pop culture/selebriti x negara, judul menyapa "your country", hipotetis aneh). Hindari gaya yang sepi: statistik murni, politik sensitif, "Part 2".
 - Tetap tanpa foto wajah tokoh nyata dan tanpa logo merek: bendera + ikon vektor.
 
+## ATURAN TERBARU OWNER (14 Nov 2026 malam, mengganti 9 negara)
+- **6 negara per video** (grid 3x2 di detik 0-3; 5 negara + 1 plot twist). AS + Australia tetap wajib.
+- **Backsound wajib**: `kit/bgm_dyk.mp3` (ElevenLabs Music, dibuat sekali) otomatis di `kit/mux.sh` (volume 0.13, fade out akhir).
+- **Meme reaksi**: tiap negara ada foto tokoh (pemimpin) + emoji reaksi. Foto HANYA dari Wikimedia Commons berlisensi bebas (PD/CC0/CC BY/CC BY-SA) via `kit/faces_fetch.py`, kredit otomatis di baris sumber (`kit/faces/CREDITS.md`). Tanpa kutipan/omongan palsu (cuma reaksi). Foto tidak ada -> emoji saja.
+- Alur: `cfg_<id>.js` (item: kode, nama, kata pemicu, angka, satuan, '', sumber, ok/no, emoji) -> `mkdyk.py` -> `dyk_audio.py` + `stretch.py <id> 35 1.2` -> `build.py` -> `NOSFX=1 runone.sh` -> `sfx.py` -> `mux.sh`.
+
 ## Struktur
 - **Durasi video SELALU 35 detik (aturan owner 14 Nov 2026, sebelumnya 40).** Naskah MAKSIMAL 600 karakter (aturan owner 14 Nov 2026; ElevenLabs Inggris sekitar 20 karakter/detik -> narasi sekitar 30 dtk). Sisa sampai 35 dtk (sekitar 5 dtk) diisi jeda singkat antarkalimat + kartu/plot twist ditahan lebih lama (`kit/stretch.py`); suara tidak boleh diperlambat. Kalau narasi lewat 35 dtk: pangkas kata, percepat suara maks 2%. Pembagian: 0-3 hook + 9 bendera, 3-28 delapan negara (sekitar 3 dtk/negara), 28-33 plot twist, 33-35 ajakan komentar MAKS 2 detik (satu kalimat pendek, contoh "Comment your country!").
 - **AS dan Australia WAJIB selalu tersentuh di setiap video (aturan owner 14 Nov 2026)**, apa pun topiknya. Topik utama boleh fokus ke negara/isu lain (contoh: "MBG itu program dari mana? Seberapa bermanfaat?" -> fokus Indonesia), tapi tetap masukkan minimal 1 fakta tentang Amerika Serikat DAN 1 fakta tentang Australia yang nyambung dengan topiknya (pembanding, kebalikan, atau plot twist).
