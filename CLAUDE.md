@@ -2,6 +2,14 @@
 
 Bahasa ke user: Indonesia santai. User tidak mau menekan Allow dan tidak bisa standby, jadi semuanya harus otomatis.
 
+## PERUBAHAN BESAR 14 Nov 2026 (owner via Bot C) — MENGGANTIKAN aturan slot/format di bawah
+- **SHORT SAJA.** Tidak bikin video 16:9 lagi (yang sudah jadi/terjadwal dibiarkan).
+- Metricool khusus Masa Sih. **4 Short/hari jam 07:00, 11:00, 15:00, 19:00 WIB** (= 08:00, 12:00, 16:00, 20:00 WITA). Post lama digeser: 08→07, 11→11, 16→15, 20→19 WIB; video 16:9 yang sudah terpasang ikut Short pasangannya.
+- Produksi baru: narasi **MAKS 600 karakter**, durasi **FIX 35 detik**, suara Senandika model **eleven_v4**, SFX + transisi menarik + cover judul + gaya retensi.
+- Stok cukup **4 hari** (H s.d. H+3).
+- Did You Know dipegang **Bot D**; jangan ubah file `_dyk`. Kuota ElevenLabs dipakai bareng DYK → hemat.
+- IG: menunggu keputusan owner (channel IG hilang dari Buffer per 14 Nov).
+
 ## Video
 - Gaya default = **Style A** (`kit/STYLE_A.md`): gambar vektor dibuat sendiri, kamera bergerak, kartu bab emas, infografik + sumber, split screen CTA. YUMA mengikuti skill yuma-mascot.
 - Kalau user kasih naskah/narasi: jangan ganti, audio dipakai apa adanya.
