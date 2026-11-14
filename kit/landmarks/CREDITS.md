@@ -2,3 +2,7 @@
 - cn: File:Great Wall of China July 2006.JPG | CC0 | Velatrix | https://commons.wikimedia.org/wiki/File%3AGreat_Wall_of_China_July_2006.JPG
 - au: File:Sydney Opera House - Dec 2008.jpg | CC BY-SA 3.0 | Diliff | https://commons.wikimedia.org/wiki/File%3ASydney_Opera_House_-_Dec_2008.jpg
 - id: File:Monumen Nasional, Jakarta, Indonesia.jpg | CC BY-SA 4.0 | Ramayoni | https://commons.wikimedia.org/wiki/File%3AMonumen_Nasional%2C_Jakarta%2C_Indonesia.jpg
+- jp: File:Mount Fuji at sunset, March 2025.jpg | CC0 | Romain Guy from San Francisco, USA | https://commons.wikimedia.org/wiki/File%3AMount_Fuji_at_sunset%2C_March_2025.jpg
+- uk: File:Big Ben Elizabeth Tower London 2023 01.jpg | CC BY 4.0 | Julian Herzog (Website) | https://commons.wikimedia.org/wiki/File%3ABig_Ben_Elizabeth_Tower_London_2023_01.jpg
+- fr: File:Tour Eiffel Wikimedia Commons.jpg | Public domain | Benh LIEU SONG | https://commons.wikimedia.org/wiki/File%3ATour_Eiffel_Wikimedia_Commons.jpg
+- in: File:Taj Mahal, Agra, India edit2.jpg | CC BY-SA 4.0 | Yann; edited by King of Hearts | https://commons.wikimedia.org/wiki/File%3ATaj_Mahal%2C_Agra%2C_India_edit2.jpg
