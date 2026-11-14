@@ -2,6 +2,10 @@
 
 Aturan owner (14 Nov 2026).
 
+## Komposisi judul harian (aturan owner 14 Nov 2026)
+- 4 judul/hari = **2 judul isu hangat** (1-2 hari terakhir di negara CPM tinggi) + **2 judul gaya kompetitor** (lihat `kit/kompetitor_tahukahkamu.md`: "Allow or Ban [hal populer]", pop culture/selebriti x negara, judul menyapa "your country", hipotetis aneh). Hindari gaya yang sepi: statistik murni, politik sensitif, "Part 2".
+- Tetap tanpa foto wajah tokoh nyata dan tanpa logo merek: bendera + ikon vektor.
+
 ## Struktur
 - **AS dan Australia WAJIB selalu tersentuh di setiap video (aturan owner 14 Nov 2026)**, apa pun topiknya. Topik utama boleh fokus ke negara/isu lain (contoh: "MBG itu program dari mana? Seberapa bermanfaat?" -> fokus Indonesia), tapi tetap masukkan minimal 1 fakta tentang Amerika Serikat DAN 1 fakta tentang Australia yang nyambung dengan topiknya (pembanding, kebalikan, atau plot twist).
 - Video fokus satu negara tetap pakai 9 bendera di detik awal: negara utama disorot (lebih besar/di tengah), AS dan Australia wajib ada di grid.
