@@ -8,7 +8,7 @@ Aturan owner (14 Nov 2026).
 
 ## ATURAN TERBARU OWNER (14 Nov 2026 malam, mengganti 9 negara)
 - **6 negara per video** (grid 3x2 di detik 0-3; 5 negara + 1 plot twist). AS + Australia tetap wajib.
-- **Backsound wajib**: `kit/bgm_dyk.mp3` (ElevenLabs Music, dibuat sekali) otomatis di `kit/mux.sh` (volume 0.13, fade out akhir).
+- **Backsound wajib, SELALU sama**: `kit/bgm_dyk.mp3` = BGM B instrumental pilihan owner (`kit/bgm_dyk_B.mp3`, ElevenLabs Music, tanpa vokal) otomatis di `kit/mux.sh` (volume 0.13, fade out akhir).
 - **Meme reaksi**: tiap negara ada foto tokoh (pemimpin) + emoji reaksi. Foto HANYA dari Wikimedia Commons berlisensi bebas (PD/CC0/CC BY/CC BY-SA) via `kit/faces_fetch.py`, kredit otomatis di baris sumber (`kit/faces/CREDITS.md`). Tanpa kutipan/omongan palsu (cuma reaksi). Foto tidak ada -> emoji saja.
 - Alur: `cfg_<id>.js` (item: kode, nama, kata pemicu, angka, satuan, '', sumber, ok/no, emoji) -> `mkdyk.py` -> `dyk_audio.py` + `stretch.py <id> 35 1.2` -> `build.py` -> `NOSFX=1 runone.sh` -> `sfx.py` -> `mux.sh`.
 
