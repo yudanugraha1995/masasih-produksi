@@ -17,19 +17,20 @@ const SRC=(txt,k=1)=>{if(k<=0)return '';const P=txt.split(' · ');const L=[''];P
  return L.map((l,j)=>`<text x="40" y="${H-60-(L.length-1-j)*30}" font-family="Inter" font-weight="500" font-size="23" fill="#fff" stroke="#000" stroke-opacity=".35" stroke-width="3" paint-order="stroke" opacity="${fmt(.9*k)}">${l}</text>`).join('');};
 const NUMC={ok:'#0B5D1E',no:'#B00020'};
 // cover klik-bait (owner 15 Nov): ikon topik besar + tanda tanya + judul. CFG.coverIcon = 'ai' (ikon AI gambar sendiri) atau emoji; CFG.coverTag = label besar di ikon (mis. 'CHATGPT')
-const CICON=(k)=>k==='ai'?`<rect x="-170" y="-150" width="340" height="270" rx="70" fill="#19C37D" stroke="${OL}" stroke-width="14"/><path d="M-70,110 L-110,190 L10,115Z" fill="#19C37D" stroke="${OL}" stroke-width="14" stroke-linejoin="round"/><rect x="-60" y="105" width="90" height="22" fill="#19C37D"/>`
- +`<circle cx="-75" cy="-20" r="30" fill="#fff"/><circle cx="0" cy="-20" r="30" fill="#fff"/><circle cx="75" cy="-20" r="30" fill="#fff"/><path d="M135,-185 l18,40 40,18 -40,18 -18,40 -18,-40 -40,-18 40,-18Z" fill="#FFE27A" stroke="${OL}" stroke-width="6"/>`
- :`<text y="120" text-anchor="middle" font-family="Noto Color Emoji" font-size="320">${k}</text>`;
+const CICON=(k)=>(k&&k!=='ai')?`<text y="120" text-anchor="middle" font-family="Noto Color Emoji" font-size="300">${k}</text>`:'';
+// teks topik besar (pengganti logo merek; owner 15 Nov: tanpa logo, tulisan dibesarkan)
+const CTAG=()=>{const s=CFG.coverTag||'';if(!s)return '';const fs=Math.min(210,1700/(s.length*0.62+0.5));return `<text y="${fmt(fs*0.35)}" text-anchor="middle" font-family="B2" font-weight="800" font-size="${fmt(fs)}" fill="#FFE27A" stroke="${OL}" stroke-width="${fmt(fs*0.16)}" paint-order="stroke" stroke-linejoin="round">${s}</text>`;};
+const HASI=()=>CFG.coverIcon&&CFG.coverIcon!=='ai';
 const CFLAGS=(x0,y,dx)=>GRID.map(([c],i)=>g(tr(x0+i*dx,y,.3,(i%2?4:-4)),flag(0,c,1),'filter="url(#dsh)"')).join('');
 const CQ=(x,y,s,r,big)=>g(tr(x,y,s,r),big?`<text text-anchor="middle" font-family="B2" font-weight="800" font-size="330" fill="#FF3B3B" stroke="#fff" stroke-width="16" paint-order="stroke">?</text>`:`<text text-anchor="middle" font-family="B2" font-weight="800" font-size="230" fill="#FFE27A" stroke="${OL}" stroke-width="14" paint-order="stroke">?</text>`);
 // layar cover (layar 1080x1920): ikon 510, tag 730, bendera 880, judul cy 1170 (sama dgn frame THUMB t<0)
 const COVER=t=>{const fo=1-ss((t-0.35)/0.15),p=1+0.04*Math.sin(t*20);if(fo<=0)return '';
  return `<g opacity="${fmt(fo)}"><defs><linearGradient id="cvg" x1="0" y1="0" x2="0.3" y2="1"><stop offset="0" stop-color="#5AC8FA"/><stop offset="1" stop-color="#7B61FF"/></linearGradient></defs><rect width="1080" height="1920" fill="url(#cvg)"/>`
-  +globeArea(TW.code,540,1000,820,.5,t*4)+rays(540,510,7,1400,14,.22,t*20)+g(tr(540,510,1.1*p,-5),CICON(CFG.coverIcon||'ai'))+(CFG.coverTag?g(tr(540,730,1.15,-3),label(CFG.coverTag,{size:64,bg:'#E5383B'})):'')
-  +CQ(870,430,1.1*p,14,1)+CQ(220,520,.85,-16,0)+CFLAGS(140,880,160)+thumbTitle(CFG.cover||CFG.thumb)+'</g>';};
+  +globeArea(TW.code,540,1000,820,.5,t*4)+rays(540,510,7,1400,14,.22,t*20)+(HASI()?g(tr(540,470,1.0*p,-5),CICON(CFG.coverIcon))+g(tr(540,700,.75,-3),CTAG()):g(tr(540,520,p,-4),CTAG()))
+  +CQ(900,400,1.0*p,14,1)+CQ(170,430,.75,-16,0)+CFLAGS(140,880,160)+thumbTitle(CFG.cover||CFG.thumb)+'</g>';};
 // 1) HOOK: grid 9 bendera
 S.push({t0:0,t1:starts[0],
- world:t=>{if(t<0)return BGG(0,'#5AC8FA','#7B61FF','h')+globeArea(TW.code,960,1050,820,.5)+rays(960,560,7,1400,14,.22,0)+g(tr(960,560,1.1,-5),CICON(CFG.coverIcon||'ai'))+(CFG.coverTag?g(tr(960,780,1.15,-3),label(CFG.coverTag,{size:64,bg:'#E5383B'})):'')+CQ(1290,480,1.1,14,1)+CQ(640,570,.85,-16,0)+CFLAGS(560,930,160);
+ world:t=>{if(t<0)return BGG(0,'#5AC8FA','#7B61FF','h')+globeArea(TW.code,960,1050,820,.5)+rays(960,560,7,1400,14,.22,0)+(HASI()?g(tr(960,520,1.0,-5),CICON(CFG.coverIcon))+g(tr(960,750,.75,-3),CTAG()):g(tr(960,570,1,-4),CTAG()))+CQ(1320,450,1.0,14,1)+CQ(590,480,.75,-16,0)+CFLAGS(560,930,160);
   let s=BGG(t,'#5AC8FA','#7B61FF','h')+rays(960,150,7,1400,9,.25,Math.sin(t*.5)*3);
   GRID.forEach(([c,n],i)=>{const x=660+(i%3)*300,y=840+Math.floor(i/3)*250,t0=0.15+i*0.22;
    s+=popAt(t,t0,flag(t,c,.5),x,y,1,(i%2?3:-3))+popAt(t,t0+0.08,`<text text-anchor="middle" font-family="B2" font-weight="800" font-size="${n.length>9?26:34}" fill="#fff" stroke="${OL}" stroke-width="8" paint-order="stroke">${n}</text>`,x,y+100,1);});
