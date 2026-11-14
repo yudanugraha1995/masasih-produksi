@@ -14,6 +14,9 @@ for k,t0 in enumerate(info['t0']):
     elif ty=='CTA': ev+= [(t0,'whoosh',0.45),(t0+0.4,'pop',0.5)]
     elif ty=='Card': ev+= [(t0,'whoosh',0.45),(t0+0.3,'ding',0.3)]
     else: ev.append((t0,'whoosh',0.45))
+# SFX tambahan opsional dari body: komentar /*SFX_EXTRA [[detik,"pop",volume],...]*/
+m=re.search(r'/\*SFX_EXTRA (\[.*?\])\*/',open(f'body_{i}.js').read(),re.S)
+if m: ev+= [tuple(e) for e in json.loads(m.group(1))]
 N=int((info['dur']+1)*SR);out=np.zeros(N)
 for t,n,v in ev:
     a=int(t*SR);x=S[n]*v;b=min(N,a+len(x));out[a:b]+=x[:b-a]

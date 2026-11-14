@@ -1,4 +1,5 @@
 // ===== Australia Has NO Free School Lunch?! (How Come, English, ranking negara) =====
+/*SFX_EXTRA [[0.45,"pop",0.5],[0.75,"pop",0.5],[1.05,"pop",0.55]]*/
 /* urutan tipe scene untuk sfx.py: sHook({ sFact({ sFact({ sFact({ sFact({ sPlot({ sCTA({ */
 {const E=DUR+0.2;
 // ---------- bendera vektor ----------
@@ -28,9 +29,12 @@ const tNO=at('NO'), t466=at('466'), t101=at('101000'), tAge=at('four'), t60=at('
 S.push({t0:0,t1:bW,
  world:t=>{let s=bgGlow('#14213D','#F2A541',.5)+rays(960,150,7,1400,9,.4,Math.sin(t*.5)*3);
   for(let i=0;i<10;i++){const sp=160+rnd(i)*160;const y=((t*sp+rnd(i+9)*1900)%2200)-200;const x=200+rnd(i+20)*1520;s+=g(tr(x,y,.5+rnd(i+5)*.5,t*50*(rnd(i)-.5)),`<circle r="34" fill="#E5383B" stroke="${OL}" stroke-width="4"/><path d="M0,-34q5,-16 18,-18" stroke="#5E9C6B" stroke-width="6" fill="none"/>`,'opacity=".8"');}
-  s+=popAt(t,0.1,globe(t,1),960,960,1.05);s+=popAt(t,0.6,flag(t,'q',0.55),1250,790,1,8);
-  s+=popAt(t,tNO,tray(.55),1180,1290,1,-4)+xAt(t,tNO+0.25,1180,1290,1.0);
-  s+=popAt(t,0.9,`<text text-anchor="middle" font-family="B2" font-weight="800" font-size="220" fill="#FFE27A" stroke="${OL}" stroke-width="14" paint-order="stroke">?</text>`,700,1320,1,-12);return s;},
+  // aturan: semua negara tampil di 0-3 detik pertama
+  const FL=[['us','USA',760,860],['uk','UK',1160,860],['id','INDONESIA',760,1130],['q','???',1160,1130]];
+  FL.forEach(([c,n,x,y],i)=>{const t0=0.15+i*0.3;s+=popAt(t,t0,flag(t,c,.62),x,y,1,(i%2?4:-4));
+   s+=popAt(t,t0+0.1,`<text text-anchor="middle" font-family="B2" font-weight="800" font-size="46" fill="#fff" stroke="${OL}" stroke-width="9" paint-order="stroke">${n}</text>`,x,y+125,1);});
+  if(t>tNO)s+=xAt(t,tNO+0.2,1160,1130,1.0);
+  return s;},
  cam:t=>camV(t,0,bW,[960,1060,1.0],[960,1000,1.1]),
  hud:t=>g(tr(540,470,popS(t,0.1,.5),-4),`<text text-anchor="middle" font-family="B2" font-weight="800" font-size="120" fill="#FFE27A" stroke="${OL}" stroke-width="14" paint-order="stroke">DID YOU KNOW?</text>`)+hudLabel(t,tNO,'NO FREE SCHOOL LUNCH?!',{y:600,size:62,bg:'#E5383B'})});
 // 2) DUNIA
@@ -74,4 +78,4 @@ S.push({t0:bC,t1:E,
   const kc=popS(t,at('Comment'),.45);if(kc>0)s+=g(tr(960,1300,kc*.9,3),bubble(520,170,'bl')+`<text x="0" y="20" text-anchor="middle" font-family="B2" font-weight="800" font-size="58" fill="${OL}">Comment below!</text>`,'filter="url(#dsh)"');return s;},
  cam:t=>camV(t,bC,E,[960,1000,1.0],[960,980,1.06]),hud:t=>hudLabel(t,bC+0.1,'SHOULD YOUR COUNTRY DO IT?',{size:54,bg:'#5B6C8F'})});
 }
-const THUMB={t:2.6,lines:['WHICH COUNTRY','HAS NO FREE','SCHOOL LUNCH?']};
+const THUMB={t:2.0,cy:1440,lines:['WHICH COUNTRY','HAS NO FREE','SCHOOL LUNCH?']};
