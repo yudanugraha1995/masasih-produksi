@@ -1,6 +1,6 @@
 {
  "2026-11": {
-  "chars": 3145,
+  "chars": 3641,
   "calls": [
    {
     "date": "2026-11-14T04:01:00",
@@ -61,6 +61,12 @@
     "file": "bima_remaja.mp3",
     "voice": "bima",
     "chars": 148
+   },
+   {
+    "date": "2026-11-14T04:56:39",
+    "file": "narasi_lunch_en.mp3",
+    "voice": "chase",
+    "chars": 496
    }
   ]
  }
