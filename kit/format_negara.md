@@ -12,6 +12,11 @@ Aturan owner (14 Nov 2026).
 - **Meme reaksi**: tiap negara ada foto tokoh (pemimpin) + emoji reaksi. Foto HANYA dari Wikimedia Commons berlisensi bebas (PD/CC0/CC BY/CC BY-SA) via `kit/faces_fetch.py`, kredit otomatis di baris sumber (`kit/faces/CREDITS.md`). Tanpa kutipan/omongan palsu (cuma reaksi). Foto tidak ada -> emoji saja.
 - Alur: `cfg_<id>.js` (item: kode, nama, kata pemicu, angka, satuan, '', sumber, ok/no, emoji) -> `mkdyk.py` -> `dyk_audio.py` + `stretch.py <id> 35 1.2` -> `build.py` -> `NOSFX=1 runone.sh` -> `sfx.py` -> `mux.sh`.
 
+## Aturan owner via Bot C (14 Nov malam, video BARU)
+- Hook 0-3 dtk = PERTANYAAN, dibuka "What if…" / "They say if…" / "Is it true that if…", sambil bendera tampil. (Jumlah negara tetap 6 sesuai perintah langsung owner, bukan 9.)
+- COVER JUDUL 0-0,5 dtk: judul "What if…" besar 2-3 baris (maks 6-8 kata), outline tebal, di tengah layar (bukan 20% atas/bawah), bendera kecil di belakang. Otomatis di `tpl_dyk.js` (fungsi COVER, isi `CFG.cover` atau pakai `CFG.thumb`). Narasi hook langsung jalan dari detik 0.
+- Audio wajib: backsound (di bawah narasi), SFX transisi tiap scene, pop tiap bendera/teks muncul.
+
 ## Struktur
 - **Durasi video SELALU 35 detik (aturan owner 14 Nov 2026, sebelumnya 40).** Naskah MAKSIMAL 600 karakter (aturan owner 14 Nov 2026; ElevenLabs Inggris sekitar 20 karakter/detik -> narasi sekitar 30 dtk). Sisa sampai 35 dtk (sekitar 5 dtk) diisi jeda singkat antarkalimat + kartu/plot twist ditahan lebih lama (`kit/stretch.py`); suara tidak boleh diperlambat. Kalau narasi lewat 35 dtk: pangkas kata, percepat suara maks 2%. Pembagian: 0-3 hook + 9 bendera, 3-28 delapan negara (sekitar 3 dtk/negara), 28-33 plot twist, 33-35 ajakan komentar MAKS 2 detik (satu kalimat pendek, contoh "Comment your country!").
 - **AS dan Australia WAJIB selalu tersentuh di setiap video (aturan owner 14 Nov 2026)**, apa pun topiknya. Topik utama boleh fokus ke negara/isu lain (contoh: "MBG itu program dari mana? Seberapa bermanfaat?" -> fokus Indonesia), tapi tetap masukkan minimal 1 fakta tentang Amerika Serikat DAN 1 fakta tentang Australia yang nyambung dengan topiknya (pembanding, kebalikan, atau plot twist).

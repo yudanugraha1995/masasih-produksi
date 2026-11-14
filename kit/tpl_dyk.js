@@ -11,6 +11,8 @@ const FACE=(t,t0,c,rx,x=840,y=1210)=>{const k=popS(t,t0,.5);if(k<=0)return '';co
  return g(tr(x+sh,y,k*1.35,-6),f+(rx?`<text x="${f?78:0}" y="${f?-70:30}" text-anchor="middle" font-family="Noto Color Emoji" font-size="${f?110:170}">${rx}</text>`:''));};
 const PH=c=>(typeof PHOTO!=='undefined'&&PHOTO[c])?' · Photo: '+PHOTO[c]:'';
 const NUMC={ok:'#7CE0A0',no:'#FF9B9B'};
+const COVER=t=>{const L=CFG.cover||CFG.thumb;let s=`<rect width="1080" height="1920" fill="#0B1530" opacity="${fmt(0.75*(1-ss((t-0.35)/0.15)))}"/>`;
+ L.forEach((l,k)=>{s+=`<text x="540" y="${fmt(860+k*150-(L.length-1)*75)}" text-anchor="middle" font-family="B2" font-weight="800" font-size="${l.length>13?104:124}" fill="${k===L.length-1?'#FFE27A':'#fff'}" stroke="${OL}" stroke-width="18" paint-order="stroke" opacity="${fmt(1-ss((t-0.38)/0.12))}">${l}</text>`;});return s;};
 // 1) HOOK: grid 9 bendera
 S.push({t0:0,t1:starts[0],
  world:t=>{let s=bgGlow('#14213D','#F2A541',.5)+rays(960,150,7,1400,9,.4,Math.sin(t*.5)*3);
@@ -18,7 +20,7 @@ S.push({t0:0,t1:starts[0],
    s+=popAt(t,t0,flag(t,c,.5),x,y,1,(i%2?3:-3))+popAt(t,t0+0.08,`<text text-anchor="middle" font-family="B2" font-weight="800" font-size="${n.length>9?26:34}" fill="#fff" stroke="${OL}" stroke-width="8" paint-order="stroke">${n}</text>`,x,y+100,1);});
   return s;},
  cam:t=>camV(t,0,starts[0],[960,1010,1.0],[960,990,1.06]),
- hud:t=>g(tr(540,440,popS(t,0.1,.5),-4),`<text text-anchor="middle" font-family="B2" font-weight="800" font-size="${CFG.hook[0].length>12?84:104}" fill="#FFE27A" stroke="${OL}" stroke-width="13" paint-order="stroke">${CFG.hook[0]}</text>`)
+ hud:t=>(t<0.5?COVER(t):'')+g(tr(540,440,popS(t,0.1,.5),-4),`<text text-anchor="middle" font-family="B2" font-weight="800" font-size="${CFG.hook[0].length>12?84:104}" fill="#FFE27A" stroke="${OL}" stroke-width="13" paint-order="stroke">${CFG.hook[0]}</text>`)
   +hudLabel(t,0.6,CFG.hook[1],{y:560,size:CFG.hook[1].length>24?42:50,bg:'#3BB273'})+(CFG.hook[2]?hudLabel(t,at(CFG.hook[3]||'but',0.5),CFG.hook[2],{y:1330,size:44,bg:'#E5383B'}):'')});
 // 2) 8 negara
 C.forEach(([c,n,w,num,unit,nw,src,mk,rx],i)=>{const t0=starts[i],t1=i<C.length-1?starts[i+1]:bP;let tn=nw?at(nw,t0):t0+0.6;if(!(tn>=t0&&tn<t1))tn=t0+0.5;
