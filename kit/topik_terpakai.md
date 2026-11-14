@@ -32,3 +32,7 @@ petir dua kali, bintik putih kuku, banteng merah, kucing jatuh, punuk unta, buru
 
 ## Short siang 11:00 WIB (YT saja)
 tidur siang (13 Nov), minum berdiri ginjal (14), makan sambil HP (15), keramas tiap hari (16), tidur rambut basah (17), main HP sambil dicas (18), kantong mata begadang (19), pedas maag (20), susu sebelum tidur (21), duduk seharian vs merokok (22)
+
+## Geser slot 14 Nov 2026 (owner via Bot C)
+Semua post Masa Sih 14–23 Nov (Metricool + Buffer YT Short) digeser: 08→07, 16→15, 20→19 WIB, 11 tetap. Video 16:9 ikut Short pasangannya.
+Pengecualian: telur (18 Nov) tetap 12:00 WIB (Buffer YT Short + Metricool 16:9), karena slot 11:00 sudah diisi hpdicas; tidak ditumpuk.
