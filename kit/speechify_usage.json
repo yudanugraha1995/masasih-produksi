@@ -1,0 +1,55 @@
+{
+ "2026-11": {
+  "chars": 2849,
+  "calls": [
+   {
+    "date": "2026-11-14T04:01:00",
+    "file": "sampel ID x4",
+    "voice": "bima/langit/laras/senja",
+    "chars": 576
+   },
+   {
+    "date": "2026-11-14T04:01:30",
+    "file": "sampel EN x4",
+    "voice": "chase/jacob/chad/harper_32",
+    "chars": 556
+   },
+   {
+    "date": "2026-11-14T04:05:00",
+    "file": "narasi_nahanbab_langit.mp3",
+    "voice": "langit",
+    "chars": 977
+   },
+   {
+    "date": "2026-11-14T04:09:55",
+    "file": "langit_energik.mp3",
+    "voice": "langit",
+    "chars": 148
+   },
+   {
+    "date": "2026-11-14T04:09:57",
+    "file": "bima_energik.mp3",
+    "voice": "bima",
+    "chars": 148
+   },
+   {
+    "date": "2026-11-14T04:09:59",
+    "file": "langit_biasa_BAB_fix.mp3",
+    "voice": "langit",
+    "chars": 148
+   },
+   {
+    "date": "2026-11-14T04:10:01",
+    "file": "chase_bicara_indo.mp3",
+    "voice": "chase",
+    "chars": 148
+   },
+   {
+    "date": "2026-11-14T04:10:11",
+    "file": "jacob_bicara_indo.mp3",
+    "voice": "jacob",
+    "chars": 148
+   }
+  ]
+ }
+}
