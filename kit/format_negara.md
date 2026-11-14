@@ -15,6 +15,7 @@ Aturan owner (14 Nov 2026).
 ## Aturan owner via Bot C (14 Nov malam, video BARU)
 - Hook 0-3 dtk = PERTANYAAN, dibuka "What if…" / "They say if…" / "Is it true that if…", sambil bendera tampil. (Jumlah negara tetap 6 sesuai perintah langsung owner, bukan 9.)
 - COVER JUDUL 0-0,5 dtk: judul "What if…" besar 2-3 baris (maks 6-8 kata), outline tebal, di tengah layar (bukan 20% atas/bawah), bendera kecil di belakang. Otomatis di `tpl_dyk.js` (fungsi COVER, isi `CFG.cover` atau pakai `CFG.thumb`). Narasi hook langsung jalan dari detik 0.
+- Background CERAH bergradasi (owner 14 Nov): tiap negara gradasi beda (biru, tosca, coral, kuning-oranye, ungu), hook & CTA cerah; plot twist tetap gelap sebagai selingan. Otomatis di `tpl_dyk.js` (PAL/BGG). Video lama dibiarkan.
 - Audio wajib: backsound (di bawah narasi), SFX transisi tiap scene, pop tiap bendera/teks muncul.
 
 ## Struktur
