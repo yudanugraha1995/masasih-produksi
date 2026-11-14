@@ -14,6 +14,7 @@ Bahasa ke user: Indonesia santai. User tidak mau menekan Allow dan tidak bisa st
   1. HOOK 3 detik pertama = pertanyaan, dibuka "Gimana kalau…", "Katanya kalau…", atau "Masa sih kalau…". Judul sebaiknya ikut pola ini.
   2. Audio wajib: background music (volume di bawah narasi) + SFX + pop sound tiap teks/elemen muncul + sound transisi tiap ganti scene.
   3. YUMA: tulisan "MASA SIH" di dada baju sebagai watermark, jelas kebaca tapi rapi.
+  4. COVER JUDUL di 0–0,5 detik pertama: kalimat hook/judul besar (2–3 baris, maks 6–8 kata), teks putih/kuning + outline hitam tebal, di tengah layar (area aman 9:16, hindari 20% atas/bawah). YUMA boleh di belakang. Narasi hook tetap mulai dari detik 0. IG tetap `videoCoverMilliseconds:50`.
   Tetap ≤600 karakter, 35 detik, eleven_v4.
 
 - **Bersih space (user pilih A, 14 Nov):** tiap Senin 18:47 WIB ada tugas terjadwal yang otomatis `git rm` video/thumbnail yang sudah tayang di semua platform; file yang masih dipakai post terjadwal atau stok jangan dihapus. Tanpa rewrite history.
