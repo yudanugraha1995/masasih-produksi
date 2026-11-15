@@ -14,3 +14,8 @@
 ## Mulai 16 Nov (owner OK 15 Nov)
 - Tugas produksi harian jam 11:06 WITA: bikin 8 Short lalu LANGSUNG jadwalkan di Buffer (customScheduled, jam acak 1 jam sebelum slot 19/21/23/04 WITA). Tidak ada shareNow lagi. Kuota penuh → jadwalkan yang muat, lapor Bot C.
 - Judul prioritas: bank lucu & aneh (kit/ide_instant_tradisi.md, howcome meta/instant/ide_lucu_aneh.md).
+
+## Update owner via Bot C (15 Nov malam, produksi berikutnya; video jadi biarin)
+- Bendera MAKS 4 per video (DYK 3 negara + plot twist).
+- Tema EDUKASI: fakta bermanfaat / bikin belajar sesuatu, bukan sekadar sensasi. Bank lucu & aneh tetap dipakai tapi selalu ada pelajaran/fakta ilmiah/data yang jelas.
+- Durasi 20–25 detik (narasi ≤280 karakter; DYK: `instant_stretch.py <id> ... 23`, HC: `compose_instant.py <id> 23 short`).
