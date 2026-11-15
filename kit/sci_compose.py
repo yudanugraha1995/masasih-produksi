@@ -20,7 +20,7 @@ def quiet(a, b):
 st = quiet(max(0, Wd[0]['s'] - .15), Wd[0]['s'] + .02); en = quiet(Wd[-1]['e'] - .02, min(N / SR, Wd[-1]['e'] + .35))
 cuts = [k for k in range(1, len(Wd)) if Wd[k - 1]['w'][-1] in '.!?:']
 speech = (en - st) / SR; T = float(C.get('target', 23)); tail = 1.3
-gap = max(0.25, min(1.0, (T - speech - tail) / max(1, len(cuts))))
+gap = max(0.12, min(float(C.get("maxgap", 0.35)), (T - speech - tail) / max(1, len(cuts))))
 segs = []; mp = []; last = st; t = 0.0; f6 = int(.006 * SR)
 def fade(s):
     s = s.copy(); n = min(f6, len(s) // 2)
@@ -30,7 +30,7 @@ for k in cuts:
     c = quiet(Wd[k - 1]['e'] - .06, Wd[k]['s'] + .06); s = fade(x[last:c]); segs += [s, np.zeros(int(gap * SR), np.float32)]
     mp.append((last / SR, c / SR, t)); t += len(s) / SR + gap; last = c
 s = fade(x[last:en]); segs.append(s); mp.append((last / SR, en / SR, t)); t += len(s) / SR
-TOT = round(min(25.0, max(20.0, t + tail)), 2)
+TOT = round(min(25.0, t + tail), 2)
 y = np.concatenate(segs); y = np.concatenate([y, np.zeros(max(0, int(TOT * SR) - len(y)), np.float32)])[:int(TOT * SR)]
 def nt(tt):
     for a, b, o in mp:
