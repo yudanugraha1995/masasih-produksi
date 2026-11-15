@@ -27,4 +27,5 @@ for c in sorted(codes):
     b=io.BytesIO();im.save(b,'JPEG',quality=72);LP[c]='data:image/jpeg;base64,'+base64.b64encode(b.getvalue()).decode()
 js='const LMPH='+repr(LP).replace("'",'"')+';const LMCR='+repr(LC).replace("'",'"')+';\n'
 js+='const FACES='+repr(F).replace("'",'"')+';const PHOTO='+repr(P).replace("'",'"')+';\n'
-open(f'body_{i}.js','w').write(cfg+'\n'+js+open('tpl_dyk.js').read());print('ok body',i,'faces:',','.join(F),'landmarks:',','.join(LP))
+_n=len(re.findall(r"\['[a-z]{2}',",cfg.split('twist')[0]));_t=open('tpl_dyk.js').read().replace('sFact({ '*5,'sFact({ '*max(1,_n),1)
+open(f'body_{i}.js','w').write(cfg+'\n'+js+_t);print('ok body',i,'faces:',','.join(F),'landmarks:',','.join(LP))
