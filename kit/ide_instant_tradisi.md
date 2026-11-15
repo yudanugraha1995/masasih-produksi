@@ -13,3 +13,15 @@ Format: 4 negara (3 + plot twist), AS + Australia wajib, hook "What if…", maks
 10. What If Giving a Thumbs Up Was RUDE? 👍 — USA: means "OK" · Australia: OK (but historically rude in some places) · Greece: open palm "moutza" is the insult · TWIST Iran/parts of Middle East: thumbs up can be offensive
 
 Catatan: tiap fakta dicek ulang ke sumber resmi/kredibel saat produksi (tourism board, UNESCO, kementerian pendidikan, statistik nasional), sumber ditulis di video + deskripsi.
+
+# Bank 10 judul instant DYK: HAL-HAL LUCU (owner 15 Nov 2026)
+1. What If Your Town Had a GIANT Tomato Fight? 🍅 — USA: cow chip throwing contest (Wisconsin) · Australia: Henley-on-Todd boat race on a DRY riverbed · UK: Cooper's Hill cheese rolling · TWIST Spain: La Tomatina, ~20,000 people throwing tomatoes
+2. What If the Government Had to APPROVE Your Baby's Name? 👶 — USA: almost anything goes · Australia: offensive names & titles blocked · New Zealand: banned "Lucifer", "King", "Princess" · TWIST Iceland: a naming committee must approve new names
+3. What If It Was ILLEGAL to Own Just ONE Guinea Pig? 🐹 — USA · Australia · UK: allowed · TWIST Switzerland: social animals like guinea pigs must have a buddy
+4. What If Sheep Outnumbered People 5 to 1? 🐑 — USA: ~1 sheep per 70 people · UK: ~1 per 2 · Australia: ~3 per person · TWIST New Zealand: ~5 per person (cek angka terbaru Stats NZ / ABS / USDA)
+5. What If Your Toilet Had a CONTROL PANEL? 🚽 — USA: rare · Australia: rare · South Korea: bidet seats common · TWIST Japan: ~80% of homes have a high-tech washlet
+6. What If Chewing Gum Was BANNED? 🍬 — USA · Australia: legal · UK: fines for spitting gum on streets · TWIST Singapore: selling gum banned since 1992
+7. What If Running Out of Gas Got You FINED? ⛽ — USA · Australia: just call roadside help · UK: stopping on the motorway is risky · TWIST Germany: running dry on the Autobahn can get you a fine
+8. What If Carrying Your Wife Was a SPORT? 🏃 — USA: North American Wife Carrying Championship (Maine) · Australia: cockroach racing on Australia Day (Brisbane) · UK: World Bog Snorkelling Championship (Wales) · TWIST Finland: Wife Carrying World Championship, prize = her weight in beer
+9. What If You Ate Chocolate Sprinkles for Breakfast? 🍫 — USA: cereal · Australia: Vegemite toast · UK: beans on toast · TWIST Netherlands: hagelslag (chocolate sprinkles) on buttered bread
+10. What If Vending Machines Sold EVERYTHING? 🥤 — USA: snacks & soda · Australia: snacks · Germany: fresh bread & eggs in some villages · TWIST Japan: millions of machines with hot soup, umbrellas & more
