@@ -1,5 +1,12 @@
 # Ide konten dari isu hangat negara CPM tinggi
 
+## Ide kategori "kontroversial berbasis data" (permintaan owner 15 Nov 2026)
+Masuk rotasi judul (tetap 2 ramai + 2 receh per hari; kategori ini bisa jadi slot "ramai"). Wajib pakai data survei/indeks resmi, sebut sumbernya, framing netral ("according to…"), tanpa menghina warga negara mana pun. Angka dicek ulang saat produksi.
+- **Most disliked/negative-view countries:** survei persepsi global (mis. Ipsos/YouGov/Pew, BBC World Service Country Ratings, Anholt-Ipsos Nation Brands Index; Democracy Perception Index — Alliance of Democracies) → "Which Country Does the World Dislike the MOST?"
+- **Most protests:** Carnegie Global Protest Tracker / ACLED (jumlah aksi protes per negara) → "Which Country Has the MOST Protests?"
+- **Most organized crime / cartels:** Global Organized Crime Index (GI-TOC), skor "criminality" & "mafia-style groups" → "Which Country Has the MOST Powerful Cartels?" (plot twist: skor tertinggi).
+- Senada: most corrupt (Transparency International CPI), most dangerous/least peaceful (Global Peace Index), most sanctioned (Castellum.AI), most coups, most visited yet most disliked tourists, most lawsuits per capita, most prisoners per capita (World Prison Brief).
+
 ## 2026-11-15: 4 judul untuk 17 Nov (Did You Know)
 1. **Busiest airport** (isu: FAA hentikan semua penerbangan AS). Data ACI World 2025: Atlanta 106,3 jt, Dubai 95,2 jt, Haneda 91,7 jt, Shanghai Pudong 85,0 jt, Heathrow 84,5 jt, Istanbul 84,4 jt.
 2. **Larangan medsos anak** (isu: makin banyak negara ikut). Australia pertama (<16, Des 2025), Indonesia (<16, 28 Mar 2026), Malaysia (<16, 1 Jun 2026), Yunani (<15, 1 Jan 2027), Inggris rencana, AS belum ada larangan nasional.
