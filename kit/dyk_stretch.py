@@ -1,8 +1,9 @@
-# usage: python3 dyk_stretch.py <id> [target=40] [gpad=1.0] [tail=1.2]
+# usage: python3 dyk_stretch.py <id> [target=auto|detik] [gpad=0.6] [tail=1.2]
+# auto (owner 15 Nov): durasi fleksibel 30-40 dtk sesuai isi, jeda kalimat pendek (<=0.35 dtk), tidak dipanjangin demi 40.
 # DYK: sisipkan hening `gpad` detik TEPAT sebelum nama tiap negara (6 + plot twist) untuk momen bumi berputar/zoom,
 # sisa durasi dibagi ke akhir kalimat lain, lalu ekor CTA. Suara TIDAK diperlambat. Cfg wajib berisi gpad yang sama.
 import sys,json,os,re,shutil,subprocess,wave,numpy as np
-i=sys.argv[1];T=float(sys.argv[2]) if len(sys.argv)>2 else 40;G=float(sys.argv[3]) if len(sys.argv)>3 else 1.0;TAIL=float(sys.argv[4]) if len(sys.argv)>4 else 1.2;SR=44100
+i=sys.argv[1];TA=sys.argv[2] if len(sys.argv)>2 else 'auto';G=float(sys.argv[3]) if len(sys.argv)>3 else 0.6;TAIL=float(sys.argv[4]) if len(sys.argv)>4 else 1.2;SR=44100
 if not os.path.exists(f'narasi_{i}_raw.mp3'): shutil.copy(f'narasi_{i}.mp3',f'narasi_{i}_raw.mp3'); shutil.copy(f'timing_{i}.json',f'timing_{i}_raw.json')
 subprocess.check_call(['ffmpeg','-y','-v','error','-i',f'narasi_{i}_raw.mp3','-ac','1','-ar',str(SR),f'_raw_{i}.wav'])
 w=wave.open(f'_raw_{i}.wav');x=np.frombuffer(w.readframes(w.getnframes()),'<i2').astype(np.float32);w.close();os.remove(f'_raw_{i}.wav')
@@ -17,8 +18,13 @@ for nm in names:
         if all(n(W[k+j]['w'])==q[j] for j in range(len(q))): idx.append(k);p=k+1;break
     else: sys.exit('nama tidak ketemu di narasi: '+nm)
 cuts={k:G for k in idx}
+AUTO=TA=='auto'
 sent=[k+1 for k,wd in enumerate(W[:-1]) if wd['w'][-1] in '.!?' and k+1 not in cuts]
-rest=max(0,T-dur-TAIL-G*len(idx));g2=min(rest/max(1,len(sent)),1.5)
+if AUTO:
+    g2=0.35;T=min(40.0,max(30.0,dur+TAIL+G*len(idx)+g2*len(sent)))
+    g2=min(0.6,max(0.35,(T-dur-TAIL-G*len(idx))/max(1,len(sent))))
+else:
+    T=float(TA);rest=max(0,T-dur-TAIL-G*len(idx));g2=min(rest/max(1,len(sent)),1.5)
 for k in sent: cuts[k]=g2
 segs=[];prev=0;newW=[dict(w) for w in W];acc=0
 for k in sorted(cuts):
