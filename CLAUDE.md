@@ -5,7 +5,7 @@ Bahasa ke user: Indonesia santai. User tidak mau menekan Allow dan tidak bisa st
 ## PERUBAHAN BESAR 14 Nov 2026 (owner via Bot C) — MENGGANTIKAN aturan slot/format di bawah
 - **SHORT SAJA.** Tidak bikin video 16:9 lagi (yang sudah jadi/terjadwal dibiarkan).
 - Metricool khusus Masa Sih. **4 Short/hari jam 07:00, 11:00, 15:00, 19:00 WIB** (= 08:00, 12:00, 16:00, 20:00 WITA). Post lama digeser: 08→07, 11→11, 16→15, 20→19 WIB; video 16:9 yang sudah terpasang ikut Short pasangannya.
-- Produksi baru: narasi **MAKS 600 karakter**, durasi **30–40 detik fleksibel** (15 Nov; dulu fix 40), suara Senandika model **eleven_v4**, SFX + transisi menarik + cover judul + gaya retensi.
+- Produksi baru: narasi **MAKS 500 karakter**, durasi **MAKS 35 detik** (owner via Bot C 15 Nov malam; boleh lebih pendek, dulu ≤600 & 30–40 dtk), suara Senandika model **eleven_v4**, SFX + transisi menarik + cover judul + gaya retensi.
 - Stok YT Masa Sih cukup **sampai H+2** (H+1 dan H+2 penuh, owner via Bot C 15 Nov; dulu 4 hari). Produksi baru cuma kalau kurang dari itu; stok yang sudah ada biarin.
 - Did You Know dipegang **Bot D**; jangan ubah file `_dyk`. Kuota ElevenLabs dipakai bareng DYK → hemat.
 - **IG lewat METRICOOL (owner via Bot C 14 Nov):** IG masasihentertainment tersambung di brand 7793943. IG tayang konten persis sama dengan YT Short, di jam yang sama (07/11/15/19 WIB). Dibuat sebagai post Metricool terpisah khusus IG (`providers:[instagram]`, `instagramData:{type:"REEL",showReelOnFeed:true}`, `videoCoverMilliseconds:50`, file `<id>_styleA.mp4` raw GitHub, caption = Caption IG / deskripsi YT dengan `#shorts`→`#fyp`). Post baru: langsung jadwalkan YT + IG sekaligus. Buffer IG + `kit/pending_ig.md` + task rutin IG Buffer sudah TIDAK dipakai. Tetap cek dobel di IG (topik yang sudah tayang di IG: lihat `kit/topik_terpakai.md`).
@@ -18,7 +18,8 @@ Bahasa ke user: Indonesia santai. User tidak mau menekan Allow dan tidak bisa st
   5. BACKGROUND terang/cerah (owner via Bot C 14 Nov malam).
   6. ENDING (owner via Bot C 15 Nov): narasi + teks di layar wajib ajak SUBSCRIBE dan KOMENTAR (mis. "Subscribe biar dapat info kayak gini terus, dan tulis pendapatmu di komentar!"). Kalimatnya divariasikan tiap video, jangan sama terus. Urutan: dulu ajakan komentar berupa PERTANYAAN yang nyambung dengan judul/topik (mis. kipas: "Kamu tim tidur pakai kipas atau nggak? Jawab di komentar ya!"), bukan cuma "tulis di komentar"; baru setelah itu ajakan subscribe. Video lama nggak diubah.
   7. DURASI FLEKSIBEL 30–40 detik (owner via Bot C 15 Nov, menggantikan "FIX 40 detik"): sesuaikan isi. Jeda antar kalimat pendek, padat & cepat; JANGAN dipanjang-panjangin (stretch/hening) cuma buat ngejar 40 detik. Video lama nggak diubah.
-  Tetap ≤600 karakter, **30–40 detik**, eleven_v4.
+  8. (owner via Bot C 15 Nov malam, menggantikan no. 7) narasi MAKS 500 karakter, durasi MAKS 35 detik; boleh lebih pendek kalau isinya cukup, jangan dipanjang-panjangin. Video yang sudah ada biarin.
+  Tetap ≤500 karakter, **maks 35 detik**, eleven_v4.
 
 - **Metadata YT Short (owner via Bot C 14 Nov malam, semua Short YT yang dijadwalkan mulai sekarang):** deskripsi YT diisi selengkap mungkin sesuai topik (≤5.000 karakter): ringkasan, fakta, penjelasan, plot twist, pertanyaan komentar, sumber, disclaimer, ajakan subscribe. Jangan ada teks berulang/spam. `youtubeData.tags` diisi tag relevan sampai total ≤500 karakter. Hashtag cuma 3–5, termasuk `#shorts`. IG tetap caption biasa (≤2.200 karakter). Post yang sudah terjadwal tidak diubah.
 
