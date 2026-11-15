@@ -1,5 +1,5 @@
 # usage: python3 dyk_stretch.py <id> [target=auto|detik] [gpad=0.6] [tail=1.2]
-# auto (owner 15 Nov): durasi fleksibel 30-40 dtk sesuai isi, jeda kalimat pendek (<=0.35 dtk), tidak dipanjangin demi 40.
+# auto (owner 15 Nov): durasi MAKS 35 dtk (boleh lebih pendek) sesuai isi, jeda kalimat pendek (<=0.35 dtk), tidak dipanjangin demi 40.
 # DYK: sisipkan hening `gpad` detik TEPAT sebelum nama tiap negara (6 + plot twist) untuk momen bumi berputar/zoom,
 # sisa durasi dibagi ke akhir kalimat lain, lalu ekor CTA. Suara TIDAK diperlambat. Cfg wajib berisi gpad yang sama.
 import sys,json,os,re,shutil,subprocess,wave,numpy as np
@@ -21,7 +21,7 @@ cuts={k:G for k in idx}
 AUTO=TA=='auto'
 sent=[k+1 for k,wd in enumerate(W[:-1]) if wd['w'][-1] in '.!?' and k+1 not in cuts]
 if AUTO:
-    g2=0.35;T=min(40.0,max(30.0,dur+TAIL+G*len(idx)+g2*len(sent)))
+    g2=0.35;T=min(35.0,dur+TAIL+G*len(idx)+g2*len(sent))
     g2=min(0.6,max(0.35,(T-dur-TAIL-G*len(idx))/max(1,len(sent))))
 else:
     T=float(TA);rest=max(0,T-dur-TAIL-G*len(idx));g2=min(rest/max(1,len(sent)),1.5)
