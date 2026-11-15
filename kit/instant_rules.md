@@ -29,3 +29,4 @@
 - Hindari topik yang tumpang tindih dengan How Come; cek kit/judul_all.md.
 - Visual: perlu template baru (ikon/diagram sains, tanpa karakter), bukan tpl_dyk globe.
 - DYK sains: struktur WAJIB plot twist ringan: 0–3 dtk hook "Why…?" · 3–15 dtk jawaban singkat yang umum · 15–20 dtk twist "But here's the surprising part…" (fakta mengejutkan tapi AKURAT, jangan dikarang) · 20–25 dtk pertanyaan komentar + subscribe. ≤280 karakter.
+- DYK sains: TANPA presenter/maskot tetap. Karakter & objek berubah sesuai cerita tiap video (pesawat: penumpang + jendela; bawang: orang memotong bawang di dapur; listrik statis: orang memegang gagang pintu). How Come tetap KOMO.
