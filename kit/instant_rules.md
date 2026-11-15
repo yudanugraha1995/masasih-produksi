@@ -30,3 +30,8 @@
 - Visual: perlu template baru (ikon/diagram sains, tanpa karakter), bukan tpl_dyk globe.
 - DYK sains: struktur WAJIB plot twist ringan: 0–3 dtk hook "Why…?" · 3–15 dtk jawaban singkat yang umum · 15–20 dtk twist "But here's the surprising part…" (fakta mengejutkan tapi AKURAT, jangan dikarang) · 20–25 dtk pertanyaan komentar + subscribe. ≤280 karakter.
 - DYK sains: TANPA presenter/maskot tetap. Karakter & objek berubah sesuai cerita tiap video (pesawat: penumpang + jendela; bawang: orang memotong bawang di dapur; listrik statis: orang memegang gagang pintu). How Come tetap KOMO.
+
+## 16 Nov dini hari (DYK sains, sudah TERJADWAL di Buffer, full frame 9:16 via kit/sci_compose.py)
+- 01:20 airplanei_dyk · 03:35 onioni_dyk (slot 04) · 05:08 statici_dyk · 09:46 wrinklei_dyk (WITA)
+- Trigger posting 03:xx: DYK slot 04 SUDAH terjadwal (onion) → cuma shareNow How Come toilet_i (howcome-produksi 7c7c345).
+- DYK sains: gambar wajib 9:16 (gpt-image-2.5-sunburst aspect_ratio 9:16 via update_node), FULL FRAME.

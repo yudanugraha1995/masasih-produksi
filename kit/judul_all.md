@@ -51,3 +51,7 @@ HC | What if you NEVER cut your nails again?
 HC | What if you read in the dark every night?
 HC-topics | Noon slot 11:00 WIB (reserved 13 Nov): phonebed (13 Nov), sleepsocks (14), breadmold (15), nightshower (16), toothbrush (17), snoring (18), chewingice (19), dreams (20), sleepmusic (21), eatfast (22), petbed (23)
 HC-topics | sleep4h, skipbreakfast, sitallday, energydrink, knuckles, teeth, phone, water (30 days), blinking, nails, sneeze, gum, wethair, yawn, latenight, handwash, snooze, steps, headphones, coldshower, nap, spicy, coffee, tvclose, coldwater, pimples, watermelonseed (night 12 Nov), hiccups (night 13 Nov), hair (night 14 Nov), sleeptalk (night 15 Nov), goosebumps (16 Nov), brainfreeze (17 Nov), earwax (18 N
+DYK | Why Do Airplane Windows Have Tiny Holes?
+DYK | Why Do Onions Make You Cry?
+DYK | Why Do We Get Static Shocks?
+DYK | Why Do Fingers Wrinkle in Water?
