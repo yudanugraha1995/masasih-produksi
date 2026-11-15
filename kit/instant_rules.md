@@ -36,3 +36,4 @@
 - Trigger posting 03:xx: DYK slot 04 SUDAH terjadwal (onion) → cuma shareNow How Come toilet_i (howcome-produksi 7c7c345).
 - DYK sains: gambar wajib 9:16 (gpt-image-2.5-sunburst aspect_ratio 9:16 via update_node), FULL FRAME.
 - DYK sains (owner 16 Nov dini hari, produksi berikutnya): karakter di ilustrasi LAKI-LAKI (tulis "a young man" di prompt gambar); narasi lebih RAPAT: jeda antar kalimat dipendekkan (sci_compose gap maks 0.35 dtk, nggak dipanjangin), durasi menyesuaikan, tetap ≥20 dtk kalau bisa, maks 25.
+- LAPORAN (owner 16 Nov): JANGAN lapor ke user kalau posting/tayang sukses. Lapor cuma kalau ada masalah yang nggak bisa diberesin sendiri.
