@@ -33,6 +33,11 @@ Bahasa ke user: Indonesia santai. User tidak mau menekan Allow dan tidak bisa st
 
 - **IG LAGI JALAN via BUFFER KEDUA (owner via Bot C, user setuju 15 Nov):** org 6af918b4f0ed12641d5e6db7, channel IG masasihentertainment **6af9288dece6dfde5fcc146a**, lewat `kit/buffer2.py ig <id> <dueAt> <teks.txt>` (API key = network secret, proxy). Tiap YT Short di Buffer pertama WAJIB punya IG Reel kembar: video `<id>_styleA.mp4`, jam SAMA PERSIS, caption = deskripsi `kit/desc_yt.py` (#shorts→#fyp, subscribe→follow otomatis), cover frame 50 ms. Maks 10 terjadwal. YT di Buffer kedua JANGAN dipakai. 15 Nov: 10 IG terjadwal (makanhp s.d. telur).
 
+- **8 SHORT/SIKLUS mulai 16 Nov (owner via Bot C 15 Nov malam, MENGGANTIKAN stok H+2):** slot WITA 08/10/12/14/16/18/20/22 (= WIB 07/09/11/13/15/17/19/21). Jam posting acak dalam 1 jam sebelum slot (dan > sekarang; slot 12 WITA yang diisi jam 11 → acak antara sekarang+15 mnt s.d. 12:00 WITA). Isi SEKALI sehari jam 11:01 WITA (trigger trig_01SXykAYphbBnYXFcmwnkyig) untuk 1 siklus: 12,14,16,18,20,22 WITA hari itu + 08,10 WITA besok. JANGAN jadwalin lewat 10:00 WITA besok (kuota YT/IG maks 10). YT (Buffer pertama) + IG kembar (Buffer kedua) seperti biasa.
+  - Slot UTAMA 08/12/16/20 WITA: dari `kit/antrean_yt.md`; produksi baru ≤500 karakter, maks 35 detik.
+  - Slot BARU 10/14/18/22 WITA: video baru JUDUL ANEH & LUCU (mitos/pertanyaan nyeleneh, gaya Masa Sih), narasi MAKS 400 karakter, durasi lebih pendek menyesuaikan. Hook "Gimana kalau/Katanya kalau/Masa sih kalau", latar terang, ending pertanyaan + subscribe, judul nggak dobel (cek `kit/topik_terpakai.md`). Kalau kurang: produksi saat itu juga lalu langsung jadwalkan. Antrean lucu: `kit/antrean_lucu.md`.
+  - Post yang sudah terjadwal biarin. 15 Nov: telur dipindah ke 18 Nov 10:23 WIB (11:23 WITA) YT + IG.
+
 - **Bersih space (user pilih A, 14 Nov):** tiap Senin 18:47 WIB ada tugas terjadwal yang otomatis `git rm` video/thumbnail yang sudah tayang di semua platform; file yang masih dipakai post terjadwal atau stok jangan dihapus. Tanpa rewrite history.
 
 ## Video

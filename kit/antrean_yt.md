@@ -38,7 +38,7 @@ Habis dijadwalkan: pindahkan baris ke bagian "Sudah dijadwalkan" + tanggal/jam +
 - makanhp 15/11 10:50 · makanmalam 15/11 14:39 · kucing 15/11 18:13
 - bijicabai 16/11 06:46 · keramas 16/11 10:55 · hujan 16/11 14:21 · unta 16/11 18:24
 - kipas 17/11 06:21 (6af9243dc5b364e0622fb407) · rambutbasah 17/11 10:09 (6af92441918fe79d2ebba4df)
-- telur 18/11 11:34
+- telur 18/11 10:23 WIB (dipindah 15 Nov; YT 6af9200fc5b364e0622e4364, IG 6af928fec5b364e06230cb8c)
 - permenkaret 17/11 14:15 (YT 6af95475918fe79d2ec818a2, IG kembar)
 
 ## IG Buffer kedua (sudah dijadwalkan, jam sama dengan YT)
