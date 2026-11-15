@@ -19,3 +19,4 @@
 - Bendera MAKS 4 per video (DYK 3 negara + plot twist).
 - (DIBATALKAN owner) aturan "tema edukasi" tidak berlaku; topik & gaya tetap lucu & aneh seperti sebelumnya.
 - Durasi 20–25 detik (narasi ≤280 karakter; DYK: `instant_stretch.py <id> ... 23`, HC: `compose_instant.py <id> 23 short`).
+- HOW COME instant (owner via Bot C 15 Nov, terbaru): tema edukatif dari niche CPM tertinggi di US: keuangan pribadi (nabung, credit score, utang, pajak, investasi dasar), kesehatan & sains tubuh, asuransi/biaya kesehatan, karier & produktivitas, teknologi & AI, rumah/properti & hukum dasar. Format "What if…", 20–25 dtk, ≤280 karakter, fakta akurat, BUKAN saran medis/keuangan. Bank lucu & aneh HC dipakai kalau masuk niche itu (mis. sains tubuh). DYK instant tetap: maks 4 bendera, 20–25 dtk.
