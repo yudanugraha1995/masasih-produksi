@@ -4,3 +4,8 @@
 - Deskripsi YT PENDEK: 1–2 kalimat + 3–5 hashtag termasuk #shorts.
 - AUDIO wajib rapi: jeda disisipkan pakai `kit/instant_stretch.py` (potong di titik paling hening + fade, tidak pernah buang audio). HC pakai `kit/compose_instant.py` (repo howcome). Cek tidak ada kata kepotong sebelum posting.
 - Video lama dibiarkan.
+
+## Antrean siap posting (15 Nov malam)
+- Slot 23:00 WITA (posting 22:xx): HC stomach_i -> https://raw.githubusercontent.com/yudanugraha1995/howcome-produksi/7c7c345/videos/instant/stomach_i_short.mp4 · DYK militaryi_dyk -> https://raw.githubusercontent.com/yudanugraha1995/masasih-produksi/260f134/videos/instant/militaryi_dyk.mp4
+- Slot 04:00 WITA (posting 03:xx): HC toilet_i -> .../howcome-produksi/7c7c345/videos/instant/toilet_i_short.mp4 · DYK workhoursi_dyk -> .../masasih-produksi/260f134/videos/instant/workhoursi_dyk.mp4
+- Sudah tayang: neck_i (19:22), retirei_dyk (19:31), pillow_i (20:16), vote16i_dyk (20:24).
