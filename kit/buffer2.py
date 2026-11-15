@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+# TIDAK DIPAKAI LAGI (15 Nov): YT Masa Sih pindah ke channel baru di Buffer PERTAMA (konektor). Lihat CLAUDE.md.
 """Buffer KEDUA (khusus YT Masa Sih), lewat GraphQL api.buffer.com.
 Key = network secret (proxy inject Authorization), JANGAN taruh key di sini.
 Pakai:

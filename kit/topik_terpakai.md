@@ -40,3 +40,6 @@ Pengecualian: telur (18 Nov) tetap 12:00 WIB (Buffer YT Short + Metricool 16:9),
 ## IG via Metricool (mulai 14 Nov 2026)
 Sudah tayang di IG (lewat Buffer, sebelum channel hilang): nasidingin, micin, telur, miinstan, dekattv, kopi, permenkaret (6 Nov) + konten lama sebelum 11 Nov.
 Terjadwal IG Metricool 14–23 Nov: semua Short yang tayang di YT di jam yang sama, KECUALI telur 18 Nov 12:00 dan permenkaret 17 Nov 15:00 (sudah pernah tayang di IG, jadi IG slot itu kosong).
+
+## 15 Nov: YT Masa Sih channel Buffer baru 6af91e0dece6dfde5fcb8a8a
+Ulat gigi Short tayang 15 Nov 07:02 WIB (K3UA1e9xfX8). Dijadwal ulang: makanmalam 15/14:39, bijicabai 16/06:46, hujan 16/14:21, telur 18/11:34 WIB.

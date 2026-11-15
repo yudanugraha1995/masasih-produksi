@@ -22,7 +22,7 @@ Bahasa ke user: Indonesia santai. User tidak mau menekan Allow dan tidak bisa st
 
 - **Jam posting ACAK (owner via Bot C 14 Nov malam, untuk video yang BELUM dijadwalkan; yang sudah terjadwal biarin):** posting di menit acak dalam 1 jam SEBELUM slot. Slot 07:00 WIB (08 WITA) → acak 06:00–06:59 WIB; 11:00 WIB (12 WITA) → 10:00–10:59; 15:00 WIB (16 WITA) → 14:00–14:59; 19:00 WIB (20 WITA) → 18:00–18:59. Menit diacak tiap post (pakai `python3 -c "import random;print(random.randint(1,58))"`), jangan pola tetap. YT Short + IG untuk konten yang sama = jam acak yang SAMA. Saat cek stok, post di rentang acak itu dihitung mengisi slot tersebut.
 
-- **BUFFER KEDUA untuk YT Masa Sih mulai 24 Nov (user konfirmasi 15 Nov, key terpasang + tes OK):** akun Buffer kedua (org 6af918b4f0ed12641d5e6db7, channel YT "Masa Sih Official Studio" 6af91902ece6dfde5fcb6a7a, timezone Asia/Makassar) lewat API GraphQL `api.buffer.com`, key = network secret (proxy inject; JANGAN minta ulang/tempel). Pakai `python3 kit/buffer2.py list|post|delete` (bukan konektor Buffer; konektor tetap akun pertama How Come + DYK). Slot ≥24 Nov: CUMA YT Short 4x/hari jam acak (06:xx/10:xx/14:xx/18:xx WIB), TANPA IG (IG berhenti setelah jadwal Metricool terakhir 23 Nov), jangan ke Metricool. Batas 10 post terjadwal → refill harian (stok ±2,5 hari). Buffer tidak bisa isi tag YT → post Buffer TANPA tag (owner 15 Nov), cukup deskripsi + hashtag; jangan bikin file tag. Metricool (s.d. 23 Nov) tetap isi tag. Deskripsi panjang tetap. Metricool s.d. 23 Nov dibiarkan.
+- **YT Masa Sih via BUFFER PERTAMA, channel BARU (owner via Bot C 15 Nov):** owner sambung ulang YT Masa Sih di Buffer pertama (org 6ae70fdb1bfb2511a8a3e891) → channel **6af91e0dece6dfde5fcb8a8a** "Masa Sih Official Studio". Channel lama 6aed86ade29c69a1717e311b MATI (403), jangan dipakai. Akun Buffer kedua + `kit/buffer2.py` TIDAK dipakai lagi. Slot ≥24 Nov: CUMA YT Short 4x/hari jam acak (06:xx/10:xx/14:xx/18:xx WIB) lewat konektor Buffer (create_post customScheduled, metadata youtube title + categoryId "27", public, madeForKids false), TANPA IG (IG berhenti setelah jadwal Metricool terakhir 23 Nov), jangan ke Metricool. Maks 10 terjadwal/channel → refill harian. Buffer tidak bisa isi tag YT → post Buffer TANPA tag, cukup deskripsi panjang + 3–5 hashtag. Metricool (s.d. 23 Nov) tetap isi tag. 15 Nov: makanmalam, bijicabai, hujan, telur dijadwal ulang di channel baru (yang lama hilang).
 
 - **Bersih space (user pilih A, 14 Nov):** tiap Senin 18:47 WIB ada tugas terjadwal yang otomatis `git rm` video/thumbnail yang sudah tayang di semua platform; file yang masih dipakai post terjadwal atau stok jangan dihapus. Tanpa rewrite history.
 
@@ -56,7 +56,7 @@ Bahasa ke user: Indonesia santai. User tidak mau menekan Allow dan tidak bisa st
 
 ## Jadwal Buffer
 - Org: 6ae70fdb1bfb2511a8a3e891 (Asia/Jakarta). Channel yang dipakai (mulai 11 Nov 2026):
-  - YouTube **Masa Sih Official Studio** 6aed86ade29c69a1717e311b
+  - YouTube **Masa Sih Official Studio** 6af91e0dece6dfde5fcb8a8a (baru 15 Nov; lama 6aed86ade29c69a1717e311b mati)
   - Instagram **masasihentertainment** 6aed8639e29c69a1717e2e5f
   - (Jangan posting ke How Come Entertainment / TikTok.)
 - **Short 9:16** -> IG masasihentertainment (reel) + YT Masa Sih Official Studio. File Short yang sama (`<id>_styleA.mp4`) untuk keduanya, tidak ada versi khusus IG. IG 2 slot/hari, YT Short 1 slot/hari (selang-seling dengan video 16:9), jadi IG tayang lebih dulu; kalau stok Short untuk IG habis, produksi Short baru dan jadwalkan juga di YT.
