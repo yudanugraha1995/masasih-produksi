@@ -1,5 +1,19 @@
 # Ide konten dari isu hangat negara CPM tinggi
 
+## 10 judul siap produksi (dibuat 15 Nov 2026, owner minta lihat; angka WAJIB dicek ulang saat produksi)
+| # | Judul | Jenis | Data | Plot twist (perkiraan) |
+|---|---|---|---|---|
+| 1 | Which Country Is the MOST Corrupt? 💰 | ramai | Transparency International CPI 2025 | skor terendah (Sudan Selatan/Somalia); pembuka negara bersih Denmark, NZ |
+| 2 | Which Country Has the MOST Powerful Cartels? 🔫 | ramai | Global Organized Crime Index (GI-TOC) | skor kriminalitas tertinggi (Myanmar/Kolombia/Meksiko) |
+| 3 | Which Country Does the World Dislike the MOST? 😬 | ramai | Democracy Perception Index 2025 | persepsi bersih terendah |
+| 4 | Which Country Has the MOST Protests? 📢 | ramai | Carnegie Global Protest Tracker / ACLED | jumlah protes terbanyak |
+| 5 | Which Country Is the LEAST Peaceful? ⚠️ | ramai | Global Peace Index 2025 | peringkat terbawah; pembuka Islandia paling damai |
+| 6 | Which Country Has the MOST Sanctions? 🚫 | ramai | Castellum.AI sanctions tracker | Rusia (jauh di atas Iran/Korut) |
+| 7 | Which Country Locks Up the MOST People? 🔒 | ramai | World Prison Brief (per 100.000 penduduk) | El Salvador (> AS) — hitung mundur |
+| 8 | Which Country Has MORE Guns Than People? 🔫 | ramai | Small Arms Survey | AS ±120 senjata per 100 orang — hitung mundur |
+| 9 | Where Is a Big Mac the MOST Expensive? 🍔 | receh | The Economist Big Mac Index | Swiss — hitung mundur |
+| 10 | Which Country Works the LONGEST Hours? ⏰ | receh | OECD jam kerja per tahun | Kolombia/Meksiko; pembuka Jerman paling sedikit |
+
 ## Ide kategori "kontroversial berbasis data" (permintaan owner 15 Nov 2026)
 Masuk rotasi judul (tetap 2 ramai + 2 receh per hari; kategori ini bisa jadi slot "ramai"). Wajib pakai data survei/indeks resmi, sebut sumbernya, framing netral ("according to…"), tanpa menghina warga negara mana pun. Angka dicek ulang saat produksi.
 - **Most disliked/negative-view countries:** survei persepsi global (mis. Ipsos/YouGov/Pew, BBC World Service Country Ratings, Anholt-Ipsos Nation Brands Index; Democracy Perception Index — Alliance of Democracies) → "Which Country Does the World Dislike the MOST?"
