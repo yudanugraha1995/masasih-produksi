@@ -17,5 +17,5 @@
 
 ## Update owner via Bot C (15 Nov malam, produksi berikutnya; video jadi biarin)
 - Bendera MAKS 4 per video (DYK 3 negara + plot twist).
-- Tema EDUKASI: fakta bermanfaat / bikin belajar sesuatu, bukan sekadar sensasi. Bank lucu & aneh tetap dipakai tapi selalu ada pelajaran/fakta ilmiah/data yang jelas.
+- (DIBATALKAN owner) aturan "tema edukasi" tidak berlaku; topik & gaya tetap lucu & aneh seperti sebelumnya.
 - Durasi 20–25 detik (narasi ≤280 karakter; DYK: `instant_stretch.py <id> ... 23`, HC: `compose_instant.py <id> 23 short`).
