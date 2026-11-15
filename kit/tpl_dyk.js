@@ -4,7 +4,7 @@
 {const E=DUR+0.2, C=CFG.items, TW=CFG.twist, GP=CFG.gpad||0, GD=0.9+GP, MAPBG=CFG.bgPhoto?false:true;
 const MAPV=(t,t0,c,from,a,b)=>spinGlobe(t,from,c,t0,GD,960,980,true)+`<rect width="1920" height="1920" fill="${a}" opacity="${fmt(0.5*ss((t-t0-GD+0.2)/0.4))}"/><rect width="1920" height="1920" fill="url(#vig)" opacity="${fmt(0.6*ss((t-t0-GD+0.2)/0.4))}"/>`;
 const GRID=[...C.map(c=>[c[0],c[1]]),[CFG.hideTwist?'q':TW.code,CFG.hideTwist?'???':TW.name]];
-const bP=at(CFG.plotW||'Plot')-0.15, bC=at(CFG.ctaW||'Comment')-0.15, tTW=at(TW.trigger,bP);
+const bP=at(CFG.plotW||'Plot')-0.15, bC=(CFG.ctaW?at(CFG.ctaW):(at('Subscribe',bP+0.5)>bP+0.5?at('Subscribe',bP+0.5):at('Comment')))-0.15, tTW=at(TW.trigger,bP);
 const starts=[];C.forEach((c,i)=>starts.push(at(c[2],i?starts[i-1]+0.3+GP:0.5)-0.15-GP));
 // background cerah bergradasi (owner 14 Nov); plot twist tetap gelap sebagai selingan
 const PAL=[['#5AC8FA','#1E88E5'],['#4DD0A9','#00897B'],['#FF9E7A','#E64A6B'],['#FFD54F','#FB8C00'],['#B39DDB','#7E57C2']];
@@ -65,7 +65,8 @@ S.push({t0:bP,t1:bC,
 S.push({t0:bC,t1:E,
  world:t=>{let s=BGG(t,'#FFB74D','#FF5C8A','c')+rays(960,150,7,1400,9,.25,t*4);
   s+=g(tr(960,820,1.05),globe(t,1));
-  const kc=popS(t,bC+0.25,.45);if(kc>0)s+=g(tr(960,1300,kc*.9,3),bubble(560,170,'bl')+`<text x="0" y="20" text-anchor="middle" font-family="B2" font-weight="800" font-size="58" fill="${OL}">${CFG.bubble||'Comment below!'}</text>`,'filter="url(#dsh)"');return s;},
+  const kc=popS(t,bC+0.25,.45);if(kc>0)s+=g(tr(960,1300,kc*.9,3),bubble(560,170,'bl')+`<text x="0" y="20" text-anchor="middle" font-family="B2" font-weight="800" font-size="${(CFG.bubble||"Comment your country!").length>16?48:58}" fill="${OL}">${CFG.bubble||'Comment your country!'}</text>`,'filter="url(#dsh)"');
+  const ks=popS(t,bC+0.7,.45);if(ks>0)s+=g(tr(960,1560,ks*(1+0.04*Math.sin(t*6)),-2),`<rect x="-330" y="-85" width="660" height="170" rx="85" fill="#FF0033" stroke="${OL}" stroke-width="10"/><polygon points="-235,-38 -235,38 -170,0" fill="#fff"/><text x="40" y="24" text-anchor="middle" font-family="B2" font-weight="800" font-size="72" fill="#fff">SUBSCRIBE</text>`,'filter="url(#dsh)"');return s;},
  cam:t=>camV(t,bC,E,[960,1000,1.0],[960,980,1.08]),hud:t=>hudLabel(t,bC+0.05,CFG.ctaTitle||'WHAT ABOUT YOUR COUNTRY?',{size:50,bg:'#5B6C8F'})});
 }
 const THUMB={t:-1,cy:1170,lines:CFG.thumb}; // t<0 = frame thumbnail khusus (ikon + ? + bendera) di scene hook
