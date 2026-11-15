@@ -26,6 +26,8 @@ Bahasa ke user: Indonesia santai. User tidak mau menekan Allow dan tidak bisa st
 
 - **KUOTA METRICOOL HABIS (15 Nov, user pilih: pindah YT Short ke Buffer):** Metricool tinggal 2 post/bulan (reset 1 Des). Mulai sekarang SEMUA YT Short Masa Sih (termasuk ≤23 Nov) lewat Buffer channel 6af91e0dece6dfde5fcb8a8a, maks 10 terjadwal → refill harian: ambil YT Short Metricool terdekat yang belum dipindah, jadwalkan di Buffer (jam acak 1 jam sebelum slot, deskripsi + 3–5 hashtag), lalu jadikan versi Metricool `draft:true` (updateScheduledPost, full info) biar nggak dobel. IG + video 16:9 tetap di Metricool (tidak ada cadangan; kemungkinan gagal). Slot baru (mis. 23 Nov 11:xx WIB) diisi lewat Buffer saja. 15 Nov dipindah: makanhp 15/10:50, kucing 15/18:13, keramas 16/10:55, unta 16/18:24 WIB.
 
+- **SEMUA POST METRICOOL = DRAFT (owner via Bot C, user setuju 15 Nov):** 82 post Masa Sih 15–23 Nov (YT Short, 16:9, IG) di Metricool sudah `draft:true` (API nggak bisa hapus). IG + video 16:9 BERHENTI. YT Short cuma lewat Buffer channel 6af91e0dece6dfde5fcb8a8a dari antrean `kit/antrean_yt.md` (deskripsi via `python3 kit/desc_yt.py <id>`), maks 10 terjadwal, refill harian. Jangan bikin post baru di Metricool. Stok antrean cukup sampai 23 Nov; mulai 24 Nov produksi Short baru (aturan video baru di atas).
+
 - **Bersih space (user pilih A, 14 Nov):** tiap Senin 18:47 WIB ada tugas terjadwal yang otomatis `git rm` video/thumbnail yang sudah tayang di semua platform; file yang masih dipakai post terjadwal atau stok jangan dihapus. Tanpa rewrite history.
 
 ## Video
