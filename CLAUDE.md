@@ -29,6 +29,8 @@ Bahasa ke user: Indonesia santai. User tidak mau menekan Allow dan tidak bisa st
 
 - **SEMUA POST METRICOOL = DRAFT (owner via Bot C, user setuju 15 Nov):** 82 post Masa Sih 15–23 Nov (YT Short, 16:9, IG) di Metricool sudah `draft:true` (API nggak bisa hapus). IG + video 16:9 BERHENTI. YT Short cuma lewat Buffer channel 6af91e0dece6dfde5fcb8a8a dari antrean `kit/antrean_yt.md` (deskripsi via `python3 kit/desc_yt.py <id>`), maks 10 terjadwal, refill harian. Jangan bikin post baru di Metricool. Stok antrean cukup sampai 23 Nov; mulai 24 Nov produksi Short baru (aturan video baru di atas).
 
+- **IG LAGI JALAN via BUFFER KEDUA (owner via Bot C, user setuju 15 Nov):** org 6af918b4f0ed12641d5e6db7, channel IG masasihentertainment **6af9288dece6dfde5fcc146a**, lewat `kit/buffer2.py ig <id> <dueAt> <teks.txt>` (API key = network secret, proxy). Tiap YT Short di Buffer pertama WAJIB punya IG Reel kembar: video `<id>_styleA.mp4`, jam SAMA PERSIS, caption = deskripsi `kit/desc_yt.py` (#shorts→#fyp, subscribe→follow otomatis), cover frame 50 ms. Maks 10 terjadwal. YT di Buffer kedua JANGAN dipakai. 15 Nov: 10 IG terjadwal (makanhp s.d. telur).
+
 - **Bersih space (user pilih A, 14 Nov):** tiap Senin 18:47 WIB ada tugas terjadwal yang otomatis `git rm` video/thumbnail yang sudah tayang di semua platform; file yang masih dipakai post terjadwal atau stok jangan dihapus. Tanpa rewrite history.
 
 ## Video

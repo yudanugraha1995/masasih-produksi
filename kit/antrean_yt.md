@@ -3,6 +3,7 @@
 Semua post Metricool sudah DRAFT (15 Nov). Refill harian ambil dari sini, urut dari atas.
 Cara: `python3 kit/desc_yt.py <id>` -> title + text + video, lalu Buffer create_post
 (customScheduled, slot kosong berikutnya, menit acak 06:xx/10:xx/14:xx/18:xx WIB, categoryId 27, public, madeForKids false, tanpa tag).
+Setelah YT dijadwalkan, langsung IG kembar di Buffer kedua: `python3 kit/buffer2.py ig <id> <dueAt sama> <teks>` (teks = field text dari desc_yt.py).
 Habis dijadwalkan: pindahkan baris ke bagian "Sudah dijadwalkan" + tanggal/jam + post id.
 
 ## Belum dijadwalkan (urutan)
@@ -39,3 +40,6 @@ Habis dijadwalkan: pindahkan baris ke bagian "Sudah dijadwalkan" + tanggal/jam +
 - bijicabai 16/11 06:46 · keramas 16/11 10:55 · hujan 16/11 14:21 · unta 16/11 18:24
 - kipas 17/11 06:21 (6af9243dc5b364e0622fb407) · rambutbasah 17/11 10:09 (6af92441918fe79d2ebba4df)
 - telur 18/11 11:34
+
+## IG Buffer kedua (sudah dijadwalkan, jam sama dengan YT)
+- makanhp, makanmalam, kucing, bijicabai, keramas, hujan, unta, kipas, rambutbasah, telur (15 Nov)
