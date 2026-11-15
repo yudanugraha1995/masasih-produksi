@@ -28,3 +28,4 @@
 - Stok awal dari owner: Airplane Windows Tiny Holes · Phone Hot While Charging (sudut beda dari HC "Charging Overnight" atau skip) · Ice Float · Mirrors Flip Left/Right · Popcorn Explode · Static Shocks · Onions Make You Cry · Voice Weird on Recordings · Elevators Have Mirrors · Metal Colder Than Wood · Fingers Wrinkle in Water. Lalu judul baru gaya sama.
 - Hindari topik yang tumpang tindih dengan How Come; cek kit/judul_all.md.
 - Visual: perlu template baru (ikon/diagram sains, tanpa karakter), bukan tpl_dyk globe.
+- DYK sains: struktur WAJIB plot twist ringan: 0–3 dtk hook "Why…?" · 3–15 dtk jawaban singkat yang umum · 15–20 dtk twist "But here's the surprising part…" (fakta mengejutkan tapi AKURAT, jangan dikarang) · 20–25 dtk pertanyaan komentar + subscribe. ≤280 karakter.
