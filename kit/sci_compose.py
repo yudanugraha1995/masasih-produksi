@@ -90,6 +90,7 @@ def otext(d, xy, s, f, fill='#fff', sw=10, anchor='mm'):
 def pop(t, t0, dur=.25):
     if t < t0: return 0
     p = min(1, (t - t0) / dur); return 1 + .35 * math.sin(p * math.pi) * (1 - p) if p < 1 else 1
+KWF = {}
 F_sub, F_kw, F_cov, F_tw, F_q = font(78), font(150), font(120), font(130), font(84)
 chunks = []; cur = []
 for w in Wd:
@@ -120,7 +121,9 @@ for i in range(nF):
         for j, l in enumerate(C['title']): otext(d, (W / 2, y0 + j * 140), l, F_cov, '#FFE27A' if j == n - 1 else '#fff', 14)
     else:
         for tt, txt, col in kws:  # keyword pop-ups, ~1.4 s each
-            if tt <= t < tt + 1.4 and not (tCTA <= t): layer_text(fr, txt, F_kw, (W / 2, 640), col, pop(t, tt))
+            if tt <= t < tt + 1.4 and not (tCTA <= t):
+                fk = KWF.setdefault(txt, font(max(70, min(150, int(150 * (W - 120) / max(1, F_kw.getlength(txt)))))))
+                layer_text(fr, txt, fk, (W / 2, 640), col, pop(t, tt))
         if tTw <= t < tTw + 1.6: layer_text(fr, 'PLOT TWIST!', F_tw, (W / 2, 420), '#FFD23F', pop(t, tTw, .3), 14)
         if t >= tCTA:
             for j, l in enumerate(C['q']): otext(d, (W / 2, 620 + j * 105), l, F_q, '#fff', 10)
