@@ -10,3 +10,7 @@
 - Slot 23:00 WITA (posting 22:xx): HC stomach_i -> https://raw.githubusercontent.com/yudanugraha1995/howcome-produksi/7c7c345/videos/instant/stomach_i_short.mp4 · DYK militaryi_dyk -> https://raw.githubusercontent.com/yudanugraha1995/masasih-produksi/260f134/videos/instant/militaryi_dyk.mp4
 - Slot 04:00 WITA (posting 03:xx): HC toilet_i -> .../howcome-produksi/7c7c345/videos/instant/toilet_i_short.mp4 · DYK workhoursi_dyk -> .../masasih-produksi/260f134/videos/instant/workhoursi_dyk.mp4
 - Sudah tayang: neck_i (19:22), retirei_dyk (19:31), pillow_i (20:16), vote16i_dyk (20:24).
+
+## Mulai 16 Nov (owner OK 15 Nov)
+- Tugas produksi harian jam 11:06 WITA: bikin 8 Short lalu LANGSUNG jadwalkan di Buffer (customScheduled, jam acak 1 jam sebelum slot 19/21/23/04 WITA). Tidak ada shareNow lagi. Kuota penuh → jadwalkan yang muat, lapor Bot C.
+- Judul prioritas: bank lucu & aneh (kit/ide_instant_tradisi.md, howcome meta/instant/ide_lucu_aneh.md).
