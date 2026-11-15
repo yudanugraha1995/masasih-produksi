@@ -72,14 +72,21 @@ open(f'/tmp/{ID}.pcm', 'wb').write(mix.astype('<i2').tobytes())
 FH = 1060; FY = 330  # foreground band (16:9 art) height & top
 def prep(p):
     im = Image.open(p).convert('RGB')
-    r = max(W / im.width, H / im.height); bgi = im.resize((int(im.width * r) + 1, int(im.height * r) + 1)).filter(ImageFilter.GaussianBlur(30))
-    bgi = bgi.crop(((bgi.width - W) // 2, (bgi.height - H) // 2, (bgi.width - W) // 2 + W, (bgi.height - H) // 2 + H))
-    bgi = Image.blend(bgi, Image.new('RGB', (W, H), (255, 255, 255)), .25)
+    r = max(W / im.width, H / im.height); cov = im.resize((int(im.width * r) + 1, int(im.height * r) + 1), Image.LANCZOS)
+    bgi = cov.crop(((cov.width - W) // 2, (cov.height - H) // 2, (cov.width - W) // 2 + W, (cov.height - H) // 2 + H)).filter(ImageFilter.GaussianBlur(30))
+    bgi = Image.blend(bgi, Image.new('RGB', (W, H), (255, 255, 255)), .2)
+    if im.height >= im.width:  # portrait art: FULL FRAME
+        s = 1.15 * max(W / im.width, H / im.height); fg = im.resize((int(im.width * s) + 1, int(im.height * s) + 1), Image.LANCZOS)
+        return bgi, fg, True
     s = FH * 1.15 / im.height; fg = im.resize((int(im.width * s), int(im.height * s)), Image.LANCZOS)
-    return bgi, fg
+    return bgi, fg, False
 A, B = prep(C['imgA']), prep(C['imgB'])
 def kb(pair, p, z0=1.0, z1=1.12, dx=0.0):
-    bgi, fg = pair; z = z0 + (z1 - z0) * p
+    bgi, fg, full = pair; z = z0 + (z1 - z0) * p
+    if full:
+        cw, ch = fg.width / 1.15 / z, fg.height / 1.15 / z
+        cx = fg.width / 2 + dx * (fg.width - cw) / 2 * (2 * p - 1); cy = fg.height / 2
+        return fg.crop((int(cx - cw / 2), int(cy - ch / 2), int(cx + cw / 2), int(cy + ch / 2))).resize((W, H), Image.BILINEAR)
     ch = fg.height / 1.15 / z; cw = W * ch / FH
     cx = fg.width / 2 + dx * (fg.width - cw) / 2 * (2 * p - 1); cy = fg.height / 2
     crop = fg.crop((int(cx - cw / 2), int(cy - ch / 2), int(cx + cw / 2), int(cy + ch / 2))).resize((W, FH), Image.BILINEAR)
