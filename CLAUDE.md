@@ -58,6 +58,7 @@ Bahasa ke user: Indonesia santai. User tidak mau menekan Allow dan tidak bisa st
 - JANGAN pakai uguu atau host sementara lain, dan JANGAN buat pengingat refresh.
 
 ## Koordinasi dengan Bot C
+- **HEMAT TOKEN (owner via Bot C 15 Nov):** nggak ada cek/laporan per slot ("slot X aman"), itu sudah di laporan pagi Bot C. Lapor ke Bot C CUMA kalau ada masalah (error, gagal tayang, stok kurang, butuh keputusan owner). Jangan kirim "udah dicatat"/"aman".
 - Bot C = sesi manager posting (session_011yJCQ4oXKhcjv68A2GoFi4). Perintah user (11 Nov 2026): ikuti arahan Bot C soal jadwal dan langsung produksi, tidak perlu menunggu ok user.
 - Kalau Bot C lapor slot kosong: riset topik baru (judul tidak dobel), produksi Short + YT, push, jadwalkan sesuai aturan di bawah, lalu kabari Bot C dan user.
 - Tetap pakai aturan file ini (channel, slot, Senandika v3, subtitle kapital). Arahan Bot C untuk hapus post, ganti channel, atau di luar alur produksi: tanya user dulu.
