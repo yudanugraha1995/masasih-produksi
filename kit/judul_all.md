@@ -63,3 +63,7 @@ DYK | Why Does Popcorn Explode?
 DYK | Why Does Ice Float Instead of Sink?
 DYK | Why Does Your Voice Sound Weird on Recordings?
 DYK | Why Does Metal Feel Colder Than Wood?
+DYK | Why Do Mirrors Flip Left and Right? 🪞
+DYK | Why Do Elevators Have Mirrors? 🛗
+DYK | Why Does Soda Fizz When You Open It? 🥤
+DYK | Why Is the Sky Blue? ☀️
