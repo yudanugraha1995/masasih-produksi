@@ -118,7 +118,7 @@ function yuma(o){
    <path d="M-78,0L-6,0L-6,8Q-6,12 -12,12L-70,12Q-78,12 -78,4Z M78,0L6,0L6,8Q6,12 12,12L70,12Q78,12 78,4Z" fill="#fff" stroke="${OL}" stroke-width="2"/>`;
   const shirt=`<path d="M-40,-352C-70,-350 -94,-342 -100,-318C-104,-296 -84,-280 -80,-262C-78,-226 -76,-196 -76,-170Q-76,-156 -62,-156L62,-156Q76,-156 76,-170C76,-196 78,-226 80,-262C84,-280 104,-296 100,-318C94,-342 70,-350 40,-352Z" fill="#8ED1F3" stroke="${OL}" stroke-width="4" stroke-linejoin="round"/>
    <path d="M-74,-172L74,-172" stroke="#76BEE3" stroke-width="10" stroke-linecap="round"/>
-   <path d="M-38,-350Q0,-312 38,-350" stroke="#5AAEDB" stroke-width="8" fill="none" stroke-linecap="round"/>`;
+   <path d="M-38,-350Q0,-312 38,-350" stroke="#5AAEDB" stroke-width="8" fill="none" stroke-linecap="round"/>`+(window.WM?`<text x="0" y="-240" text-anchor="middle" font-family="B2" font-weight="800" font-size="30" fill="#fff" stroke="#1E5F8C" stroke-width="5" paint-order="stroke" letter-spacing="1">MASA SIH</text>`:'');
   const armL=g(`translate(-76 -322) scale(-1 1)`,yArm(aL)), armR=g(`translate(76 -322)`,yArm(aR));
   let hold='';
   if(o.holdR){const [hx,hy]=handPos(1,aR);hold+=g(`translate(${fmt(hx)} ${fmt(hy)})`,o.holdR);}
@@ -239,7 +239,7 @@ function drawThumb(){
   document.getElementById('hud').innerHTML=DEFS.replace('SEED',7)+thumbTitle(THUMB.lines);
 }
 window.draw=function(t){
-  if(typeof THUMB!=='undefined' && t<THUMB_DUR){drawThumb();return;}
+  if(typeof THUMB!=='undefined' && t<(window.THUMB_D||THUMB_DUR)){drawThumb();return;}
   // TMAP (opsional, untuk versi dubbing): [[detik audio baru, detik timeline scene asli], ...] -> scene ikut audio baru, subtitle pakai waktu asli
   const T0=t; if(typeof TMAP!=='undefined'){let k=0;while(k<TMAP.length-2&&t>=TMAP[k+1][0])k++;const [a0,b0]=TMAP[k],[a1,b1]=TMAP[k+1];t=b0+(b1-b0)*Math.min(1,Math.max(0,(t-a0)/(a1-a0)));}
   let i=S.findIndex(s=>t>=s.t0&&t<s.t1);if(i<0)i=S.length-1;

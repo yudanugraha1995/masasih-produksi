@@ -43,3 +43,9 @@ Terjadwal IG Metricool 14–23 Nov: semua Short yang tayang di YT di jam yang sa
 
 ## 15 Nov: YT Masa Sih channel Buffer baru 6af91e0dece6dfde5fcb8a8a
 Ulat gigi Short tayang 15 Nov 07:02 WIB (K3UA1e9xfX8). Dijadwal ulang: makanmalam 15/14:39, bijicabai 16/06:46, hujan 16/14:21, telur 18/11:34 WIB.
+
+## 16 Nov 2026 (Short LUCU, slot 10/14/18/22 WITA)
+- potong kuku malam (umur pendek) — kukumalam
+- nyapu malam (rezeki kebuang) — nyapumalam
+- siul malam (manggil makhluk halus) — siulmalam
+- makan nggak habis ayam mati — nasisisa
