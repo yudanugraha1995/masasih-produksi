@@ -4,7 +4,9 @@ Judul aneh & lucu, narasi maks 400 karakter, durasi pendek, aturan video baru la
 Habis produksi: tambah di "Siap", lalu jadwalkan YT + IG kembar dan pindahkan ke "Sudah dijadwalkan" + jam + post id.
 
 ## Siap (belum dijadwalkan)
-(kosong)
+- nasisisa → slot 17 Nov 10 WITA (jadwal 09:16 WITA = 08:16 WIB), nunggu kuota (keramas tayang 11:55 WITA)
 
 ## Sudah dijadwalkan
-(kosong)
+- kukumalam 16/11 13:12 WITA (YT 6afa75578e87c256a3abc00a, IG 6afa75608e87c256a3abc268)
+- nyapumalam 16/11 17:01 WITA (YT 6afa75998e87c256a3abd87b, IG 6afa75a3a869c35e5bb3fdde)
+- siulmalam 16/11 21:12 WITA (YT 6afa75e5ff465c57daccd253, IG 6afa75efff465c57daccd62a)
