@@ -55,3 +55,11 @@ DYK | Why Do Airplane Windows Have Tiny Holes?
 DYK | Why Do Onions Make You Cry?
 DYK | Why Do We Get Static Shocks?
 DYK | Why Do Fingers Wrinkle in Water?
+HC | What If You Never Read the Terms and Conditions?
+HC | What If You Forgot to Cancel Your Free Trials?
+HC | What If You Used the SAME Password Everywhere?
+HC | What If You Charged Your Phone Overnight Every Night?
+DYK | Why Does Popcorn Explode?
+DYK | Why Does Ice Float Instead of Sink?
+DYK | Why Does Your Voice Sound Weird on Recordings?
+DYK | Why Does Metal Feel Colder Than Wood?
