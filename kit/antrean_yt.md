@@ -8,21 +8,13 @@ Habis dijadwalkan: pindahkan baris ke bagian "Sudah dijadwalkan" + tanggal/jam +
 
 ## Belum dijadwalkan (urutan)
 - burungunta
-- kerokan
-- hpdicas
-- keretek
 - tembokcina
 - otak
-- kantongmata
-- gula
 - sleepwalk
 - cukur
-- pedasmaag
 - wortel
 - bunglon
 - ikanmas
-- susutidur
-- airputih
 - kelelawar
 - nyamuk
 - duduklama
@@ -40,6 +32,8 @@ Habis dijadwalkan: pindahkan baris ke bagian "Sudah dijadwalkan" + tanggal/jam +
 - kipas 17/11 06:21 (6af9243dc5b364e0622fb407) · rambutbasah 17/11 10:09 (6af92441918fe79d2ebba4df)
 - telur 18/11 10:23 WIB (dipindah 15 Nov; YT 6af9200fc5b364e0622e4364, IG 6af928fec5b364e06230cb8c)
 - permenkaret 17/11 14:15 (YT 6af95475918fe79d2ec818a2, IG kembar)
+
+- kerokan 17/11 19:36 WITA · kantongmata 18/11 07:07 · pedasmaag 18/11 15:20 · susutidur 18/11 19:52 · airputih 19/11 07:22 · gula 19/11 11:08 · hpdicas 19/11 15:18 · keretek 19/11 19:42 (YT + IG kembar, 16 Nov)
 
 ## IG Buffer kedua (sudah dijadwalkan, jam sama dengan YT)
 - makanhp, makanmalam, kucing, bijicabai, keramas, hujan, unta, kipas, rambutbasah, telur (15 Nov)
