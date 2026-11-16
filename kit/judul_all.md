@@ -67,3 +67,41 @@ DYK | Why Do Mirrors Flip Left and Right? 🪞
 DYK | Why Do Elevators Have Mirrors? 🛗
 DYK | Why Does Soda Fizz When You Open It? 🥤
 DYK | Why Is the Sky Blue? ☀️
+HC | What If You Never Unplugged Your Chargers? 🔌
+HC | What If You Saved $5 a Day Starting at 20? 💰
+HC | What If You Only Paid the MINIMUM on Your Credit Card? 💳
+HC | What If a Raise Made You Take Home LESS? 🧾
+HC | What If AI Cloned Your Voice From 3 Seconds of Audio? 🤖
+HC | What If You Never Checked Your Credit Report? 📉
+HC | What If a Surprise $400 Bill Showed Up Tomorrow? 💸
+HC | What If You Clicked Every Link in Your Texts? 📱
+HC | What If You Never Updated Your Phone? 📲
+HC | What If You Shared Your Location All the Time? 📍
+HC | What If You Used Free Public Wi-Fi for Everything? 📶
+HC | What If You Worked 55 Hours Every Week? ⏰
+HC | What If You Checked Work Emails Every Night? 📧
+HC | What If You Drove After Staying Awake All Night? 😵
+HC | What If You Texted While Driving? 🚗
+HC | What If You Never Backed Up Your Photos? 📸
+HC | What If You Kept All Your Money in Cash at Home? 💵
+HC | What If Your Smart Speaker Was Always Listening? 🔊
+DYK | Why Does Bread Go Stale? 🍞
+DYK | Why Does Your Stomach Growl? 🍽️
+DYK | Why Do Bananas Turn Brown? 🍌
+DYK | Why Do Your Ears Pop on a Plane? ✈️
+DYK | Why Does Salt Melt Ice? 🧂
+DYK | Why Do Microwaves Heat Food Unevenly? 🍲
+DYK | Why Does Your Foot Fall Asleep? 🦶
+DYK | Why Do Leaves Change Color in Fall? 🍂
+DYK | Why Do Batteries Die Faster in the Cold? 🔋
+DYK | Why Does a Spoon Look Bent in Water? 🥄
+DYK | Why Do Car Windows Fog Up? 🚗
+DYK | Why Does Helium Make Your Voice Squeaky? 🎈
+DYK | Why Do Mosquito Bites Itch? 🦟
+DYK | Why Does the Moon Look Bigger Near the Horizon? 🌕
+DYK | Why Do Pen Caps Have a Tiny Hole? 🖊️
+DYK | Why Does Toast Land Butter Side Down? 🍞
+DYK | Why Is Foil Shiny on One Side? ✨
+DYK | Why Doesn't Glue Stick Inside the Bottle? 🧴
+DYK | Why Do We Shiver When We're Cold? 🥶
+DYK | Why Do Old Books Smell So Good? 📚
