@@ -39,6 +39,8 @@ Bahasa ke user: Indonesia santai. User tidak mau menekan Allow dan tidak bisa st
   - Slot BARU 10/14/18/22 WITA: video baru JUDUL ANEH & LUCU (mitos/pertanyaan nyeleneh, gaya Masa Sih), narasi MAKS 400 karakter, durasi lebih pendek menyesuaikan. Hook "Gimana kalau/Katanya kalau/Masa sih kalau", latar terang, ending pertanyaan + subscribe, judul nggak dobel (cek `kit/topik_terpakai.md`). Kalau kurang: produksi saat itu juga lalu langsung jadwalkan. Antrean lucu: `kit/antrean_lucu.md`.
   - Post yang sudah terjadwal biarin. 15 Nov: telur dipindah ke 18 Nov 10:23 WIB (11:23 WITA) YT + IG.
 
+- **BUFFER PERTAMA PREMIUM (owner via Bot C 16 Nov):** YT nggak ada batas 10 lagi; isi semua slot (8/hari) sampai tanggal yang diminta. Buffer KEDUA (IG) MASIH GRATIS maks 10 → IG kembar yang belum muat dicatat di `kit/pending_ig2.md` (urut waktu) dan diisi oleh tugas per jam "IG refill" + tugas harian 11:01 WITA. STORAGE GUARD: cek `du -sh .git` sebelum push; kalau ~3.8 GB, STOP & lapor Bot C. Judul prioritas: "Masa Sih X Bikin Y?" mitos makanan/minuman/tubuh; kurangi hook "Gimana kalau". 16 Nov: semua slot s.d. 19 Nov 22:00 WITA terisi di YT (8 dari antrean + 11 lucu baru).
+
 - **Bersih space (user pilih A, 14 Nov):** tiap Senin 18:47 WIB ada tugas terjadwal yang otomatis `git rm` video/thumbnail yang sudah tayang di semua platform; file yang masih dipakai post terjadwal atau stok jangan dihapus. Tanpa rewrite history.
 
 ## Video
