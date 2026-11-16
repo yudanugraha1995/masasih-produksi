@@ -49,3 +49,4 @@ Ulat gigi Short tayang 15 Nov 07:02 WIB (K3UA1e9xfX8). Dijadwal ulang: makanmala
 - nyapu malam (rezeki kebuang) — nyapumalam
 - siul malam (manggil makhluk halus) — siulmalam
 - makan nggak habis ayam mati — nasisisa
+- (17–19 Nov, Short lucu) nanas lidah, es krim brain freeze, bawang putih nyamuk, cegukan dikagetin, jengkol pipis, cokelat jerawat, bersin jantung, ngupil hidung, soda tulang, durian panas/alkohol, menguap nular
