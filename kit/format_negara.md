@@ -85,3 +85,5 @@ Australia (~$39,83) · Amerika Serikat (~$36,03) · Kanada (~$32,07) · Selandia
 - Penggantian Buffer DYK s.d. 28 Nov: peta slot lama→baru di `naskah/dyk6/slots.json` (post lama dihapus SETELAH post pengganti di jam yang sama dibuat).
 - (user 21 Nov malam) **Plot twist PALING SERING = USA** (AS jadi negara terakhir/twist yang paling mencolok). Format 6 negara, 55 dtk. Topik "Which country has the most X?" dengan AS juara cocok. Script: naskah/dyk6/gen4.py.
 - api.buffer.com lewat proxy = akun Buffer KEDUA (dilarang). Jadwalkan DYK/HC cuma lewat konektor Buffer (MCP).
+- (user 21 Nov malam, terbaru) DURASI DYK: MAKS 55 dtk, tidak dipaksa pas 55; narasi 600–800 karakter biar padat (jeda pendek: T = bicara + ~6 dtk, maks 55).
+- SEMUA video DYK + How Come ke Buffer lewat CLOUDINARY (sama seperti Masa Sih), TIDAK lewat link repo GitHub.
