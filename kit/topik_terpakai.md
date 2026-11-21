@@ -61,3 +61,56 @@ Ulat gigi Short tayang 15 Nov 07:02 WIB (K3UA1e9xfX8). Dijadwal ulang: makanmala
 - nasi kotak hajatan keracunan (hot: Kebumen) — hajatan
 - krim pemutih instan merkuri (hot: BPOM) — pemutih
 - (topik orang lain 20–21 Nov, jangan dobel) cotton bud, snooze alarm, makan cepat, cuci ayam mentah, tidur tengkurap, handuk lembap, kaki disilang, kuku kotor, deodoran pagi, mobil panas, Menara Eiffel, kecoa tanpa kepala
+
+## Batch Woyyy 22–28 Nov
+- dbdsiang: Nyamuk DBD Cuma Gigit Malam
+- mimisan: Mimisan Harus Dongak
+- ngorok: Ngorok Tanda Tidur Nyenyak
+- banjir: Main Air Banjir
+- tehmakan: Minum Teh Habis Makan
+- antibiotik: Flu Minum Antibiotik
+- situp: Sit Up Tiap Hari
+- odolluka: Luka Bakar Dikasih Odol
+- kambing: Makan Sate Kambing
+- keringat: Keringetan Banyak
+- kedutan: Mata Kedutan
+- fogging: Fogging Bikin Aman dari DBD
+- buahmakan: Makan Buah Habis Makan
+- sikatgigi: Sikat Gigi Habis Makan
+- bulunghidung: Cabut Bulu Hidung
+- hpgelap: Main HP Gelap-gelapan
+- bawangdemam: Demam Ditempel Bawang Merah
+- airhangat: Minum Air Hangat Tiap Pagi
+- kram: Kaki Kram Pas Tidur
+- gigitkuku: Suka Gigit Kuku
+- telingadenging: Telinga Berdenging
+- garukgatal: Digaruk Makin Gatal
+- susutinggi: Minum Susu Tiap Hari
+- esbatu: Es Batu Jajanan
+- nangis: Nangis Bikin Sehat
+- jongkok: BAB Jongkok Lebih Sehat
+- kopianak: Anak Minum Kopi
+- lemonkurus: Air Lemon Tiap Pagi
+- kesemutan: Kesemutan Tanda Kurang Darah
+- mangga: Mangga Sama Susu Bikin Keracunan
+- perutbunyi: Perut Keroncongan Tanda Lapar
+- airgalon: Air Galon Harus Dimasak Lagi
+- sabunmuka: Cuci Muka Pakai Sabun Mandi
+- langkah: Jalan 10.000 Langkah Sehari
+- bantal: Bantal Tinggi Bikin Leher Kaku
+- selimut: Demam Diselimuti Tebal
+- kunyah32: Kunyah 32 Kali
+- minumbangun: Bangun Tidur Langsung Minum Air
+- kayuputih: Minyak Kayu Putih di Hidung Bayi
+- tusukgigi: Pakai Tusuk Gigi Tiap Hari
+- apek: Baju Apek Musim Hujan
+- tertawa: Tertawa Bikin Panjang Umur
+- gulaaren: Gula Aren Lebih Sehat dari Gula Pasir
+- eskrimpilek: Pilek Makan Es Krim
+- mandidemam: Demam Nggak Boleh Mandi
+- bensin: Suka Bau Bensin
+- ketombe: Ketombe Dikasih Jeruk Nipis
+- jamu: Minum Jamu Tiap Hari
+- lensa: Tidur Pakai Softlens
+- sendawa: Sering Sendawa Tanda Masuk Angin
+- kerupuk: Kerupuk Bikin Radang Tenggorokan

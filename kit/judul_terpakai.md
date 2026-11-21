@@ -161,3 +161,56 @@ Update tiap produksi. Sumber: naskah/judul_caption_*.md + post YT channel Masa S
 - rotigaram | Roti Garam Lagi Viral? 🥐 Masa Sih Bikin Darah Tinggi?
 - hajatan | Nasi Kotak Hajatan Dimakan Besok? 🍱 Masa Sih Bikin Keracunan?
 - pemutih | Krim Pemutih Instan? 😱 Masa Sih Aman?
+
+## Batch Woyyy 22–28 Nov (tayang via Buffer, video Cloudinary)
+- 2026-11-22 | dbdsiang | Nyamuk DBD Cuma Gigit Malam? 🦟 Masa Sih?
+- 2026-11-22 | mimisan | Mimisan Harus Dongak? 🩸 Masa Sih Bener?
+- 2026-11-22 | ngorok | Ngorok Tanda Tidur Nyenyak? 😴 Masa Sih?
+- 2026-11-23 | banjir | Main Air Banjir? 🌊 Masa Sih Bisa Kena Kencing Tikus?
+- 2026-11-23 | tehmakan | Minum Teh Habis Makan? 🍵 Masa Sih Bikin Kurang Darah?
+- 2026-11-23 | antibiotik | Flu Minum Antibiotik? 💊 Masa Sih Cepat Sembuh?
+- 2026-11-23 | situp | Sit Up Tiap Hari? 💪 Masa Sih Bikin Perut Rata?
+- 2026-11-23 | odolluka | Luka Bakar Dikasih Odol? 🔥 Masa Sih Ampuh?
+- 2026-11-23 | kambing | Makan Sate Kambing? 🐐 Masa Sih Langsung Darah Tinggi?
+- 2026-11-23 | keringat | Keringetan Banyak? 💦 Masa Sih Lemak Kebakar?
+- 2026-11-23 | kedutan | Mata Kedutan? 👁️ Masa Sih Pertanda Rezeki?
+- 2026-11-24 | fogging | Fogging Bikin Aman dari DBD? 🦟 Masa Sih?
+- 2026-11-24 | buahmakan | Makan Buah Habis Makan? 🍎 Masa Sih Busuk di Perut?
+- 2026-11-24 | sikatgigi | Sikat Gigi Habis Makan? 🪥 Masa Sih Malah Rusak?
+- 2026-11-24 | bulunghidung | Cabut Bulu Hidung? 👃 Masa Sih Bahaya?
+- 2026-11-24 | hpgelap | Main HP Gelap-gelapan? 📱 Masa Sih Bikin Mata Rusak?
+- 2026-11-24 | bawangdemam | Demam Ditempel Bawang Merah? 🧅 Masa Sih Turun?
+- 2026-11-24 | airhangat | Minum Air Hangat Tiap Pagi? ☕ Masa Sih Bikin Kurus?
+- 2026-11-24 | kram | Kaki Kram Pas Tidur? 🦵 Masa Sih Kurang Kalsium?
+- 2026-11-25 | gigitkuku | Suka Gigit Kuku? 💅 Masa Sih Bahaya?
+- 2026-11-25 | telingadenging | Telinga Berdenging? 👂 Masa Sih Ada yang Ngomongin?
+- 2026-11-25 | garukgatal | Digaruk Makin Gatal? 🦟 Masa Sih?
+- 2026-11-25 | susutinggi | Minum Susu Tiap Hari? 🥛 Masa Sih Bikin Tinggi?
+- 2026-11-25 | esbatu | Es Batu Jajanan? 🧊 Masa Sih Bikin Sakit Perut?
+- 2026-11-25 | nangis | Nangis Bikin Sehat? 😭 Masa Sih?
+- 2026-11-25 | jongkok | BAB Jongkok Lebih Sehat? 🚽 Masa Sih?
+- 2026-11-25 | kopianak | Anak Minum Kopi? ☕ Masa Sih Bikin Pendek?
+- 2026-11-26 | lemonkurus | Air Lemon Tiap Pagi? 🍋 Masa Sih Luruhin Lemak?
+- 2026-11-26 | kesemutan | Kesemutan Tanda Kurang Darah? 🦶 Masa Sih?
+- 2026-11-26 | mangga | Mangga Sama Susu Bikin Keracunan? 🥭 Masa Sih?
+- 2026-11-26 | perutbunyi | Perut Keroncongan Tanda Lapar? 🫃 Masa Sih?
+- 2026-11-26 | airgalon | Air Galon Harus Dimasak Lagi? 💧 Masa Sih?
+- 2026-11-26 | sabunmuka | Cuci Muka Pakai Sabun Mandi? 🧼 Masa Sih Aman?
+- 2026-11-26 | langkah | Jalan 10.000 Langkah Sehari? 🚶 Masa Sih Wajib?
+- 2026-11-26 | bantal | Bantal Tinggi Bikin Leher Kaku? 🛏️ Masa Sih?
+- 2026-11-27 | selimut | Demam Diselimuti Tebal? 🤒 Masa Sih Biar Cepat Sembuh?
+- 2026-11-27 | kunyah32 | Kunyah 32 Kali? 😋 Masa Sih Wajib?
+- 2026-11-27 | minumbangun | Bangun Tidur Langsung Minum Air? 💧 Masa Sih Wajib?
+- 2026-11-27 | kayuputih | Minyak Kayu Putih di Hidung Bayi? 👶 Masa Sih Aman?
+- 2026-11-27 | tusukgigi | Pakai Tusuk Gigi Tiap Hari? 🦷 Masa Sih Bikin Gigi Renggang?
+- 2026-11-27 | apek | Baju Apek Musim Hujan? 👕 Masa Sih Bikin Gatal?
+- 2026-11-27 | tertawa | Tertawa Bikin Panjang Umur? 😂 Masa Sih?
+- 2026-11-27 | gulaaren | Gula Aren Lebih Sehat dari Gula Pasir? 🍯 Masa Sih?
+- 2026-11-28 | eskrimpilek | Pilek Makan Es Krim? 🍦 Masa Sih Makin Parah?
+- 2026-11-28 | mandidemam | Demam Nggak Boleh Mandi? 🛁 Masa Sih?
+- 2026-11-28 | bensin | Suka Bau Bensin? ⛽ Masa Sih Bahaya?
+- 2026-11-28 | ketombe | Ketombe Dikasih Jeruk Nipis? 🍋 Masa Sih Ampuh?
+- 2026-11-28 | jamu | Minum Jamu Tiap Hari? 🌿 Masa Sih Pasti Sehat?
+- 2026-11-28 | lensa | Tidur Pakai Softlens? 👁️ Masa Sih Bahaya?
+- 2026-11-28 | sendawa | Sering Sendawa Tanda Masuk Angin? 😮‍💨 Masa Sih?
+- 2026-11-28 | kerupuk | Kerupuk Bikin Radang Tenggorokan? 🍘 Masa Sih?
