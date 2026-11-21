@@ -61,3 +61,5 @@
 - howcome/burnttoast_w https://res.cloudinary.com/u5zqiuc2/video/upload/v1795299486/howcome/burnttoast_w.mp4
 - dyk/mcdonalds_dyk https://res.cloudinary.com/u5zqiuc2/video/upload/v1795299601/dyk/mcdonalds_dyk.mp4
 - howcome/garlic_w https://res.cloudinary.com/u5zqiuc2/video/upload/v1795299833/howcome/garlic_w.mp4
+- howcome/milk_w https://res.cloudinary.com/u5zqiuc2/video/upload/v1795300069/howcome/milk_w.mp4
+- dyk/olympics_dyk https://res.cloudinary.com/u5zqiuc2/video/upload/v1795300123/dyk/olympics_dyk.mp4
