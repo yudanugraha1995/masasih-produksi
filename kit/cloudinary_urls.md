@@ -35,3 +35,5 @@
 - howcome/sleepin_w https://res.cloudinary.com/u5zqiuc2/video/upload/v1795294020/howcome/sleepin_w.mp4
 - howcome/nosleep3_w https://res.cloudinary.com/u5zqiuc2/video/upload/v1795294416/howcome/nosleep3_w.mp4
 - dyk/dateformat_dyk https://res.cloudinary.com/u5zqiuc2/video/upload/v1795294419/dyk/dateformat_dyk.mp4
+- howcome/mouthbreath_w https://res.cloudinary.com/u5zqiuc2/video/upload/v1795294735/howcome/mouthbreath_w.mp4
+- dyk/metric_dyk https://res.cloudinary.com/u5zqiuc2/video/upload/v1795294738/dyk/metric_dyk.mp4
