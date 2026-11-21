@@ -45,3 +45,4 @@
 - dyk/parentalleave_dyk https://res.cloudinary.com/u5zqiuc2/video/upload/v1795295995/dyk/parentalleave_dyk.mp4
 - howcome/nosocks_w https://res.cloudinary.com/u5zqiuc2/video/upload/v1795296401/howcome/nosocks_w.mp4
 - dyk/languages_dyk https://res.cloudinary.com/u5zqiuc2/video/upload/v1795296583/dyk/languages_dyk.mp4
+- howcome/nosugar_w https://res.cloudinary.com/u5zqiuc2/video/upload/v1795296711/howcome/nosugar_w.mp4
