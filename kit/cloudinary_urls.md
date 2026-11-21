@@ -47,3 +47,4 @@
 - dyk/languages_dyk https://res.cloudinary.com/u5zqiuc2/video/upload/v1795296583/dyk/languages_dyk.mp4
 - howcome/nosugar_w https://res.cloudinary.com/u5zqiuc2/video/upload/v1795296711/howcome/nosugar_w.mp4
 - howcome/sunscreen_w https://res.cloudinary.com/u5zqiuc2/video/upload/v1795297068/howcome/sunscreen_w.mp4
+- dyk/sports_dyk https://res.cloudinary.com/u5zqiuc2/video/upload/v1795297163/dyk/sports_dyk.mp4
