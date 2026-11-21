@@ -1,0 +1,163 @@
+# Judul terpakai Masa Sih (WAJIB cek sebelum bikin judul baru, jangan dobel)
+
+Update tiap produksi. Sumber: naskah/judul_caption_*.md + post YT channel Masa Sih Official Studio (Buffer). Dicek 21 Nov 2026.
+
+## Judul dari repo (id | judul)
+- ac | Masa Sih Tidur Pakai AC Semalaman Bikin Pilek? 🥶 #shorts
+- airputih | MASA SIH: airputih
+- banteng | Masa Sih Banteng Ngamuk Kalau Lihat Warna Merah? 🐂 #shorts
+- bawang | Masa Sih Bawang Putih Bikin Nyamuk Kabur? 🧄🦟
+- bersin | Masa Sih Bersin Bikin Jantung Berhenti? 🤧
+- bijicabai | MASA SIH: bijicabai
+- bunglon | Masa Sih Bunglon Ganti Warna Buat Nyamar? 🦎 #shorts
+- burungunta | Masa Sih Burung Unta Ngumpetin Kepala di Pasir? 🦤 #shorts
+- cegukan | Masa Sih Cegukan Berhenti Kalau Dikagetin? 😳
+- coklat | Masa Sih Makan Cokelat Bikin Jerawatan? 🍫
+- cukur | MASA SIH: cukur
+- dekattv | MASA SIH: dekattv
+- duduklama | Duduk Seharian? 🪑 Masa Sih Sebahaya Merokok?
+- durian | Masa Sih Makan Durian Bikin Badan Panas? 🔥
+- eskrim | Masa Sih Es Krim Bikin Otak Beku? 🍦
+- esteh | MASA SIH: esteh (slot 23 Nov 2026)
+- gula | MASA SIH: gula
+- hiu | Masa Sih Ikan Hiu Nggak Bisa Kena Kanker? 🦈 #shorts
+- hpdicas | Main HP Sambil Dicas? 🔌 Masa Sih Bisa Meledak?
+- hujan | MASA SIH: hujan
+- ikanmas | MASA SIH: ikanmas
+- jengkol | Masa Sih Kebanyakan Jengkol Bikin Pipis Sakit? 😖
+- kantongmata | Masa Sih Kantong Mata Pasti Gara-Gara Begadang? 👀
+- kaoskaki | MASA SIH: kaoskaki (slot 23 Nov 2026)
+- kelelawar | Masa Sih Kelelawar Itu Buta? 🦇 #shorts
+- keramas | Keramas Tiap Hari? 🧴 Masa Sih Bikin Rambut Rontok?
+- keretek | MASA SIH: keretek
+- kerokan | MASA SIH: kerokan
+- kipas | MASA SIH: kipas
+- kopi | MASA SIH: kopi
+- kucing | Masa Sih Kucing Jatuh Pasti Mendarat Pakai Kaki? 🐱 #shorts
+- kuku | Masa Sih Bintik Putih di Kuku Tanda Kurang Kalsium? 💅 #shorts
+- kukumalam | Katanya Potong Kuku Malam Bikin Umur Pendek? (Short lucu, slot 14 WITA)
+- makanhp | Makan Sambil Main HP Tiap Hari? 📱 Masa Sih Bikin Gemuk?
+- makanmalam | MASA SIH: makanmalam
+- menguap | Masa Sih Menguap Bisa Nular? 🥱
+- micin | MASA SIH: micin
+- miinstan | MASA SIH: miinstan
+- minumberdiri | Minum Sambil Berdiri? 🥤 Masa Sih Bikin Ginjal Rusak?
+- nanas | Masa Sih Makan Nanas Bikin Lidah Dimakan Balik? 🍍
+- nasidingin | MASA SIH: Nasi Dingin
+- nasisisa | Katanya Makan Nggak Habis Ayamnya Mati? (Short lucu, slot 10 WITA)
+- ngupil | Masa Sih Ngupil Bikin Lubang Hidung Gede? 👃
+- nyamuk | MASA SIH: nyamuk (pengganti permenkaret, slot 17 Nov 2026 16:00 WIB)
+- nyapumalam | Katanya Nyapu Malam Bikin Rezeki Kebuang? (Short lucu, slot 18 WITA)
+- otak | MASA SIH: otak
+- pedasmaag | Makan Pedas Tiap Hari? 🌶️ Masa Sih Pasti Kena Maag?
+- permenkaret | MASA SIH: permenkaret
+- petir | Masa Sih Petir Nggak Pernah Nyambar Tempat yang Sama Dua Kali? ⚡ #shorts
+- rambutbasah | Tidur dengan Rambut Basah? 💤 Masa Sih Bikin Pusing?
+- semangka | Masa Sih Telan Biji Semangka Bisa Tumbuh di Perut?
+- siulmalam | Gimana Kalau Siul Malam-Malam? (Short lucu, slot 22 WITA)
+- sleepwalk | Masa Sih Orang Tidur Sambil Jalan Nggak Boleh Dibangunin? 😴 #shorts
+- soda | Masa Sih Minum Soda Bikin Tulang Keropos? 🥤
+- susutidur | Minum Susu Hangat Sebelum Tidur? 🥛 Masa Sih Bikin Nyenyak?
+- telur | MASA SIH: telur
+- tembokcina | Masa Sih Tembok Besar China Kelihatan dari Luar Angkasa? 🚀 #shorts
+- tidursiang | Tidur Siang Tiap Hari? 😴 Masa Sih Bikin Malam Susah Tidur?
+- uban | MASA SIH: uban (slot 22 Nov 2026 16:00 WIB)
+- ulatgigi | MASA SIH: ulatgigi
+- unta | Masa Sih Punuk Unta Isinya Air? 🐪 #shorts
+- utangtidur | MASA SIH: utangtidur
+- wortel | MASA SIH: wortel
+
+## Post YT yang sudah tayang (Buffer, kalimat pembuka caption)
+- 2026-10-31 | Semua orang takut sama gorengan. Tapi gimana kalau biang kerok obesita
+- 2026-10-31 | Tiap hari makan mie instan, apa yang terjadi di badan? 🍜 Hari ke-7 pal
+- 2026-10-31 | 1 laptop karyawan bikin Binance kebobolan lebih dari Rp100 triliun 😳 A
+- 2026-10-31 | Gimana caranya satu laptop karyawan bikin Binance kebobolan lebih dari
+- 2026-11-01 | Tiap motong bawang pasti nangis, tapi pernah kepikiran nggak kenapa ai
+- 2026-11-01 | Dari kecil kita ditanya ini, sampai sekarang masih aja jadi bahan deba
+- 2026-11-01 | Dari kecil kita ditanya ini, sampai ilmuwan pakai superkomputer buat c
+- 2026-11-01 | Hari pertama di Desa Masa Sih: kantor desa roboh, penduduknya 129 oran
+- 2026-11-02 | Tiap hari kita kerja, jajan, bayar ini itu pakai uang, padahal uang it
+- 2026-11-06 | Bayangin seminggu penuh tanpa HP. Nggak scroll, nggak chat, nggak nont
+- 2026-11-06 | Kamu tim HP di bawah bantal? Ternyata yang bahaya bukan radiasinya, ta
+- 2026-11-07 | Retak leher tiap hari biar lega? Bunyi krek-nya enak, tapi dipaksa ken
+- 2026-11-07 | Sering nahan pipis pas macet atau nonton film? Sesekali aman, tapi kal
+- 2026-11-07 | Mandi malam bikin rematik? Kata orangtua iya, kata data... beda cerita
+- 2026-11-07 | Niatnya scroll 5 menit, tau-tau udah jam 2 pagi? 📱🌙 Ternyata efeknya k
+- 2026-11-08 | Udah tengah malam, tapi kamar masih terang kayak minimarket? Kalau tia
+- 2026-11-08 | Tidur Lampu Nyala Tiap Malam? 💡 Masa Sih Tubuh Kita Ikut Bingung?
+- 2026-11-08 | Pakai Earphone Tiap Hari? 🎧 Masa Sih Otomatis Bikin Pendengaran Rusak?
+- 2026-11-08 | Sering Ngucek Mata? 👀 Masa Sih Aman-Aman Aja?
+- 2026-11-09 | Sering skip sarapan otomatis bikin metabolisme rusak? Nggak sesimpel i
+- 2026-11-09 | Mata gatal dikit, langsung ngucek? Rasanya lega banget kan, kak 😌
+- 2026-11-09 | Kamar masih terang kayak minimarket padahal udah tengah malam? 😴💡
+- 2026-11-10 | Ada jerawat dikit, langsung dipencet? 😣
+- 2026-11-10 | Suka minum air es tapi sering dimarahin "nanti gendut, nanti batuk pil
+- 2026-11-10 | Earphone nempel terus dari pagi sampai malam? 🎧
+- 2026-11-11 | Nasi sisa semalam katanya lebih sehat dari nasi anget? 🍚❄️
+- 2026-11-12 | Nasi anget yang baru mateng emang paling enak. Tapi katanya, nasi sisa
+- 2026-11-12 | Katanya kalau telan biji semangka, nanti tumbuh pohon di perut. Masa s
+- 2026-11-12 | Dibilang "jangan kebanyakan micin, nanti bego"? 🧂🧠
+- 2026-11-12 | Katanya petir nggak pernah nyambar tempat yang sama dua kali. Masa sih
+- 2026-11-13 | Air rebusan mi instan kuning dan berminyak, katanya itu lilin? 🍜🕯️
+- 2026-11-13 | Tidur siang tiap hari, katanya bikin malamnya susah tidur! Masa sih? 😴
+- 2026-11-13 | Duduk mepet TV langsung diteriakin "mundur, nanti minus!"? 📺👀
+- 2026-11-13 | Ada bintik putih di kuku, katanya tanda kurang kalsium. Masa sih? 💅
+- 2026-11-14 | Habis ngopi bolak-balik ke toilet, katanya kopi bikin dehidrasi? ☕🚽
+- 2026-11-14 | Minum sambil berdiri katanya bikin ginjal rusak! Masa sih? 🥤
+- 2026-11-14 | Senin-Jumat begadang, Sabtu-Minggu tidur sampai siang, utang tidur lun
+- 2026-11-14 | Katanya banteng langsung ngamuk kalau lihat warna merah. Masa sih? 🐂
+- 2026-11-15 | Gigi bolong dan cenat-cenut, katanya ada ulatnya? 🦷🐛
+- 2026-11-15 | Makan sambil main HP tiap hari, katanya bikin gampang gemuk! Masa sih?
+- 2026-11-15 | Jam 7 malam lapar, tapi takut makan karena katanya bikin gemuk? 🍽️🌙
+- 2026-11-15 | Katanya kucing jatuh dari mana aja pasti mendarat pakai kaki. Masa sih
+- 2026-11-15 | Makan sambal langsung diomelin "awas biji cabainya, nanti usus buntu!"
+- 2026-11-16 | Keramas tiap hari katanya bikin rambut rontok! Masa sih? 🧴
+- 2026-11-16 | Katanya kalau potong kuku malam-malam, umurmu bakal pendek? Masa sih?
+- 2026-11-16 | Habis main hujan, besoknya langsung pilek? 🌧️🤧
+- 2026-11-16 | Katanya kalau nyapu malam-malam, rezekimu ikut kebuang? Masa sih? 🧹💸
+- 2026-11-16 | Katanya punuk unta isinya air, makanya kuat nggak minum berhari-hari.
+- 2026-11-16 | Gimana kalau kamu siul malam-malam? Katanya bisa manggil makhluk halus
+- 2026-11-16 | Tidur pakai kipas angin semalaman, katanya bisa masuk angin, bahkan me
+- 2026-11-17 | Katanya kalau makan nggak habis, ayam peliharaanmu bakal mati? Masa si
+- 2026-11-17 | Kantong mata katanya pasti gara-gara begadang! Masa sih? 👀
+- 2026-11-17 | Gimana kalau kamu bisa nyicipin makanan pakai kaki?
+- 2026-11-17 | Suka makan pedas tiap hari, katanya pasti kena maag! Masa sih? 🌶️
+- 2026-11-17 | Gimana kalau ekormu putus, terus tumbuh lagi?
+- 2026-11-17 | Burung hantu bisa muter kepala 270 derajat?
+- 2026-11-17 | Masa sih kalau sering ngupil, lubang hidungmu jadi gede? 👃😆
+- 2026-11-17 | Katanya kalau cegukan, harus dikagetin biar berhenti? Masa sih? 😳
+- 2026-11-18 | Gimana kalau hewan darat terbesar ternyata nggak bisa lompat?
+- 2026-11-18 | Pokoknya harus minum 8 gelas sehari, nggak boleh kurang? 💧🥤
+- 2026-11-18 | Gurita punya 3 jantung dan darahnya biru?
+- 2026-11-18 | Ada hujan berlian di planet lain?
+- 2026-11-18 | Katanya kalau bersin, jantungmu berhenti sebentar? Masa sih? 🤧❤️
+- 2026-11-18 | Ada danau yang bikin hewan kelihatan jadi batu?
+- 2026-11-18 | Minum susu hangat sebelum tidur katanya bikin nyenyak! Masa sih? 🥛
+- 2026-11-18 | Gimana kalau kamu hidup tanpa otak dan tanpa darah?
+- 2026-11-19 | Gimana kalau yang hamil itu ayahnya?
+- 2026-11-19 | Sehari di Venus lebih lama dari setahun?
+- 2026-11-19 | Katanya kalau makan bawang putih mentah, nyamuk nggak mau gigit? Masa
+- 2026-11-19 | Gimana kalau kamu tidur, tapi setengah otakmu tetap bangun?
+- 2026-11-19 | Masa sih kalau makan durian, badanmu jadi panas? 🍈🔥
+- 2026-11-20 | Menara Eiffel bisa nambah tinggi?
+- 2026-11-20 | Apa yang terjadi kalau kecoa kehilangan kepalanya?
+- 2026-11-20 | Kamu suka korek kuping pakai cotton bud tiap habis mandi? 👂
+- 2026-11-20 | "Lima menit lagi ah..." Ternyata kebiasaan pencet snooze bikin otak mu
+- 2026-11-20 | Perut butuh sekitar 20 menit buat kirim sinyal kenyang ke otak lewat h
+- 2026-11-20 | Saat ayam mentah disiram air keran, cipratan tak kasat mata bisa terba
+- 2026-11-20 | Tidur tengkurap memang terasa nyaman, tapi kepalamu harus menoleh ke s
+- 2026-11-20 | Handuk yang digantung di kamar mandi lembap jarang benar-benar kering.
+- 2026-11-21 | Saat lutut ditumpuk, pembuluh darah di kaki ikut tertekan dan jantung
+- 2026-11-21 | Bagian bawah kuku itu hangat dan lembap, jadi sarang ribuan bakteri se
+- 2026-11-21 | Pagi hari kelenjar keringat mulai aktif dan kulit habis mandi masih ag
+- 2026-11-21 | Mobil yang diparkir di bawah matahari bisa mencapai 50–65°C. Panas ini
+
+## Batch 21 Nov (gaya trending lama, ≤700 karakter, ≤55 dtk)
+- nasipanas | Nasi Dipanasin Berkali-kali? 🍚 Masa Sih Bisa Jadi Racun?
+- kacamata | Pakai Kacamata Tiap Hari? 👓 Masa Sih Bikin Minus Makin Parah?
+- parubasah | Mandi Habis Keringetan? 🚿 Masa Sih Bikin Paru-Paru Basah?
+- tidurkenyang | Habis Makan Langsung Tidur? 😴 Masa Sih Bikin Asam Lambung Naik?
+- vape | Vape Lebih Aman dari Rokok? 💨 Masa Sih?
+- rotigaram | Roti Garam Lagi Viral? 🥐 Masa Sih Bikin Darah Tinggi?
+- hajatan | Nasi Kotak Hajatan Dimakan Besok? 🍱 Masa Sih Bikin Keracunan?
+- pemutih | Krim Pemutih Instan? 😱 Masa Sih Aman?

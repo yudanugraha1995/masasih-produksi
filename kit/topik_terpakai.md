@@ -50,3 +50,14 @@ Ulat gigi Short tayang 15 Nov 07:02 WIB (K3UA1e9xfX8). Dijadwal ulang: makanmala
 - siul malam (manggil makhluk halus) — siulmalam
 - makan nggak habis ayam mati — nasisisa
 - (17–19 Nov, Short lucu) nanas lidah, es krim brain freeze, bawang putih nyamuk, cegukan dikagetin, jengkol pipis, cokelat jerawat, bersin jantung, ngupil hidung, soda tulang, durian panas/alkohol, menguap nular
+
+## 21 Nov 2026 (gaya trending lama, ≤700 karakter, ≤55 dtk; 4 viral + 4 lagi hot)
+- nasi dipanasin berkali-kali (Bacillus cereus) — nasipanas
+- kacamata tiap hari bikin minus parah — kacamata
+- mandi habis keringetan paru-paru basah — parubasah
+- habis makan langsung tidur, asam lambung/GERD — tidurkenyang
+- vape lebih aman dari rokok (hot: fatwa/ramai vape) — vape
+- roti garam / salt bread darah tinggi (hot: tren viral) — rotigaram
+- nasi kotak hajatan keracunan (hot: Kebumen) — hajatan
+- krim pemutih instan merkuri (hot: BPOM) — pemutih
+- (topik orang lain 20–21 Nov, jangan dobel) cotton bud, snooze alarm, makan cepat, cuci ayam mentah, tidur tengkurap, handuk lembap, kaki disilang, kuku kotor, deodoran pagi, mobil panas, Menara Eiffel, kecoa tanpa kepala
