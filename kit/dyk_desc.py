@@ -5,7 +5,7 @@ i=sys.argv[1];intro,q,tags=sys.argv[2],sys.argv[3],sys.argv[4];MAP=len(sys.argv)
 cfg=open(f'cfg_{i}.js').read()
 title=re.search(r'// ===== (.*?) \(Did You Know',cfg).group(1)
 FL=lambda c:''.join(chr(0x1F1E6+ord(x)-97) for x in ('gb' if c=='uk' else c))
-items=re.findall(r"\['([a-z]{2})','([^']*)','[^']*','([^']*)','([^']*)','[^']*','([^']*)','(ok|no)'",cfg)
+items=[tuple(x.replace("\\'","'") for x in t) for t in re.findall(r"\['([a-z]{2})','((?:[^'\\]|\\.)*)','(?:[^'\\]|\\.)*','((?:[^'\\]|\\.)*)','((?:[^'\\]|\\.)*)','(?:[^'\\]|\\.)*','((?:[^'\\]|\\.)*)','(ok|no)'",cfg)]
 tw=re.search(r"twist:\{code:'([a-z]{2})',name:'([^']*)'.*?num:'([^']*)',unit:'([^']*)'.*?src:'([^']*)'",cfg)
 cap=lambda s:s.title().replace('Usa','USA').replace('Uk','UK').replace('Uae','UAE')
 nask=open(f'../naskah/{i}.txt').read().strip()
