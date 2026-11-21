@@ -12,7 +12,10 @@ d = json.loads(r)
 open(f'raw_{i}.mp3', 'wb').write(base64.b64decode(d['audio_data']))
 ws = []
 def walk(m):
-    if m.get('type') == 'word': ws.append({'text': m['value'], 'start': m['start_time'] / 1000, 'end': m['end_time'] / 1000, 'type': 'word'})
+    if m.get('type') == 'word':
+        parts = m['value'].split(); a0, a1 = m['start_time'] / 1000, m['end_time'] / 1000; L = sum(len(x) for x in parts) or 1; t = a0
+        for x in parts:  # Speechify kadang gabung token (mis. 'UK: about fifty five,'), pecah proporsional
+            d_ = (a1 - a0) * len(x) / L; ws.append({'text': x, 'start': round(t, 3), 'end': round(t + d_, 3), 'type': 'word'}); t += d_
     for c in m.get('chunks', []) or []: walk(c)
 walk(d['speech_marks'])
 json.dump({'words': ws}, open(f'words_{i}.json', 'w'))

@@ -13,3 +13,5 @@
 - dyk/healthcost_dyk https://res.cloudinary.com/u5zqiuc2/video/upload/v1795287783/dyk/healthcost_dyk.mp4
 - dyk/thanksgiving_dyk https://res.cloudinary.com/u5zqiuc2/video/upload/v1795287786/dyk/thanksgiving_dyk.mp4
 - howcome/holdpee_w https://res.cloudinary.com/u5zqiuc2/video/upload/v1795288116/howcome/holdpee_w.mp4
+- howcome/nailbite_w https://res.cloudinary.com/u5zqiuc2/video/upload/v1795288559/howcome/nailbite_w.mp4
+- dyk/blackfriday_dyk https://res.cloudinary.com/u5zqiuc2/video/upload/v1795288562/dyk/blackfriday_dyk.mp4
