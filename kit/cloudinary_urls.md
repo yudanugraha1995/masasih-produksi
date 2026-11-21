@@ -7,3 +7,5 @@
 - howcome/lightson_w https://res.cloudinary.com/u5zqiuc2/video/upload/v1795272761/howcome/lightson_w.mp4
 - dyk/election_dyk https://res.cloudinary.com/u5zqiuc2/video/upload/v1795273242/dyk/election_dyk.mp4
 - howcome/stomachsleep_w https://res.cloudinary.com/u5zqiuc2/video/upload/v1795273245/howcome/stomachsleep_w.mp4
+- dyk/datacenters_dyk https://res.cloudinary.com/u5zqiuc2/video/upload/v1795286269/dyk/datacenters_dyk.mp4
+- dyk/holidaytravel_dyk https://res.cloudinary.com/u5zqiuc2/video/upload/v1795286272/dyk/holidaytravel_dyk.mp4
