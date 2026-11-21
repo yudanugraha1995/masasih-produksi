@@ -43,3 +43,4 @@
 - howcome/eyerub_w https://res.cloudinary.com/u5zqiuc2/video/upload/v1795295648/howcome/eyerub_w.mp4
 - howcome/scabs_w https://res.cloudinary.com/u5zqiuc2/video/upload/v1795295992/howcome/scabs_w.mp4
 - dyk/parentalleave_dyk https://res.cloudinary.com/u5zqiuc2/video/upload/v1795295995/dyk/parentalleave_dyk.mp4
+- howcome/nosocks_w https://res.cloudinary.com/u5zqiuc2/video/upload/v1795296401/howcome/nosocks_w.mp4
