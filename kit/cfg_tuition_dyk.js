@@ -1,11 +1,12 @@
-const CFG={hook:['COLLEGE COST','PER YEAR?'],
+// ===== What If College Was Free? 🎓 (Did You Know, 6 negara, Speechify henry, twist USA) =====
+const CFG={hook:['COLLEGE','HOW MUCH?'],
  items:[
- ['us','USA','America','$11,600','public, in-state, before aid','','Source: College Board 2024-25','ok','🎓'],
- ['uk','UK','UK','£9,535','England, from 2025','','Source: GOV.UK','ok','💷'],
- ['au','AUSTRALIA','Australia','HECS LOAN','repay once you earn enough','','Source: StudyAssist (Australian Government)','ok','🦘'],
- ['jp','JAPAN','Japan','¥535,800','national universities','','Source: MEXT Japan','ok','🗾'],
- ['fr','FRANCE','France','€175','bachelor\'s, public','','Source: French Ministry of Higher Education','ok','🥐'],
+ ['uk','UK','UK','£9,535','per year (England)','','Source: GOV.UK','ok','🎓'],
+ ['au','AUSTRALIA','Australia','LOAN','repay once you earn enough','','Source: StudyAssist, Australian Government','ok','🎓'],
+ ['jp','JAPAN','Japan','¥535,800','per year (national)','','Source: Japan MEXT','ok','🎓'],
+ ['fr','FRANCE','France','€175','per year!','','Source: Campus France','ok','🎓'],
+ ['de','GERMANY','Germany','FREE','even for most foreigners!','','Source: DAAD','ok','🎉']
  ],
- twist:{code:'de',name:'GERMANY',trigger:'Germany',numW:'free',num:'FREE',unit:'even for most foreigners!',mk:'ok',rx:'🤯',src:'Source: DAAD (Germany)'},
- gpad:0.6,plotW:'But here',coverTag:'FREE COLLEGE?',coverIcon:'🎓',ctaW:'How',ctaTitle:'HOW MUCH IS COLLEGE FOR YOU?',
+ twist:{code:'us',name:'USA',trigger:'America',numW:'trillion',num:'$1.6 TRILLION',unit:'in student loans!',mk:'ok',rx:'😱',src:'Source: College Board; US Department of Education'},
+ gpad:0.6,plotW:'But here',coverTag:'COLLEGE?',coverIcon:'🎓',ctaW:'How',ctaTitle:'HOW MUCH IS COLLEGE?',
  thumb:['WHAT IF','COLLEGE','WAS FREE?']};
