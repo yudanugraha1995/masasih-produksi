@@ -26,3 +26,25 @@ function faceSkin(t,s=1,o={}){const tone=o.tone||'#E9B98F';let sp='';if(o.spots)
 function sweatBody(t,s=1){return g(`scale(${s})`,sweatFace(t,1));}
 function runner(t,s=1){const k=Math.sin(t*12);return g(`scale(${s})`,`<circle cx="0" cy="-230" r="56" fill="#F3C9A8" stroke="${OL}" stroke-width="7"/><path d="M0,-170L-10,0" stroke="#3E7CC9" stroke-width="64" stroke-linecap="round"/><path d="M-10,0L${fmt(-60+k*40)},150M-10,0L${fmt(60-k*40)},150" stroke="#2E2430" stroke-width="34" stroke-linecap="round"/><path d="M0,-140L${fmt(70-k*40)},-60M0,-140L${fmt(-70+k*40)},-70" stroke="#F3C9A8" stroke-width="26" stroke-linecap="round"/><path d="M40,-280q10,20 0,30" stroke="#5DB7EA" stroke-width="8" fill="none"/><path d="M60,-250q12,22 0,34" stroke="#5DB7EA" stroke-width="8" fill="none"/>`);}
 function bacteriaSwarm(t,n,x,y,r,t0){let s='';for(let i=0;i<n;i++){const a=i*2.4+t*0.6,rr=r*(0.3+0.7*rnd(i));s+=popAt(t,t0+i*0.08,bacterium(0.5+rnd(i+3)*0.3,['#7BC96F','#C77DDB','#F2A541'][i%3],0,'evil',t),x+Math.cos(a)*rr,y+Math.sin(a)*rr*0.7,1);}return s;}
+// ===== mkTrend: generator scene gaya trending (hook WOYYY + kartu + fakta + plot + checklist + CTA) =====
+// o={key,keyWord,hook:t=>svg,card:[..],sec:[{k:'fact'|'plot'|'check'|'myth',at:'frasa',it:[[kata,fn,slot,skala]],lb:[[kata,teks,warna]],src,title,items:[[teks,kata]],hold,bubble}],cta:{at,l,r,ls,rs,lp,rp,aw,bw,vw}}
+const SLOT={C:[960,1150,1.4],T:[960,870,1],L:[830,880,1],R:[1090,880,1],BL:[830,1330,1],BR:[1090,1330,1],B:[960,1380,1]};
+const LBC={r:['#E5383B','#fff'],g:['#3BB273','#fff'],y:['#F2A541',OL],b:['#5B6C8F','#fff'],p:['#B47EDB','#fff']};
+const PAL=[['#14301F','#3BB273'],['#3B3A7A','#6E6CC4'],['#2A1F2B','#8E3B4F'],['#10263A','#5DB7EA']];
+function _items(t,it,t0=0){let s='';(it||[]).forEach(([w,fn,sl,sc,a])=>{const T=typeof w==='number'?w:at(w,a??t0);const p=SLOT[sl||'C'];s+=popAt(t,T,fn(t),p[0],p[1],p[2]*(sc||1));});return s;}
+function _labels(lb,t0){return (lb||[]).map(([w,txt,c],i,arr)=>{const T=typeof w==='number'?w:at(w,t0);const nx=arr[i+1];const u=nx?(typeof nx[0]==='number'?nx[0]:at(nx[0],t0)):null;const cc=LBC[c||'r'];return {at:T,txt,bg:cc[0],fill:cc[1],until:u,size:txt.length>24?V(44,50):undefined};});}
+function mkTrend(o){const E=DUR+0.2;const bc=at(o.cardAt||'Masa sih')-0.1;
+ const ts=o.sec.map(s=>at(s.at,bc)-0.15),c0=at(o.cta.at,bc)-0.15;
+ sHook({t0:0,t1:bc,key:o.key,keyAt:at(o.keyWord||o.key.split(' ')[0].toLowerCase()),keySize:o.keySize||92,prop:o.hook,ps:o.ps||1.4,py:1150,bg:o.bg||'#3A1616',glow:o.glow||'#F2A541',
+  particle:(t,i)=>`<circle r="16" fill="#fff" opacity=".6"/>`,surpriseAt:at(o.keyWord||'Masa'),extra:o.hookExtra});
+ sCard({t0:bc,t1:ts[0],lines:o.card||o.thumb,yukAt:Math.min(ts[0]-0.6,bc+1.2),hold:t=>g('scale(.35)',o.hook(t))});
+ let fi=0;
+ o.sec.forEach((s,i)=>{const t0=ts[i],t1=i+1<ts.length?ts[i+1]:c0;
+  if(s.k==='fact'){const p=PAL[(fi++)%PAL.length];sFact({t0,t1,bg:p[0],glow:p[1],grid:fi%2==0,world:t=>_items(t,s.it,t0),labels:_labels(s.lb,t0),src:s.src});}
+  else if(s.k==='plot'){sPlot({t0,t1,bg:'#3A1616',glow:'#E5383B',cardDur:1.2,world:t=>t<t0+1.2?'':_items(t,s.it,t0),labels:_labels(s.lb,t0),src:s.src});}
+  else if(s.k==='myth'){sMyth({t0,t1,bubble:s.bubble,bubbleAt:t0+0.3,worryAt:t0+1,bw:760});}
+  else if(s.k==='check'){sCheck({t0,t1,title:s.title||'Biar aman:',items:s.items.map(([x,w])=>[x,at(w,t0)]),hold:s.hold||(t=>g('scale(.35)',o.hook(t))),label:s.label||'JADI GINI',src:s.src});}
+ });
+ const c=o.cta;sCTAsub({t0:c0,t1:E,ln:c.l,ls:c.ls||c.l,rn:c.r,rs:c.rs||c.r,lp:c.lp,rp:c.rp,aAt:at(c.aw||'tim',c0),bAt:at(c.bw||'atau',c0)+0.3,vsAt:at(c.vw||'atau',c0),commentAt:at('Tulis',c0),subAt:at('subscribe',c0),lc:c.lc||'#E5383B',rc:c.rc||'#3BB273'});
+}
+function emo(txt,s=1,bg='#fff',fg=OL){return label(txt,{size:70*s,bg,fill:fg});}

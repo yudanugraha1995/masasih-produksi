@@ -45,3 +45,7 @@ kit/sfx_vape.wav
 kit/sfx_rotigaram.wav
 kit/sfx_hajatan.wav
 kit/sfx_pemutih.wav
+# Semua video baru disimpan di Cloudinary (aturan user 21 Nov)
+videos/*.mp4
+kit/sfx_*.wav
+kit/st_*/

@@ -1,0 +1,257 @@
+[
+{
+"id": "dbdsiang",
+"due": "2026-11-22T16:23:00+07:00",
+"slot_wita": "22 Nov 18:00"
+},
+{
+"id": "mimisan",
+"due": "2026-11-22T18:29:00+07:00",
+"slot_wita": "22 Nov 20:00"
+},
+{
+"id": "ngorok",
+"due": "2026-11-22T20:18:00+07:00",
+"slot_wita": "22 Nov 22:00"
+},
+{
+"id": "banjir",
+"due": "2026-11-23T06:05:00+07:00",
+"slot_wita": "23 Nov 08:00"
+},
+{
+"id": "tehmakan",
+"due": "2026-11-23T08:26:00+07:00",
+"slot_wita": "23 Nov 10:00"
+},
+{
+"id": "antibiotik",
+"due": "2026-11-23T10:53:00+07:00",
+"slot_wita": "23 Nov 12:00"
+},
+{
+"id": "situp",
+"due": "2026-11-23T12:54:00+07:00",
+"slot_wita": "23 Nov 14:00"
+},
+{
+"id": "odolluka",
+"due": "2026-11-23T14:57:00+07:00",
+"slot_wita": "23 Nov 16:00"
+},
+{
+"id": "kambing",
+"due": "2026-11-23T16:29:00+07:00",
+"slot_wita": "23 Nov 18:00"
+},
+{
+"id": "keringat",
+"due": "2026-11-23T18:14:00+07:00",
+"slot_wita": "23 Nov 20:00"
+},
+{
+"id": "kedutan",
+"due": "2026-11-23T20:49:00+07:00",
+"slot_wita": "23 Nov 22:00"
+},
+{
+"id": "fogging",
+"due": "2026-11-24T06:48:00+07:00",
+"slot_wita": "24 Nov 08:00"
+},
+{
+"id": "buahmakan",
+"due": "2026-11-24T08:47:00+07:00",
+"slot_wita": "24 Nov 10:00"
+},
+{
+"id": "sikatgigi",
+"due": "2026-11-24T10:23:00+07:00",
+"slot_wita": "24 Nov 12:00"
+},
+{
+"id": "bulunghidung",
+"due": "2026-11-24T12:10:00+07:00",
+"slot_wita": "24 Nov 14:00"
+},
+{
+"id": "hpgelap",
+"due": "2026-11-24T14:26:00+07:00",
+"slot_wita": "24 Nov 16:00"
+},
+{
+"id": "bawangdemam",
+"due": "2026-11-24T16:26:00+07:00",
+"slot_wita": "24 Nov 18:00"
+},
+{
+"id": "airhangat",
+"due": "2026-11-24T18:28:00+07:00",
+"slot_wita": "24 Nov 20:00"
+},
+{
+"id": "kram",
+"due": "2026-11-24T20:10:00+07:00",
+"slot_wita": "24 Nov 22:00"
+},
+{
+"id": "gigitkuku",
+"due": "2026-11-25T06:10:00+07:00",
+"slot_wita": "25 Nov 08:00"
+},
+{
+"id": "telingadenging",
+"due": "2026-11-25T08:46:00+07:00",
+"slot_wita": "25 Nov 10:00"
+},
+{
+"id": "garukgatal",
+"due": "2026-11-25T10:06:00+07:00",
+"slot_wita": "25 Nov 12:00"
+},
+{
+"id": "susutinggi",
+"due": "2026-11-25T12:08:00+07:00",
+"slot_wita": "25 Nov 14:00"
+},
+{
+"id": "esbatu",
+"due": "2026-11-25T14:55:00+07:00",
+"slot_wita": "25 Nov 16:00"
+},
+{
+"id": "nangis",
+"due": "2026-11-25T16:45:00+07:00",
+"slot_wita": "25 Nov 18:00"
+},
+{
+"id": "jongkok",
+"due": "2026-11-25T18:13:00+07:00",
+"slot_wita": "25 Nov 20:00"
+},
+{
+"id": "kopianak",
+"due": "2026-11-25T20:38:00+07:00",
+"slot_wita": "25 Nov 22:00"
+},
+{
+"id": "lemonkurus",
+"due": "2026-11-26T06:55:00+07:00",
+"slot_wita": "26 Nov 08:00"
+},
+{
+"id": "kesemutan",
+"due": "2026-11-26T08:16:00+07:00",
+"slot_wita": "26 Nov 10:00"
+},
+{
+"id": "mangga",
+"due": "2026-11-26T10:04:00+07:00",
+"slot_wita": "26 Nov 12:00"
+},
+{
+"id": "perutbunyi",
+"due": "2026-11-26T12:16:00+07:00",
+"slot_wita": "26 Nov 14:00"
+},
+{
+"id": "airgalon",
+"due": "2026-11-26T14:12:00+07:00",
+"slot_wita": "26 Nov 16:00"
+},
+{
+"id": "sabunmuka",
+"due": "2026-11-26T16:22:00+07:00",
+"slot_wita": "26 Nov 18:00"
+},
+{
+"id": "langkah",
+"due": "2026-11-26T18:05:00+07:00",
+"slot_wita": "26 Nov 20:00"
+},
+{
+"id": "bantal",
+"due": "2026-11-26T20:48:00+07:00",
+"slot_wita": "26 Nov 22:00"
+},
+{
+"id": "selimut",
+"due": "2026-11-27T06:28:00+07:00",
+"slot_wita": "27 Nov 08:00"
+},
+{
+"id": "kunyah32",
+"due": "2026-11-27T08:56:00+07:00",
+"slot_wita": "27 Nov 10:00"
+},
+{
+"id": "minumbangun",
+"due": "2026-11-27T10:14:00+07:00",
+"slot_wita": "27 Nov 12:00"
+},
+{
+"id": "kayuputih",
+"due": "2026-11-27T12:50:00+07:00",
+"slot_wita": "27 Nov 14:00"
+},
+{
+"id": "tusukgigi",
+"due": "2026-11-27T14:23:00+07:00",
+"slot_wita": "27 Nov 16:00"
+},
+{
+"id": "apek",
+"due": "2026-11-27T16:22:00+07:00",
+"slot_wita": "27 Nov 18:00"
+},
+{
+"id": "tertawa",
+"due": "2026-11-27T18:32:00+07:00",
+"slot_wita": "27 Nov 20:00"
+},
+{
+"id": "gulaaren",
+"due": "2026-11-27T20:21:00+07:00",
+"slot_wita": "27 Nov 22:00"
+},
+{
+"id": "eskrimpilek",
+"due": "2026-11-28T06:45:00+07:00",
+"slot_wita": "28 Nov 08:00"
+},
+{
+"id": "mandidemam",
+"due": "2026-11-28T08:52:00+07:00",
+"slot_wita": "28 Nov 10:00"
+},
+{
+"id": "bensin",
+"due": "2026-11-28T10:10:00+07:00",
+"slot_wita": "28 Nov 12:00"
+},
+{
+"id": "ketombe",
+"due": "2026-11-28T12:32:00+07:00",
+"slot_wita": "28 Nov 14:00"
+},
+{
+"id": "jamu",
+"due": "2026-11-28T14:13:00+07:00",
+"slot_wita": "28 Nov 16:00"
+},
+{
+"id": "lensa",
+"due": "2026-11-28T16:27:00+07:00",
+"slot_wita": "28 Nov 18:00"
+},
+{
+"id": "sendawa",
+"due": "2026-11-28T18:01:00+07:00",
+"slot_wita": "28 Nov 20:00"
+},
+{
+"id": "kerupuk",
+"due": "2026-11-28T20:56:00+07:00",
+"slot_wita": "28 Nov 22:00"
+}
+]
