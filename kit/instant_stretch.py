@@ -27,14 +27,15 @@ for nm in names:
                 if lvl(cb)<lvl(ca): kk=k-1
             idx.add(kk);p=k+1;break
     else: sys.exit('name not found: '+nm)
-sent={k+1 for k,wd in enumerate(W[:-1]) if wd['w'][-1] in '.!?,' and k+1 not in idx}
+SPK=os.path.basename(wj).startswith('words_')  # Speechify timings: pauses sit inside the previous word, no gap between words
+sent={k+1 for k,wd in enumerate(W[:-1]) if wd['w'][-1] in ('.!?' if SPK else '.!?,') and k+1 not in idx}
 # boundaries: (cut sample, target gap seconds)
 start=quiet(max(0,W[0]['s']-0.15),W[0]['s']+0.02)
 endq=quiet(W[-1]['e']-0.02,min(N/SR,W[-1]['e']+0.35))
 bounds=[]
 for k in range(1,len(W)):
     a,b=W[k-1]['e'],W[k]['s']
-    c=quiet(a-0.06,b+0.06)
+    c=quiet(a-(0.45 if SPK else 0.06),b+0.06)
     bounds.append((k,c))
 # measure real silent gap around each cut (samples below -40 dB)
 def gaplen(c):
