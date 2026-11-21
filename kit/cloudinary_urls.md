@@ -1,0 +1,10 @@
+# Link video Masa Sih di Cloudinary (pakai ini untuk Buffer, BUKAN raw GitHub)
+
+- nasipanas: https://res.cloudinary.com/u5zqiuc2/video/upload/v1795248910/masasih/nasipanas.mp4
+- kacamata: https://res.cloudinary.com/u5zqiuc2/video/upload/v1795248913/masasih/kacamata.mp4
+- parubasah: https://res.cloudinary.com/u5zqiuc2/video/upload/v1795248915/masasih/parubasah.mp4
+- tidurkenyang: https://res.cloudinary.com/u5zqiuc2/video/upload/v1795248918/masasih/tidurkenyang.mp4
+- vape: https://res.cloudinary.com/u5zqiuc2/video/upload/v1795248920/masasih/vape.mp4
+- rotigaram: https://res.cloudinary.com/u5zqiuc2/video/upload/v1795248922/masasih/rotigaram.mp4
+- hajatan: https://res.cloudinary.com/u5zqiuc2/video/upload/v1795248924/masasih/hajatan.mp4
+- pemutih: https://res.cloudinary.com/u5zqiuc2/video/upload/v1795248926/masasih/pemutih.mp4
