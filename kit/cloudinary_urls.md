@@ -37,3 +37,6 @@
 - dyk/dateformat_dyk https://res.cloudinary.com/u5zqiuc2/video/upload/v1795294419/dyk/dateformat_dyk.mp4
 - howcome/mouthbreath_w https://res.cloudinary.com/u5zqiuc2/video/upload/v1795294735/howcome/mouthbreath_w.mp4
 - dyk/metric_dyk https://res.cloudinary.com/u5zqiuc2/video/upload/v1795294738/dyk/metric_dyk.mp4
+- howcome/fansleep_w https://res.cloudinary.com/u5zqiuc2/video/upload/v1795295405/howcome/fansleep_w.mp4
+- howcome/makeup_w https://res.cloudinary.com/u5zqiuc2/video/upload/v1795295410/howcome/makeup_w.mp4
+- dyk/tuition_dyk https://res.cloudinary.com/u5zqiuc2/video/upload/v1795295394/dyk/tuition_dyk.mp4
