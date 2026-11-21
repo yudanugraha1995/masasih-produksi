@@ -19,3 +19,5 @@
 - howcome/phonetoilet_w https://res.cloudinary.com/u5zqiuc2/video/upload/v1795290481/howcome/phonetoilet_w.mp4
 - howcome/towel_w https://res.cloudinary.com/u5zqiuc2/video/upload/v1795290752/howcome/towel_w.mp4
 - dyk/economy_dyk https://res.cloudinary.com/u5zqiuc2/video/upload/v1795290756/dyk/economy_dyk.mp4
+- howcome/contacts_w https://res.cloudinary.com/u5zqiuc2/video/upload/v1795291141/howcome/contacts_w.mp4
+- dyk/dst_dyk https://res.cloudinary.com/u5zqiuc2/video/upload/v1795291144/dyk/dst_dyk.mp4
