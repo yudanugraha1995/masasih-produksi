@@ -4,6 +4,8 @@ Bahasa ke user: Indonesia santai. User tidak mau menekan Allow dan tidak bisa st
 
 - **INSTAGRAM BERHENTI TOTAL (owner via Bot C 16 Nov, MENGGANTIKAN semua aturan IG di bawah):** Masa Sih cuma YouTube. Jangan bikin post IG / IG kembar, jangan sentuh Buffer kedua. `kit/pending_ig2.md` = arsip, jangan diproses. 10 IG yang sudah terjadwal di Buffer kedua dibiarkan (jangan dihapus).
 
+- **PENYIMPANAN VIDEO = CLOUDINARY (user 21 Nov 2026, produksi berikutnya; video lama biarin):** video final Masa Sih (`<id>_styleA.mp4` dll) TIDAK di-push ke GitHub lagi. Upload ke Cloudinary (cloud u5zqiuc2): mcp Cloudinary `sign-upload` (public_id `masasih/<id>`, overwrite true) → `curl https://api.cloudinary.com/v1_1/u5zqiuc2/video/upload -F 'file=@"<mp4>"' -F api_key=.. -F signature=.. + SEMUA field upload_params`. Lalu jadwalkan ke Buffer pakai `secure_url` dari respons (https://res.cloudinary.com/u5zqiuc2/video/upload/...). GitHub cuma untuk script/naskah. TTS Masa Sih TETAP ElevenLabs (Senandika), BUKAN Speechify.
+
 ## PERUBAHAN BESAR 14 Nov 2026 (owner via Bot C) — MENGGANTIKAN aturan slot/format di bawah
 - **SHORT SAJA.** Tidak bikin video 16:9 lagi (yang sudah jadi/terjadwal dibiarkan).
 - Metricool khusus Masa Sih. **4 Short/hari jam 07:00, 11:00, 15:00, 19:00 WIB** (= 08:00, 12:00, 16:00, 20:00 WITA). Post lama digeser: 08→07, 11→11, 16→15, 20→19 WIB; video 16:9 yang sudah terpasang ikut Short pasangannya.
