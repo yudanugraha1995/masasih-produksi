@@ -52,3 +52,7 @@
 - Cara: mcp Cloudinary `sign-upload` (bisa banyak sekaligus, public_id `instant/<id>`, overwrite true) → `curl https://api.cloudinary.com/v1_1/u5zqiuc2/video/upload -F 'file=@"<mp4>"' -F api_key=.. -F signature=.. + SEMUA field upload_params` (host api.cloudinary.com sudah diizinkan di environment). Signature berlaku ~1 jam.
 - URL untuk Buffer = `secure_url` dari respons (https://res.cloudinary.com/u5zqiuc2/video/upload/v<ver>/instant/<id>.mp4).
 - Repo GitHub tetap untuk script/naskah (file kecil). Storage guard .git tetap berlaku.
+
+## Aturan dari Bot B (21 Nov 2026, user) — HC + DYK
+- Video final ke Cloudinary (howcome/<id>, dyk/<id>), bukan GitHub; `videos/*.mp4` di .gitignore. URL Buffer = secure_url. Catat link di `kit/cloudinary_urls.md`.
+- Video yang sudah tayang akan DIHAPUS dari Cloudinary di akhir minggu → catatan judul jadi acuan anti-dobel: `kit/judul_terpakai_dyk.md` (repo ini) dan `kit/judul_terpakai_howcome.md` (repo howcome) + meta/USED_TOPICS.md. Cek sebelum bikin judul baru.

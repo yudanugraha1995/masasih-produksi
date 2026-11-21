@@ -1,0 +1,73 @@
+# Judul DYK terpakai (format 6 negara, Nov 2026) — cek sebelum bikin judul baru
+
+- hippos_dyk: What If Wild Hippos Lived in Your Country? 🦛
+- rain_dyk: Where Is the Rainiest Place on Earth? 🌧️
+- election_dyk: Why Is Election Day on a Tuesday? 🗳️
+- datacenters_dyk: Which Country Has the Most Data Centers? 💻
+- holidaytravel_dyk: What If Holiday Traffic Was 9 Billion Trips? 🚗
+- christmasstart_dyk: When Does Christmas Season Really Start? 🎄
+- healthcost_dyk: Which Country Spends the Most on Health Care? 🏥
+- thanksgiving_dyk: What If Thanksgiving Was in October? 🦃
+- blackfriday_dyk: Is Black Friday the Biggest Sale on Earth? 🛍️
+- billionaires_dyk: Which Country Has the Most Billionaires? 💰
+- economy_dyk: Which Country Has the Biggest Economy? 📈
+- dst_dyk: What If the Clocks Never Changed? ⏰
+- penny_dyk: What If Pennies Disappeared? 🪙
+- emergency_dyk: What If 911 Didn't Work? 🚨
+- voltage_dyk: What If Your Charger Didn't Fit? 🔌
+- vat_dyk: What If Sales Tax Was 25%? 🧾
+- dateformat_dyk: Is It 12/11 or 11/12? 📅
+- metric_dyk: What If America Used Kilometers? 📏
+- tuition_dyk: What If College Was Free? 🎓
+- parentalleave_dyk: What If Parents Got 480 Days Off? 👶
+- languages_dyk: What If Your Country Had 22 Languages? 🗣️
+- sports_dyk: What If Every Country Loved the Same Sport? 🏆
+- pizza_dyk: Is Hawaiian Pizza Actually From Hawaii? 🍍
+- nationalanimal_dyk: What If Your National Animal Was a Unicorn? 🦄
+- nobel_dyk: Which Country Has Won the Most Nobel Prizes? 🏅
+- mcdonalds_dyk: Which Country Has the Most McDonald's? 🍔
+- olympics_dyk: Which Country Has the Most Olympic Gold? 🥇
+- dogs_dyk: Which Country Has the Most Dogs? 🐶
+- hottest_dyk: Where Is the Hottest Place on Earth? 🔥
+- newyear_dyk: What If You Ate 12 Grapes at Midnight? 🍇
+- xmasholiday_dyk: What If Christmas Wasn't a Day Off? 📅
+- cash_dyk: What If Cash Disappeared? 💵
+- speedfine_dyk: What If Speeding Tickets Matched Your Salary? 🚔
+- gamble_dyk: What If Casinos Banned Locals? 🎰
+- trains_dyk: What If America Had Bullet Trains? 🚄
+- fries_dyk: Are French Fries Actually French? 🍟
+- summerbreak_dyk: What If Summer Break Was 3 Months? ☀️
+- toothfairy_dyk: What If the Tooth Fairy Was a Mouse? 🦷
+- birthday_dyk: What If Your Birthday Came With a Cake Smash? 🎂
+- mostvisited_dyk: Which Country Gets the Most Tourists? ✈️
+- football_dyk: Is It Soccer or Football? ⚽
+- breakfast_dyk: What If Breakfast Was Chocolate Sprinkles? 🍫
+- dinnertime_dyk: What If Dinner Started at 10 PM? 🍽️
+- bottle_dyk: What If Empty Bottles Were Worth Money? ♻️
+- incometax_dyk: What If You Paid Zero Income Tax? 💰
+- anthem_dyk: What If Your National Anthem Had 158 Verses? 🎶
+- independence_dyk: What If Your Country Had No Independence Day? 🎆
+- islands_dyk: Which Country Has the Most Islands? 🏝️
+- coldest_dyk: Where Is the Coldest Town on Earth? 🥶
+- biggest_dyk: Is America the Biggest Country? 🗺️
+- population_dyk: Which Country Has the Most People? 👥
+- sheep_dyk: More Sheep Than People? 🐑
+- tallestbuilding_dyk: Where Is the Tallest Building? 🏙️
+- timezones_dyk: Which Country Has the Most Time Zones? 🕐
+- xmasdinner_dyk: What If Christmas Dinner Was KFC? 🍗
+- presents_dyk: When Do Kids Open Christmas Presents? 🎁
+- santa_dyk: What If Santa Was a Witch? 🧹
+
+## Ditulis tapi belum diproduksi (boleh dipakai nanti)
+- schoolage_dyk: What If School Started at 7? 🎒
+- sunday_dyk: What If Every Store Closed on Sunday? 🛒
+- greetings_dyk: What If You Said Hello With Your Nose? 👃
+- weekend_dyk: What If the Weekend Was Friday and Saturday? 📅
+- mountain_dyk: How Tall Is Your Country's Highest Mountain? 🏔️
+- river_dyk: Which Country Has the Longest River? 🌊
+- lakes_dyk: Which Country Has the Most Lakes? 🏞️
+- capitals_dyk: What If Your Biggest City Wasn't the Capital? 🏛️
+- coastline_dyk: Which Country Has the Longest Coastline? 🏖️
+- stadium_dyk: What If a Stadium Held 132,000 Fans? 🏟️
+- tea_dyk: Which Country Drinks the Most Tea? 🍵
+- bikes_dyk: What If There Were More Bikes Than People? 🚲
