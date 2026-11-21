@@ -33,3 +33,5 @@
 - dyk/voltage_dyk https://res.cloudinary.com/u5zqiuc2/video/upload/v1795293565/dyk/voltage_dyk.mp4
 - howcome/grindteeth_w https://res.cloudinary.com/u5zqiuc2/video/upload/v1795294017/howcome/grindteeth_w.mp4
 - howcome/sleepin_w https://res.cloudinary.com/u5zqiuc2/video/upload/v1795294020/howcome/sleepin_w.mp4
+- howcome/nosleep3_w https://res.cloudinary.com/u5zqiuc2/video/upload/v1795294416/howcome/nosleep3_w.mp4
+- dyk/dateformat_dyk https://res.cloudinary.com/u5zqiuc2/video/upload/v1795294419/dyk/dateformat_dyk.mp4
