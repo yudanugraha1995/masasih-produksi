@@ -6,12 +6,12 @@ P='/home/user/masasih-produksi/naskah/dyk6/'
 S=json.load(open(P+'slots.json'));O=open(P+'order.txt').read().split()
 v=sys.argv[1]
 if len(sys.argv)>2:
-    s=next(x for x in S if x.get('vid')==v or (x.get('plan')==v));s['new']=sys.argv[3];s['vid']=v;json.dump(S,open(P+'slots.json','w'),indent=0);print('saved');sys.exit()
+    s=S[3+O.index(v)];s['new']=sys.argv[3];s['vid']=v;json.dump(S,open(P+'slots.json','w'),indent=0);print('saved');sys.exit()
 free=[x for x in S if not x.get('vid')]
 # 28 Nov slots appended if missing
 for x in S: x.pop('plan',None)
-k=O.index(v);s=free[k] if k<len(free) else None
-for j,x in enumerate(free): 
+k=O.index(v);R=S[3:];s=R[k] if k<len(R) else None
+for j,x in enumerate(R):
     if j<len(O): x['plan']=O[j]
 json.dump(S,open(P+'slots.json','w'),indent=0)
 L=open(f'/home/user/masasih-produksi/kit/desc/{v}.txt').read().split('\n')
