@@ -1,3 +1,4 @@
+// ===== When Do Kids Open Christmas Presents? 🎁 (Did You Know, 6 negara, Speechify henry) =====
 const CFG={hook:['CHRISTMAS PRESENTS','WHEN DO YOU OPEN?'],
  items:[
  ['us','USA','America','DEC 25','Christmas morning','','Source: Pew Research Center','ok','🎁'],
@@ -7,5 +8,5 @@ const CFG={hook:['CHRISTMAS PRESENTS','WHEN DO YOU OPEN?'],
  ['ru','RUSSIA','Russia','JAN 1','from Grandfather Frost','','Source: Russia Beyond','ok','❄️'],
  ],
  twist:{code:'es',name:'SPAIN',trigger:'Spain',numW:'January',num:'JAN 6',unit:'Three Kings Day!',mk:'ok',rx:'👑',src:'Source: Spain Tourism Board'},
- gpad:0.6,plotW:'But',coverTag:'PRESENTS?',coverIcon:'🎁',ctaW:'When',ctaTitle:'WHEN DO YOU OPEN YOURS?',
+ gpad:0.6,plotW:'But here',coverTag:'PRESENTS?',coverIcon:'🎁',ctaW:'When',ctaTitle:'WHEN DO YOU OPEN YOURS?',
  thumb:['WHEN DO KIDS','OPEN CHRISTMAS','PRESENTS?']};

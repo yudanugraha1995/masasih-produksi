@@ -7,5 +7,5 @@ const CFG={hook:['SALES TAX','HOW MUCH?'],
  ['uk','UK','UK','20%','VAT','','Source: HMRC','ok','💷'],
  ],
  twist:{code:'dk',name:'DENMARK',trigger:'Denmark',numW:'twenty',num:'25%',unit:'even on food!',mk:'no',rx:'😱',src:'Source: Danish Tax Agency (Skattestyrelsen)'},
- gpad:0.6,plotW:'But',coverTag:'TAX?',coverIcon:'🧾',ctaW:'How',ctaTitle:'HOW MUCH TAX DO YOU PAY?',
+ gpad:0.6,plotW:'But here',coverTag:'TAX?',coverIcon:'🧾',ctaW:'How',ctaTitle:'HOW MUCH TAX DO YOU PAY?',
  thumb:['WHAT IF','SALES TAX','WAS 25%?']};

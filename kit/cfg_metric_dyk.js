@@ -7,5 +7,5 @@ const CFG={hook:['MILES OR KM?','WHO USES WHAT?'],
  ['in','INDIA','India','METRIC','since the late 1950s','','Source: Legal Metrology, Government of India','ok','🇮🇳'],
  ],
  twist:{code:'uk',name:'UK',trigger:'UK',numW:'miles',num:'MILES + PINTS',unit:'metric in shops!',mk:'ok',rx:'🍺',src:'Source: UK Weights and Measures Act 1985'},
- gpad:0.6,plotW:'But',coverTag:'MILES?',coverIcon:'📏',ctaW:'Miles',ctaTitle:'MILES OR KILOMETERS?',
+ gpad:0.6,plotW:'But here',coverTag:'MILES?',coverIcon:'📏',ctaW:'Miles or',ctaTitle:'MILES OR KILOMETERS?',
  thumb:['WHAT IF','AMERICA USED','KILOMETERS?']};

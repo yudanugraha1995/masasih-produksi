@@ -7,5 +7,5 @@ const CFG={hook:['DAYLIGHT SAVING','CLOCKS CHANGE?'],
  ['cn','CHINA','China','NO','stopped in 1991','','Source: timeanddate.com','no','🏮'],
  ],
  twist:{code:'ru',name:'RUSSIA',trigger:'Russia',numW:'permanent',num:'FOREVER SUMMER?',unit:'tried 2011, quit 2014',mk:'no',rx:'🤦',src:'Source: Reuters / timeanddate.com'},
- gpad:0.6,plotW:'But',coverTag:'CLOCKS?',coverIcon:'⏰',ctaW:'Should',ctaTitle:'SHOULD CLOCKS CHANGE?',
+ gpad:0.6,plotW:'But here',coverTag:'CLOCKS?',coverIcon:'⏰',ctaW:'Should',ctaTitle:'SHOULD CLOCKS CHANGE?',
  thumb:['WHAT IF','THE CLOCKS NEVER','CHANGED?']};

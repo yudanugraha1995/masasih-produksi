@@ -8,5 +8,5 @@ const CFG={hook:['CHRISTMAS DINNER','WHAT DO THEY EAT?'],
  ['ph','PHILIPPINES','Philippines','LECHON','whole roast pig','','Source: Philippine Department of Tourism','ok','🐖'],
  ],
  twist:{code:'jp',name:'JAPAN',trigger:'Japan',numW:'millions',num:'KFC!',unit:'booked weeks ahead',mk:'no',rx:'🍗',src:'Source: KFC Japan (Kentucky Fried Chicken Japan Ltd.)'},
- gpad:0.6,plotW:'But',coverTag:'CHRISTMAS DINNER?',coverIcon:'🍗',ctaW:'What',ctaTitle:'WHAT IS ON YOUR TABLE?',
+ gpad:0.6,plotW:'But here',coverTag:'CHRISTMAS DINNER?',coverIcon:'🍗',ctaW:'What',ctaTitle:'WHAT IS ON YOUR TABLE?',
  thumb:['WHAT IF CHRISTMAS','DINNER WAS','KFC?']};

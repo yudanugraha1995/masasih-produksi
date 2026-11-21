@@ -7,5 +7,5 @@ const CFG={hook:['FIRST DAY OF SCHOOL','HOW OLD?'],
  ['de','GERMANY','Germany','AGE 6','Grundschule','','Source: KMK (Germany)','ok','📚'],
  ],
  twist:{code:'fi',name:'FINLAND',trigger:'Finland',numW:'seven',num:'AGE 7',unit:'and still top schools!',mk:'ok',rx:'🤯',src:'Source: Finnish National Agency for Education'},
- gpad:0.6,plotW:'But',coverTag:'SCHOOL AGE?',coverIcon:'🎒',ctaW:'When',ctaTitle:'WHEN DID YOU START SCHOOL?',
+ gpad:0.6,plotW:'But here',coverTag:'SCHOOL AGE?',coverIcon:'🎒',ctaW:'When',ctaTitle:'WHEN DID YOU START SCHOOL?',
  thumb:['WHAT IF','SCHOOL STARTED','AT 7?']};

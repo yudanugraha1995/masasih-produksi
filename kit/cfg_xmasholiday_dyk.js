@@ -7,5 +7,5 @@ const CFG={hook:['CHRISTMAS','DAY OFF?'],
  ['cn','CHINA','China','WORK DAY','not a public holiday','','Source: State Council of China','no','🏢'],
  ],
  twist:{code:'jp',name:'JAPAN',trigger:'Japan',numW:'isn\'t',num:'WORK DAY',unit:'yet it\'s full of lights!',mk:'no',rx:'💡',src:'Source: Cabinet Office of Japan (national holidays)'},
- gpad:0.6,plotW:'But',coverTag:'DAY OFF?',coverIcon:'📅',ctaW:'Do',ctaTitle:'DO YOU GET CHRISTMAS OFF?',
+ gpad:0.6,plotW:'But here',coverTag:'DAY OFF?',coverIcon:'📅',ctaW:'Do',ctaTitle:'DO YOU GET CHRISTMAS OFF?',
  thumb:['WHAT IF','CHRISTMAS WASN\'T','A DAY OFF?']};

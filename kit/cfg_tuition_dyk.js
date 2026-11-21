@@ -7,5 +7,5 @@ const CFG={hook:['COLLEGE COST','PER YEAR?'],
  ['fr','FRANCE','France','€175','bachelor\'s, public','','Source: French Ministry of Higher Education','ok','🥐'],
  ],
  twist:{code:'de',name:'GERMANY',trigger:'Germany',numW:'free',num:'FREE',unit:'even for most foreigners!',mk:'ok',rx:'🤯',src:'Source: DAAD (Germany)'},
- gpad:0.6,plotW:'But',coverTag:'FREE COLLEGE?',coverIcon:'🎓',ctaW:'How',ctaTitle:'HOW MUCH IS COLLEGE FOR YOU?',
+ gpad:0.6,plotW:'But here',coverTag:'FREE COLLEGE?',coverIcon:'🎓',ctaW:'How',ctaTitle:'HOW MUCH IS COLLEGE FOR YOU?',
  thumb:['WHAT IF','COLLEGE','WAS FREE?']};

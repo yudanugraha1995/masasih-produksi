@@ -7,5 +7,5 @@ const CFG={hook:['THE PENNY','IS IT GONE?'],
  ['ca','CANADA','Canada','2013','penny gone','','Source: Royal Canadian Mint','no','🍁'],
  ],
  twist:{code:'us',name:'USA',trigger:'America',numW:'last',num:'2025',unit:'last penny struck!',mk:'no',rx:'🪙',src:'Source: U.S. Mint'},
- gpad:0.6,plotW:'But',coverTag:'PENNY?',coverIcon:'🪙',ctaW:'Do',ctaTitle:'DO YOU STILL USE PENNIES?',
+ gpad:0.6,plotW:'But here',coverTag:'PENNY?',coverIcon:'🪙',ctaW:'Do',ctaTitle:'DO YOU STILL USE PENNIES?',
  thumb:['WHAT IF','PENNIES','DISAPPEARED?']};

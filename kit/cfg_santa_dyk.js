@@ -1,3 +1,4 @@
+// ===== What If Santa Was a Witch? 🧹 (Did You Know, 6 negara, Speechify henry) =====
 const CFG={hook:['WHO BRINGS','THE PRESENTS?'],
  items:[
  ['us','USA','America','SANTA CLAUS','sleigh + reindeer','','Source: Library of Congress','ok','🎅'],
@@ -7,5 +8,5 @@ const CFG={hook:['WHO BRINGS','THE PRESENTS?'],
  ['ru','RUSSIA','Russia','DED MOROZ','Grandfather Frost','','Source: Russia Beyond','ok','❄️'],
  ],
  twist:{code:'it',name:'ITALY',trigger:'Italy',numW:'Befana',num:'LA BEFANA',unit:'a kind witch on a broom!',mk:'ok',rx:'🧹',src:'Source: Italia.it'},
- gpad:0.6,plotW:'But',coverTag:'SANTA?',coverIcon:'🧹',ctaW:'Who',ctaTitle:'WHO VISITS YOUR HOUSE?',
+ gpad:0.6,plotW:'But here',coverTag:'SANTA?',coverIcon:'🧹',ctaW:'Who',ctaTitle:'WHO VISITS YOUR HOUSE?',
  thumb:['WHAT IF SANTA','WAS A','WITCH?']};

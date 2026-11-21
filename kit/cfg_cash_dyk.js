@@ -7,5 +7,5 @@ const CFG={hook:['CASH OR CARD?','WHO STILL USES CASH?'],
  ['uk','UK','UK','12% CASH','of payments','','Source: UK Finance','ok','💷'],
  ],
  twist:{code:'se',name:'SWEDEN',trigger:'Sweden',numW:'fewer',num:'UNDER 10%',unit:'some shops refuse cash!',mk:'no',rx:'😮',src:'Source: Sveriges Riksbank'},
- gpad:0.6,plotW:'But',coverTag:'CASH?',coverIcon:'💵',ctaW:'Cash',ctaTitle:'CASH OR CARD?',
+ gpad:0.6,plotW:'But here',coverTag:'CASH?',coverIcon:'💵',ctaW:'Cash',ctaTitle:'CASH OR CARD?',
  thumb:['WHAT IF','CASH','DISAPPEARED?']};

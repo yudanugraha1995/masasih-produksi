@@ -7,5 +7,5 @@ const CFG={hook:['THANKSGIVING','WHAT DAY?'],
  ['jp','JAPAN','Japan','NOV 23','Labor Thanksgiving Day','','Source: Cabinet Office of Japan','ok','🙏'],
  ],
  twist:{code:'au',name:'AUSTRALIA',trigger:'Australia',numW:'Norfolk',num:'NORFOLK ISLAND',unit:'US-style Thanksgiving!',mk:'ok',rx:'🦃',src:'Source: Norfolk Island Tourism'},
- gpad:0.6,plotW:'But',coverTag:'THANKSGIVING?',coverIcon:'🦃',ctaW:'When',ctaTitle:'WHEN DO YOU GIVE THANKS?',
+ gpad:0.6,plotW:'But here',coverTag:'THANKSGIVING?',coverIcon:'🦃',ctaW:'When',ctaTitle:'WHEN DO YOU GIVE THANKS?',
  thumb:['WHAT IF','THANKSGIVING WAS','IN OCTOBER?']};

@@ -7,5 +7,5 @@ const CFG={hook:['BLACK FRIDAY','BIGGEST SALE?'],
  ['mx','MEXICO','Mexico','EL BUEN FIN','its own sales weekend','','Source: Government of Mexico','ok','🌮'],
  ],
  twist:{code:'cn',name:'CHINA',trigger:'China',numW:'Singles',num:'11.11',unit:'Singles\' Day: even bigger!',mk:'ok',rx:'🤯',src:'Source: Alibaba Group / Reuters'},
- gpad:0.6,plotW:'But',coverTag:'BLACK FRIDAY?',coverIcon:'🛍️',ctaW:'Do',ctaTitle:'DO YOU SHOP BLACK FRIDAY?',
+ gpad:0.6,plotW:'But here',coverTag:'BLACK FRIDAY?',coverIcon:'🛍️',ctaW:'Do',ctaTitle:'DO YOU SHOP BLACK FRIDAY?',
  thumb:['IS BLACK FRIDAY','THE BIGGEST','SALE ON EARTH?']};

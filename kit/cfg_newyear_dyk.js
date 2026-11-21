@@ -7,5 +7,5 @@ const CFG={hook:['NEW YEAR\'S EVE','AROUND THE WORLD'],
  ['br','BRAZIL','Brazil','JUMP 7 WAVES','wear white for luck','','Source: Visit Brasil','ok','🌊'],
  ],
  twist:{code:'dk',name:'DENMARK',trigger:'Denmark',numW:'smash',num:'SMASH PLATES',unit:'on friends\' doors!',mk:'ok',rx:'🍽️',src:'Source: VisitDenmark'},
- gpad:0.6,plotW:'But',coverTag:'NEW YEAR?',coverIcon:'🍇',ctaW:'How',ctaTitle:'HOW DO YOU CELEBRATE?',
+ gpad:0.6,plotW:'But here',coverTag:'NEW YEAR?',coverIcon:'🍇',ctaW:'How',ctaTitle:'HOW DO YOU CELEBRATE?',
  thumb:['WHAT IF YOU','ATE 12 GRAPES','AT MIDNIGHT?']};
