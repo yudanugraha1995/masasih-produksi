@@ -26,3 +26,22 @@ kit/narasi_chatgpt_dyk.mp3
 kit/timing_chatgpt_dyk.json
 kit/subs_chatgpt_dyk.json
 kit/scenes_chatgpt_dyk.js
+# 21 Nov: video baru disimpan di Cloudinary, BUKAN GitHub (aturan user). Bahan mentah juga tidak di-push.
+videos/nasipanas_styleA.mp4
+videos/kacamata_styleA.mp4
+videos/parubasah_styleA.mp4
+videos/tidurkenyang_styleA.mp4
+videos/vape_styleA.mp4
+videos/rotigaram_styleA.mp4
+videos/hajatan_styleA.mp4
+videos/pemutih_styleA.mp4
+kit/raw_*.mp3
+kit/words_*.json
+kit/sfx_nasipanas.wav
+kit/sfx_kacamata.wav
+kit/sfx_parubasah.wav
+kit/sfx_tidurkenyang.wav
+kit/sfx_vape.wav
+kit/sfx_rotigaram.wav
+kit/sfx_hajatan.wav
+kit/sfx_pemutih.wav
