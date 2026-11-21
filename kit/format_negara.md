@@ -83,3 +83,5 @@ Australia (~$39,83) · Amerika Serikat (~$36,03) · Kanada (~$32,07) · Selandia
 - Suara: **Speechify "henry"** (`kit/sp_tts.py <id> "<narasi>"` → raw_<id>.mp3 + words_<id>.json), lalu `instant_stretch.py <id> raw_<id>.mp3 words_<id>.json <T=min(55,speech+9.5)> 0.6` (mode Speechify: jeda cuma di akhir kalimat + sebelum nama negara, titik paling sunyi). Lalu mkdyk → build → runone → sfx → mux. Pipeline: `naskah/dyk6/run.sh <id>...`, naskah `naskah/dyk6/nar.py`, deskripsi `naskah/dyk6/mkdesc.py <id>`.
 - Video TIDAK di-push ke GitHub: upload ke Cloudinary (`dyk/<id>`) via mcp sign-upload + `kit/cld_upload`→ `kit/cld_up.py <signed.json> <mp4>`, lalu Buffer pakai secure_url.
 - Penggantian Buffer DYK s.d. 28 Nov: peta slot lama→baru di `naskah/dyk6/slots.json` (post lama dihapus SETELAH post pengganti di jam yang sama dibuat).
+- (user 21 Nov malam) **Plot twist PALING SERING = USA** (AS jadi negara terakhir/twist yang paling mencolok). Format 6 negara, 55 dtk. Topik "Which country has the most X?" dengan AS juara cocok. Script: naskah/dyk6/gen4.py.
+- api.buffer.com lewat proxy = akun Buffer KEDUA (dilarang). Jadwalkan DYK/HC cuma lewat konektor Buffer (MCP).

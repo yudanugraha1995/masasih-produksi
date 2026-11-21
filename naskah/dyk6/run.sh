@@ -2,7 +2,7 @@
 # run.sh id...  DYK 6-country pipeline (Speechify henry, <=55 s)
 cd /home/user/masasih-produksi/kit
 for id in "$@"; do
-  TXT=$(python3 -c "exec(open('../naskah/dyk6/nar55.py').read());exec(open('../naskah/dyk6/nar55h.py').read());N55.update(H);print(N55['$id'])")
+  TXT=$(python3 -c "exec(open('../naskah/dyk6/nar55.py').read());exec(open('../naskah/dyk6/nar55h.py').read());N55.update(H);exec(open('../naskah/dyk6/nar55u.py').read());N55.update(H2);print(N55['$id'])")
   python3 sp_tts.py $id "$TXT" > log_tts_$id.txt 2>&1 || { echo "FAIL tts $id"; continue; }
   SP=$(python3 -c "import json;print(json.load(open('words_$id.json'))['words'][-1]['end'])")
   T=55.0; python3 -c "import sys;sys.exit(0 if $SP<=50 else 1)" || echo "LONGSPEECH $id $SP"

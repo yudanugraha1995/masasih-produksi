@@ -1,3 +1,4 @@
+// ===== Where Is the Rainiest Place on Earth? 🌧️ (Did You Know, 6 negara, Speechify henry) =====
 const CFG={hook:['RAINIEST','PLACE?'],
  items:[
  ['au','AUSTRALIA','Australia','534 MM','rain per year','','Source: World Bank','ok','☀️'],
