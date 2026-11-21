@@ -21,3 +21,5 @@
 - dyk/economy_dyk https://res.cloudinary.com/u5zqiuc2/video/upload/v1795290756/dyk/economy_dyk.mp4
 - howcome/contacts_w https://res.cloudinary.com/u5zqiuc2/video/upload/v1795291141/howcome/contacts_w.mp4
 - dyk/dst_dyk https://res.cloudinary.com/u5zqiuc2/video/upload/v1795291144/dyk/dst_dyk.mp4
+- howcome/fivesecond_w https://res.cloudinary.com/u5zqiuc2/video/upload/v1795291406/howcome/fivesecond_w.mp4
+- dyk/penny_dyk https://res.cloudinary.com/u5zqiuc2/video/upload/v1795291409/dyk/penny_dyk.mp4

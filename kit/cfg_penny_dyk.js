@@ -1,3 +1,4 @@
+// ===== What If Pennies Disappeared? 🪙 (Did You Know, 6 negara, Speechify henry) =====
 const CFG={hook:['THE PENNY','IS IT GONE?'],
  items:[
  ['nz','NEW ZEALAND','New Zealand','1990','1¢ and 2¢ coins gone','','Source: Reserve Bank of New Zealand','no','🥝'],
