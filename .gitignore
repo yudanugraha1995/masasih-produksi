@@ -50,3 +50,5 @@ videos/*.mp4
 kit/sfx_*.wav
 kit/st_*/
 naskah/dyk6/*.log
+kit/body_*_dyk.js
+kit/scenes_*_dyk.js
