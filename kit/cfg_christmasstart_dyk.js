@@ -1,3 +1,4 @@
+// ===== When Does Christmas Season Really Start? 🎄 (Did You Know, 6 negara, Speechify henry) =====
 const CFG={hook:['CHRISTMAS SEASON','WHEN DOES IT START?'],
  items:[
  ['us','USA','America','AFTER THANKSGIVING','tree up + Black Friday','','Source: National Retail Federation','ok','🎄'],
