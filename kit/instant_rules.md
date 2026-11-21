@@ -41,3 +41,8 @@
 - DYK MASKOT (owner 16 Nov, menggantikan "tanpa maskot"): maskot remaja cowok khusus DYK (topi merah, hoodie biru, tulisan "DID YOU KNOW" di dada). File: howcome-produksi kit/dyk_mascot.js + scene_dyk.html + render_dyk.js + wm_dyk.png; scenes pakai `window.NEWFX=true;window.DYK=true;` lalu render dengan `node render_dyk.js` (bukan render.js). Preview: instant/dyk_mascot_preview.jpg. Format animasi = gaya How Come (topic_*.js SCN/VSCTA, compose_instant.py, sfx.py).
 - 16 Nov: 8 video terjadwal di Buffer (HC 18:38/20:40/22:20/03:57, DYK 18:12/20:05/22:47/03:31 WITA). Trigger posting shareNow: JANGAN posting lagi kalau slotnya sudah terjadwal.
 - 16 Nov (user: "Lengkapin 8 video"): DYK +4 di slot 22/02/06/10 WITA (bekas Bot D): mirror 21:13, elevator 01:47, soda 05:22, sky 09:23 WITA. DYK hari ini = 8 video. Untuk hari berikutnya belum dikonfirmasi user (default tetap 4 + cek apakah slot 22/02/06/10 kosong).
+
+## SUARA BARU (owner 21 Nov 2026, menggantikan ElevenLabs Alex/Ryan untuk produksi berikutnya)
+- How Come + DYK SELALU pakai **Speechify suara "henry"** (model simba-3.5). Script: howcome-produksi `kit/speechify_i.py <id> <splits> "<narasi>"` → audio + timing kata (speech marks Speechify, tanpa transkrip ElevenLabs) + blocks. API key = network secret host api.sws.speechify.com (proxy), jangan ditulis di file/chat.
+- Video yang sudah jadi/terjadwal biarin.
+- 21 Nov: SEMUA produksi & posting instant DIHENTIKAN (perintah owner via Bot C). Tunggu owner bilang lanjut.
