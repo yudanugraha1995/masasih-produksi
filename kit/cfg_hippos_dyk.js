@@ -1,3 +1,4 @@
+// ===== What If Wild Hippos Lived in Your Country? 🦛 (Did You Know, 6 negara, Speechify henry) =====
 const CFG={hook:['WILD GIANTS','NEAR YOU?'],
  items:[
  ['us','USA','America','1.3M','alligators in Florida','','Source: Florida Fish and Wildlife Commission','ok','🐊'],
