@@ -59,3 +59,4 @@
 - dyk/nobel_dyk https://res.cloudinary.com/u5zqiuc2/video/upload/v1795298998/dyk/nobel_dyk.mp4
 - howcome/sponge_w https://res.cloudinary.com/u5zqiuc2/video/upload/v1795299267/howcome/sponge_w.mp4
 - howcome/burnttoast_w https://res.cloudinary.com/u5zqiuc2/video/upload/v1795299486/howcome/burnttoast_w.mp4
+- dyk/mcdonalds_dyk https://res.cloudinary.com/u5zqiuc2/video/upload/v1795299601/dyk/mcdonalds_dyk.mp4
