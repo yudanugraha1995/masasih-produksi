@@ -46,3 +46,9 @@
 - How Come + DYK SELALU pakai **Speechify suara "henry"** (model simba-3.5). Script: howcome-produksi `kit/speechify_i.py <id> <splits> "<narasi>"` → audio + timing kata (speech marks Speechify, tanpa transkrip ElevenLabs) + blocks. API key = network secret host api.sws.speechify.com (proxy), jangan ditulis di file/chat.
 - Video yang sudah jadi/terjadwal biarin.
 - 21 Nov: SEMUA produksi & posting instant DIHENTIKAN (perintah owner via Bot C). Tunggu owner bilang lanjut.
+
+## PENYIMPANAN VIDEO = CLOUDINARY (owner 21 Nov 2026, produksi berikutnya)
+- Video final instant (HC + DYK) TIDAK di-push ke GitHub lagi; upload ke Cloudinary (cloud u5zqiuc2, plan Free 25 kredit/bulan; cek mcp Cloudinary get-usage-details).
+- Cara: mcp Cloudinary `sign-upload` (bisa banyak sekaligus, public_id `instant/<id>`, overwrite true) → `curl https://api.cloudinary.com/v1_1/u5zqiuc2/video/upload -F 'file=@"<mp4>"' -F api_key=.. -F signature=.. + SEMUA field upload_params` (host api.cloudinary.com sudah diizinkan di environment). Signature berlaku ~1 jam.
+- URL untuk Buffer = `secure_url` dari respons (https://res.cloudinary.com/u5zqiuc2/video/upload/v<ver>/instant/<id>.mp4).
+- Repo GitHub tetap untuk script/naskah (file kecil). Storage guard .git tetap berlaku.
