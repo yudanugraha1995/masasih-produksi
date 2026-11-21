@@ -118,15 +118,15 @@
 {
 "old": "6b004d610ef7cb8a02daa78f",
 "dueUTC": "2026-11-23T17:00:00.000Z",
-"new": null,
-"vid": null,
+"new": "6b02019ed5eabfb8cc5cbd45",
+"vid": "voltage_dyk",
 "plan": "voltage_dyk"
 },
 {
 "old": "6b004de019264cd6f9461418",
 "dueUTC": "2026-11-23T19:00:00.000Z",
-"new": null,
-"vid": null,
+"new": "6b020194d864a01105732837",
+"vid": "vat_dyk",
 "plan": "vat_dyk"
 },
 {

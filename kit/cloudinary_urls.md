@@ -28,3 +28,6 @@
 - howcome/sodaonly_w https://res.cloudinary.com/u5zqiuc2/video/upload/v1795292438/howcome/sodaonly_w.mp4
 - howcome/noshower_w https://res.cloudinary.com/u5zqiuc2/video/upload/v1795292441/howcome/noshower_w.mp4
 - howcome/crackneck_w https://res.cloudinary.com/u5zqiuc2/video/upload/v1795292774/howcome/crackneck_w.mp4
+- howcome/lipslick_w https://res.cloudinary.com/u5zqiuc2/video/upload/v1795293555/howcome/lipslick_w.mp4
+- dyk/vat_dyk https://res.cloudinary.com/u5zqiuc2/video/upload/v1795293558/dyk/vat_dyk.mp4
+- dyk/voltage_dyk https://res.cloudinary.com/u5zqiuc2/video/upload/v1795293565/dyk/voltage_dyk.mp4
