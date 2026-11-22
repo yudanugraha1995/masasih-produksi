@@ -125,3 +125,7 @@
 - starbucks_dyk: https://res.cloudinary.com/u5zqiuc2/video/upload/v1795328363/dyk/starbucks_dyk.mp4
 - picknose_w: https://res.cloudinary.com/u5zqiuc2/video/upload/v1795328992/howcome/picknose_w.mp4
 - weirdlaws_dyk: https://res.cloudinary.com/u5zqiuc2/video/upload/v1795329007/dyk/weirdlaws_dyk.mp4
+- ussay5_w: https://res.cloudinary.com/u5zqiuc2/video/upload/v1795329644/howcome/ussay5_w.mp4
+- sanitizer_w: https://res.cloudinary.com/u5zqiuc2/video/upload/v1795329658/howcome/sanitizer_w.mp4
+- backcrack_w: https://res.cloudinary.com/u5zqiuc2/video/upload/v1795329678/howcome/backcrack_w.mp4
+- capitals_dyk: https://res.cloudinary.com/u5zqiuc2/video/upload/v1795329732/dyk/capitals_dyk.mp4

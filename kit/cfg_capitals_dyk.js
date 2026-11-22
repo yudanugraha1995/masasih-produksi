@@ -1,3 +1,4 @@
+// ===== What If Your Biggest City Wasn't the Capital? 🏛️ (Did You Know, 6 negara, Speechify henry) =====
 const CFG={hook:['CAPITAL','OR BIGGEST CITY?'],
  items:[
  ['us','USA','America','WASHINGTON','not New York','','Source: US Census Bureau','ok','🏛️'],
