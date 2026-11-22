@@ -1,3 +1,4 @@
+// ===== More Sheep Than People? 🐑 (Did You Know, 6 negara, Speechify henry) =====
 const CFG={hook:['MORE ANIMALS','THAN PEOPLE?'],
  items:[
  ['us','USA','America','87M COWS','vs 340M people','','Source: USDA NASS','ok','🐄'],
