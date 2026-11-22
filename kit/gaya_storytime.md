@@ -17,12 +17,20 @@ Jangan menjiplak isi/kalimat/karakter video itu; yang ditiru cuma GAYA BERCERITA
 8. **Punchline/ending lucu tiap anekdot** (mis. tas yang dibuang malah dipakai emak ke pasar).
 9. **Tempo natural**, ±2,5 kata/detik, ada jeda napas, nggak dibaca kayak berita.
 
-## Cara dipakai di Masa Sih
+## KLARIFIKASI USER (22 Nov): yang ditiru CUMA GAYA BAHASA / cara ngomongnya
+- Struktur video Masa Sih TETAP seperti format masing-masing (hook, fakta, plot twist, ending komentar + subscribe; atau format masalah berantai).
+- Yang diambil: "gua/lu", partikel obrolan (tuh, sih, gitu, ya, kayak, nih, lah, cuman, beh, parah), nyeletuk lucu/merendah diri, "dan lu tahu apa…?", kalimat kayak ngobrol ke teman, bukan kayak baca berita.
+- Cold open dialog & cerita pengalaman pribadi TIDAK wajib (boleh sesekali kalau pas).
+
+## (lama) Cara dipakai di Masa Sih
 - Mitos/fakta dibungkus jadi cerita pengalaman: cold open → cerita "gua dulu…" → "Masa sih?" → fakta (tetap akurat, ada sumber di deskripsi)
   → plot twist dengan cliffhanger "dan lu tahu apa…" → punchline lucu → pertanyaan komentar yang nyambung → subscribe.
 - Fakta kesehatan tetap akurat dan tidak menakut-nakuti; humor jangan merendahkan orang lain.
 
-## Contoh (topik: tidur lagi habis subuh, belum pernah dipakai)
+## Contoh gaya bahasa di struktur Masa Sih biasa (topik: tidur lagi habis subuh)
+Woyyy!! Lu suka tidur lagi habis subuh? Katanya rezeki lu bakal dipatok ayam. Masa sih? Beh, tenang, ayam tetangga nggak nungguin lu merem kok. Tapi faktanya, tidur lagi habis bangun pagi tuh sering bikin badan malah lemes, namanya sleep inertia, otak lu kayak masih setengah loading gitu. Dan lu tahu apa yang lebih parah? Kalau jam tidur lu berantakan terus, jam biologis ikut kacau, malamnya malah susah tidur. Jadi ya, larangannya bener, cuman tersangkanya aja yang salah, bukan ayam. Lu tim tidur lagi habis subuh atau langsung bangun? Tulis di komentar, dan subscribe biar nggak ketinggalan!
+
+## (lama) Contoh storytime penuh
 "Bangun! Rezekimu dipatok ayam!" Jadi guys, dari kecil tiap gua tidur lagi habis subuh, emak gua pasti teriak gitu dari dapur.
 Dan jujur ya, gua sempat mikir ayam tetangga tuh beneran nungguin gua merem. Masa sih? Ternyata nggak ada hubungannya sama ayam.
 Tapi tidur lagi habis bangun pagi itu emang sering bikin badan malah lemes, namanya sleep inertia, otak kayak masih setengah loading.
