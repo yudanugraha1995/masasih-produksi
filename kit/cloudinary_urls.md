@@ -160,3 +160,4 @@
 - tea_dyk: https://res.cloudinary.com/u5zqiuc2/video/upload/v1795337134/dyk/tea_dyk.mp4
 - roads_dyk: https://res.cloudinary.com/u5zqiuc2/video/upload/v1795337795/dyk/roads_dyk.mp4
 - monarchy_dyk: https://res.cloudinary.com/u5zqiuc2/video/upload/v1795337825/dyk/monarchy_dyk.mp4
+- schools_dyk: https://res.cloudinary.com/u5zqiuc2/video/upload/v1795338285/dyk/schools_dyk.mp4
