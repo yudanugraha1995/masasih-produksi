@@ -131,3 +131,6 @@
 - capitals_dyk: https://res.cloudinary.com/u5zqiuc2/video/upload/v1795329732/dyk/capitals_dyk.mp4
 - ustourist5_w: https://res.cloudinary.com/u5zqiuc2/video/upload/v1795330355/howcome/ustourist5_w.mp4
 - tornadoes_dyk: https://res.cloudinary.com/u5zqiuc2/video/upload/v1795330376/dyk/tornadoes_dyk.mp4
+- leftside_w: https://res.cloudinary.com/u5zqiuc2/video/upload/v1795331025/howcome/leftside_w.mp4
+- penchew_w: https://res.cloudinary.com/u5zqiuc2/video/upload/v1795331041/howcome/penchew_w.mp4
+- coffeeworld_dyk: https://res.cloudinary.com/u5zqiuc2/video/upload/v1795331056/dyk/coffeeworld_dyk.mp4
