@@ -1,3 +1,4 @@
+// ===== What If Empty Bottles Were Worth Money? ♻️ (Did You Know, 6 negara, Speechify henry) =====
 const CFG={hook:['EMPTY BOTTLES','WORTH MONEY?'],
  items:[
  ['us','USA','America','10 STATES','have a bottle deposit','','Source: Container Recycling Institute','ok','🥤'],
