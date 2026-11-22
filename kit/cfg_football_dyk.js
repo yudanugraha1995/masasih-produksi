@@ -1,3 +1,4 @@
+// ===== Is It Soccer or Football? ⚽ (Did You Know, 6 negara, Speechify henry) =====
 const CFG={hook:['SOCCER','OR FOOTBALL?'],
  items:[
  ['us','USA','America','SOCCER','football = NFL!','','Source: Merriam-Webster','ok','🏈'],
