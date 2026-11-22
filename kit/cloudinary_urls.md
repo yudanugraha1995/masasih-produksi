@@ -123,3 +123,5 @@
 - darkchoc_w: https://res.cloudinary.com/u5zqiuc2/video/upload/v1795328325/howcome/darkchoc_w.mp4
 - ushome5_w: https://res.cloudinary.com/u5zqiuc2/video/upload/v1795328342/howcome/ushome5_w.mp4
 - starbucks_dyk: https://res.cloudinary.com/u5zqiuc2/video/upload/v1795328363/dyk/starbucks_dyk.mp4
+- picknose_w: https://res.cloudinary.com/u5zqiuc2/video/upload/v1795328992/howcome/picknose_w.mp4
+- weirdlaws_dyk: https://res.cloudinary.com/u5zqiuc2/video/upload/v1795329007/dyk/weirdlaws_dyk.mp4
