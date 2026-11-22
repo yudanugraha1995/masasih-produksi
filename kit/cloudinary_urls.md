@@ -149,3 +149,6 @@
 - orangejuice_w: https://res.cloudinary.com/u5zqiuc2/video/upload/v1795334452/howcome/orangejuice_w.mp4
 - honey_w: https://res.cloudinary.com/u5zqiuc2/video/upload/v1795334476/howcome/honey_w.mp4
 - greetings_dyk: https://res.cloudinary.com/u5zqiuc2/video/upload/v1795334501/dyk/greetings_dyk.mp4
+- banana_w: https://res.cloudinary.com/u5zqiuc2/video/upload/v1795335137/howcome/banana_w.mp4
+- walkafter_w: https://res.cloudinary.com/u5zqiuc2/video/upload/v1795335163/howcome/walkafter_w.mp4
+- quakes_dyk: https://res.cloudinary.com/u5zqiuc2/video/upload/v1795335186/dyk/quakes_dyk.mp4
