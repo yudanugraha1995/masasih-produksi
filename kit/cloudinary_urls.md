@@ -107,3 +107,4 @@
 - dyk/anthem_dyk https://res.cloudinary.com/u5zqiuc2/video/upload/v1795314816/dyk/anthem_dyk.mp4
 - dyk/independence_dyk https://res.cloudinary.com/u5zqiuc2/video/upload/v1795315173/dyk/independence_dyk.mp4
 - dyk/islands_dyk https://res.cloudinary.com/u5zqiuc2/video/upload/v1795315481/dyk/islands_dyk.mp4
+- dyk/coldest_dyk https://res.cloudinary.com/u5zqiuc2/video/upload/v1795315884/dyk/coldest_dyk.mp4

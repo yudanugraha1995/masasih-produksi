@@ -1,3 +1,4 @@
+// ===== Where Is the Coldest Town on Earth? 🥶 (Did You Know, 6 negara, Speechify henry) =====
 const CFG={hook:['COLDEST EVER','HOW COLD?'],
  items:[
  ['au','AUSTRALIA','Australia','-23°C','-9.4°F','','Source: Bureau of Meteorology','ok','🦘'],
