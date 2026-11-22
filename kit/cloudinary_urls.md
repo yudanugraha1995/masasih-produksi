@@ -79,3 +79,4 @@
 - howcome/flipflops_w https://res.cloudinary.com/u5zqiuc2/video/upload/v1795308173/howcome/flipflops_w.mp4
 - howcome/skinnyjeans_w https://res.cloudinary.com/u5zqiuc2/video/upload/v1795308445/howcome/skinnyjeans_w.mp4
 - dyk/cash_dyk https://res.cloudinary.com/u5zqiuc2/video/upload/v1795308533/dyk/cash_dyk.mp4
+- howcome/wallet_w https://res.cloudinary.com/u5zqiuc2/video/upload/v1795308800/howcome/wallet_w.mp4
