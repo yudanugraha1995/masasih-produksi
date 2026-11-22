@@ -1,5 +1,7 @@
 # Produksi MASA SIH: aturan tetap
 
+- **JANGAN SENTUH ELEVENLABS (user 22 Nov, PALING ATAS, mengalahkan aturan ElevenLabs/Senandika di bawah):** jangan pakai konektor ElevenLabs sama sekali (TTS, transkrip Scribe, flow, dll) sampai user bilang boleh lagi. Kalau butuh suara: Speechify (`kit/sp_gaya.py`, timing dari speech marks). Kalau butuh transkrip: jangan pakai ElevenLabs; tanya user dulu.
+
 Bahasa ke user: Indonesia santai. User tidak mau menekan Allow dan tidak bisa standby, jadi semuanya harus otomatis.
 
 - **INSTAGRAM BERHENTI TOTAL (owner via Bot C 16 Nov, MENGGANTIKAN semua aturan IG di bawah):** Masa Sih cuma YouTube. Jangan bikin post IG / IG kembar, jangan sentuh Buffer kedua. `kit/pending_ig2.md` = arsip, jangan diproses. 10 IG yang sudah terjadwal di Buffer kedua dibiarkan (jangan dihapus).
