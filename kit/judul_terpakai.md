@@ -214,3 +214,9 @@ Update tiap produksi. Sumber: naskah/judul_caption_*.md + post YT channel Masa S
 - 2026-11-28 | lensa | Tidur Pakai Softlens? 👁️ Masa Sih Bahaya?
 - 2026-11-28 | sendawa | Sering Sendawa Tanda Masuk Angin? 😮‍💨 Masa Sih?
 - 2026-11-28 | kerupuk | Kerupuk Bikin Radang Tenggorokan? 🍘 Masa Sih?
+
+## Format Masalah Berantai (Speechify Laras gaya), slot malam 23 Nov
+- 2026-11-22 | kolam | Panas Banget Tapi Nggak Punya Duit ke Kolam Renang? Gali Lubang Ini 🕳️ Hasilnya Nggak Nyangka!
+- 2026-11-23 | cabai | Harga Cabai Naik Gila-gilaan, Akhirnya Aku Tanam Sendiri 🌶️ Ujungnya Malah Begini!
+- 2026-11-23 | pungutkucing | Ada Kucing Kelaparan di Depan Rumah, Aku Pungut 🐱 Ternyata Masalahnya Baru Mulai!
+- 2026-11-23 | jualesteh | Uang Jajan Habis di Tengah Bulan, Aku Jualan Es Teh 🧋 Endingnya Bikin Kaget!

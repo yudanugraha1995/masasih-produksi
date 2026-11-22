@@ -114,3 +114,9 @@ Ulat gigi Short tayang 15 Nov 07:02 WIB (K3UA1e9xfX8). Dijadwal ulang: makanmala
 - lensa: Tidur Pakai Softlens
 - sendawa: Sering Sendawa Tanda Masuk Angin
 - kerupuk: Kerupuk Bikin Radang Tenggorokan
+
+## Format Masalah Berantai 23 Nov
+- kolam: Panas Banget Tapi Nggak Punya Duit ke Kolam Renang
+- cabai: Harga Cabai Naik Gila-gilaan, Akhirnya Aku Tanam Sendiri 🌶️ Ujungnya Malah Begini!
+- pungutkucing: Ada Kucing Kelaparan di Depan Rumah, Aku Pungut 🐱 Ternyata Masalahnya Baru Mulai!
+- jualesteh: Uang Jajan Habis di Tengah Bulan, Aku Jualan Es Teh 🧋 Endingnya Bikin Kaget!
