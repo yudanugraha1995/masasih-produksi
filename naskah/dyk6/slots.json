@@ -216,15 +216,15 @@
 {
 "old": "6b0053efc8ff599ea7033a79",
 "dueUTC": "2026-11-25T13:00:00.000Z",
-"new": null,
-"vid": null,
+"new": "6b023716cc364169c116b766",
+"vid": "hottest_dyk",
 "plan": "hottest_dyk"
 },
 {
 "old": "6b0054174bbeed58d28afaa8",
 "dueUTC": "2026-11-25T14:00:00.000Z",
-"new": null,
-"vid": null,
+"new": "6b02371fd5eabfb8cc6f680b",
+"vid": "newyear_dyk",
 "plan": "newyear_dyk"
 },
 {

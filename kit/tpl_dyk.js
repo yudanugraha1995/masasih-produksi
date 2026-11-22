@@ -4,7 +4,7 @@
 {const E=DUR+0.2, C=CFG.items, TW=CFG.twist, GP=CFG.gpad||0, GD=0.9+GP, MAPBG=CFG.bgPhoto?false:true;
 const MAPV=(t,t0,c,from,a,b)=>spinGlobe(t,from,c,t0,GD,960,980,true)+`<rect width="1920" height="1920" fill="${a}" opacity="${fmt(0.5*ss((t-t0-GD+0.2)/0.4))}"/><rect width="1920" height="1920" fill="url(#vig)" opacity="${fmt(0.6*ss((t-t0-GD+0.2)/0.4))}"/>`;
 const GRID=[...C.map(c=>[c[0],c[1]]),[CFG.hideTwist?'q':TW.code,CFG.hideTwist?'???':TW.name]];
-const bP=at(CFG.plotW||'Plot')-0.15, bC=(CFG.ctaW?at(CFG.ctaW,bP+0.5):at('Comment',bP+0.5))-0.15, bSub=Math.max(bC+0.7,at('Subscribe',bC)-0.1), tTW=at(TW.trigger,bP);
+const bP=at(CFG.plotW||'Plot')-0.15, bC=(CFG.ctaW?(()=>{const lim=at('Comment',bP+0.5);let r=null,t=bP+0.5;for(let k=0;k<40;k++){const x=at(CFG.ctaW,t);if(x==null||!isFinite(x)||x===t||x>=lim)break;r=x;t=x+0.05;}return r==null?at(CFG.ctaW,bP+0.5):r;})():at('Comment',bP+0.5))-0.15, bSub=Math.max(bC+0.7,at('Subscribe',bC)-0.1), tTW=at(TW.trigger,bP);
 const starts=[];C.forEach((c,i)=>starts.push(at(c[2],i?starts[i-1]+0.3+GP:0.5)-0.15-GP));
 // background cerah bergradasi (owner 14 Nov); plot twist tetap gelap sebagai selingan
 const PAL=[['#5AC8FA','#1E88E5'],['#4DD0A9','#00897B'],['#FF9E7A','#E64A6B'],['#FFD54F','#FB8C00'],['#B39DDB','#7E57C2']];

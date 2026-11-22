@@ -1,3 +1,4 @@
+// ===== Where Is the Hottest Place on Earth? 🔥 (Did You Know, 6 negara, Speechify henry) =====
 const CFG={hook:['HOTTEST DAY EVER','WHERE?'],
  items:[
  ['uk','UK','UK','40.3°C','104.5°F, in 2022','','Source: UK Met Office','ok','☀️'],

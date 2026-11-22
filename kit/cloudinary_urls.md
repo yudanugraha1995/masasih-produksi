@@ -65,3 +65,11 @@
 - dyk/olympics_dyk https://res.cloudinary.com/u5zqiuc2/video/upload/v1795300123/dyk/olympics_dyk.mp4
 - howcome/hotwater_w https://res.cloudinary.com/u5zqiuc2/video/upload/v1795300394/howcome/hotwater_w.mp4
 - howcome/bottle_w https://res.cloudinary.com/u5zqiuc2/video/upload/v1795300609/howcome/bottle_w.mp4
+- dyk/dogs_dyk https://res.cloudinary.com/u5zqiuc2/video/upload/v1795307176/dyk/dogs_dyk.mp4
+- dyk/hottest_dyk https://res.cloudinary.com/u5zqiuc2/video/upload/v1795307179/dyk/hottest_dyk.mp4
+- dyk/newyear_dyk https://res.cloudinary.com/u5zqiuc2/video/upload/v1795307182/dyk/newyear_dyk.mp4
+- howcome/apple_w https://res.cloudinary.com/u5zqiuc2/video/upload/v1795307184/howcome/apple_w.mp4
+- howcome/samefood_w https://res.cloudinary.com/u5zqiuc2/video/upload/v1795307187/howcome/samefood_w.mp4
+- howcome/onlyfruit_w https://res.cloudinary.com/u5zqiuc2/video/upload/v1795307190/howcome/onlyfruit_w.mp4
+- howcome/toothpaste_w https://res.cloudinary.com/u5zqiuc2/video/upload/v1795307193/howcome/toothpaste_w.mp4
+- howcome/crosslegged_w https://res.cloudinary.com/u5zqiuc2/video/upload/v1795307196/howcome/crosslegged_w.mp4
