@@ -1,3 +1,5 @@
+# ARSIP — DIBATALKAN user 22 Nov: tetap pakai gaya bahasa Masa Sih yang lama. Jangan dipakai.
+
 # Gaya narasi STORYTIME (user 22 Nov 2026) — dipakai untuk produksi Masa Sih berikutnya
 
 Referensi: video animasi storytime "Jadi Anak Tukang Sembako" (dikirim user, 4 menit pertama ditranskrip Scribe).
