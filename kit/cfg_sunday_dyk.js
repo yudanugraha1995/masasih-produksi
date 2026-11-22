@@ -1,3 +1,4 @@
+// ===== What If Every Store Closed on Sunday? 🛒 (Did You Know, 6 negara, Speechify henry) =====
 const CFG={hook:['SUNDAY','SHOPPING?'],
  items:[
  ['us','USA','America','OPEN 7 DAYS','','','Source: National Retail Federation','ok','🛒'],

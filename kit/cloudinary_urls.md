@@ -164,3 +164,4 @@
 - placenames_dyk: https://res.cloudinary.com/u5zqiuc2/video/upload/v1795338498/dyk/placenames_dyk.mp4
 - festivals_dyk: https://res.cloudinary.com/u5zqiuc2/video/upload/v1795338919/dyk/festivals_dyk.mp4
 - inventions_dyk: https://res.cloudinary.com/u5zqiuc2/video/upload/v1795338981/dyk/inventions_dyk.mp4
+- sunday_dyk: https://res.cloudinary.com/u5zqiuc2/video/upload/v1795339283/dyk/sunday_dyk.mp4
