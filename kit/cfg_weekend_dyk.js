@@ -1,3 +1,4 @@
+// ===== What If the Weekend Was Friday and Saturday? 📅 (Did You Know, 6 negara, Speechify henry) =====
 const CFG={hook:['WEEKEND','WHICH DAYS?'],
  items:[
  ['us','USA','America','SAT + SUN','','','Source: US Office of Personnel Management','ok','📅'],

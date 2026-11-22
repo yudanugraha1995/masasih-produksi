@@ -15,3 +15,5 @@ quakes_dyk 6b02a433846b0ee9076e0c57
 flags_dyk 6b02a6d1d864a01105aa8b0f
 themeparks_dyk 6b02a94cd5eabfb8cc93bfa0
 weirdfood_dyk 6b02a958cc364169c13c842d
+weekend_dyk 6b02abbe024796909236b55c
+tea_dyk 6b02abca846b0ee907706f3a

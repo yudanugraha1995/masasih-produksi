@@ -156,3 +156,5 @@
 - flags_dyk: https://res.cloudinary.com/u5zqiuc2/video/upload/v1795335875/dyk/flags_dyk.mp4
 - themeparks_dyk: https://res.cloudinary.com/u5zqiuc2/video/upload/v1795336492/dyk/themeparks_dyk.mp4
 - weirdfood_dyk: https://res.cloudinary.com/u5zqiuc2/video/upload/v1795336510/dyk/weirdfood_dyk.mp4
+- weekend_dyk: https://res.cloudinary.com/u5zqiuc2/video/upload/v1795337109/dyk/weekend_dyk.mp4
+- tea_dyk: https://res.cloudinary.com/u5zqiuc2/video/upload/v1795337134/dyk/tea_dyk.mp4
