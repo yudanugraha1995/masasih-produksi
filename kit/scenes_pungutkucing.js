@@ -1,4 +1,4 @@
-const WORDS=[{"w": "Woyyy!!", "s": 0.0, "e": 0.57}, {"w": "Pulang", "s": 0.655, "e": 0.768}, {"w": "kerja,", "s": 0.768, "e": 1.072}, {"w": "ada", "s": 1.072, "e": 1.133}, {"w": "anak", "s": 1.133, "e": 1.255}, {"w": "kucing", "s": 1.255, "e": 1.397}, {"w": "kurus", "s": 1.397, "e": 1.559}, {"w": "mengeong", "s": 1.559, "e": 1.762}, {"w": "di", "s": 1.762, "e": 1.823}, {"w": "depan", "s": 1.823, "e": 1.965}, {"w": "pagar,", "s": 1.965, "e": 2.411}, {"w": "kelihatan", "s": 2.411, "e": 2.655}, {"w": "kelaparan", "s": 2.655, "e": 2.878}, {"w": "banget.", "s": 2.878, "e": 3.223}, {"w": "Nggak", "s": 3.343, "e": 3.441}, {"w": "tega,", "s": 3.441, "e": 3.808}, {"w": "akhirnya", "s": 3.808, "e": 4.013}, {"w": "kamu", "s": 4.013, "e": 4.135}, {"w": "bawa", "s": 4.135, "e": 4.237}, {"w": "masuk.", "s": 4.237, "e": 4.707}, {"w": "Selamat,", "s": 4.827, "e": 5.23}, {"w": "kamu", "s": 5.23, "e": 5.372}, {"w": "punya", "s": 5.372, "e": 5.494}, {"w": "peliharaan!", "s": 5.494, "e": 6.071}, {"w": "Tapi", "s": 6.321, "e": 6.437}, {"w": "gimana", "s": 6.437, "e": 6.75}, {"w": "kalau", "s": 6.75, "e": 6.875}, {"w": "kamu", "s": 6.875, "e": 7.021}, {"w": "kasih", "s": 7.021, "e": 7.167}, {"w": "susu", "s": 7.167, "e": 7.313}, {"w": "sapi", "s": 7.313, "e": 7.564}, {"w": "biar", "s": 7.564, "e": 7.668}, {"w": "cepat", "s": 7.668, "e": 7.814}, {"w": "kenyang?", "s": 7.814, "e": 8.294}, {"w": "Eits,", "s": 8.494, "e": 8.893}, {"w": "susu", "s": 8.893, "e": 9.036}, {"w": "sapi", "s": 9.036, "e": 9.199}, {"w": "bukan", "s": 9.199, "e": 9.342}, {"w": "buat", "s": 9.342, "e": 9.443}, {"w": "kucing,", "s": 9.443, "e": 9.872}, {"w": "banyak", "s": 9.872, "e": 10.014}, {"w": "kucing", "s": 10.014, "e": 10.137}, {"w": "nggak", "s": 10.137, "e": 10.239}, {"w": "bisa", "s": 10.239, "e": 10.361}, {"w": "mencerna", "s": 10.361, "e": 10.544}, {"w": "laktosanya", "s": 10.544, "e": 11.054}, {"w": "dan", "s": 11.054, "e": 11.135}, {"w": "malah", "s": 11.135, "e": 11.278}, {"w": "diare!", "s": 11.278, "e": 11.727}, {"w": "Kasih", "s": 11.847, "e": 11.985}, {"w": "makanan", "s": 11.985, "e": 12.188}, {"w": "kucing", "s": 12.188, "e": 12.411}, {"w": "dan", "s": 12.411, "e": 12.512}, {"w": "air", "s": 12.512, "e": 12.654}, {"w": "putih", "s": 12.654, "e": 12.796}, {"w": "aja.", "s": 12.796, "e": 13.283}, {"w": "Tapi", "s": 13.403, "e": 13.518}, {"w": "gimana", "s": 13.518, "e": 13.728}, {"w": "kalau", "s": 13.728, "e": 13.854}, {"w": "badannya", "s": 13.854, "e": 14.084}, {"w": "penuh", "s": 14.084, "e": 14.231}, {"w": "kutu?", "s": 14.231, "e": 14.734}, {"w": "Mandikan", "s": 14.934, "e": 15.17}, {"w": "pakai", "s": 15.17, "e": 15.312}, {"w": "sampo", "s": 15.312, "e": 15.496}, {"w": "khusus", "s": 15.496, "e": 15.679}, {"w": "kucing,", "s": 15.679, "e": 16.066}, {"w": "terus", "s": 16.066, "e": 16.188}, {"w": "bawa", "s": 16.188, "e": 16.311}, {"w": "ke", "s": 16.311, "e": 16.372}, {"w": "dokter", "s": 16.372, "e": 16.515}, {"w": "hewan", "s": 16.515, "e": 16.698}, {"w": "buat", "s": 16.698, "e": 16.82}, {"w": "obat", "s": 16.82, "e": 16.963}, {"w": "cacing", "s": 16.963, "e": 17.166}, {"w": "dan", "s": 17.166, "e": 17.248}, {"w": "vaksin.", "s": 17.248, "e": 17.676}, {"w": "Tapi", "s": 17.796, "e": 17.897}, {"w": "gimana", "s": 17.897, "e": 18.107}, {"w": "kalau", "s": 18.107, "e": 18.233}, {"w": "dia", "s": 18.233, "e": 18.359}, {"w": "pipis", "s": 18.359, "e": 18.526}, {"w": "sembarangan?", "s": 18.526, "e": 19.114}, {"w": "Siapkan", "s": 19.314, "e": 19.538}, {"w": "kotak", "s": 19.538, "e": 19.72}, {"w": "pasir,", "s": 19.72, "e": 20.064}, {"w": "kucing", "s": 20.064, "e": 20.246}, {"w": "secara", "s": 20.246, "e": 20.428}, {"w": "alami", "s": 20.428, "e": 20.671}, {"w": "suka", "s": 20.671, "e": 20.834}, {"w": "mengubur", "s": 20.834, "e": 21.056}, {"w": "kotorannya.", "s": 21.056, "e": 21.482}, {"w": "Tapi", "s": 21.66, "e": 21.761}, {"w": "gimana", "s": 21.761, "e": 21.971}, {"w": "kalau", "s": 21.971, "e": 22.118}, {"w": "sofa", "s": 22.118, "e": 22.265}, {"w": "dicakar-cakar?", "s": 22.265, "e": 22.98}, {"w": "Kasih", "s": 23.18, "e": 23.355}, {"w": "tiang", "s": 23.355, "e": 23.477}, {"w": "garukan,", "s": 23.477, "e": 23.986}, {"w": "mencakar", "s": 23.986, "e": 24.271}, {"w": "itu", "s": 24.271, "e": 24.352}, {"w": "cara", "s": 24.352, "e": 24.474}, {"w": "kucing", "s": 24.474, "e": 24.638}, {"w": "merawat", "s": 24.638, "e": 24.8}, {"w": "kukunya.", "s": 24.8, "e": 25.269}, {"w": "Tapi", "s": 25.389, "e": 25.489}, {"w": "gimana", "s": 25.489, "e": 25.76}, {"w": "kalau", "s": 25.76, "e": 25.885}, {"w": "tengah", "s": 25.885, "e": 26.01}, {"w": "malam", "s": 26.01, "e": 26.218}, {"w": "dia", "s": 26.218, "e": 26.302}, {"w": "lari-lari", "s": 26.302, "e": 26.552}, {"w": "sendiri?", "s": 26.552, "e": 27.115}, {"w": "Wajar,", "s": 27.315, "e": 27.718}, {"w": "kucing", "s": 27.718, "e": 27.881}, {"w": "paling", "s": 27.881, "e": 28.023}, {"w": "aktif", "s": 28.023, "e": 28.227}, {"w": "pas", "s": 28.227, "e": 28.329}, {"w": "subuh", "s": 28.329, "e": 28.491}, {"w": "dan", "s": 28.491, "e": 28.573}, {"w": "senja.", "s": 28.573, "e": 29.082}, {"w": "Tapi", "s": 29.202, "e": 29.302}, {"w": "gimana", "s": 29.302, "e": 29.511}, {"w": "kalau", "s": 29.511, "e": 29.656}, {"w": "dia", "s": 29.656, "e": 29.844}, {"w": "ngajak", "s": 29.844, "e": 30.011}, {"w": "teman-temannya", "s": 30.011, "e": 30.303}, {"w": "datang?", "s": 30.303, "e": 30.929}, {"w": "Tiba-tiba", "s": 31.129, "e": 31.365}, {"w": "di", "s": 31.365, "e": 31.426}, {"w": "rumah", "s": 31.426, "e": 31.672}, {"w": "ada", "s": 31.672, "e": 31.774}, {"w": "tujuh", "s": 31.774, "e": 31.958}, {"w": "kucing!", "s": 31.958, "e": 32.512}, {"w": "Selamat,", "s": 32.632, "e": 33.06}, {"w": "kamu", "s": 33.06, "e": 33.204}, {"w": "sekarang", "s": 33.204, "e": 33.389}, {"w": "punya", "s": 33.389, "e": 33.554}, {"w": "cat", "s": 33.554, "e": 33.657}, {"w": "cafe!", "s": 33.657, "e": 34.089}, {"w": "Kamu", "s": 34.339, "e": 34.493}, {"w": "tim", "s": 34.493, "e": 34.574}, {"w": "kucing", "s": 34.574, "e": 34.837}, {"w": "atau", "s": 34.837, "e": 34.98}, {"w": "tim", "s": 34.98, "e": 35.081}, {"w": "anjing?", "s": 35.081, "e": 35.609}, {"w": "Tulis", "s": 35.729, "e": 35.86}, {"w": "di", "s": 35.86, "e": 35.901}, {"w": "komentar,", "s": 35.901, "e": 36.321}, {"w": "dan", "s": 36.321, "e": 36.401}, {"w": "subscribe", "s": 36.401, "e": 36.722}, {"w": "biar", "s": 36.722, "e": 36.842}, {"w": "nggak", "s": 36.842, "e": 36.962}, {"w": "ketinggalan!", "s": 36.962, "e": 37.508}];const DUR=37.695;
+const WORDS=[{"w": "Woyyy!!", "s": 0.0, "e": 0.57}, {"w": "Kalau", "s": 0.655, "e": 0.768}, {"w": "kamu", "s": 0.768, "e": 0.91}, {"w": "pungut", "s": 0.91, "e": 1.052}, {"w": "anak", "s": 1.052, "e": 1.174}, {"w": "kucing", "s": 1.174, "e": 1.337}, {"w": "kelaparan", "s": 1.337, "e": 1.56}, {"w": "di", "s": 1.56, "e": 1.601}, {"w": "depan", "s": 1.601, "e": 1.723}, {"w": "rumah,", "s": 1.723, "e": 2.088}, {"w": "selamat,", "s": 2.088, "e": 2.494}, {"w": "kamu", "s": 2.494, "e": 2.616}, {"w": "punya", "s": 2.616, "e": 2.738}, {"w": "peliharaan!", "s": 2.738, "e": 3.145}, {"w": "Tapi", "s": 3.355, "e": 3.471}, {"w": "gimana", "s": 3.471, "e": 3.784}, {"w": "kalau", "s": 3.784, "e": 3.909}, {"w": "kamu", "s": 3.909, "e": 4.055}, {"w": "kasih", "s": 4.055, "e": 4.201}, {"w": "susu", "s": 4.201, "e": 4.347}, {"w": "sapi", "s": 4.347, "e": 4.598}, {"w": "biar", "s": 4.598, "e": 4.702}, {"w": "cepat", "s": 4.702, "e": 4.848}, {"w": "kenyang?", "s": 4.848, "e": 5.328}, {"w": "Eits,", "s": 5.528, "e": 5.927}, {"w": "susu", "s": 5.927, "e": 6.07}, {"w": "sapi", "s": 6.07, "e": 6.233}, {"w": "bukan", "s": 6.233, "e": 6.376}, {"w": "buat", "s": 6.376, "e": 6.477}, {"w": "kucing,", "s": 6.477, "e": 6.906}, {"w": "banyak", "s": 6.906, "e": 7.048}, {"w": "kucing", "s": 7.048, "e": 7.171}, {"w": "nggak", "s": 7.171, "e": 7.273}, {"w": "bisa", "s": 7.273, "e": 7.395}, {"w": "mencerna", "s": 7.395, "e": 7.578}, {"w": "laktosanya", "s": 7.578, "e": 8.088}, {"w": "dan", "s": 8.088, "e": 8.169}, {"w": "malah", "s": 8.169, "e": 8.312}, {"w": "diare!", "s": 8.312, "e": 8.761}, {"w": "Kasih", "s": 8.881, "e": 9.019}, {"w": "makanan", "s": 9.019, "e": 9.222}, {"w": "kucing", "s": 9.222, "e": 9.445}, {"w": "dan", "s": 9.445, "e": 9.546}, {"w": "air", "s": 9.546, "e": 9.688}, {"w": "putih", "s": 9.688, "e": 9.83}, {"w": "aja.", "s": 9.83, "e": 10.317}, {"w": "Tapi", "s": 10.437, "e": 10.552}, {"w": "gimana", "s": 10.552, "e": 10.762}, {"w": "kalau", "s": 10.762, "e": 10.888}, {"w": "badannya", "s": 10.888, "e": 11.118}, {"w": "penuh", "s": 11.118, "e": 11.265}, {"w": "kutu?", "s": 11.265, "e": 11.768}, {"w": "Mandikan", "s": 11.968, "e": 12.204}, {"w": "pakai", "s": 12.204, "e": 12.346}, {"w": "sampo", "s": 12.346, "e": 12.53}, {"w": "khusus", "s": 12.53, "e": 12.713}, {"w": "kucing,", "s": 12.713, "e": 13.1}, {"w": "terus", "s": 13.1, "e": 13.222}, {"w": "bawa", "s": 13.222, "e": 13.345}, {"w": "ke", "s": 13.345, "e": 13.406}, {"w": "dokter", "s": 13.406, "e": 13.549}, {"w": "hewan", "s": 13.549, "e": 13.732}, {"w": "buat", "s": 13.732, "e": 13.854}, {"w": "obat", "s": 13.854, "e": 13.997}, {"w": "cacing", "s": 13.997, "e": 14.2}, {"w": "dan", "s": 14.2, "e": 14.282}, {"w": "vaksin.", "s": 14.282, "e": 14.71}, {"w": "Tapi", "s": 14.83, "e": 14.931}, {"w": "gimana", "s": 14.931, "e": 15.141}, {"w": "kalau", "s": 15.141, "e": 15.267}, {"w": "dia", "s": 15.267, "e": 15.393}, {"w": "pipis", "s": 15.393, "e": 15.56}, {"w": "sembarangan?", "s": 15.56, "e": 16.148}, {"w": "Siapkan", "s": 16.348, "e": 16.572}, {"w": "kotak", "s": 16.572, "e": 16.754}, {"w": "pasir,", "s": 16.754, "e": 17.098}, {"w": "kucing", "s": 17.098, "e": 17.28}, {"w": "secara", "s": 17.28, "e": 17.462}, {"w": "alami", "s": 17.462, "e": 17.705}, {"w": "suka", "s": 17.705, "e": 17.868}, {"w": "mengubur", "s": 17.868, "e": 18.09}, {"w": "kotorannya.", "s": 18.09, "e": 18.516}, {"w": "Tapi", "s": 18.694, "e": 18.795}, {"w": "gimana", "s": 18.795, "e": 19.005}, {"w": "kalau", "s": 19.005, "e": 19.152}, {"w": "sofa", "s": 19.152, "e": 19.299}, {"w": "dicakar-cakar?", "s": 19.299, "e": 20.014}, {"w": "Kasih", "s": 20.214, "e": 20.389}, {"w": "tiang", "s": 20.389, "e": 20.511}, {"w": "garukan,", "s": 20.511, "e": 21.02}, {"w": "mencakar", "s": 21.02, "e": 21.305}, {"w": "itu", "s": 21.305, "e": 21.386}, {"w": "cara", "s": 21.386, "e": 21.508}, {"w": "kucing", "s": 21.508, "e": 21.672}, {"w": "merawat", "s": 21.672, "e": 21.834}, {"w": "kukunya.", "s": 21.834, "e": 22.303}, {"w": "Tapi", "s": 22.423, "e": 22.523}, {"w": "gimana", "s": 22.523, "e": 22.794}, {"w": "kalau", "s": 22.794, "e": 22.919}, {"w": "tengah", "s": 22.919, "e": 23.044}, {"w": "malam", "s": 23.044, "e": 23.252}, {"w": "dia", "s": 23.252, "e": 23.336}, {"w": "lari-lari", "s": 23.336, "e": 23.586}, {"w": "sendiri?", "s": 23.586, "e": 24.149}, {"w": "Wajar,", "s": 24.349, "e": 24.752}, {"w": "kucing", "s": 24.752, "e": 24.915}, {"w": "paling", "s": 24.915, "e": 25.057}, {"w": "aktif", "s": 25.057, "e": 25.261}, {"w": "pas", "s": 25.261, "e": 25.363}, {"w": "subuh", "s": 25.363, "e": 25.525}, {"w": "dan", "s": 25.525, "e": 25.607}, {"w": "senja.", "s": 25.607, "e": 26.116}, {"w": "Tapi", "s": 26.236, "e": 26.336}, {"w": "gimana", "s": 26.336, "e": 26.545}, {"w": "kalau", "s": 26.545, "e": 26.69}, {"w": "dia", "s": 26.69, "e": 26.878}, {"w": "ngajak", "s": 26.878, "e": 27.045}, {"w": "teman-temannya", "s": 27.045, "e": 27.337}, {"w": "datang?", "s": 27.337, "e": 27.963}, {"w": "Tiba-tiba", "s": 28.163, "e": 28.399}, {"w": "di", "s": 28.399, "e": 28.46}, {"w": "rumah", "s": 28.46, "e": 28.706}, {"w": "ada", "s": 28.706, "e": 28.808}, {"w": "tujuh", "s": 28.808, "e": 28.992}, {"w": "kucing!", "s": 28.992, "e": 29.546}, {"w": "Selamat,", "s": 29.666, "e": 30.094}, {"w": "kamu", "s": 30.094, "e": 30.238}, {"w": "sekarang", "s": 30.238, "e": 30.423}, {"w": "punya", "s": 30.423, "e": 30.588}, {"w": "cat", "s": 30.588, "e": 30.691}, {"w": "cafe!", "s": 30.691, "e": 31.123}, {"w": "Kamu", "s": 31.373, "e": 31.527}, {"w": "tim", "s": 31.527, "e": 31.608}, {"w": "kucing", "s": 31.608, "e": 31.871}, {"w": "atau", "s": 31.871, "e": 32.014}, {"w": "tim", "s": 32.014, "e": 32.115}, {"w": "anjing?", "s": 32.115, "e": 32.643}, {"w": "Tulis", "s": 32.763, "e": 32.894}, {"w": "di", "s": 32.894, "e": 32.935}, {"w": "komentar,", "s": 32.935, "e": 33.355}, {"w": "dan", "s": 33.355, "e": 33.435}, {"w": "subscribe", "s": 33.435, "e": 33.756}, {"w": "biar", "s": 33.756, "e": 33.876}, {"w": "nggak", "s": 33.876, "e": 33.996}, {"w": "ketinggalan!", "s": 33.996, "e": 34.542}];const DUR=34.743;
 const isV=ASP==='v';
 // ---------- objek khusus ----------
 function riceMound(o={}){
@@ -383,50 +383,68 @@ function mkFunny(o){const E=DUR+0.2;const b=o.bounds.map(w=>typeof w==='number'?
   else sFact({t0,t1,bg:sc.bg,glow:'#FFFFFF',world,labels,src:sc.src});});
  sEnd({t0:b[b.length-1],t1:E,qLines:o.q,commentAt:at('Jawab'),subAt:at('subscribe'),prop:o.endProp,bg:o.endBg||'#FFE7A3'});}
 
-// ===== FORMAT "MASALAH BERANTAI" (user 22 Nov): Woyyy + bridging, Selamat! punya X, Tapi gimana kalau...? -> solusi, ... -> Selamat! jadi Y =====
-// Aktif kalau body memuat CHAINFX. Maskot YUMA cuma di pembuka. Visual: emoji besar + label + strip progres.
-// Anchor otomatis dari WORDS: tiap "Tapi gimana kalau" = masalah, kata setelah "?" berikutnya = solusi, "Selamat" = tahap menang.
+// ===== FORMAT "MASALAH BERANTAI" v2 FULL ANIMASI (user 22 Nov) =====
+// Satu panggung yang terus berkembang: masalah dianimasikan (hujan jatuh, nyamuk terbang, orang jalan masuk...),
+// solusi meluncur ke tempatnya lalu tetap di panggung, sampai jadi gambar akhir lengkap. YUMA cuma di pembuka.
+// Aktif kalau body memuat CHAINFX. Anchor otomatis dari WORDS: "selamat" (menang), "Tapi gimana kalau" (masalah), kata setelah "?" (solusi).
 function _wi(pred,from=0){for(let k=from;k<WORDS.length;k++)if(pred(_n(WORDS[k].w),k))return k;return -1;}
 function emj(e,size=360){return `<text x="0" y="0" font-size="${size}" text-anchor="middle" dominant-baseline="central" font-family="Noto Color Emoji">${e}</text>`;}
-function chainBg(c1,c2){return `<rect width="1920" height="1920" fill="${c1}"/><circle cx="960" cy="860" r="620" fill="${c2}" opacity=".75" filter="url(#glowf)"/>`;}
-function strip(t,list){if(!list.length)return '';const n=list.length,sz=n>6?78:92,gap=sz*1.18,x0=W/2-(n-1)*gap/2,y=V(1260,960);
- return `<rect x="${fmt(x0-gap*0.7)}" y="${fmt(y-sz*0.75)}" width="${fmt((n-1)*gap+gap*1.4)}" height="${fmt(sz*1.5)}" rx="${fmt(sz*0.5)}" fill="#fff" opacity=".85" stroke="${OL}" stroke-width="5"/>`+list.map((e,i)=>g(tr(x0+i*gap,y,1),emj(e,sz))).join('');}
-function mkChain(o){const E=DUR+0.2;
- const sel=[],prob=[],fix=[];
+const CH={};
+const _bk=x=>{x=clamp(x);const c1=1.4,c3=c1+1;return 1+c3*Math.pow(x-1,3)+c1*Math.pow(x-1,2);}; // easeOutBack (posisi, bukan skala)
+function _el(e,t,x,y,s){return g(tr(x,y,s),typeof e==='function'?e(t):emj(e,200));}
+// animasi masalah, a = alpha
+function probAnim(st,t,t0,a){const T=t-t0,x=st.x??960,y=st.y??1000,s=st.s??1,e=st.pe;let o='';
+ switch(st.anim||'wobble'){
+  case 'rain':for(let i=0;i<16;i++){const sp=650+rnd(i)*350,yy=((T*sp+rnd(i+3)*900)%900)+420,xx=500+rnd(i+7)*920;o+=g(tr(xx,yy,0.45*s),emj(e,200));}
+   if(st.cloud!==false)o+=g(tr(960+Math.sin(T*1.5)*40,560,1.3),emj('☁️',260))+g(tr(700+Math.sin(T*1.2+1)*30,600,1),emj('☁️',220))+g(tr(1230,590,1),emj('☁️',220));break;
+  case 'swarm':for(let i=0;i<6;i++){const ph=i*1.05,r=170+60*Math.sin(T*2+i);o+=g(tr(x+Math.cos(T*3.2+ph)*r*1.3,y+Math.sin(T*4.1+ph)*r*0.6,0.55*s,Math.sin(T*9+i)*15),emj(e,200));}break;
+  case 'fall':for(let i=0;i<9;i++){const yy=((T*260+rnd(i+1)*800)%850)+430,xx=520+rnd(i+11)*880+Math.sin(T*2+i)*70;o+=g(tr(xx,yy,0.5*s,Math.sin(T*3+i)*40),emj(e,200));}break;
+  case 'grow':{const n=Math.min(9,1+Math.floor(T*4));for(let i=0;i<n;i++){const ang=i*2.4,r=60+i*28;o+=g(tr(x+Math.cos(ang)*r*1.4+Math.sin(T*6+i)*8,y+Math.sin(ang)*r*0.7,0.42*s,Math.sin(T*8+i)*12),emj(e,200));}break;}
+  case 'walkin':{const n=st.n||4;for(let i=0;i<n;i++){const tx=x+i*150,k=eout((T-i*0.25)/1.1),xx=lerp(1650+i*150,tx,k),bob=Math.abs(Math.sin(T*10+i))*18*(k<1?1:0.3);o+=g(tr(xx,y-bob,0.75*s),emj(e,200));}break;}
+  case 'dash':{const ph=(T*0.9)%2,dir=ph<1?1:-1,xx=ph<1?lerp(520,1400,ss(ph)):lerp(1400,520,ss(ph-1));o+=g(`translate(${fmt(xx)} ${fmt(y-Math.abs(Math.sin(T*14))*30)}) scale(${(-dir*0.9*s).toFixed(3)} ${(0.9*s).toFixed(3)})`,emj(e,200));
+   o+=`<rect width="1920" height="1920" fill="#0B1030" opacity="${fmt(0.35*Math.min(1,T*3))}"/>`;break;}
+  default:o+=g(tr(x+Math.sin(T*30)*10,y,s,Math.sin(T*18)*9),emj(e,260))+g(tr(x+150*s,y-170*s,0.8,Math.sin(T*10)*10),emj('❗',160));}
+ return `<g opacity="${fmt(a)}">${o}</g>`;}
+function fixAnim(st,t,tf){const T=t-tf;if(T<0||!st.fe)return '';const x=st.fx??960,y=st.fy??1000,s=st.fs??1;
+ const k=_bk(T/0.55),yy=st.from==='side'?y:lerp(y-650,y,k),xx=st.from==='side'?lerp(1700,x,k):x;
+ let rot=0,dy=0;if(st.idle==='spin')rot=T*120;if(st.idle==='bob')dy=Math.sin(T*3)*10;
+ const fe=st.fe;return g(`translate(${fmt(xx)} ${fmt(yy+dy)}) rotate(${fmt(rot)}) scale(${s.toFixed(3)})`,typeof fe==='function'?fe(T):emj(fe,200));}
+function chStage(o,t){let s=o.bgFn?o.bgFn(t):`<rect width="1920" height="1920" fill="${o.sky||'#BDE8FF'}"/><circle cx="1350" cy="560" r="300" fill="#fff" opacity=".35"/><rect y="${o.groundY||1180}" width="1920" height="800" fill="${o.ground||'#8BD17C'}"/>`;
+ if(o.scene)s+=o.scene(t);
+ // base
+ if(t>=CH.s0-0.05){const T=t-CH.s0,k=_bk(T/0.55);s+=g(tr(o.base.x??960,lerp((o.base.y??1100)-650,o.base.y??1100,k),o.base.s??1),typeof o.base.e==='function'?o.base.e(t):emj(o.base.e,200));}
+ o.steps.forEach((st,k)=>{const p=CH.p[k],f=CH.f[k];
+  if(t>=f)s+=fixAnim(st,t,f);
+  if(t>=p&&t<f+0.6)s+=probAnim(st,t,p,t<f?Math.min(1,(t-p)*5):1-(t-f)/0.6);});
+ if(t>=CH.sl&&CH.sl>CH.s0+1){const T=t-CH.sl,k=_bk(T/0.6);s+=rays(960,900,12,1500,9,.3*Math.min(1,T*2),t*8)+confetti(t,18)+g(tr(o.final.x??960,lerp((o.final.y??780)+700,o.final.y??780,k),o.final.s??1.6),emj(o.final.e,200));}
+ // tint masalah/solusi
+ const kp=CH.p.findIndex((p,k)=>t>=p&&t<CH.f[k]);if(kp>=0)s+=`<rect width="1920" height="1920" fill="#E5383B" opacity=".08"/>`;
+ CH.f.forEach(f=>{if(t>=f&&t<f+0.35)s+=`<rect width="1920" height="1920" fill="#3BB273" opacity="${fmt(0.22*(1-(t-f)/0.35))}"/>`;});
+ return s;}
+function mkChain(o){const E=DUR+0.2;const sel=[],prob=[],fix=[];
  for(let k=0;k<WORDS.length;k++){const w=_n(WORDS[k].w);
   if(w==='selamat')sel.push(WORDS[k].s);
   if(w==='tapi'&&WORDS[k+1]&&_n(WORDS[k+1].w)==='gimana'){prob.push(WORDS[k].s);const q=_wi((x,j)=>WORDS[j].w.includes('?'),k);fix.push(q>=0&&WORDS[q+1]?WORDS[q+1].s:WORDS[k].e+1.5);}}
- const qEnd=at(o.qWord||'Tulis',sel[sel.length-1])-0.1; // pertanyaan akhir mulai setelah Selamat terakhir
- const qStart=(()=>{const k=_wi((x,j)=>WORDS[j].s>sel[sel.length-1]&&/[!.]$/.test(WORDS[j-1]?.w||''),0);return k>=0?WORDS[k].s-0.1:qEnd;})();
- THUMB={t:1.0,lines:o.thumb};
- // 1. HOOK + bridging (satu-satunya scene dengan YUMA)
- sHook({t0:0,t1:sel[0]-0.1,key:o.key,keyAt:at(o.keyWord||o.key.split(' ')[0].toLowerCase()),keySize:o.keySize||84,prop:t=>emj(o.hook,300),ps:1.3,py:1080,bg:o.bg||'#FFE9A8',glow:'#FFFFFF',
-  particle:(t,i)=>`<circle r="14" fill="#fff" opacity=".7"/>`,surpriseAt:at(o.keyWord||'Selamat')});
- const built=[o.base.e];
- // 2. Selamat pertama
- const p0=prob[0]??qStart;
- S.push({t0:sel[0]-0.1,t1:p0-0.1,world:t=>chainBg('#FFF3C4','#FFFFFF')+confetti(t,10)+g(tr(960,860,1),emj(o.base.e,420)),
-  cam:t=>[960,960,1],hud:t=>hudLabel(t,sel[0],'SELAMAT!',{bg:'#F2A541',fill:OL,size:V(96,80)})+hudLabel(t,sel[0]+0.5,o.base.l,{bg:'#3BB273',y:V(560,230),size:V(62,54),r:2})});
- // 3. tiap masalah -> solusi
- o.steps.forEach((st,k)=>{const t0=prob[k]-0.1,t1=(k+1<prob.length?prob[k+1]:(sel[1]??qStart))-0.1,tf=fix[k]-0.05;const have=built.slice();built.push(st.fe);
-  S.push({t0,t1,
-   world:t=>t<tf?chainBg('#FFD9D3','#FFF4F2')+g(tr(960,860,1,Math.sin(t*9)*3),emj(st.pe,400))
-               :chainBg('#D3F5DD','#F4FFF7')+g(tr(960,860,1),emj(st.fe,400)),
-   cam:t=>[960,960,1],
-   hud:t=>{let s=(t<tf?hudLabel(t,t0+0.1,'TAPI GIMANA KALAU…',{bg:'#E5383B',size:V(64,56)})+hudLabel(t,t0+0.35,st.pl,{bg:'#fff',fill:OL,y:V(560,230),size:V(60,52),r:2})
-                   :hudLabel(t,tf,'✔ '+st.fl,{bg:'#3BB273',size:V(62,54)}));
-    return s+strip(t,t<tf?have:have.concat([st.fe]));}});});
- // 4. Selamat terakhir (jadi Y)
  const sl=sel[sel.length-1];
- if(sel.length>1)S.push({t0:sl-0.1,t1:qStart,world:t=>chainBg('#FFE27A','#FFF8E1')+rays(960,860,12,1500,9,.35,t*8)+confetti(t,18)+g(tr(960,820,1),emj(o.final.e,440)),
-  cam:t=>[960,960,1],hud:t=>hudLabel(t,sl,'SELAMAT!',{bg:'#F2A541',fill:OL,size:V(96,80)})+hudLabel(t,sl+0.5,o.final.l,{bg:'#E8505B',y:V(560,230),size:V(64,56),r:2})+strip(t,built)});
- // 5. ENDING tanpa YUMA: pertanyaan + TULIS DI KOMENTAR + SUBSCRIBE
- S.push({t0:qStart,t1:E,world:t=>chainBg('#FFE7A3','#FFF8E1')+rays(960,300,9,1500,10,.35,t*6)+confetti(t)+g(tr(960,V(1130,900),1),emj(o.final.e,240)),
+ const qk=_wi((x,j)=>WORDS[j].s>sl&&/[!.]$/.test(WORDS[j-1]?.w||''),0);const qStart=qk>=0?WORDS[qk].s-0.1:at('Tulis',sl)-0.1;
+ Object.assign(CH,{s0:sel[0],sl,p:prob,f:fix});
+ THUMB={t:0.6,lines:o.thumb};
+ const hookEnd=Math.max(sel[0]-0.05,1.6);
+ sHook({t0:0,t1:hookEnd,key:o.key,keyAt:0.3,keySize:o.keySize||84,prop:t=>emj(o.hook,300),ps:1.3,py:1080,bg:o.bg||'#FFE9A8',glow:'#FFFFFF',
+  particle:(t,i)=>`<circle r="14" fill="#fff" opacity=".7"/>`,surpriseAt:0.8});
+ const B=[hookEnd].concat(prob.map(p=>p-0.1),[sl-0.1,qStart]);
+ for(let i=0;i<B.length-1;i++){const t0=B[i],t1=B[i+1];if(t1<=t0+0.05)continue;const k=i-1,st=o.steps[k];const px=(i%2?-1:1)*25;
+  S.push({t0,t1,world:t=>chStage(o,t),cam:t=>camV(t,t0,t1,[960-px,960,1],[960+px,950,1]),
+   hud:t=>{if(i===0)return hudLabel(t,sel[0],'SELAMAT!',{bg:'#F2A541',fill:OL,size:V(96,80)})+hudLabel(t,sel[0]+0.4,o.base.l,{bg:'#3BB273',y:V(560,230),size:V(62,54),r:2});
+    if(i===B.length-2)return hudLabel(t,sl,'SELAMAT!',{bg:'#F2A541',fill:OL,size:V(96,80)})+hudLabel(t,sl+0.4,o.final.l,{bg:'#E8505B',y:V(560,230),size:V(64,56),r:2});
+    const tf=fix[k];return t<tf?hudLabel(t,t0+0.1,'TAPI GIMANA KALAU…',{bg:'#E5383B',size:V(64,56)})+hudLabel(t,t0+0.3,st.pl,{bg:'#fff',fill:OL,y:V(560,230),size:V(60,52),r:2})
+      :hudLabel(t,tf,'✔ '+st.fl,{bg:'#3BB273',size:V(62,54)});}});}
+ S.push({t0:qStart,t1:E,world:t=>chStage(o,t)+`<rect width="1920" height="1920" fill="#FFF8E1" opacity=".55"/>`+confetti(t),
   cam:t=>[960,960,1],
   hud:t=>{let s='';const kq=popS(t,qStart+0.1,.4);
    if(kq>0)o.q.forEach((l,i)=>{s+=g(tr(W/2,V(560+i*112,150+i*100),kq,-2),`<text x="0" y="0" text-anchor="middle" font-family="B2" font-weight="800" font-size="${V(88,80)}" fill="${i%2?'#F7D21E':'#fff'}" stroke="${OL}" stroke-width="13" paint-order="stroke">${l}</text>`);});
    const kc=popS(t,at('Tulis',qStart)-0.05,.4);if(kc>0)s+=g(tr(W/2,V(560+o.q.length*112+30,150+o.q.length*100+30),kc,2),`<rect x="-330" y="-62" width="660" height="104" rx="30" fill="#fff" stroke="${OL}" stroke-width="7"/><text x="0" y="16" text-anchor="middle" font-family="B2" font-weight="800" font-size="56" fill="${OL}">TULIS DI KOMENTAR 👇</text>`);
-   const ks=popS(t,at('subscribe',qStart)-0.05,.4);if(ks>0){s+=g(tr(W/2,V(1660,950),ks,-3),`<rect x="-280" y="-70" width="560" height="140" rx="36" fill="#E5383B" stroke="#fff" stroke-width="8"/><polygon points="-210,-30 -210,30 -160,0" fill="#fff"/><text x="30" y="24" text-anchor="middle" font-family="B2" font-weight="800" font-size="72" fill="#fff">SUBSCRIBE</text>`);}
+   const ks=popS(t,at('subscribe',qStart)-0.05,.4);if(ks>0)s+=g(tr(W/2,V(1660,950),ks,-3),`<rect x="-280" y="-70" width="560" height="140" rx="36" fill="#E5383B" stroke="#fff" stroke-width="8"/><polygon points="-210,-30 -210,30 -160,0" fill="#fff"/><text x="30" y="24" text-anchor="middle" font-family="B2" font-weight="800" font-size="72" fill="#fff">SUBSCRIBE</text>`);
    return s;}});
 }
 
@@ -444,13 +462,15 @@ window.addEventListener('DOMContentLoaded',()=>{
 });
 
 // NEWFX CHAINFX
-mkChain({key:'BAWA MASUK!',keyWord:'bawa',hook:'🐈',bg:'#FFE1EC',thumb:['PUNGUT KUCING','KELAPARAN','MASALAHNYA BARU MULAI!'],
- base:{e:'🐱',l:'KAMU PUNYA PELIHARAAN!'},
- steps:[{pe:'🥛',pl:'DIKASIH SUSU SAPI?',fe:'🥣',fl:'MAKANAN KUCING + AIR PUTIH'},
-  {pe:'🪲',pl:'BADANNYA PENUH KUTU!',fe:'🩺',fl:'SAMPO KUCING + DOKTER HEWAN'},
-  {pe:'💦',pl:'PIPIS SEMBARANGAN!',fe:'📦',fl:'KOTAK PASIR'},
-  {pe:'🛋️',pl:'SOFA DICAKAR!',fe:'🪵',fl:'TIANG GARUKAN'},
-  {pe:'🌙',pl:'LARI-LARI TENGAH MALAM!',fe:'🌅',fl:'AKTIF SUBUH & SENJA'},
-  {pe:'🐈‍⬛',pl:'TEMANNYA IKUT DATANG!',fe:'🐾',fl:'TUJUH KUCING!'}],
- final:{e:'☕',l:'KAMU PUNYA CAT CAFE!'},q:['KAMU TIM KUCING','ATAU TIM ANJING?']});
+mkChain({key:'PUNGUT KUCING!',hook:'🐱',bg:'#FFE1EC',thumb:['PUNGUT KUCING','KELAPARAN','MASALAHNYA BARU MULAI!'],
+ bgFn:t=>`<rect width="1920" height="1920" fill="#FFE1EC"/><rect y="1250" width="1920" height="700" fill="#E9C9A3"/><rect y="1240" width="1920" height="20" fill="#C9A27A"/><rect x="1110" y="560" width="300" height="300" rx="20" fill="#BDE8FF" stroke="#161828" stroke-width="8"/><path d="M1260,560L1260,860M1110,710L1410,710" stroke="#161828" stroke-width="6"/>`,
+ scene:t=>{let s='';if(t>=CH.p[3])s+=g(tr(640,1130,1.5),emj('🛋️',200));return s;},
+ base:{e:'🐱',x:960,y:1170,s:1.1,l:'KAMU PUNYA PELIHARAAN!'},
+ steps:[{anim:'wobble',pe:'🥛',x:720,y:1180,s:0.7,pl:'DIKASIH SUSU SAPI?',fe:'🥣',fx:740,fy:1260,fs:0.6,fl:'MAKANAN KUCING + AIR PUTIH'},
+  {anim:'grow',pe:'🪲',x:960,y:1140,s:0.8,pl:'BADANNYA PENUH KUTU!',fe:'🩺',fx:1330,fy:1050,fs:0.8,idle:'bob',fl:'SAMPO KUCING + DOKTER HEWAN'},
+  {anim:'wobble',pe:'💦',x:1250,y:1260,s:0.6,pl:'PIPIS SEMBARANGAN!',fe:'📦',fx:1300,fy:1240,fs:0.8,fl:'KOTAK PASIR'},
+  {anim:'wobble',pe:'💢',x:640,y:1000,s:0.7,pl:'SOFA DICAKAR!',fe:'🪵',fx:470,fy:1170,fs:0.9,fl:'TIANG GARUKAN'},
+  {anim:'dash',pe:'🐈',y:1180,pl:'LARI-LARI TENGAH MALAM!',fe:'🌅',fx:1260,fy:710,fs:1,fl:'AKTIF SUBUH & SENJA'},
+  {anim:'walkin',pe:'🐈‍⬛',x:1000,y:1200,n:4,s:0.9,pl:'TEMANNYA IKUT DATANG!',fe:t=>[0,1,2,3,4].map(i=>g(tr(i*170-340,Math.sin(t*4+i)*8,1),emj(['🐈','🐈‍⬛','🐱','🐈','🐈‍⬛'][i],200))).join(''),fx:960,fy:1340,fs:0.6,fl:'TUJUH KUCING!'}],
+ final:{e:'☕',x:960,y:760,s:1.3,l:'KAMU PUNYA CAT CAFE!'},q:['KAMU TIM KUCING','ATAU TIM ANJING?']});
 
