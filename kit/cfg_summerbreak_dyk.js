@@ -1,3 +1,4 @@
+// ===== What If Summer Break Was 3 Months? ☀️ (Did You Know, 6 negara, Speechify henry) =====
 const CFG={hook:['SUMMER BREAK','HOW LONG?'],
  items:[
  ['au','AUSTRALIA','Australia','~6 WEEKS','over Christmas!','','Source: Australian state education departments','ok','🏖️'],

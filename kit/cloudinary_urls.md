@@ -91,3 +91,5 @@
 - howcome/barefoot_w https://res.cloudinary.com/u5zqiuc2/video/upload/v1795310756/howcome/barefoot_w.mp4
 - dyk/fries_dyk https://res.cloudinary.com/u5zqiuc2/video/upload/v1795310943/dyk/fries_dyk.mp4
 - howcome/hat_w https://res.cloudinary.com/u5zqiuc2/video/upload/v1795311184/howcome/hat_w.mp4
+- howcome/jeanswash_w https://res.cloudinary.com/u5zqiuc2/video/upload/v1795311519/howcome/jeanswash_w.mp4
+- dyk/summerbreak_dyk https://res.cloudinary.com/u5zqiuc2/video/upload/v1795311522/dyk/summerbreak_dyk.mp4
