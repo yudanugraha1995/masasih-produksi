@@ -143,3 +143,6 @@
 - usschool5_w: https://res.cloudinary.com/u5zqiuc2/video/upload/v1795333085/howcome/usschool5_w.mp4
 - bodynight5_w: https://res.cloudinary.com/u5zqiuc2/video/upload/v1795333120/howcome/bodynight5_w.mp4
 - space_dyk: https://res.cloudinary.com/u5zqiuc2/video/upload/v1795333144/dyk/space_dyk.mp4
+- handdryer_w: https://res.cloudinary.com/u5zqiuc2/video/upload/v1795333839/howcome/handdryer_w.mp4
+- cheese_w: https://res.cloudinary.com/u5zqiuc2/video/upload/v1795333857/howcome/cheese_w.mp4
+- volcanoes_dyk: https://res.cloudinary.com/u5zqiuc2/video/upload/v1795333875/dyk/volcanoes_dyk.mp4
