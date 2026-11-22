@@ -134,3 +134,6 @@
 - leftside_w: https://res.cloudinary.com/u5zqiuc2/video/upload/v1795331025/howcome/leftside_w.mp4
 - penchew_w: https://res.cloudinary.com/u5zqiuc2/video/upload/v1795331041/howcome/penchew_w.mp4
 - coffeeworld_dyk: https://res.cloudinary.com/u5zqiuc2/video/upload/v1795331056/dyk/coffeeworld_dyk.mp4
+- cereal_w: https://res.cloudinary.com/u5zqiuc2/video/upload/v1795331634/howcome/cereal_w.mp4
+- thanksgiving5_w: https://res.cloudinary.com/u5zqiuc2/video/upload/v1795331658/howcome/thanksgiving5_w.mp4
+- bikes_dyk: https://res.cloudinary.com/u5zqiuc2/video/upload/v1795331679/dyk/bikes_dyk.mp4
