@@ -1,3 +1,4 @@
+// ===== What If America Had Bullet Trains? 🚄 (Did You Know, 6 negara, Speechify henry) =====
 const CFG={hook:['BULLET TRAINS','HOW FAST?'],
  items:[
  ['au','AUSTRALIA','Australia','NONE','no high-speed rail','','Source: Australian High Speed Rail Authority','no','🦘'],
