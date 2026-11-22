@@ -1,3 +1,4 @@
+// ===== What If Casinos Banned Locals? 🎰 (Did You Know, 6 negara, Speechify henry) =====
 const CFG={hook:['CASINO AGE','CAN YOU GO IN?'],
  items:[
  ['us','USA','America','21','most casinos','','Source: American Gaming Association','ok','🎰'],
