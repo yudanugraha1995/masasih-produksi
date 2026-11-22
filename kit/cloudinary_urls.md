@@ -140,3 +140,6 @@
 - phonecharge_w: https://res.cloudinary.com/u5zqiuc2/video/upload/v1795332343/howcome/phonecharge_w.mp4
 - doubledip_w: https://res.cloudinary.com/u5zqiuc2/video/upload/v1795332361/howcome/doubledip_w.mp4
 - music_dyk: https://res.cloudinary.com/u5zqiuc2/video/upload/v1795332386/dyk/music_dyk.mp4
+- usschool5_w: https://res.cloudinary.com/u5zqiuc2/video/upload/v1795333085/howcome/usschool5_w.mp4
+- bodynight5_w: https://res.cloudinary.com/u5zqiuc2/video/upload/v1795333120/howcome/bodynight5_w.mp4
+- space_dyk: https://res.cloudinary.com/u5zqiuc2/video/upload/v1795333144/dyk/space_dyk.mp4
