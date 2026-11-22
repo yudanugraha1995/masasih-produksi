@@ -1,3 +1,4 @@
+// ===== What If the Tooth Fairy Was a Mouse? 🦷 (Did You Know, 6 negara, Speechify henry) =====
 const CFG={hook:['TOOTH FAIRY','OR A MOUSE?'],
  items:[
  ['us','USA','America','TOOTH FAIRY','money under the pillow','','Source: Smithsonian Magazine','ok','🧚'],
