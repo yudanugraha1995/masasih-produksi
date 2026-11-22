@@ -1,3 +1,4 @@
+// ===== Where Is the Tallest Building? 🏙️ (Did You Know, 6 negara, Speechify henry) =====
 const CFG={hook:['TALLEST BUILDING','WHERE?'],
  items:[
  ['uk','UK','UK','310 m','The Shard','','Source: CTBUH','ok','🏙️'],
