@@ -74,3 +74,4 @@
 - howcome/toothpaste_w https://res.cloudinary.com/u5zqiuc2/video/upload/v1795307193/howcome/toothpaste_w.mp4
 - howcome/crosslegged_w https://res.cloudinary.com/u5zqiuc2/video/upload/v1795307196/howcome/crosslegged_w.mp4
 - howcome/oneshoulder_w https://res.cloudinary.com/u5zqiuc2/video/upload/v1795307674/howcome/oneshoulder_w.mp4
+- dyk/xmasholiday_dyk https://res.cloudinary.com/u5zqiuc2/video/upload/v1795307951/dyk/xmasholiday_dyk.mp4

@@ -1,3 +1,4 @@
+// ===== What If Christmas Wasn't a Day Off? 📅 (Did You Know, 6 negara, Speechify henry) =====
 const CFG={hook:['CHRISTMAS','DAY OFF?'],
  items:[
  ['us','USA','America','DAY OFF','federal holiday','','Source: U.S. Office of Personnel Management','ok','🎄'],
