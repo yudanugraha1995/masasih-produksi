@@ -1,3 +1,4 @@
+// ===== What If You Paid Zero Income Tax? 💰 (Did You Know, 6 negara, Speechify henry) =====
 const CFG={hook:['TOP INCOME TAX','HOW HIGH?'],
  items:[
  ['us','USA','America','37%','federal top rate','','Source: IRS','ok','💵'],
