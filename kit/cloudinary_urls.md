@@ -59,7 +59,7 @@
 - lensa: https://res.cloudinary.com/u5zqiuc2/video/upload/v1795269571/masasih/lensa.mp4
 - sendawa: https://res.cloudinary.com/u5zqiuc2/video/upload/v1795269573/masasih/sendawa.mp4
 - kerupuk: https://res.cloudinary.com/u5zqiuc2/video/upload/v1795269575/masasih/kerupuk.mp4
-- kolam: https://res.cloudinary.com/u5zqiuc2/video/upload/v1795352149/masasih/kolam.mp4
-- cabai: https://res.cloudinary.com/u5zqiuc2/video/upload/v1795352151/masasih/cabai.mp4
-- pungutkucing: https://res.cloudinary.com/u5zqiuc2/video/upload/v1795352152/masasih/pungutkucing.mp4
-- jualesteh: https://res.cloudinary.com/u5zqiuc2/video/upload/v1795352154/masasih/jualesteh.mp4
+- kolam: https://res.cloudinary.com/u5zqiuc2/video/upload/v1795353347/masasih/kolam.mp4
+- cabai: https://res.cloudinary.com/u5zqiuc2/video/upload/v1795353349/masasih/cabai.mp4
+- pungutkucing: https://res.cloudinary.com/u5zqiuc2/video/upload/v1795353350/masasih/pungutkucing.mp4
+- jualesteh: https://res.cloudinary.com/u5zqiuc2/video/upload/v1795353352/masasih/jualesteh.mp4
