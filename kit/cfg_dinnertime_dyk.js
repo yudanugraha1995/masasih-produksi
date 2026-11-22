@@ -1,3 +1,4 @@
+// ===== What If Dinner Started at 10 PM? 🍽️ (Did You Know, 6 negara, Speechify henry) =====
 const CFG={hook:['DINNER','WHAT TIME?'],
  items:[
  ['us','USA','America','6 PM','','','Source: US Bureau of Labor Statistics','ok','🍽️'],
