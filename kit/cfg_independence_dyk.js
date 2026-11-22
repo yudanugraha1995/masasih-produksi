@@ -1,3 +1,4 @@
+// ===== What If Your Country Had No Independence Day? 🎆 (Did You Know, 6 negara, Speechify henry) =====
 const CFG={hook:['INDEPENDENCE','DAY?'],
  items:[
  ['us','USA','America','JULY 4','1776','','Source: US National Archives','ok','🎆'],
