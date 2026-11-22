@@ -16,7 +16,7 @@ for k,s in enumerate(sents):
 out.append('</speak>');ssml=''.join(out)
 body=json.dumps({"input":ssml,"voice_id":"laras","audio_format":"mp3","model":"simba-3.5","language":"id-ID"})
 d=json.loads(subprocess.run(['curl','-s','-X','POST','https://api.sws.speechify.com/v1/audio/speech','-H','Authorization: Bearer proxy-injected','-H','Content-Type: application/json','-d',body],capture_output=True,text=True,check=True).stdout)
-TEMPO=1.18  # samakan kecepatan dengan Senandika (~2,3 kata/detik), nada tetap
+TEMPO=1.05  # user 22 Nov: 1.18 masih kecepetan
 open(f'_sp_{i}.mp3','wb').write(base64.b64decode(d['audio_data']))
 subprocess.check_call(['ffmpeg','-y','-v','error','-i',f'_sp_{i}.mp3','-filter:a',f'atempo={TEMPO}','-b:a','192k',f'raw_{i}.mp3']);import os;os.remove(f'_sp_{i}.mp3')
 ws=[]
