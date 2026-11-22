@@ -1,3 +1,4 @@
+// ===== Which Country Gets the Most Tourists? ✈️ (Did You Know, 6 negara, Speechify henry) =====
 const CFG={hook:['MOST','TOURISTS?'],
  items:[
  ['au','AUSTRALIA','Australia','7M','visitors (2023)','','Source: UN Tourism 2024','ok','✈️'],
