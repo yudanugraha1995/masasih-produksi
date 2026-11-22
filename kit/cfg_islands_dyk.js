@@ -1,3 +1,4 @@
+// ===== Which Country Has the Most Islands? 🏝️ (Did You Know, 6 negara, Speechify henry) =====
 const CFG={hook:['ISLANDS','WHO HAS THE MOST?'],
  items:[
  ['ph','PHILIPPINES','Philippines','7,641','islands','','Source: NAMRIA (Philippines)','ok','🏝️'],
