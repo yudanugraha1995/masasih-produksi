@@ -81,3 +81,4 @@
 - dyk/cash_dyk https://res.cloudinary.com/u5zqiuc2/video/upload/v1795308533/dyk/cash_dyk.mp4
 - howcome/wallet_w https://res.cloudinary.com/u5zqiuc2/video/upload/v1795308800/howcome/wallet_w.mp4
 - howcome/straw_w https://res.cloudinary.com/u5zqiuc2/video/upload/v1795309046/howcome/straw_w.mp4
+- dyk/speedfine_dyk https://res.cloudinary.com/u5zqiuc2/video/upload/v1795309102/dyk/speedfine_dyk.mp4

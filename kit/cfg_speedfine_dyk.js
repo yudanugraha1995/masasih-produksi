@@ -1,3 +1,4 @@
+// ===== What If Speeding Tickets Matched Your Salary? 🚔 (Did You Know, 6 negara, Speechify henry) =====
 const CFG={hook:['SPEEDING TICKET','HOW MUCH?'],
  items:[
  ['us','USA','America','FLAT FINE','same for everyone','','Source: U.S. state traffic laws','ok','🚔'],
