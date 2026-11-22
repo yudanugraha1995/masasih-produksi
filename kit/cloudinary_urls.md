@@ -85,3 +85,4 @@
 - howcome/hotshower_w https://res.cloudinary.com/u5zqiuc2/video/upload/v1795309377/howcome/hotshower_w.mp4
 - howcome/floorsleep_w https://res.cloudinary.com/u5zqiuc2/video/upload/v1795309600/howcome/floorsleep_w.mp4
 - dyk/gamble_dyk https://res.cloudinary.com/u5zqiuc2/video/upload/v1795309690/dyk/gamble_dyk.mp4
+- howcome/nopillow_w https://res.cloudinary.com/u5zqiuc2/video/upload/v1795310014/howcome/nopillow_w.mp4
