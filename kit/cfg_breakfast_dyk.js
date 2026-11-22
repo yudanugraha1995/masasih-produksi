@@ -1,3 +1,4 @@
+// ===== What If Breakfast Was Chocolate Sprinkles? 🍫 (Did You Know, 6 negara, Speechify henry) =====
 const CFG={hook:['BREAKFAST','AROUND THE WORLD'],
  items:[
  ['us','USA','America','PANCAKES','eggs + bacon','','Source: USDA','ok','🥞'],
