@@ -137,3 +137,6 @@
 - cereal_w: https://res.cloudinary.com/u5zqiuc2/video/upload/v1795331634/howcome/cereal_w.mp4
 - thanksgiving5_w: https://res.cloudinary.com/u5zqiuc2/video/upload/v1795331658/howcome/thanksgiving5_w.mp4
 - bikes_dyk: https://res.cloudinary.com/u5zqiuc2/video/upload/v1795331679/dyk/bikes_dyk.mp4
+- phonecharge_w: https://res.cloudinary.com/u5zqiuc2/video/upload/v1795332343/howcome/phonecharge_w.mp4
+- doubledip_w: https://res.cloudinary.com/u5zqiuc2/video/upload/v1795332361/howcome/doubledip_w.mp4
+- music_dyk: https://res.cloudinary.com/u5zqiuc2/video/upload/v1795332386/dyk/music_dyk.mp4
