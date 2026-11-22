@@ -113,3 +113,6 @@
 - dyk/sheep_dyk https://res.cloudinary.com/u5zqiuc2/video/upload/v1795316798/dyk/sheep_dyk.mp4
 - dyk/tallestbuilding_dyk https://res.cloudinary.com/u5zqiuc2/video/upload/v1795317124/dyk/tallestbuilding_dyk.mp4
 - dyk/timezones_dyk https://res.cloudinary.com/u5zqiuc2/video/upload/v1795317446/dyk/timezones_dyk.mp4
+- americans5_w: https://res.cloudinary.com/u5zqiuc2/video/upload/v1795326471/howcome/americans5_w.mp4
+- lifeexp_dyk: https://res.cloudinary.com/u5zqiuc2/video/upload/v1795326823/dyk/lifeexp_dyk.mp4
+- eggdaily_w: https://res.cloudinary.com/u5zqiuc2/video/upload/v1795326825/howcome/eggdaily_w.mp4

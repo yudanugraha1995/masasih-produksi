@@ -3,7 +3,7 @@
 cd /home/user/masasih-produksi/kit
 for id in "$@"; do
   if [ -f ../videos/${id}_styleA.mp4 ] && python3 -c "import sys,subprocess;d=float(subprocess.check_output(['ffprobe','-v','error','-show_entries','format=duration','-of','csv=p=0','../videos/${id}_styleA.mp4']));sys.exit(0 if d>=40 else 1)"; then echo "SKIP $id"; continue; fi
-  TXT=$(python3 -c "exec(open('../naskah/dyk6/nar55.py').read());exec(open('../naskah/dyk6/nar55h.py').read());N55.update(H);exec(open('../naskah/dyk6/nar55u.py').read());N55.update(H2);print(N55['$id'])")
+  TXT=$(python3 -c "exec(open('../naskah/dyk6/nar55.py').read());exec(open('../naskah/dyk6/nar55h.py').read());N55.update(H);exec(open('../naskah/dyk6/nar55u.py').read());N55.update(H2);exec(open('../naskah/dyk6/nar55v.py').read());N55.update(H3);print(N55['$id'])")
   python3 sp_tts.py $id "$TXT" > log_tts_$id.txt 2>&1 || { echo "FAIL tts $id"; continue; }
   SP=$(python3 -c "import json;print(json.load(open('words_$id.json'))['words'][-1]['end'])")
   T=$(python3 -c "print(round(min(55.0,$SP+6.0),1))"); python3 -c "import sys;sys.exit(0 if $SP<=50 else 1)" || echo "LONGSPEECH $id $SP"

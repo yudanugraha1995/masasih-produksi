@@ -71,3 +71,23 @@
 - stadium_dyk: What If a Stadium Held 132,000 Fans? 🏟️
 - tea_dyk: Which Country Drinks the Most Tea? 🍵
 - bikes_dyk: What If There Were More Bikes Than People? 🚲
+- lifeexp_dyk: Where Do People Live the Longest? 🌍
+- toilets_dyk: Which Country Has the Weirdest Toilets? 🚽
+- tall_dyk: Which Country Has the Tallest People? 📏
+- tornadoes_dyk: Which Country Gets the Most Tornadoes? 🌪️
+- starbucks_dyk: Which Country Has the Most Starbucks? ☕
+- weirdlaws_dyk: Which Country Has the Weirdest Laws? ⚖️
+- coffeeworld_dyk: Which Country Drinks the Most Coffee? ☕
+- inventions_dyk: Things You Didn't Know These Countries Invented 💡
+- weirdfood_dyk: The Weirdest Foods Around the World 🤢
+- schools_dyk: Which Country Has the Weirdest Schools? 🏫
+- music_dyk: Which Country Rules the Music World? 🎵
+- space_dyk: Which Country Has Sent the Most People to Space? 🚀
+- volcanoes_dyk: Which Country Has the Most Volcanoes? 🌋
+- quakes_dyk: Which Country Has the Most Earthquakes? 🌍
+- flags_dyk: The Craziest Facts About Country Flags 🏳️
+- monarchy_dyk: Which Countries Still Have a King? 👑
+- placenames_dyk: Which Country Has the Longest Place Names? 🗺️
+- festivals_dyk: The Weirdest Festivals in the World 🎉
+- roads_dyk: Which Country Has the Craziest Roads? 🛣️
+- themeparks_dyk: Which Country Has the Best Theme Parks? 🎢
