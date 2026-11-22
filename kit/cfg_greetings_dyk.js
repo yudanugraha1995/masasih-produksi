@@ -1,3 +1,4 @@
+// ===== What If You Said Hello With Your Nose? 👃 (Did You Know, 6 negara, Speechify henry) =====
 const CFG={hook:['HELLO','AROUND THE WORLD'],
  items:[
  ['us','USA','America','HANDSHAKE','a firm one!','','Source: Emily Post Institute','ok','🤝'],
