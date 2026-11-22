@@ -104,3 +104,4 @@
 - dyk/dinnertime_dyk https://res.cloudinary.com/u5zqiuc2/video/upload/v1795313827/dyk/dinnertime_dyk.mp4
 - dyk/bottle_dyk https://res.cloudinary.com/u5zqiuc2/video/upload/v1795314159/dyk/bottle_dyk.mp4
 - dyk/incometax_dyk https://res.cloudinary.com/u5zqiuc2/video/upload/v1795314467/dyk/incometax_dyk.mp4
+- dyk/anthem_dyk https://res.cloudinary.com/u5zqiuc2/video/upload/v1795314816/dyk/anthem_dyk.mp4

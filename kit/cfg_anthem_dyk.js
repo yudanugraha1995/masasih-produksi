@@ -1,3 +1,4 @@
+// ===== What If Your National Anthem Had 158 Verses? 🎶 (Did You Know, 6 negara, Speechify henry) =====
 const CFG={hook:['NATIONAL','ANTHEMS'],
  items:[
  ['us','USA','America','4 VERSES','only the 1st is sung','','Source: Smithsonian','ok','🎶'],
