@@ -1,3 +1,4 @@
+// ===== What If Cash Disappeared? 💵 (Did You Know, 6 negara, Speechify henry) =====
 const CFG={hook:['CASH OR CARD?','WHO STILL USES CASH?'],
  items:[
  ['de','GERMANY','Germany','CASH LOVERS','still very popular','','Source: Deutsche Bundesbank','ok','💶'],
