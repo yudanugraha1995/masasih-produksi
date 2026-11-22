@@ -1,3 +1,4 @@
+// ===== Is America the Biggest Country? 🗺️ (Did You Know, 6 negara, Speechify henry) =====
 const CFG={hook:['BIGGEST COUNTRY','IS IT AMERICA?'],
  items:[
  ['au','AUSTRALIA','Australia','7.7M km²','size of mainland US','','Source: Geoscience Australia','ok','🦘'],
