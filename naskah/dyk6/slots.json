@@ -391,8 +391,8 @@
 {
 "old": null,
 "dueUTC": "2026-11-28T21:24:00+08:00",
-"vid": null,
-"new": null,
+"vid": "timezones_dyk",
+"new": "6b025ed2c72676f5e9fcf6b8",
 "plan": "timezones_dyk"
 }
 ]

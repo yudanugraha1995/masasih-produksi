@@ -1,3 +1,4 @@
+// ===== Which Country Has the Most Time Zones? 🕐 (Did You Know, 6 negara, Speechify henry) =====
 const CFG={hook:['TIME ZONES','WHO HAS THE MOST?'],
  items:[
  ['cn','CHINA','China','1','for the whole country!','','Source: timeanddate.com','ok','🕐'],
