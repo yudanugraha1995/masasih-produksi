@@ -12,3 +12,4 @@ space_dyk 6b029c37c72676f5e90fc5b6
 volcanoes_dyk 6b029f13024796909231ff76
 greetings_dyk 6b02a186846b0ee9076d0249
 quakes_dyk 6b02a433846b0ee9076e0c57
+flags_dyk 6b02a6d1d864a01105aa8b0f
