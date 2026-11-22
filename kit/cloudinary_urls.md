@@ -152,3 +152,4 @@
 - banana_w: https://res.cloudinary.com/u5zqiuc2/video/upload/v1795335137/howcome/banana_w.mp4
 - walkafter_w: https://res.cloudinary.com/u5zqiuc2/video/upload/v1795335163/howcome/walkafter_w.mp4
 - quakes_dyk: https://res.cloudinary.com/u5zqiuc2/video/upload/v1795335186/dyk/quakes_dyk.mp4
+- peanutbutter_w: https://res.cloudinary.com/u5zqiuc2/video/upload/v1795335522/howcome/peanutbutter_w.mp4
