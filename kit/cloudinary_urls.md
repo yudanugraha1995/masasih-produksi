@@ -75,3 +75,4 @@
 - howcome/crosslegged_w https://res.cloudinary.com/u5zqiuc2/video/upload/v1795307196/howcome/crosslegged_w.mp4
 - howcome/oneshoulder_w https://res.cloudinary.com/u5zqiuc2/video/upload/v1795307674/howcome/oneshoulder_w.mp4
 - dyk/xmasholiday_dyk https://res.cloudinary.com/u5zqiuc2/video/upload/v1795307951/dyk/xmasholiday_dyk.mp4
+- dyk/dogs_dyk (redo) https://res.cloudinary.com/u5zqiuc2/video/upload/v1795308107/dyk/dogs_dyk.mp4

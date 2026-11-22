@@ -21,4 +21,5 @@ for i in sys.argv[1:]:
         n=n.replace("\\'","'")
         good=n if re.search(r'\d',n) else n.title().replace("'S","'s")
         d=re.sub(r'(: )'+re.escape(n.capitalize())+r'( \(|\n)',lambda m:m.group(1)+good+m.group(2),d)
+    d=d.replace(' > ',' more than ').replace(' < ',' less than ').replace('>','').replace('<','')
     open(f'desc/{i}.txt','w').write(d)
