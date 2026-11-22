@@ -1,3 +1,4 @@
+// ===== What If Your Birthday Came With a Cake Smash? 🎂 (Did You Know, 6 negara, Speechify henry) =====
 const CFG={hook:['BIRTHDAYS','HOW DO YOU CELEBRATE?'],
  items:[
  ['us','USA','America','CAKE + CANDLES','and the birthday song','','Source: Library of Congress','ok','🎂'],
