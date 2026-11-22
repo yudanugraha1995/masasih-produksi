@@ -89,3 +89,4 @@
 - dyk/trains_dyk https://res.cloudinary.com/u5zqiuc2/video/upload/v1795310301/dyk/trains_dyk.mp4
 - howcome/noout_w https://res.cloudinary.com/u5zqiuc2/video/upload/v1795310362/howcome/noout_w.mp4
 - howcome/barefoot_w https://res.cloudinary.com/u5zqiuc2/video/upload/v1795310756/howcome/barefoot_w.mp4
+- dyk/fries_dyk https://res.cloudinary.com/u5zqiuc2/video/upload/v1795310943/dyk/fries_dyk.mp4

@@ -1,3 +1,4 @@
+// ===== Are French Fries Actually French? 🍟 (Did You Know, 6 negara, Speechify henry) =====
 const CFG={hook:['FRENCH FRIES','WHAT DO YOU CALL THEM?'],
  items:[
  ['us','USA','America','FRENCH FRIES','','','Source: Merriam-Webster','ok','🍟'],
