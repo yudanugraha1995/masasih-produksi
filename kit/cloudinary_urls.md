@@ -120,3 +120,6 @@
 - usfood5_w: https://res.cloudinary.com/u5zqiuc2/video/upload/v1795327717/howcome/usfood5_w.mp4
 - ponytail_w: https://res.cloudinary.com/u5zqiuc2/video/upload/v1795327734/howcome/ponytail_w.mp4
 - tall_dyk: https://res.cloudinary.com/u5zqiuc2/video/upload/v1795327750/dyk/tall_dyk.mp4
+- darkchoc_w: https://res.cloudinary.com/u5zqiuc2/video/upload/v1795328325/howcome/darkchoc_w.mp4
+- ushome5_w: https://res.cloudinary.com/u5zqiuc2/video/upload/v1795328342/howcome/ushome5_w.mp4
+- starbucks_dyk: https://res.cloudinary.com/u5zqiuc2/video/upload/v1795328363/dyk/starbucks_dyk.mp4
