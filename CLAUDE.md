@@ -1,6 +1,6 @@
 # Produksi MASA SIH: aturan tetap
 
-- **JANGAN SENTUH ELEVENLABS (user 22 Nov, PALING ATAS, mengalahkan aturan ElevenLabs/Senandika di bawah):** jangan pakai konektor ElevenLabs sama sekali (TTS, transkrip Scribe, flow, dll) sampai user bilang boleh lagi. Kalau butuh suara: Speechify (`kit/sp_gaya.py`, timing dari speech marks). Kalau butuh transkrip: jangan pakai ElevenLabs; tanya user dulu.
+- **PEMBAGIAN TTS (user 22 Nov, PALING ATAS):** ElevenLabs (Senandika) HANYA untuk video REGULER slot pagi s.d. malam (WITA 08/10/12/14/16/18/20/22). Di luar itu (video tambahan slot malam 00/02/04/06 WITA, format masalah berantai, sampel, transkrip referensi, dll) JANGAN sentuh ElevenLabs: pakai Speechify Laras (`kit/sp_gaya.py`, timing dari speech marks). Transkrip non-reguler: jangan pakai ElevenLabs, tanya user dulu.
 
 Bahasa ke user: Indonesia santai. User tidak mau menekan Allow dan tidak bisa standby, jadi semuanya harus otomatis.
 
